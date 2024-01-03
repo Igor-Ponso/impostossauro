@@ -1,0 +1,38 @@
+.stack-l
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+  &[recursive] > *
+    margin-block: 0
+
+  & > * + *,
+  &[recursive] * + *
+    margin-block-start: var(--gap, 1.5rem)
+
+  &[squeezed] > * + *
+    margin-block-start: 0
+
+  &[compact] > * + *
+    margin-block-start: calc(var(--gap, 1.5rem) / 2)
+
+  &[wide] > * + *
+    margin-block-start: calc(var(--gap, 1.5rem) * 3)
+
+  &[center]
+    align-items: center
+
+  &[justify-evenly]
+    justify-content: space-evenly
+
+  &[gap-1]
+    gap: 0.25rem
+  
+  &[gap-2]
+    gap: 0.5rem
+
+  &[full-width]
+    width: 100%
+
+  &[full-height]
+    height: 100%

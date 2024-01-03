@@ -1,0 +1,22 @@
+{
+  "navbar":{
+    "dashboard": "Home",
+    "insert_lti": "Insert LTI",
+    "reports": "Reports",
+    "system_logs": "System Log",
+    "expand_navbar": "Maximize Navbar",
+    "minimize_navbar": "Minimize Navbar"
+  },
+  "page_404": {
+    "btn": {
+      "home": "Go to Home"
+    },
+    "not_found_message": "Oops... Looks like the page you are looking for does not exist"
+  },
+  "appBar":{
+    "btn":{
+      "theme_dark": "Dark Mode",
+      "theme_light": "Light Mode"
+    }
+  }
+}

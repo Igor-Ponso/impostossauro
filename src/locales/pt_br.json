@@ -1,0 +1,12 @@
+{
+  "page_404": {
+    "btn": {
+      "home": "Ir para Início"
+    },
+    "not_found_message": "Oops... Parece que a página que você está procurando não existe"
+  },
+
+  "interceptors": {
+    "user_without_permission": "Usuário não possui permissão de acesso"
+  }
+}

@@ -1,0 +1,18 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+coverage
+
+*.log
+yarn.lock
+package-lock.json
+bun.lockb
+
+# Ignore .env file for all branches
+.env
+
+# Except for the 'main' branch
+!/.env

@@ -1,0 +1,28 @@
+.box-l
+  padding: var(--gap, 1.5rem)
+  border: var(--border-thin, .0625rem) solid var(--color-grey-4, #F0F0F0)
+  border-radius: var(--border-radius, .5rem)
+  background-color: var(--color-white-default)
+
+  &[compact]
+    overflow: hidden
+    padding: 0
+
+  &[transparent]
+    background-color: transparent
+  
+  &[sharp]
+    border-radius: 0
+
+  &[borderless]
+    border none
+
+  &[flex-center]
+    display: flex
+    align-items: center
+    justify-content: center
+
+  &[full-width]
+    width: 100%
+    
+
