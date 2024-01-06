@@ -10,7 +10,6 @@ declare module 'vue' {
     AppBarAppBar: typeof import('./../src/components/AppBar/AppBar.vue')['default']
     BoxL: typeof import('./../src/components/LayoutCompositions/BoxL.vue')['default']
     ClusterL: typeof import('./../src/components/LayoutCompositions/ClusterL.vue')['default']
-    HelloWorld: typeof import('./../src/components/HelloWorld.vue')['default']
     NavigationMobileNavigationMobile: typeof import('./../src/components/NavigationMobile/NavigationMobile.vue')['default']
     PageBlockPageBlock: typeof import('./../src/components/PageBlock/PageBlock.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

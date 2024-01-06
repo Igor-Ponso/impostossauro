@@ -20,7 +20,6 @@
       "vite-plugin-vue-layouts/client",
       "vite-plugin-pages/client",
       "vite/client",
-      "vue/ref-macros"
     ]
   },
   "include": ["src/**/*.ts", "src/**/*.vue", "@types/*.d.ts"],
