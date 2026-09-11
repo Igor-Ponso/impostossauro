@@ -1,0 +1,74 @@
+# Fontes primárias para as séries por estado.
+# Formato: apelido <TAB> url
+# O runner do GitHub Actions baixa cada uma e registra status, tipo e tamanho.
+# Uma URL que falhar não derruba a coleta: ela entra no relatório como falha,
+# para ser corrigida na rodada seguinte.
+
+# --- RODADA 1: confirmadas, mantidas para reprodutibilidade ---
+# O CSV da Receita é a espinha dorsal do lado "enviou": Ano/Mês/UF e ~40 colunas
+# de tributo, de 2000 até hoje. Os totais nacionais que ele produz batem com os
+# números oficiais divulgados (2022 R$ 2,218 tri; 2023 R$ 2,318 tri; 2024 R$ 2,651 tri).
+receita-arrecadacao-estado-csv	https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv
+# A serie historica nacional, que e outra coisa do CSV acima: aqui a Receita
+# publica mes a mes, de 1994 a 2025, com o subtotal administrado, a receita
+# previdenciaria e as administradas por outros orgaos SEPARADAS em toda a
+# janela. E por isso que ela serve de 1995 em diante, enquanto o CSV por
+# estado so tem as tres parcelas de 2013 em diante. O .xlsx e destrinchado por
+# scripts/coleta/serie-federal.py, que so usa biblioteca padrao.
+receita-serie-historica-1994-2025-xlsx	https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica/arrecadacao-das-receitas-federais-1994-a-2025.xlsx
+ibge-catalogo-agregados	https://servicodados.ibge.gov.br/api/v3/agregados
+ibge-ufs	https://servicodados.ibge.gov.br/api/v1/localidades/estados
+
+# --- RODADA 2: indicadores de quem mora no estado ---
+# Ids garimpados no catálogo de agregados baixado na rodada 1.
+# 10135 — analfabetismo 15+ (Censo). 7113 — analfabetismo 15+ (PNAD Contínua, série anual).
+# 7362 — esperança de vida e mortalidade infantil por UF (Projeção da População, série anual).
+# 10053/10054 — domicílios por esgotamento sanitário (Censo 2022).
+ibge-meta-7113	https://servicodados.ibge.gov.br/api/v3/agregados/7113/metadados
+ibge-meta-7362	https://servicodados.ibge.gov.br/api/v3/agregados/7362/metadados
+ibge-meta-10053	https://servicodados.ibge.gov.br/api/v3/agregados/10053/metadados
+ibge-meta-10054	https://servicodados.ibge.gov.br/api/v3/agregados/10054/metadados
+
+ibge-dados-7113-analfabetismo	https://servicodados.ibge.gov.br/api/v3/agregados/7113/periodos/all/variaveis?localidades=N3[all]
+ibge-dados-7362-vida	https://servicodados.ibge.gov.br/api/v3/agregados/7362/periodos/all/variaveis?localidades=N3[all]
+ibge-dados-10135-analfabetismo	https://servicodados.ibge.gov.br/api/v3/agregados/10135/periodos/all/variaveis?localidades=N3[all]
+
+# --- RODADA 2: repasses, além do RREO que o siconfi.sh percorre ---
+# O RREO dá o que entrou no caixa do governo estadual. Falta o que a União
+# manda direto às prefeituras (FPM), sem o qual a régua fica incompleta.
+tesouro-siconfi-entes	https://apidatalake.tesouro.gov.br/ords/siconfi/tt/entes
+tesouro-transferencias-constitucionais	https://apidatalake.tesouro.gov.br/ords/transferencias/tt/transferencias_constitucionais
+tesouro-api-raiz	https://apidatalake.tesouro.gov.br/ords/siconfi/tt/
+
+# --- Legislacao para a pagina "Prometeram" ---
+# O texto integral das leis nao e alcancavel da maquina de desenvolvimento:
+# o planalto.gov.br nao responde de la. O runner alcanca.
+# Duas rotas para a mesma lei, porque uma pode falhar.
+lei-cpmf-9311-1996-planalto	https://www.planalto.gov.br/ccivil_03/leis/l9311.htm
+lei-cpmf-9311-1996-planalto-alt	http://www.planalto.gov.br/ccivil_03/LEIS/L9311.htm
+# As emendas que prorrogaram a CPMF e fatiaram a destinacao. A lei dizia
+# "integralmente ao Fundo Nacional de Saude" (art. 18) e previa treze meses
+# (art. 20); estas emendas esticaram para onze anos e dividiram o dinheiro.
+emenda-12-1996-cpmf	https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc12.htm
+emenda-21-1999-cpmf	https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc21.htm
+emenda-37-2002-cpmf	https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc37.htm
+emenda-42-2003-cpmf	https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc42.htm
+# O ADCT compilado: os arts. 74, 75, 84 e 90 sao onde as prorrogacoes moram.
+adct-compilado	https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+# Os outros casos da pagina "Prometeram". Numeros confirmados em dominios do
+# Senado e da Camara antes de entrar aqui, menos o SPVAT, que e candidato.
+lei-cide-10336-2001	https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10336.htm
+lei-fundo-social-12351-2010	https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12351.htm
+lei-fundo-social-15164-2025	https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15164.htm
+lei-blusinhas-14902-2024	https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm
+lei-spvat-lc207-2024	https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp207.htm
+# O teto de gastos: criado para durar vinte anos e reescrito por emendas
+# sucessivas, em tres governos diferentes. E o caso que faz a regua igual
+# aparecer como evidencia, nao como afirmacao.
+emenda-95-2016-teto	https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc95.htm
+emenda-113-2021-precatorios	https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc113.htm
+emenda-114-2021-precatorios	https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc114.htm
+emenda-123-2022-emergencia	https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc123.htm
+emenda-126-2022-transicao	https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm
+lc-200-2023-arcabouco	https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm
+irbes-14a-edicao-ibpt	https://drive.google.com/uc?export=download&id=1Ot4MMp0SXJMikITRhNuJ299RJj-NW0On
