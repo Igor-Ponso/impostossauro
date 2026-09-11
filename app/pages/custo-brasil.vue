@@ -336,7 +336,9 @@ const visibleStats = computed(() =>
           <QuemEmpregaFecha class="mt-16" />
 
           <TarifaImportacao class="mt-16" />
-          <ShareRow :text="t('share.businessText')" />
+          <div class="mt-10">
+            <ShareRow :text="t('share.businessText')" />
+          </div>
         </div>
       </div>
     </section>

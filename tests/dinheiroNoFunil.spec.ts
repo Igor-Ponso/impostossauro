@@ -23,6 +23,12 @@ const TELAS_EM_REAL = new Set([
   'app/components/BrazilMap.vue',
   // A nota de R$ 100 perdendo poder de compra: base didática, não medida.
   'app/components/PoderDeCompra.vue',
+  // Piso de pobreza e benefícios definidos em lei brasileira: valor legal, não medida.
+  'app/components/RendaMinimaTributada.vue',
+  // A nota de R$ 100 e a alíquota por dentro: base didática, não medida.
+  'app/components/ImpostoSobreImposto.vue',
+  // Duas etiquetas do mesmo carro, cada uma na moeda da montadora que a publicou.
+  'app/components/CarroDoisPrecos.vue',
   // Preço de item na moeda em que a fonte publicou (US$, €).
   'app/components/OQueDavaParaComprar.vue',
   // "R$ 1 de 1994 = X réis": equivalência histórica entre moedas.

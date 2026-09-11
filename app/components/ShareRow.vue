@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Check, Copy, Share2 } from '@lucide/vue';
+import { Check, Copy } from '@lucide/vue';
 
 const props = defineProps<{ text: string }>();
 
@@ -17,19 +17,6 @@ const twitterHref = computed(
   () =>
     `https://twitter.com/intent/tweet?text=${encodeURIComponent(props.text)}&url=${encodeURIComponent(pageUrl.value)}`,
 );
-
-const canNativeShare = ref(false);
-onMounted(() => {
-  canNativeShare.value = typeof navigator !== 'undefined' && !!navigator.share;
-});
-
-async function nativeShare() {
-  try {
-    await navigator.share({ text: props.text, url: pageUrl.value });
-  } catch {
-    /* usuário cancelou */
-  }
-}
 
 const copied = ref(false);
 const failed = ref(false);
@@ -54,7 +41,10 @@ onUnmounted(() => clearTimeout(timer));
 </script>
 
 <template>
-  <div class="flex flex-wrap items-center gap-2">
+  <!-- O alinhamento é do componente, não de cada página: onde o espaço é a
+       largura toda, a fileira fica centrada; onde ela é item de uma linha
+       (eles-gastaram), a largura é o conteúdo e nada muda. -->
+  <div class="flex flex-wrap items-center justify-center gap-2">
     <span class="text-ink-dim mr-1 text-sm font-semibold tracking-wider uppercase sm:text-base">
       {{ t('share.label') }}
     </span>
@@ -101,15 +91,6 @@ onUnmounted(() => clearTimeout(timer));
       <Check v-if="copied" aria-hidden="true" focusable="false" class="size-4 shrink-0" />
       <Copy v-else aria-hidden="true" focusable="false" class="size-4 shrink-0" />
       {{ copied ? t('share.copied') : t('share.copy') }}
-    </button>
-    <button
-      v-if="canNativeShare"
-      type="button"
-      class="botao-secundario"
-      @click="nativeShare"
-    >
-      <Share2 aria-hidden="true" focusable="false" class="size-4 shrink-0" />
-      {{ t('share.native') }}
     </button>
     <p role="status" class="text-ink-dim basis-full text-sm">
       {{ copied ? t(copyTarget === 'instagram' ? 'share.instagramCopied' : 'share.copied') : failed ? t('share.failed') : '' }}

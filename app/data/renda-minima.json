@@ -1,0 +1,42 @@
+{
+  "programa": {
+    "label": "Lei nº 14.601/2023 (Programa Bolsa Família)",
+    "source": "Planalto — Lei nº 14.601, de 19 de junho de 2023",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14601.htm",
+    "objetivo": {
+      "article": "Art. 3º, I"
+    },
+    "elegibilidade": {
+      "article": "Art. 5º, II",
+      "valor": 218
+    },
+    "beneficios": [
+      {
+        "key": "cidadania",
+        "valor": 142,
+        "article": "Art. 4º, § 1º, I"
+      },
+      {
+        "key": "piso",
+        "valor": 600,
+        "article": "Art. 4º, § 1º, II"
+      },
+      {
+        "key": "infancia",
+        "valor": 150,
+        "article": "Art. 4º, § 1º, III"
+      }
+    ]
+  },
+  "devolucao": {
+    "label": "Lei Complementar nº 214/2025",
+    "source": "Planalto — Lei Complementar nº 214, de 16 de janeiro de 2025",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+    "cashback": {
+      "article": "Art. 112"
+    },
+    "cesta": {
+      "article": "Art. 125"
+    }
+  }
+}

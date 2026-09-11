@@ -1,0 +1,69 @@
+{
+  "porDentro": {
+    "law": {
+      "label": "Lei Complementar nº 87/1996 (Lei Kandir)",
+      "article": "Art. 13, § 1º, I — redação dada pela Lei Complementar nº 190/2022",
+      "text": "Integra a base de cálculo do imposto […] o montante do próprio imposto, constituindo o respectivo destaque mera indicação para fins de controle.",
+      "source": "Planalto — Lei Complementar nº 87, de 13 de setembro de 1996",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp87.htm"
+    },
+    "example": {
+      "price": 100,
+      "rate": 18
+    },
+    "rates": [
+      17,
+      18,
+      20,
+      25
+    ]
+  },
+  "cumulativo": {
+    "law": {
+      "label": "Lei nº 10.833/2003",
+      "article": "Art. 10 — quem permanece no regime cumulativo da COFINS",
+      "text": "Permanecem sujeitas às normas da legislação da COFINS, vigentes anteriormente a esta Lei, não se lhes aplicando as disposições dos arts. 1º a 8º.",
+      "source": "Planalto — Lei nº 10.833, de 29 de dezembro de 2003",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm"
+    },
+    "casos": [
+      {
+        "inciso": "II",
+        "key": "lucroPresumido"
+      },
+      {
+        "inciso": "III",
+        "key": "simples"
+      },
+      {
+        "inciso": "VIII",
+        "key": "telecom"
+      },
+      {
+        "inciso": "IX",
+        "key": "jornais"
+      },
+      {
+        "inciso": "XII",
+        "key": "transporte"
+      },
+      {
+        "inciso": "XIX",
+        "key": "callCenter"
+      },
+      {
+        "inciso": "XX",
+        "key": "construcao"
+      }
+    ]
+  },
+  "reforma": {
+    "law": {
+      "label": "Emenda Constitucional nº 132/2023",
+      "article": "Constituição Federal, art. 156-A, VIII",
+      "text": "será não cumulativo, compensando-se o imposto devido pelo contribuinte com o montante cobrado sobre todas as operações nas quais seja adquirente de bem material ou imaterial, inclusive direito, ou de serviço.",
+      "source": "Planalto — Emenda Constitucional nº 132, de 20 de dezembro de 2023",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+    }
+  }
+}

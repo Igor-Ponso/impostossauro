@@ -9,7 +9,7 @@ import {
 
 /**
  * Corpo da página num componente porque duas rotas o montam: `/comparacao-global`
- * (abre com a Suíça) e `/comparacao-global/<pais>` (link compartilhado cai na página inteira).
+ * (abre no primeiro da lista) e `/comparacao-global/<pais>` (link compartilhado cai na página inteira).
  */
 const props = defineProps<{
   paisInicial?: string;
@@ -35,9 +35,13 @@ const nomes = computed<Record<string, string>>(() =>
 );
 const brasil = paises.find((p) => p.iso === 'BRA')!;
 
+/** A mesma ordem da lista na tela: da maior carga para a menor. */
+const porCarga = [...paises].sort((a, b) => b.carga - a.carga);
+
+/** Sem país na URL, abre no primeiro da lista — o que o leitor vê no topo do ranking. */
 const oponente = ref<PaisMundo>(
   (paises as PaisMundo[]).find((p) => p.iso === props.paisInicial && p.iso !== 'BRA')
-  ?? (paises as PaisMundo[]).find((p) => p.iso === 'CHE')!,
+  ?? (porCarga as PaisMundo[]).find((p) => p.iso !== 'BRA')!,
 );
 
 const paisNaUrl = ref(Boolean(props.paisInicial));
@@ -50,6 +54,8 @@ usePaginaSeo({
   caminho: () => localePath(paisNaUrl.value ? `/comparacao-global/${slugDoPais(oponente.value.nome)}` : '/comparacao-global'),
 });
 
+const duelo = ref<HTMLElement | null>(null);
+
 /** `history.replaceState`, não `router.replace`: o segundo remonta a página e mata a animação do duelo. */
 function escolher(pais: PaisMundo) {
   if (pais.iso === 'BRA') return;
@@ -59,9 +65,10 @@ function escolher(pais: PaisMundo) {
   if (!import.meta.client) return;
   const destino = router.resolve(localePath(`/comparacao-global/${slugDoPais(pais.nome)}`));
   history.replaceState(history.state, '', destino.href);
+  // Sem `behavior`: o `scroll-behavior` do main.css já cai para `auto` em movimento reduzido.
+  nextTick(() => duelo.value?.scrollIntoView({ block: 'start' }));
 }
 
-const porCarga = [...paises].sort((a, b) => b.carga - a.carga);
 const maiorCarga = porCarga[0]!.carga;
 const posicaoCarga = posicaoNoRanking(
   brasil.carga,
@@ -266,7 +273,7 @@ const fraseDoDuelo = computed(() => {
       </p>
     </section>
 
-    <section class="mt-16">
+    <section ref="duelo" class="mt-16">
       <DuelStage :oponente="oponente" />
       <!-- A única declaração de fonte dos seis índices do duelo na página. -->
       <p class="text-ink-dim mt-3 text-xs leading-relaxed">
@@ -321,6 +328,8 @@ const fraseDoDuelo = computed(() => {
       <p class="text-ink-dim mt-4 text-sm leading-relaxed">
         {{ t('world.inputsCaveat') }}
       </p>
+
+      <ResultadoPisa />
     </section>
 
     <section class="mt-16">

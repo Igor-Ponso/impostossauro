@@ -219,6 +219,12 @@ const worldData = (econ.worldData ?? []) as WorldStat[];
       </div>
     </section>
 
+    <ImpostoSobreImposto />
+
+    <CarroDoisPrecos />
+
+    <RendaMinimaTributada />
+
     <section v-if="worldData.length" class="mt-16">
       <h2 class="font-display text-ink text-2xl font-bold tracking-tight sm:text-4xl">
         {{ t('econ101.worldTitle') }}

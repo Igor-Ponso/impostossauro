@@ -1,0 +1,32 @@
+{
+  "modelo": "Chevrolet Onix 1.0, câmbio manual",
+  "brasil": {
+    "preco": 102890,
+    "moeda": "BRL",
+    "versao": "Onix 2027 1.0 MT",
+    "source": "Chevrolet Brasil — preço público sugerido",
+    "url": "https://www.chevrolet.com.br/carros/novo-onix",
+    "consultaEm": "2026-09-11"
+  },
+  "paraguai": {
+    "preco": 12990,
+    "moeda": "USD",
+    "versao": "Onix 2026 LT 1.0 MT",
+    "source": "Chevrolet Paraguay — precio desde",
+    "url": "https://www.chevrolet.com.py/autos/onix-auto-hatchback",
+    "consultaEm": "2026-09-11"
+  },
+  "carga": {
+    "pct": 34.96,
+    "item": "Veículo Celta 1.0 popular médio",
+    "source": "Impostômetro (ACSP/IBPT) — Relação de produtos",
+    "url": "https://impostometro.com.br/home/relacaoprodutos"
+  },
+  "imunidade": {
+    "label": "Lei Complementar nº 87/1996 (Lei Kandir)",
+    "article": "Art. 3º, II",
+    "text": "O imposto não incide sobre […] operações e prestações que destinem ao exterior mercadorias, inclusive produtos primários e produtos industrializados semi-elaborados, ou serviços.",
+    "source": "Planalto — Lei Complementar nº 87, de 13 de setembro de 1996",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp87.htm"
+  }
+}
