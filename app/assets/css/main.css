@@ -1,0 +1,611 @@
+@import '@fontsource-variable/archivo';
+@import '@fontsource/archivo-black';
+@import '@fontsource/press-start-2p';
+@import 'tailwindcss';
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 100;
+  transform: translateY(-200%);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-dino);
+  color: var(--color-abyss);
+  font-weight: 700;
+}
+.skip-link:focus { transform: none; }
+:where(a, button, input, select, summary):focus-visible {
+  outline: 2px solid var(--color-dino);
+  outline-offset: 4px;
+}
+
+@theme {
+  --color-abyss: var(--c-abyss);
+  --color-surface: var(--c-surface);
+  --color-card: var(--c-card);
+  --color-line: var(--c-line);
+  --color-control: var(--c-control);
+  --color-dino: var(--c-dino);
+  --color-dino-dark: var(--c-dino-dark);
+  --color-dino-belly: var(--c-dino-belly);
+  --color-money: var(--c-money);
+  --color-alert: var(--c-alert);
+  --color-ink: var(--c-ink);
+  --color-ink-dim: var(--c-ink-dim);
+  --color-chart-visible: var(--c-chart-visible);
+  --color-chart-hidden: var(--c-chart-hidden);
+  --color-chart-net: var(--c-chart-net);
+  --color-water: var(--c-water);
+
+  --font-sans:
+    'Archivo Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-display:
+    'Archivo Black', 'Archivo Variable', ui-sans-serif, system-ui, sans-serif;
+
+  /* Escala de tipo um degrau acima do padrão do Tailwind, pela legibilidade.
+     Só o tipo sobe: mudar a raiz em `html` esticaria `max-w-*`, `w-*` e `gap`.
+     `--text-sm` é o degrau das linhas de fonte e rodapé de dado. */
+  --text-xs: 0.875rem;
+  --text-xs--line-height: 1.5;
+  --text-sm: 1rem;
+  --text-sm--line-height: 1.6;
+  --text-base: 1.125rem;
+  --text-base--line-height: 1.65;
+  --text-lg: 1.25rem;
+  --text-lg--line-height: 1.6;
+  --text-xl: 1.375rem;
+  --text-xl--line-height: 1.55;
+  --text-2xl: 1.625rem;
+  --text-2xl--line-height: 1.4;
+  --text-3xl: 2rem;
+  --text-3xl--line-height: 1.3;
+}
+
+/* Escuro: o padrao. Vale para quem nunca escolheu e para o HTML pre-renderizado. */
+:root {
+  --c-abyss: #070b09;
+  --c-surface: #141d18; /* abyss x surface: 1,15:1 */
+  --c-card: #121a15;
+  --c-line: #23301f;
+  --c-control: #6f8168; /* borda de controle: 4,12:1 no pior fundo; --c-line (1,28:1) não serve de limite de botão */
+  --c-dino: #4ade80;
+  --c-dino-dark: #16a34a;
+  --c-dino-belly: #bbf7d0;
+  --c-money: #fbbf24;
+  --c-alert: #f87171;
+  --c-ink: #eaf2e6;
+  --c-ink-dim: #9db195;
+  --c-chart-visible: #059669;
+  --c-chart-hidden: #3b82f6;
+  --c-chart-net: #d97706;
+  --c-water: #0c4a6e;
+
+  /* Camadas do .mesh. No escuro clareiam o fundo sob texto claro: mais camadas, menos contraste. */
+  --mesh-1: rgba(74, 222, 128, 0.14);
+  --mesh-2: rgba(251, 191, 36, 0.1);
+  --mesh-3: rgba(12, 74, 110, 0.35);
+
+  /* Aurora do herói (vue-bits), em hex porque o componente faz `new Color(hex)`.
+     Tem par por tema: aurora escura sob texto escuro apaga o texto. */
+  --aurora-1: #070b09;
+  --aurora-2: #4ade80;
+  --aurora-3: #0c4a6e;
+  --grain-opacity: 0.5;
+
+  /* A fonte da caixa de duelo. Não tem É, Ê, Í e Ú em maiúscula (saem na
+     altura de minúscula): todo texto que a usa vai em caixa de sentença —
+     tests/world.spec.ts trava isso. */
+  --fonte-pixel: 'Press Start 2P', ui-monospace, monospace;
+
+  /* O fundo do herói sobe por trás do cabeçalho `sticky` (translúcido); sem
+     isto ficava uma emenda visível sob a barra. */
+  --altura-cabecalho: 3.75rem;
+}
+
+/* Claro: atributo posto por app/utils/theme.ts. Razões de contraste WCAG ao lado de cada par. */
+:root[data-theme='light'] {
+  --c-abyss: #f4f7f0; /* fundo da pagina: quase-branco com verde, nunca branco puro */
+  --c-surface: #eaefe3; /* abyss x surface: 1,08:1 (separacao por luminancia) */
+  --c-card: #dfe6d5; /* surface x card: 1,09:1; abyss x card: 1,18:1 */
+  --c-line: #66795c; /* line x card: 3,69:1 (min 3:1 p/ borda) */
+  --c-control: #5a6f50; /* borda de CONTROLE: 4,29:1 no pior fundo (card) */
+  --c-dino: #0c6431; /* dino x abyss: 6,73:1; dino x card: 5,69:1 (texto pequeno) */
+  --c-dino-dark: #053a1d; /* detalhe/sombra do mascote, mais escuro que dino */
+  --c-dino-belly: #d4f0da; /* barriga clara: 5,99:1 contra o proprio dino */
+  --c-money: #84550a; /* money x abyss: 5,91:1; money x card: 5,00:1 */
+  --c-alert: #a81f1c; /* alert x abyss: 6,74:1; alert x card: 5,70:1 */
+  --c-ink: #101d0e; /* ink x abyss: 16,12:1; ink x card: 13,63:1 (meta 12:1+) */
+  --c-ink-dim: #4b6142; /* ink-dim x abyss: 6,29:1; x card: 5,32:1 (min 4,5:1) */
+  --c-chart-visible: #036b4d; /* revalidado p/ CVD em fundo claro: x card 5,11:1 */
+  --c-chart-hidden: #1748c9; /* x card: 5,85:1 */
+  --c-chart-net: #9c4805; /* x card: 4,91:1 */
+  --c-water: #0e5675; /* decorativo (iceberg), x card: 6,30:1 */
+
+  /* No claro as camadas escurecem o fundo: o azul-petróleo do escuro derrubava o ink-dim a 3,36:1. */
+  --mesh-1: rgba(74, 222, 128, 0.14);
+  --mesh-2: rgba(251, 191, 36, 0.12);
+  --mesh-3: rgba(56, 189, 248, 0.18);
+
+  /* Paleta própria do herói no claro: com a alfa da malha ele ficava lavado, e
+     --mesh-* não pode subir porque a /jornada usa os mesmos tokens. */
+  --heroi-claro-1: rgba(74, 222, 128, 0.3);
+  --heroi-claro-2: rgba(251, 191, 36, 0.26);
+  --heroi-claro-3: rgba(56, 189, 248, 0.34);
+  --grain-opacity: 0.3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-abyss);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  /* Sem isto um <p> sem classe de tamanho herda os 16 px do navegador, não a escala da casa. */
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+/* O `GlassSurface` (vue-bits) fixa um halo branco inset no `style` inline e
+   não tem prop para desligar; só `!important` vence. O cabeçalho não usa esta
+   classe: lá o halo separa a barra da página. */
+@layer components {
+  .vidro-sem-halo {
+    box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-line) 55%, transparent) !important;
+  }
+
+  /* Preenchimento tonal: o `.glass` lia como texto, não como controle. */
+  .botao-secundario {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    border: 1px solid var(--color-control);
+    background: color-mix(in oklab, var(--color-ink) 9%, transparent);
+    color: var(--color-ink);
+    padding: 0.625rem 1.25rem;
+    font-size: var(--text-sm);
+    font-weight: 700;
+    transition:
+      background-color 0.15s ease,
+      border-color 0.15s ease,
+      color 0.15s ease;
+  }
+  .botao-secundario:hover {
+    background: color-mix(in oklab, var(--color-ink) 16%, transparent);
+    border-color: var(--color-dino);
+    color: var(--color-dino);
+  }
+}
+
+/* O fundo do herói anda, então o contraste do texto muda com a animação (o
+   kicker chegava a 2,61:1). O véu é uma elipse no tom de `--color-abyss` entre
+   as camadas animadas e o texto — serve aos dois temas. */
+@layer components {
+  .heroi-bloco::before {
+    content: '';
+    position: absolute;
+    /* o véu morre fora do texto, nunca na borda dele */
+    inset: -22% -10%;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(
+      closest-side,
+      color-mix(in oklab, var(--color-abyss) 95%, transparent) 0%,
+      color-mix(in oklab, var(--color-abyss) 84%, transparent) 48%,
+      color-mix(in oklab, var(--color-abyss) 34%, transparent) 74%,
+      transparent 100%
+    );
+  }
+
+  /* A seta do rodape fica longe do bloco e precisa da propria faixa. */
+  .heroi-rodape::before {
+    content: '';
+    position: absolute;
+    /* a seta é pequena: um véu do tamanho dela morre dentro do texto (com -60% dava 1,89:1) */
+    inset: -420% -120%;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(
+      closest-side,
+      color-mix(in oklab, var(--color-abyss) 97%, transparent) 0%,
+      color-mix(in oklab, var(--color-abyss) 78%, transparent) 45%,
+      transparent 100%
+    );
+  }
+}
+
+@layer components {
+  .painel-enter-active,
+  .painel-leave-active {
+    transition:
+      opacity 0.26s ease,
+      transform 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .painel-enter-from,
+  .painel-leave-to {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+
+  /* Os grupos entram um atras do outro; o atraso vem inline, do componente. */
+  .painel-grupo {
+    transition:
+      opacity 0.32s ease,
+      transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .painel-enter-from .painel-grupo,
+  .painel-leave-to .painel-grupo {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .painel-enter-active,
+  .painel-leave-active,
+  .painel-grupo {
+    transition: none;
+  }
+}
+
+/* A tela de tubo do cabeçalho: máscara quase opaca com furos de 1px, não
+   pontos claros (esses somem no antialiasing). Não é a `.cerca-vidro`, cujos
+   pontos de --color-surface somem sobre a barra escura. */
+@layer components {
+  .tela-tubo {
+    background-image: radial-gradient(
+      transparent 1px,
+      color-mix(in oklab, var(--color-surface) 88%, transparent) 1.05px
+    );
+    background-size: 4px 4px;
+  }
+}
+
+/* Odômetro. O componente manda só `--od-giro`; a altura da linha mora aqui. A
+   tira tem onze algarismos (0-9 e o zero de novo) para a volta de 9 a 0 não
+   saltar nove linhas. A janela passa de 1em porque `line-height: 1` cortaria o
+   topo dos algarismos. Em `@layer components` para não vencer utilitária do Tailwind. */
+@layer components {
+  .od-linha {
+    display: inline-flex;
+    align-items: flex-start;
+    line-height: 1;
+    --od-alt: 1.12em;
+  }
+
+  .od-fixo,
+  .od-roda {
+    display: block;
+    height: var(--od-alt);
+  }
+
+  .od-roda {
+    overflow: hidden;
+  }
+
+  .od-tira {
+    display: block;
+    transform: translateY(calc(var(--od-giro, 0) * var(--od-alt) * -1));
+  }
+
+  .od-tira > span {
+    display: block;
+    height: var(--od-alt);
+    line-height: var(--od-alt);
+    text-align: center;
+  }
+}
+
+.glass {
+  background: color-mix(in oklab, var(--color-card) 72%, transparent);
+  border: 1px solid color-mix(in oklab, var(--color-line) 80%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Borda de painel não serve de borda de botão: `--color-line` dá 1,24:1 no
+   escuro, e a WCAG 1.4.11 pede 3:1 no limite de um controle. Presa ao
+   elemento para todo `<a>`/`<button>` com `.glass` já nascer certo. */
+a.glass,
+button.glass {
+  border-color: var(--color-control);
+}
+
+/* Fundo do herói da /jornada e do herói da home no tema claro (no escuro a
+   home usa a aurora, ver `--aurora-*` e `.mesh-claro`). Pior contraste medido
+   do ink-dim: escuro 6,95:1, claro 5,77:1 — piso 4,5:1. */
+.mesh {
+  background:
+    radial-gradient(52rem 32rem at 12% -12%, var(--mesh-1), transparent 60%),
+    radial-gradient(46rem 30rem at 96% 4%, var(--mesh-2), transparent 55%),
+    radial-gradient(60rem 42rem at 50% 118%, var(--mesh-3), transparent 62%);
+}
+
+/* No claro a aurora não serve: o shader escurece a cor (`intensity * rampColor`)
+   e sobre fundo claro vira mancha — o contador dava 1,08:1, nenhuma paleta
+   conserta. `.mesh` não serve aqui porque a /jornada também a usa. */
+:root[data-theme='light'] .mesh-claro::before {
+  content: '';
+  position: absolute;
+  inset: calc(var(--altura-cabecalho) * -1) 0 0 0;
+  z-index: -10;
+  pointer-events: none;
+  background:
+    radial-gradient(52rem 32rem at 12% 0%, var(--heroi-claro-1), transparent 60%),
+    radial-gradient(46rem 30rem at 96% 12%, var(--heroi-claro-2), transparent 55%),
+    radial-gradient(60rem 42rem at 50% 118%, var(--heroi-claro-3), transparent 62%);
+}
+
+.grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  /* O ruído é escuro: quase invisível no tema escuro, come contraste no claro — daí variar por tema. */
+  opacity: var(--grain-opacity);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Revelação ao entrar na viewport (useInView). O padrão é visível: só
+   `html.js` esconde, e a classe `js` vem do script inline do nuxt.config.ts,
+   antes da primeira pintura. Sem JavaScript o conteúdo aparece. */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+html.js .reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html.js .reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes dino-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.dino-bob {
+  animation: dino-bob 3.2s ease-in-out infinite;
+}
+
+@keyframes berg-bob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-0.6deg);
+  }
+  50% {
+    transform: translateY(8px) rotate(0.6deg);
+  }
+}
+
+.berg-bob {
+  animation: berg-bob 7s ease-in-out infinite;
+  transform-origin: 50% 60%;
+}
+
+@keyframes wave-drift {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-220px);
+  }
+}
+
+.wave {
+  animation: wave-drift 9s linear infinite;
+}
+
+.wave-slow {
+  animation: wave-drift 14s linear infinite reverse;
+}
+
+@keyframes float-glow {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: translateY(-14px) scale(1.04);
+  }
+}
+
+.float-glow {
+  animation: float-glow 9s ease-in-out infinite;
+}
+
+/* Troca de tema como no Element Plus: ao claro o novo cresce a partir do botão;
+   ao escuro o antigo encolhe para ele. As variáveis vêm de useTheme.ts. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+html[data-theme-transition='to-dark']::view-transition-old(root) {
+  z-index: 2147483646;
+  animation: theme-change 400ms ease-in both;
+}
+
+html[data-theme-transition='to-dark']::view-transition-new(root) {
+  z-index: 1;
+}
+
+html[data-theme-transition='to-light']::view-transition-old(root) {
+  z-index: 1;
+}
+
+html[data-theme-transition='to-light']::view-transition-new(root) {
+  z-index: 2147483646;
+  animation: theme-change 400ms ease-in both;
+  animation-direction: reverse;
+}
+
+@keyframes theme-change {
+  from {
+    clip-path: circle(var(--theme-transition-radius) at var(--theme-transition-x) var(--theme-transition-y));
+  }
+  to {
+    clip-path: circle(0% at var(--theme-transition-x) var(--theme-transition-y));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dino-bob,
+  .berg-bob,
+  .wave,
+  .wave-slow,
+  .float-glow {
+    animation: none;
+  }
+  .reveal,
+  html.js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+  body {
+    transition: none;
+  }
+}
+
+/* A cerca do cabeçalho (pontos e linhas em currentColor, ver ::before/::after).
+   Em `@layer components` para que utilitária do Tailwind possa trocar o
+   `position`: fora da camada o `relative` daqui derrubava o `sticky` do cabeçalho. */
+@layer components {
+  .cerca {
+    position: relative;
+    isolation: isolate;
+  }
+}
+
+/* Fundo opaco com furos de 1px a cada 4px, não cor com opacidade: o
+   `backdrop-filter` só aparece pelos furos e o texto segue sobre fundo cheio.
+   `saturate(50%)` evita que cor forte atrás vaze saturada pelos furos. */
+@layer components {
+  .cerca-vidro {
+    background-color: transparent;
+    background-image: radial-gradient(transparent 1px, var(--color-surface) 1px);
+    background-size: 4px 4px;
+    -webkit-backdrop-filter: saturate(50%) blur(4px);
+    backdrop-filter: saturate(50%) blur(4px);
+  }
+
+  /* Sem backdrop-filter, fundo cheio: texto sobre furo sem desfoque seria ilegível. */
+  @supports not (backdrop-filter: blur(4px)) {
+    .cerca-vidro {
+      background-image: none;
+      background-color: var(--color-surface);
+    }
+  }
+}
+
+.cerca::before,
+.cerca::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  color: var(--color-ink);
+}
+
+.cerca::before {
+  background-image: radial-gradient(circle, currentColor 1px, transparent 1px);
+  background-size: 22px 22px;
+  opacity: 0.12;
+  -webkit-mask-image: linear-gradient(to bottom, #000 20%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 20%, transparent 100%);
+}
+
+.cerca::after {
+  background-image: repeating-linear-gradient(
+    to right,
+    currentColor 0 1px,
+    transparent 1px 88px
+  );
+  opacity: 0.07;
+  -webkit-mask-image: linear-gradient(to bottom, #000 10%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 10%, transparent 100%);
+}
+
+/* Marca-texto: o traço é um `background-size` que cresce de 0% a 100% quando
+   o `.in` do `useInView` chega ao cartão. Sem JavaScript aparece inteiro. */
+.marca-texto {
+  background-image: linear-gradient(
+    to right,
+    color-mix(in oklab, var(--color-alert) 22%, transparent),
+    color-mix(in oklab, var(--color-alert) 22%, transparent)
+  );
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+  background-size: 100% 0.85em;
+}
+
+html.js .marca-texto {
+  background-size: 0% 0.85em;
+}
+
+html.js .in .marca-texto {
+  background-size: 100% 0.85em;
+  transition: background-size 620ms cubic-bezier(0.22, 1, 0.36, 1) 260ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .marca-texto,
+  html.js .in .marca-texto {
+    background-size: 100% 0.85em;
+    transition: none;
+  }
+}
+
+/* Superfícies opacas dispensam composição a cada quadro em telas de toque. */
+@media (prefers-reduced-transparency: reduce) {
+  .glass, .cerca-vidro {
+    background: var(--color-card);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+@media (prefers-contrast: more) {
+  :root { --c-ink-dim: var(--c-ink); --c-line: var(--c-control); }
+}
