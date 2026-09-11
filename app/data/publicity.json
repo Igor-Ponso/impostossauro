@@ -1,0 +1,95 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "O que o Estado gasta para falar bem de si mesmo",
+  "intro": "Publicidade oficial é imposto. Sai do mesmo caixa que paga creche, ambulância e rede de esgoto, e a conta é maior do que o número que o governo publica — porque desde 2017 as estatais saíram do sistema onde esse gasto era prestado.",
+  "rulers": {
+    "broad": {
+      "label": "Régua ampla: governo mais as principais estatais",
+      "explain": "Campanhas dos ministérios, da Secom e das estatais — Banco do Brasil, Caixa, BNDES e outras. Valores corrigidos pela inflação até dezembro de 2024.",
+      "rows": [
+        {
+          "who": "Lula 3",
+          "perYear": 2.0,
+          "note": "R$ 4,1 bilhões em dois anos"
+        },
+        {
+          "who": "Bolsonaro",
+          "perYear": 1.8,
+          "note": "R$ 7,1 bilhões no mandato completo"
+        }
+      ],
+      "unit": "R$ bilhões por ano",
+      "finding": "Lula 3 gasta 15% a mais por ano que Bolsonaro na mesma base. Nos dois primeiros anos de cada governo a diferença é maior: 31% acima do que Bolsonaro gastou em 2019 e 2020. Em dois anos, o governo atual já consumiu 58% de tudo que a gestão anterior gastou em quatro.",
+      "source": "Poder360 — levantamento no Sicom e nos sites das estatais, valores corrigidos pela inflação",
+      "url": "https://www.poder360.com.br/poder-governo/lula-gasta-15-a-mais-por-ano-do-que-bolsonaro-com-propaganda/"
+    },
+    "narrow": {
+      "label": "Régua estreita: só o orçamento de publicidade do governo",
+      "explain": "A verba orçada para propaganda oficial, sem as estatais. É a régua que aparece na maioria das manchetes — e é a menor das duas.",
+      "years": [
+        {
+          "year": 2020,
+          "value": 245,
+          "note": "o menor em dez anos — o ano do pico da pandemia"
+        },
+        {
+          "year": 2021,
+          "value": 462,
+          "note": "o maior do mandato de Bolsonaro"
+        },
+        {
+          "year": 2023,
+          "value": 531
+        },
+        {
+          "year": 2024,
+          "value": 598
+        },
+        {
+          "year": 2025,
+          "value": 876,
+          "note": "o maior desde 2017"
+        }
+      ],
+      "unit": "R$ milhões",
+      "reference": {
+        "year": 2017,
+        "value": 616,
+        "who": "Temer"
+      },
+      "source": "Siga Brasil (Senado Federal), levantamento da Folha de S.Paulo confirmado pela Gazeta do Povo",
+      "url": "https://www.gazetadopovo.com.br/republica/gasto-publicidade-governo-dispara-876-milhoes/"
+    }
+  },
+  "transparency": {
+    "title": "O apagão custou R$ 1,4 milhão por ano para acontecer",
+    "cost": 1.4,
+    "costUnit": "R$ milhões por ano",
+    "costLabel": "era o que custava manter o IAP, o instituto que coletava e publicava a publicidade da União",
+    "watched": 2.0,
+    "watchedUnit": "R$ bilhões por ano",
+    "watchedLabel": "é o que se gasta em publicidade oficial, somando governo e estatais",
+    "timeline": [
+      {
+        "when": "1999 a 2016",
+        "what": "O IAP coletava e organizava os dados de publicidade da União. Qualquer cidadão podia pedir, pela Lei de Acesso à Informação, dados detalhados de cada campanha."
+      },
+      {
+        "when": "março de 2017",
+        "what": "As agências de publicidade, que financiavam o instituto com um percentual do que faturavam em contratos com o governo, pararam de pagar. O IAP fechou."
+      },
+      {
+        "when": "governo Temer",
+        "what": "O governo não reagiu — não assumiu o custo nem criou substituto. As estatais deixaram de aparecer no sistema."
+      },
+      {
+        "when": "de lá até hoje",
+        "what": "Petrobras, Caixa, Banco do Brasil, Correios e BNDES divulgam por conta própria, com pouco detalhe e fora do sistema do governo. Dois governos se passaram desde então, de lados opostos, e nenhum dos dois recriou o instituto."
+      }
+    ],
+    "punch": "Manter a fiscalização custava 0,07% do que ela fiscalizava. Ninguém assumiu a conta.",
+    "source": "Poder360 — levantamento sobre publicidade estatal, seção sobre a perda de transparência",
+    "url": "https://www.poder360.com.br/poder-governo/lula-gasta-15-a-mais-por-ano-do-que-bolsonaro-com-propaganda/"
+  },
+  "question": "R$ 2 bilhões por ano para o Estado falar bem de si mesmo. É imposto, sai do mesmo caixa — e a parte que dá para conferir é só a menor delas. Quanto disso você viu virar obra?"
+}

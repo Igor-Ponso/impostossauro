@@ -1,0 +1,53 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "Prometeram devolver R$ 22 bilhões",
+  "intro": "A Lava Jato fechou 278 acordos de colaboração e de leniência, com o compromisso de devolver R$ 22 bilhões aos cofres públicos. Parte desse dinheiro voltou. Parte foi renegociada. E parte pode ser paga não com dinheiro, mas com crédito tributário que a empresa já tinha contra a União.",
+  "headline": {
+    "promised": 22.0,
+    "unit": "R$ bilhões",
+    "label": "foi o compromisso de devolução somado nos 278 acordos de colaboração e leniência",
+    "source": "Balanço da Operação Lava Jato",
+    "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/516801/noticia.html?sequence=1&isAllowed=y"
+  },
+  "odebrecht": {
+    "title": "O caso que resume os sete",
+    "debt": 3.9,
+    "paid": 0.171,
+    "renegotiated": 1.9,
+    "years": 6,
+    "body": "A Odebrecht (hoje Novonor) tinha a maior dívida entre as empresas que assinaram leniência: R$ 3,9 bilhões. Do acordo de 2018 até 2025, pagou cerca de R$ 171 milhões — menos de 5% do que devia, em seis anos. Na repactuação, o valor caiu para R$ 1,9 bilhão. Proporcionalmente, foi a mais beneficiada das sete.",
+    "source": "Nota técnica do TCU enviada ao STF na ADPF 1051, conforme divulgado pela Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/governo-lula-abre-mao-de-r-57-bi-em-acordos-de-leniencia-com-empreiteiras-da-lava-jato/"
+  },
+  "companies": [
+    "Odebrecht (Novonor)",
+    "Braskem",
+    "Andrade Gutierrez",
+    "Camargo Corrêa",
+    "OAS (Metha/Coesa)",
+    "UTC",
+    "Engevix (Nova Participações)"
+  ],
+  "companiesNote": "As sete empresas que renegociaram os acordos de leniência dentro da ADPF 1051.",
+  "taxCredit": {
+    "title": "A parte que não é paga com dinheiro",
+    "body": "A renegociação permitiu uma forma alternativa de pagamento: usar créditos que as empresas já tinham contra o governo federal. Pela proposta que AGU e CGU entregaram ao STF, até METADE do saldo restante de cada acordo pode ser quitada com créditos de prejuízo fiscal — ou seja, abatendo imposto em vez de devolver dinheiro ao caixa.",
+    "source": "STF — \"também foi permitida uma forma alternativa de pagamento: utilizar créditos que as empresas já tinham com o governo federal\"",
+    "url": "https://noticias.stf.jus.br/postsnoticias/relator-vota-pela-validade-dos-acordos-de-leniencia-da-lava-jato/"
+  },
+  "divergence": {
+    "title": "Duas contas oficiais para a mesma renegociação",
+    "tcu": {
+      "text": "O TCU, em nota técnica enviada ao STF, descreveu a repactuação como um desconto de mais de R$ 5,7 bilhões às sete empresas — quase 50% da dívida total.",
+      "source": "Nota técnica do TCU na ADPF 1051, conforme divulgado pela Gazeta do Povo",
+      "url": "https://www.gazetadopovo.com.br/republica/governo-lula-abre-mao-de-r-57-bi-em-acordos-de-leniencia-com-empreiteiras-da-lava-jato/"
+    },
+    "stf": {
+      "text": "O relator no STF, ministro André Mendonça, votou que os acordos \"não ofereceram descontos sobre o valor principal das multas\" — o que mudou foi o cronograma de pagamento e a forma de pagar.",
+      "source": "STF — notícia oficial sobre o voto do relator, 15 de agosto de 2025",
+      "url": "https://noticias.stf.jus.br/postsnoticias/relator-vota-pela-validade-dos-acordos-de-leniencia-da-lava-jato/"
+    },
+    "note": "As duas são fontes oficiais e não dizem a mesma coisa. O site publica as duas porque a divergência é o fato — e porque o julgamento não terminou: ele está suspenso desde agosto de 2025 por pedido de vista do ministro Flávio Dino."
+  },
+  "question": "Uma empresa que devia R$ 3,9 bilhões pagou R$ 171 milhões em seis anos, e o que sobrou pode ser quitado até pela metade com crédito de imposto. Quanto do que os acordos prometeram devolver voltou de verdade para quem paga a conta?"
+}

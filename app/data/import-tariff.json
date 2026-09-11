@@ -1,0 +1,56 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "A tarifa deles e a nossa",
+  "intro": "Em julho de 2025 os Estados Unidos anunciaram uma tarifa de 50% sobre produtos brasileiros. O governo respondeu em cadeia nacional, criou um plano de socorro e liberou R$ 30 bilhões de crédito para quem exporta. Enquanto isso, a tarifa que o Estado brasileiro cobra do brasileiro que compra um produto de fora nunca foi chamada de tarifaço — e é maior.",
+  "quote": {
+    "text": "Não há vencedores em guerras tarifárias. Somos um país de paz, sem inimigos. Acreditamos no multilateralismo e na cooperação entre as nações. Mas que ninguém se esqueça: o Brasil tem um único dono: o povo brasileiro",
+    "speaker": "Luiz Inácio Lula da Silva",
+    "role": "Presidente da República",
+    "date": "17 de julho de 2025",
+    "occasion": "pronunciamento em cadeia nacional de rádio e televisão, sobre a tarifa de 50% dos Estados Unidos",
+    "source": "Agência Brasil — íntegra do pronunciamento",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2025-07/em-pronunciamento-lula-diz-que-tarifaco-e-chantagem-inaceitavel"
+  },
+  "rates": {
+    "usTariffPct": 50,
+    "importDutyPct": 60,
+    "icmsPct": 17,
+    "baggageDutyPct": 50,
+    "penaltyPct": 50,
+    "remessaConformeUpToUsd50Pct": 0
+  },
+  "receipts": [
+    {
+      "value": "50%",
+      "label": "é a tarifa que os Estados Unidos cobram do exportador brasileiro desde agosto de 2025. O Ministério da Fazenda estimou o impacto dela em 0,2 ponto percentual do PIB, e o governo respondeu com o Plano Brasil Soberano: R$ 30 bilhões de crédito, pela Medida Provisória 1.309/2025.",
+      "period": "desde agosto de 2025",
+      "source": "Câmara dos Deputados — MP que libera R$ 30 bi para empresas atingidas pelas tarifas dos EUA",
+      "url": "https://www.camara.leg.br/noticias/1188216-medida-provisoria-libera-credito-de-r-30-bi-para-empresas-prejudicadas-pelas-tarifas-dos-eua/",
+      "direction": "up"
+    },
+    {
+      "value": "92,77%",
+      "label": "é o que o Estado brasileiro cobra de quem compra R$ 100 num site estrangeiro fora do Remessa Conforme. O número não é conta nossa: é o Exemplo 2.1 da própria Receita Federal — R$ 60,00 de Imposto de Importação, federal, mais R$ 32,77 de ICMS a 17%, que é calculado \"por dentro\" e incide também sobre o imposto federal.",
+      "period": "regra em vigor desde 12/05/2026",
+      "source": "Receita Federal — Novas Regras, Exemplo 2.1",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/remessas-postal-e-expressa/regras-futuras",
+      "direction": "up"
+    },
+    {
+      "value": "100%",
+      "label": "é o que paga quem volta de viagem com algo acima da cota e passa pelo canal \"nada a declarar\". São duas regras que se somam: o Regime de Tributação Especial cobra 50% sobre o valor que excede a cota, e a multa por declaração falsa é de outros 50% do excedente — \"sem prejuízo do pagamento do imposto devido\", nas palavras da Receita. O bem custa o dobro: um para você, um para o Estado.",
+      "period": "cota de US$ 1.000 por via aérea",
+      "source": "Receita Federal — Guia do Viajante, itens 3.7 e 7.1",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/perguntas-e-respostas",
+      "direction": "up"
+    }
+  ],
+  "phones": {
+    "title": "E o segundo celular só escapa se o primeiro tiver quebrado",
+    "legalText": "Sim, caso possua um único telefone celular. No entanto, se o viajante saiu do Brasil com seu telefone celular e adquiriu outro no exterior, mesmo que tenha utilizado o novo, o aparelho adquirido não será considerado compatível com as circunstâncias da viagem, a menos que se comprove defeito do telefone celular originalmente levado.",
+    "body": "É a resposta 1.13 do Guia do Viajante da Receita Federal, à pergunta sobre comprar um celular no exterior e usá-lo antes de voltar. Um aparelho é bem de uso pessoal e não paga imposto. Dois, não — a menos que você prove que o primeiro deu defeito.",
+    "source": "Receita Federal — Guia do Viajante, item 1.13",
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/perguntas-e-respostas"
+  },
+  "question": "Se 50% cobrados lá fora são guerra tarifária, o que são 92,77% cobrados aqui dentro?"
+}

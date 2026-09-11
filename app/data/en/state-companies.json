@@ -1,0 +1,15 @@
+{
+  "title": "Consolidated profit hides dependence on the Treasury",
+  "intro": "The government announced R$136 billion in state-company profit through the third quarter of 2025. SEST’s spreadsheet separates the companies generating that result from those relying on Treasury transfers. This distinction enables scrutiny of management, efficiency and public money.",
+  "period": "accumulated to the third quarter of 2025, the 44 federal state companies",
+  "announced.source": "Ministry of Management — announcement of January 2026",
+  "groupLabels.naoDependente": "Not dependent on the Treasury",
+  "groupLabels.dependente": "Dependent on the Treasury",
+  "exceptions.text": "Two of the 27 non-dependent companies still received Treasury money — Codern and Infraero, R$ 0.14 billion between them. That is 0.6% of everything the Treasury transferred, and it is written here rather than rounded away to fit the sentence.",
+  "receiversLabel": "The ones that received most from the Treasury",
+  "payersLabel": "The ones that returned most to the Union",
+  "hidden.title": "What the announcement does not separate",
+  "hidden.text": "The 27 companies classified as non-dependent recorded R$137.6 billion in profit. The 17 dependent companies received R$21.5 billion from the Treasury and reported an accounting loss of R$1.3 billion for the period. The consolidated total does not explain the need for transfers or each company’s delivery.",
+  "question": "If the government announces consolidated profit, why not give equal prominence to the R$21.5 billion transferred by the Treasury to dependent state companies?",
+  "source": "Ministry of Management — SEST Quarterly Bulletin, disaggregated data spreadsheet (third quarter of 2025)"
+}

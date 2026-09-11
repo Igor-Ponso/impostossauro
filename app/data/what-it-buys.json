@@ -1,0 +1,489 @@
+{
+  "updatedAt": "2026-08-23",
+  "disclaimer": "Cada item traz o preço com fonte e a PROCEDÊNCIA declarada, que é o que separa um número de um chute: pago quer dizer que alguém pagou aquilo e existe registro; mercado é quanto a coisa vale numa data, e muda amanhã; estimativa é conta de terceiro que o dono nunca confirmou, e vem sempre com o nome de quem estimou. Nenhum preço aqui é conta nossa.",
+  "caveat": "Um limite que precisa ser dito no mesmo peso do número: esta página compara o arrecadado de um ano com o custo de COMPRAR uma coisa, e comprar não é manter. Escola precisa de professor todo mês; hospital, de médico e de remédio; submarino, de tripulação. Trocar imposto por qualquer uma destas listas não seria política pública — é aritmética, e ela serve para uma coisa só: dar tamanho a um número que ninguém consegue imaginar sozinho.",
+  "fx": {
+    "date": "2026-08-21",
+    "usdBrl": 5.1625,
+    "eurBrl": 6.0319,
+    "note": "Os preços em dólar e em euro são convertidos pela PTAX de venda do Banco Central de 21/08/2026, inclusive os históricos. É a conversão de hoje para um preço de ontem — serve para dar escala, não para reconstituir quanto custaria na época.",
+    "source": "Banco Central — PTAX de venda de 21/08/2026",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes"
+  },
+  "families": {
+    "social": "O que o Estado compraria de si mesmo",
+    "brasil": "O que o Brasil já pagou",
+    "mundo": "O que o mundo pagou"
+  },
+  "items": [
+    {
+      "key": "obrasParadas",
+      "family": "brasil",
+      "label": "as 11.469 obras públicas paradas",
+      "detail": "Levantamento do próprio TCU, abril de 2025: das 22.621 obras federais em andamento, 11.469 estavam paralisadas — uma em cada duas. R$ 15,9 bilhões já foram gastos nelas. Educação e saúde concentram 70% das paralisações.",
+      "amount": {
+        "value": 15900000000,
+        "currency": "BRL",
+        "year": 2025
+      },
+      "provenance": "pago",
+      "source": "TCU — levantamento de obras paralisadas, abril de 2025",
+      "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas"
+    },
+    {
+      "key": "copa2014",
+      "family": "brasil",
+      "label": "a Copa do Mundo de 2014 inteira",
+      "detail": "Conta final consolidada pelo TCU: R$ 25,5 bilhões. R$ 8 bilhões em estádios, R$ 7 bilhões em mobilidade urbana, R$ 6,2 bilhões em aeroportos.",
+      "amount": {
+        "value": 25500000000,
+        "currency": "BRL",
+        "year": 2014
+      },
+      "provenance": "pago",
+      "source": "TCU — relatório consolidado da Copa, dezembro de 2014",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2014-12/tcu-contabiliza-r-255-bilhoes-de-gastos-com-copa-do-mundo"
+    },
+    {
+      "key": "abreuLima",
+      "family": "brasil",
+      "label": "a refinaria Abreu e Lima",
+      "detail": "Anunciada por US$ 2,5 bilhões, custou US$ 18 bilhões. Os dois números vieram da própria ex-presidente da Petrobras, Graça Foster, em depoimento à CPI da Petrobras: segundo a Agência Câmara, ela afirmou que a empresa cometeu um erro ao divulgar o valor inicial, e que a diferença veio da falta de um projeto básico confiável. Nas palavras dela: \"A previsão inicial correta seria um custo de cerca de 14 bilhões de dólares\".",
+      "amount": {
+        "value": 18000000000,
+        "currency": "USD",
+        "year": 2016
+      },
+      "provenance": "pago",
+      "source": "Câmara dos Deputados — depoimento de Graça Foster à CPI da Petrobras",
+      "url": "https://www.camara.leg.br/noticias/454003-foi-um-erro-dizer-que-abreu-e-lima-custaria-25-bilhoes-de-dolares-diz-foster"
+    },
+    {
+      "key": "prosub",
+      "family": "brasil",
+      "label": "o programa de submarinos da Marinha",
+      "detail": "O ProSub — quatro submarinos convencionais, um nuclear, uma base em Itaguaí e um estaleiro. É o maior programa de tecnologia militar das Forças Armadas em valores absolutos.",
+      "amount": {
+        "value": 35000000000,
+        "currency": "BRL",
+        "year": 2026
+      },
+      "provenance": "estimativa",
+      "source": "Gazeta do Povo — reportagem sobre o ProSub",
+      "url": "https://www.gazetadopovo.com.br/republica/prosub-submarinos-rumo-programa-tecnologia-militar-brasil/"
+    },
+    {
+      "key": "angra3",
+      "family": "brasil",
+      "label": "terminar a usina de Angra 3",
+      "detail": "A obra está parada desde 2015 e já consumiu quase R$ 12 bilhões. Concluir custaria mais R$ 25 bilhões; abandonar custaria R$ 21 bilhões. Enquanto ninguém decide, manter a obra parada custa R$ 1 bilhão por ano.",
+      "amount": {
+        "value": 25000000000,
+        "currency": "BRL",
+        "year": 2024
+      },
+      "provenance": "estimativa",
+      "source": "TCU — \"Conclusão de Angra 3 pode custar R$ 25 bilhões\"",
+      "url": "https://portal.tcu.gov.br/imprensa/noticias/conclusao-de-angra-3-pode-custar-r-25-bilhoes"
+    },
+    {
+      "key": "transnordestina",
+      "family": "brasil",
+      "label": "a ferrovia Transnordestina",
+      "detail": "Obras iniciadas em 2006. Vinte anos depois, R$ 7 bilhões gastos, quatro dos onze lotes nunca começaram, e o orçamento total já está em R$ 15 bilhões — 233% acima do valor original.",
+      "amount": {
+        "value": 15000000000,
+        "currency": "BRL",
+        "year": 2026
+      },
+      "provenance": "estimativa",
+      "source": "NeoFeed — \"A saga da Transnordestina\", com dados do TCU",
+      "url": "https://neofeed.com.br/economia/a-saga-da-transnordestina-a-ferrovia-que-ja-custou-r-7-bi-e-precisa-de-mais-r-5-bi/"
+    },
+    {
+      "key": "maneGarrincha",
+      "family": "brasil",
+      "label": "o estádio Mané Garrincha",
+      "detail": "Orçado em R$ 696.648.486,09 e entregue por R$ 1.978.265.062,10 — quase três vezes o previsto, segundo a auditoria final do Tribunal de Contas do Distrito Federal. É o estádio mais caro da Copa de 2014.",
+      "amount": {
+        "value": 1978265062,
+        "currency": "BRL",
+        "year": 2015
+      },
+      "provenance": "pago",
+      "source": "Auditoria final do TCDF, conforme divulgado pelo Correio Braziliense",
+      "url": "https://blogs.correiobraziliense.com.br/cbpoder/auditoria-aponta-que-preco-final-do-mane-garrincha-foi-triplicado/"
+    },
+    {
+      "key": "maracana",
+      "family": "brasil",
+      "label": "a reforma do Maracanã",
+      "detail": "O orçamento saiu de R$ 700 milhões para R$ 1,2 bilhão. A Exame noticiou que a auditoria do Tribunal de Contas do Estado do Rio apontou R$ 211 milhões acima do preço de referência.",
+      "amount": {
+        "value": 1200000000,
+        "currency": "BRL",
+        "year": 2013
+      },
+      "provenance": "pago",
+      "source": "TCE-RJ, conforme divulgado pela revista Exame",
+      "url": "https://exame.com/brasil/reforma-do-maracana-foi-superfaturada-em-r-211-milhoes-diz-tce/"
+    },
+    {
+      "key": "petrobras",
+      "family": "brasil",
+      "label": "a Petrobras inteira",
+      "detail": "Valor de mercado da maior empresa da América Latina em fevereiro de 2026. Empresa listada em bolsa: o número muda todo dia.",
+      "amount": {
+        "value": 100900000000,
+        "currency": "USD",
+        "year": 2026
+      },
+      "provenance": "mercado",
+      "source": "Valor de mercado em fevereiro de 2026, conforme divulgado pela IstoÉ Dinheiro",
+      "url": "https://istoedinheiro.com.br/petrobras-volta-a-ser-a-maior-empresa-em-valor-de-mercado-da-america-latina"
+    },
+    {
+      "key": "arenaAmazonia",
+      "family": "brasil",
+      "label": "a Arena da Amazônia",
+      "detail": "Orçada em R$ 580 milhões e entregue por R$ 660 milhões, em Manaus, para quatro jogos da Copa. Nenhum clube grande da cidade joga nela. Em 2021, com o sistema de saúde do Amazonas em colapso, o governo do estado gastava cerca de R$ 1 milhão por mês para manter o estádio vazio.",
+      "amount": {
+        "value": 660000000,
+        "currency": "BRL",
+        "year": 2014
+      },
+      "provenance": "pago",
+      "source": "Portal Amazônia — a arena como elefante branco",
+      "url": "https://portalamazonia.com/esporte/arena-da-amazonia-se-torna-elefante-branco-em-manaus/"
+    },
+    {
+      "key": "tremBala",
+      "family": "brasil",
+      "label": "o trem-bala que nunca saiu do papel",
+      "detail": "O TAV Rio–São Paulo–Campinas foi orçado pelo governo em R$ 35 bilhões, com entrega prevista para 2019. Foram três leilões e nenhum interessado: o mercado calculava mais de R$ 50 bilhões. Nunca foi construído um metro de trilho.",
+      "amount": {
+        "value": 35000000000,
+        "currency": "BRL",
+        "year": 2010
+      },
+      "provenance": "estimativa",
+      "source": "Estimativa do governo federal para o TAV Rio–São Paulo–Campinas",
+      "url": "https://pt.wikipedia.org/wiki/TAV_Rio%E2%80%93S%C3%A3o_Paulo"
+    },
+    {
+      "key": "twitter",
+      "family": "mundo",
+      "label": "o Twitter",
+      "detail": "O que Elon Musk pagou pela rede social em 2022.",
+      "amount": {
+        "value": 44000000000,
+        "currency": "USD",
+        "year": 2022
+      },
+      "provenance": "pago",
+      "source": "A compra de US$ 44 bilhões, conforme noticiado em 2022",
+      "url": "https://www.newsweek.com/could-elon-musk-have-solved-world-hunger-instead-buying-twitter-1700942"
+    },
+    {
+      "key": "disney",
+      "family": "mundo",
+      "label": "a Disney inteira",
+      "detail": "Valor de mercado da The Walt Disney Company em agosto de 2026. Empresa listada em bolsa: o número muda todo dia.",
+      "amount": {
+        "value": 186100000000,
+        "currency": "USD",
+        "year": 2026
+      },
+      "provenance": "mercado",
+      "source": "Valor de mercado em agosto de 2026 (companhia aberta)",
+      "url": "https://companiesmarketcap.com/walt-disney/marketcap/"
+    },
+    {
+      "key": "iss",
+      "family": "mundo",
+      "label": "a Estação Espacial Internacional",
+      "detail": "O objeto mais caro que a humanidade já construiu: cinco agências espaciais, 420 toneladas em órbita, US$ 150 bilhões somando as contribuições de todos os países e os 36 voos de ônibus espacial.",
+      "amount": {
+        "value": 150000000000,
+        "currency": "USD",
+        "year": 2010
+      },
+      "provenance": "estimativa",
+      "source": "Estimativa consolidada do custo do programa da ISS",
+      "url": "https://en.wikipedia.org/wiki/International_Space_Station_programme"
+    },
+    {
+      "key": "apollo",
+      "family": "mundo",
+      "label": "o programa Apollo",
+      "detail": "Todo o programa que levou o homem à Lua: US$ 25,4 bilhões, em dólares de 1973 — número que a própria NASA entregou por escrito ao Congresso americano. Em dólares de hoje seria muito mais.",
+      "amount": {
+        "value": 25400000000,
+        "currency": "USD",
+        "year": 1973
+      },
+      "provenance": "pago",
+      "source": "NASA — depoimento escrito ao Congresso dos EUA, 1973",
+      "url": "https://www.planetary.org/space-policy/cost-of-apollo"
+    },
+    {
+      "key": "jwst",
+      "family": "mundo",
+      "label": "o telescópio James Webb",
+      "detail": "Orçado em US$ 1 bilhão, com lançamento previsto para 2010. Custou cerca de US$ 10 bilhões e subiu em 2021.",
+      "amount": {
+        "value": 10000000000,
+        "currency": "USD",
+        "year": 2021
+      },
+      "provenance": "pago",
+      "source": "The Planetary Society, a partir dos documentos orçamentários da NASA",
+      "url": "https://www.planetary.org/articles/cost-of-the-jwst"
+    },
+    {
+      "key": "chelsea",
+      "family": "mundo",
+      "label": "o Chelsea Football Club",
+      "detail": "A maior venda de um clube esportivo até então. O consórcio de Todd Boehly pagou £ 4,25 bilhões — cerca de US$ 5,4 bilhões — em 2022.",
+      "amount": {
+        "value": 5400000000,
+        "currency": "USD",
+        "year": 2022
+      },
+      "provenance": "pago",
+      "source": "ESPN — a conclusão da compra do Chelsea, maio de 2022",
+      "url": "https://www.espn.com/soccer/story/_/id/37628834/todd-boehly-completes-chelsea-takeover-deal-worth-425bn"
+    },
+    {
+      "key": "burjKhalifa",
+      "family": "mundo",
+      "label": "o Burj Khalifa",
+      "detail": "O prédio mais alto do mundo, em Dubai: seis anos de obra, US$ 1,5 bilhão.",
+      "amount": {
+        "value": 1500000000,
+        "currency": "USD",
+        "year": 2010
+      },
+      "provenance": "pago",
+      "source": "Custo de construção divulgado pela incorporadora Emaar",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    },
+    {
+      "key": "gta6",
+      "family": "mundo",
+      "label": "o GTA VI",
+      "detail": "O jogo mais caro já feito. A Rockstar NUNCA divulgou o orçamento — o presidente da Take-Two disse, sem dar número, que o custo é da ordem de bilhões. As estimativas de analistas vão de US$ 1 bilhão a US$ 2 bilhões, e incluem marketing.",
+      "amount": {
+        "value": 2000000000,
+        "currency": "USD",
+        "year": 2026
+      },
+      "provenance": "estimativa",
+      "source": "Estimativa de analistas de mercado — não é divulgação da Rockstar",
+      "url": "https://gameluster.com/did-gta-6-really-cost-2-billion-to-make-what-the-e/"
+    },
+    {
+      "key": "salvatorMundi",
+      "family": "mundo",
+      "label": "o quadro mais caro já vendido",
+      "detail": "O \"Salvator Mundi\", atribuído a Leonardo da Vinci, arrematado na Christie's de Nova York em 15 de novembro de 2017 por US$ 450,3 milhões, depois de 19 minutos de disputa. A estimativa da casa era de US$ 100 milhões.",
+      "amount": {
+        "value": 450300000,
+        "currency": "USD",
+        "year": 2017
+      },
+      "provenance": "pago",
+      "source": "Leilão da Christie's, Nova York, 15 de novembro de 2017",
+      "url": "https://www.artnews.com/art-news/news/leonardo-da-vincis-salvator-mundi-sells-450-3-m-christies-new-york-9334/"
+    },
+    {
+      "key": "mercedes300slr",
+      "family": "mundo",
+      "label": "o carro mais caro já vendido",
+      "detail": "Um Mercedes-Benz 300 SLR Uhlenhaut Coupé de 1955, um dos dois que existem, vendido em maio de 2022 por € 135 milhões. Quem anunciou o valor foi a própria Mercedes-Benz.",
+      "amount": {
+        "value": 135000000,
+        "currency": "EUR",
+        "year": 2022
+      },
+      "provenance": "pago",
+      "source": "Mercedes-Benz — comunicado oficial da venda",
+      "url": "https://media.mbusa.com/releases/the-most-valuable-car-in-the-world-mercedes-benz-300-slr-uhlenhaut-coupe-sold-for-an-all-time-record-price-of-135-million-eur-to-establish-mercedes-benz-fund"
+    },
+    {
+      "key": "neymar",
+      "family": "mundo",
+      "label": "a transferência do Neymar",
+      "detail": "Os € 222 milhões que o Paris Saint-Germain pagou ao Barcelona em 3 de agosto de 2017 — a cláusula de rescisão. O recorde anterior era menos da metade.",
+      "amount": {
+        "value": 222000000,
+        "currency": "EUR",
+        "year": 2017
+      },
+      "provenance": "pago",
+      "source": "Poder360 — o recorde de transferências do futebol",
+      "url": "https://www.poder360.com.br/economia/e-222-mi-por-neymar-e-valor-recorde-em-transferencias-no-futebol/"
+    },
+    {
+      "key": "qatar2022",
+      "family": "mundo",
+      "label": "a Copa do Catar inteira",
+      "detail": "A Copa mais cara da história: US$ 220 bilhões, quinze vezes mais do que qualquer outro país já gastou para sediar o torneio — a segunda mais cara é a do Brasil, em 2014, com US$ 15 bilhões, e a Rússia gastou US$ 11,6 bilhões em 2018. O governo do Catar NUNCA confirmou o número: os US$ 220 bilhões são estimativa da imprensa e de analistas.",
+      "amount": {
+        "value": 220000000000,
+        "currency": "USD",
+        "year": 2022
+      },
+      "provenance": "estimativa",
+      "source": "AB Magazine (ACCA) — \"Qatar's World Cup cash bonanza\", novembro de 2022",
+      "url": "https://abmagazine.accaglobal.com/global/articles/2022/nov/business/qatar-s-world-cup-cash-bonanza.html"
+    },
+    {
+      "key": "erasTour",
+      "family": "mundo",
+      "label": "a turnê Eras, da Taylor Swift",
+      "detail": "A maior bilheteria da história da música: US$ 2.077.618.725 em 149 shows, com 10.168.008 ingressos vendidos. É o dobro da segunda colocada. Dinheiro que dez milhões de pessoas pagaram do próprio bolso.",
+      "amount": {
+        "value": 2077618725,
+        "currency": "USD",
+        "year": 2024
+      },
+      "provenance": "pago",
+      "source": "Pollstar, conforme divulgado pela Variety em dezembro de 2024",
+      "url": "https://variety.com/2024/music/news/taylor-swift-2-billion-eras-tour-gross-1236243254/"
+    },
+    {
+      "key": "celtics",
+      "family": "mundo",
+      "label": "o Boston Celtics",
+      "detail": "A maior venda de um time esportivo da América do Norte: US$ 6,1 bilhões em 2025. Os donos anteriores tinham comprado o clube por US$ 360 milhões em 2002 — dezessete vezes menos.",
+      "amount": {
+        "value": 6100000000,
+        "currency": "USD",
+        "year": 2025
+      },
+      "provenance": "pago",
+      "source": "CNBC — a venda do Boston Celtics, março de 2025",
+      "url": "https://www.cnbc.com/2025/03/20/boston-celtics-sold-for-6point1-billion-to-bill-chisholm-sixth-street-group.html"
+    },
+    {
+      "key": "koru",
+      "family": "mundo",
+      "label": "o iate do Jeff Bezos",
+      "detail": "O Koru, maior veleiro do mundo: 127 metros, três mastros, nove cabines e tripulação de 36. O preço de US$ 500 milhões é o que a imprensa divulgou; nem Bezos nem o estaleiro Oceanco confirmaram o valor.",
+      "amount": {
+        "value": 500000000,
+        "currency": "USD",
+        "year": 2023
+      },
+      "provenance": "estimativa",
+      "source": "Valor divulgado pela imprensa; sem confirmação do comprador ou do estaleiro",
+      "url": "https://en.wikipedia.org/wiki/Koru_(yacht)"
+    },
+    {
+      "key": "tokyo2020",
+      "family": "mundo",
+      "label": "a Olimpíada de Tóquio",
+      "detail": "US$ 12,9 bilhões, segundo a auditoria do próprio governo japonês — 20% acima do que o comitê organizador tinha anunciado. O relatório do Board of Audit acrescentou US$ 2,1 bilhões que não estavam na prestação de contas final e apontou falta de transparência do governo e do comitê.",
+      "amount": {
+        "value": 12900000000,
+        "currency": "USD",
+        "year": 2022
+      },
+      "provenance": "pago",
+      "source": "Board of Audit of Japan, conforme divulgado pela ESPN em dezembro de 2022",
+      "url": "https://www.espn.com/olympics/story/_/id/35303667/audit-finds-tokyo-olympic-costs-20-higher-announced"
+    },
+    {
+      "key": "eurotunel",
+      "family": "mundo",
+      "label": "o túnel do Canal da Mancha",
+      "detail": "O estudo preliminar do GI Hub informa £ 9,5 bilhões de custo e financiamento privado. A ficha inicial converte isso em US$ 11,8 bilhões, usados nesta equivalência; a página seguinte informa US$ 14,5 bilhões. A divergência está no documento e impede tratar a conversão em dólar como valor definitivo.",
+      "amount": {
+        "value": 11800000000,
+        "currency": "USD",
+        "year": 1994
+      },
+      "provenance": "pago",
+      "source": "Global Infrastructure Hub — estudo preliminar do Channel Tunnel, pp. 1–2",
+      "url": "https://cdn.gihub.org/umbraco/media/3268/the-channel-tunnel-case-study-report.pdf"
+    },
+    {
+      "key": "applePark",
+      "family": "mundo",
+      "label": "a sede da Apple",
+      "detail": "O Apple Park, em Cupertino: o anel de 2,8 milhões de pés quadrados para 12 mil funcionários. Os US$ 5 bilhões são estimativa de mercado, incluindo a compra do terreno — a Apple nunca divulgou o custo. Só o teatro Steve Jobs teria custado US$ 179 milhões.",
+      "amount": {
+        "value": 5000000000,
+        "currency": "USD",
+        "year": 2017
+      },
+      "provenance": "estimativa",
+      "source": "Estimativa de mercado divulgada pela CNBC — não é divulgação da Apple",
+      "url": "https://www.cnbc.com/2017/10/09/how-much-every-inch-of-apples-new-5-billion-campus-cost-to-build.html"
+    }
+  ],
+  "physical": [
+    {
+      "key": "pilhaMoedas",
+      "question": "E se fosse tudo em moedas de R$ 1, uma empilhada sobre a outra?",
+      "inputs": {
+        "unitValueBrl": 1,
+        "unitMm": 1.95,
+        "unitG": 0
+      },
+      "unit": "km",
+      "compare": {
+        "label": "ida à Lua",
+        "km": 384400
+      },
+      "source": "Banco Central — moeda de R$ 1 da segunda família tem 1,95 mm de espessura; NASA — a Lua está a 384.400 km",
+      "url": "https://www.bcb.gov.br/dinheirobrasileiro/segunda-familia-moedas.html",
+      "urlCompare": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "key": "pesoMoedas",
+      "question": "E quanto pesaria essa pilha?",
+      "inputs": {
+        "unitValueBrl": 1,
+        "unitMm": 0,
+        "unitG": 7
+      },
+      "unit": "t",
+      "compare": {
+        "label": "",
+        "km": 0
+      },
+      "source": "Banco Central — a moeda de R$ 1 pesa 7,00 g",
+      "url": "https://www.bcb.gov.br/dinheirobrasileiro/segunda-familia-moedas.html",
+      "urlCompare": null
+    },
+    {
+      "key": "filaCedulas",
+      "question": "E em notas de R$ 200, deitadas uma na frente da outra?",
+      "inputs": {
+        "unitValueBrl": 200,
+        "unitMm": 142,
+        "unitG": 0
+      },
+      "unit": "km",
+      "compare": {
+        "label": "ida à Lua",
+        "km": 384400
+      },
+      "source": "Banco Central — a nota de R$ 200 tem 14,2 cm de comprimento; NASA — a Lua está a 384.400 km",
+      "url": "https://www.bcb.gov.br/novasnotas/nota-200-reais.html",
+      "urlCompare": "https://science.nasa.gov/moon/facts/"
+    }
+  ],
+  "weightReference": {
+    "tonnes": 7300,
+    "url": "https://www.toureiffel.paris/en/the-monument/key-figures"
+  },
+  "earth": {
+    "equatorialDiameterKm": 12756,
+    "note": "A circunferência do equador sai de π × diâmetro: aproximadamente 40.074 km. O diâmetro é da NASA; a multiplicação é nossa.",
+    "source": "NASA — diâmetro equatorial da Terra: 12.756 km",
+    "url": "https://science.nasa.gov/earth/facts/"
+  }
+}

@@ -1,0 +1,2593 @@
+{
+  "meta": {
+    "geometry": {
+      "package": "@svg-maps/brazil",
+      "author": "Victor Cazanave",
+      "license": "CC-BY-4.0",
+      "url": "https://github.com/VictorCazanave/svg-maps/tree/master/packages/brazil"
+    },
+    "scope": {
+      "sent": "Tributos federais arrecadados no estado, atribuídos pelo domicílio fiscal de quem paga — não pelo lugar onde a produção ou o consumo aconteceu.",
+      "received": "Transferências da União que entraram no caixa do GOVERNO ESTADUAL. Não inclui o que a União repassa direto às prefeituras do estado, nem aposentadoria, salário de servidor federal ou benefício pago a pessoa física.",
+      "currency": "Valores nominais do ano, sem correção pelo IPCA."
+    },
+    "generatedBy": "scripts/coleta/consolidar.mjs"
+  },
+  "fiscalYears": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "states": {
+    "AC": {
+      "name": "Acre",
+      "region": "Norte",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 1672316991,
+          "received": 2890899682,
+          "totalRevenue": 5856348532,
+          "dependence": 49.36351834945757,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 2077003253,
+          "received": 3268663649,
+          "totalRevenue": 6201093874,
+          "dependence": 52.71108155021146,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 1662174645,
+          "received": 3856963656,
+          "totalRevenue": 6569899892,
+          "dependence": 58.706581825940454,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 1768189234,
+          "received": 4047909448,
+          "totalRevenue": 7503434254,
+          "dependence": 53.94742341220022,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 2028068528,
+          "received": 5019642701,
+          "totalRevenue": 8919484736,
+          "dependence": 56.27727216886841,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 2093737916,
+          "received": 5432505439,
+          "totalRevenue": 9660911925,
+          "dependence": 56.23180794539684,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 2398091493,
+          "received": 6491967030,
+          "totalRevenue": 11345153391,
+          "dependence": 57.222382161320716,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 2276863968,
+          "received": 7220816105,
+          "totalRevenue": 12652750815,
+          "dependence": 57.06914022162981,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "AP": {
+      "name": "Amapá",
+      "region": "Norte",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 1309539872,
+          "received": 2717663591,
+          "totalRevenue": 5160311710,
+          "dependence": 52.66471762849621,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 1583390084,
+          "received": 3091177726,
+          "totalRevenue": 5983749514,
+          "dependence": 51.65954422304617,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 1405744574,
+          "received": 3772612294,
+          "totalRevenue": 6463746194,
+          "dependence": 58.365724468397595,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 1483581765,
+          "received": 3954376695,
+          "totalRevenue": 6919486396,
+          "dependence": 57.14841346303127,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 1793387635,
+          "received": 4883325934,
+          "totalRevenue": 8565091565,
+          "dependence": 57.01428755627313,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 2032285576,
+          "received": 5423826357,
+          "totalRevenue": 9448675141,
+          "dependence": 57.40303561716386,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 2736659847,
+          "received": 5991862534,
+          "totalRevenue": 10447763448,
+          "dependence": 57.35067187845569,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 2718488869,
+          "received": 6512259828,
+          "totalRevenue": 12018168332,
+          "dependence": 54.18679159568628,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "AM": {
+      "name": "Amazonas",
+      "region": "Norte",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 14548650009,
+          "received": 3161815764,
+          "totalRevenue": 17283293686,
+          "dependence": 18.294057959880263,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 17386080923,
+          "received": 4014004902,
+          "totalRevenue": 19044910447,
+          "dependence": 21.076522849252175,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 17825259249,
+          "received": 5047951379,
+          "totalRevenue": 20681233766,
+          "dependence": 24.40836671684372,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 20443627626,
+          "received": 5157169002,
+          "totalRevenue": 24609455340,
+          "dependence": 20.956046897499657,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 21865285826,
+          "received": 6601681430,
+          "totalRevenue": 28389015059,
+          "dependence": 23.254351784088364,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 22829824623,
+          "received": 6789207768,
+          "totalRevenue": 29630391438,
+          "dependence": 22.91298709867291,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 26262547153,
+          "received": 8094509692,
+          "totalRevenue": 34299095495,
+          "dependence": 23.59977595615986,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 22032271907,
+          "received": 8302697939,
+          "totalRevenue": 35914826709,
+          "dependence": 23.117744674555237,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "PA": {
+      "name": "Pará",
+      "region": "Norte",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 13925855885,
+          "received": 5760433206,
+          "totalRevenue": 23513476579,
+          "dependence": 24.498432573997267,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 17604453763,
+          "received": 7688970766,
+          "totalRevenue": 26441866657,
+          "dependence": 29.07877445254731,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 15247897992,
+          "received": 9789697094,
+          "totalRevenue": 29929822293,
+          "dependence": 32.70883802256861,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 17873854073,
+          "received": 10008968053,
+          "totalRevenue": 33727660625,
+          "dependence": 29.675844299365167,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 19878276830,
+          "received": 11918967358,
+          "totalRevenue": 36828570354,
+          "dependence": 32.36337235970648,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 21156292331,
+          "received": 12348385734,
+          "totalRevenue": 41029017702,
+          "dependence": 30.09671307270786,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 23054655766,
+          "received": 14575876371,
+          "totalRevenue": 45431435975,
+          "dependence": 32.083239409808336,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 22445657944,
+          "received": 16375202861,
+          "totalRevenue": 50368024252,
+          "dependence": 32.511108196676474,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "RO": {
+      "name": "Rondônia",
+      "region": "Norte",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 3844592198,
+          "received": 2647196379,
+          "totalRevenue": 7461531941,
+          "dependence": 35.47792061497138,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 4205931104,
+          "received": 2856726846,
+          "totalRevenue": 8145067488,
+          "dependence": 35.07308994303344,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 4063686209,
+          "received": 3562195233,
+          "totalRevenue": 9153014309,
+          "dependence": 38.91827448459609,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 5316524439,
+          "received": 3549902315,
+          "totalRevenue": 10511611223,
+          "dependence": 33.771248193018906,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 5634088228,
+          "received": 4232306580,
+          "totalRevenue": 12476901297,
+          "dependence": 33.9211353790147,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 7559533103,
+          "received": 4801805994,
+          "totalRevenue": 13308199466,
+          "dependence": 36.081560137165,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 8698266290,
+          "received": 5115961105,
+          "totalRevenue": 15071356907,
+          "dependence": 33.944927031765936,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 9078404787,
+          "received": 5539897740,
+          "totalRevenue": 16682618555,
+          "dependence": 33.20760300472042,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "RR": {
+      "name": "Roraima",
+      "region": "Norte",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 1402840593,
+          "received": 2289373664,
+          "totalRevenue": 3705406370,
+          "dependence": 61.784685287337716,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 1800536364,
+          "received": 2396398981,
+          "totalRevenue": 4461311626,
+          "dependence": 53.715121963392534,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 1526996022,
+          "received": 2838909315,
+          "totalRevenue": 4661172095,
+          "dependence": 60.90548165020567,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 1583221416,
+          "received": 3065058324,
+          "totalRevenue": 5646296615,
+          "dependence": 54.28440150418328,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 1815792719,
+          "received": 3979827188,
+          "totalRevenue": 6804480548,
+          "dependence": 58.48833220579349,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 1985217292,
+          "received": 4317556203,
+          "totalRevenue": 7340380540,
+          "dependence": 58.8192421254867,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 2187164106,
+          "received": 4883828138,
+          "totalRevenue": 8609931703,
+          "dependence": 56.72319255434025,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 2140464124,
+          "received": 5393135466,
+          "totalRevenue": 9955801612,
+          "dependence": 54.17078077980422,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "TO": {
+      "name": "Tocantins",
+      "region": "Norte",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 3129413942,
+          "received": 3542771225,
+          "totalRevenue": 7594286797,
+          "dependence": 46.65047975572204,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 4033949881,
+          "received": 3894295123,
+          "totalRevenue": 8684267542,
+          "dependence": 44.84310397239847,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 3672085841,
+          "received": 4752182398,
+          "totalRevenue": 9786479539,
+          "dependence": 48.55865052601702,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 3862781484,
+          "received": 4804768671,
+          "totalRevenue": 11073607349,
+          "dependence": 43.3893718572079,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 4802821566,
+          "received": 5712857560,
+          "totalRevenue": 13229229782,
+          "dependence": 43.183599149333936,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 5216791429,
+          "received": 6143862841,
+          "totalRevenue": 14879501722,
+          "dependence": 41.29078349443454,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 5788089848,
+          "received": 6801910520,
+          "totalRevenue": 16299319242,
+          "dependence": 41.73125526652475,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 5410244830,
+          "received": 7241678954,
+          "totalRevenue": 17304336401,
+          "dependence": 41.848926109900134,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "AL": {
+      "name": "Alagoas",
+      "region": "Nordeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 4990110366,
+          "received": 3585557135,
+          "totalRevenue": 8439616636,
+          "dependence": 42.48483419831768,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 6092192018,
+          "received": 3983316071,
+          "totalRevenue": 9213460920,
+          "dependence": 43.23365676996675,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 5391716299,
+          "received": 4745675685,
+          "totalRevenue": 11112279668,
+          "dependence": 42.70658970299307,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 6340591200,
+          "received": 4947624501,
+          "totalRevenue": 13187111771,
+          "dependence": 37.51863628233373,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 7384909929,
+          "received": 6487392104,
+          "totalRevenue": 14768705440,
+          "dependence": 43.926613141719514,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 8872607940,
+          "received": 6847049715,
+          "totalRevenue": 16299250694,
+          "dependence": 42.008371078569176,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 10971696229,
+          "received": 8219212877,
+          "totalRevenue": 18945024960,
+          "dependence": 43.38454498685784,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 11090882861,
+          "received": 9266858342,
+          "totalRevenue": 20974674309,
+          "dependence": 44.1811787205443,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "BA": {
+      "name": "Bahia",
+      "region": "Nordeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 33192171613,
+          "received": 12749674905,
+          "totalRevenue": 42802509221,
+          "dependence": 29.78721373446212,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 37832129594,
+          "received": 11209688500,
+          "totalRevenue": 45749162780,
+          "dependence": 24.502499759177233,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 33210390625,
+          "received": 13829435018,
+          "totalRevenue": 48671426031,
+          "dependence": 28.413868558697292,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 40659660393,
+          "received": 13817625723,
+          "totalRevenue": 57493068649,
+          "dependence": 24.03355056054463,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 47815451097,
+          "received": 20399055856,
+          "totalRevenue": 68747800874,
+          "dependence": 29.67230310833859,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 48212045544,
+          "received": 20948656092,
+          "totalRevenue": 71459899022,
+          "dependence": 29.31526125651418,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 56077134571,
+          "received": 23299405603,
+          "totalRevenue": 71518231478,
+          "dependence": 32.57827426865309,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 51394896706,
+          "received": 24013518813,
+          "totalRevenue": 78096226070,
+          "dependence": 30.748628994757777,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "CE": {
+      "name": "Ceará",
+      "region": "Nordeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 22687249114,
+          "received": 8333485131,
+          "totalRevenue": 24794532865,
+          "dependence": 33.61017195540796,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 24853977971,
+          "received": 7701980922,
+          "totalRevenue": 27242596779,
+          "dependence": 28.271831001072744,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 24563470905,
+          "received": 9209585493,
+          "totalRevenue": 28426250513,
+          "dependence": 32.39817185588173,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 30135375360,
+          "received": 9529108321,
+          "totalRevenue": 32479046272,
+          "dependence": 29.33924919294912,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 32552259153,
+          "received": 12432970129,
+          "totalRevenue": 32626642476,
+          "dependence": 38.10680224870531,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 34717229938,
+          "received": 13110054031,
+          "totalRevenue": 35380179985,
+          "dependence": 37.05479744928125,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 38487596154,
+          "received": 14944177779,
+          "totalRevenue": 39438506526,
+          "dependence": 37.89235215757203,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 35391898934,
+          "received": 16081008064,
+          "totalRevenue": 45966403517,
+          "dependence": 34.984264230194185,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "MA": {
+      "name": "Maranhão",
+      "region": "Nordeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 9526788845,
+          "received": 7315123298,
+          "totalRevenue": 16620202725,
+          "dependence": 44.01344206440865,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 12817998763,
+          "received": 7246284597,
+          "totalRevenue": 15615619677,
+          "dependence": 46.404079678999736,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 10675423772,
+          "received": 8585679189,
+          "totalRevenue": 17233458644,
+          "dependence": 49.819826456278165,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 11616484233,
+          "received": 9023170406,
+          "totalRevenue": 19150024114,
+          "dependence": 47.11832398878116,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 11471315065,
+          "received": 10838578929,
+          "totalRevenue": 23486590491,
+          "dependence": 46.147945284524,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 12667028047,
+          "received": 11853400468,
+          "totalRevenue": 24198373243,
+          "dependence": 48.98428645909968,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 15559315403,
+          "received": 16088053479,
+          "totalRevenue": 31127179901,
+          "dependence": 51.684905379097344,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 16389146969,
+          "received": 16597701141,
+          "totalRevenue": 34389287850,
+          "dependence": 48.264160667835206,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "PB": {
+      "name": "Paraíba",
+      "region": "Nordeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 7706935360,
+          "received": 3765744792,
+          "totalRevenue": 10228574850,
+          "dependence": 36.81592838932325,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 9656201479,
+          "received": 4330689568,
+          "totalRevenue": 10879893049,
+          "dependence": 39.80452333941618,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 8470646891,
+          "received": 5327882587,
+          "totalRevenue": 11826205720,
+          "dependence": 45.05149591644753,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 9075205919,
+          "received": 5458405130,
+          "totalRevenue": 13649664366,
+          "dependence": 39.98929924755062,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 10133600536,
+          "received": 6792171327,
+          "totalRevenue": 16685710008,
+          "dependence": 40.706516674287265,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 11526118987,
+          "received": 7437758358,
+          "totalRevenue": 18084015348,
+          "dependence": 41.128909783186565,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 13625292408,
+          "received": 8207292781,
+          "totalRevenue": 20348822324,
+          "dependence": 40.33301116988792,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 13379995205,
+          "received": 9038388200,
+          "totalRevenue": 23058675236,
+          "dependence": 39.19734376462389,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "PE": {
+      "name": "Pernambuco",
+      "region": "Nordeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 27423526170,
+          "received": 7185708788,
+          "totalRevenue": 29806433515,
+          "dependence": 24.10791208679072,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 30847207628,
+          "received": 7982402274,
+          "totalRevenue": 32216978565,
+          "dependence": 24.777004639697367,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 27762488063,
+          "received": 10100517479,
+          "totalRevenue": 33921199259,
+          "dependence": 29.776416222210017,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 32126484127,
+          "received": 10031905844,
+          "totalRevenue": 39369791471,
+          "dependence": 25.481226772134974,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 33761700448,
+          "received": 14116543218,
+          "totalRevenue": 46353829610,
+          "dependence": 30.45388770820983,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 35894829658,
+          "received": 14407801811,
+          "totalRevenue": 47303187651,
+          "dependence": 30.458416285229557,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 42078546958,
+          "received": 15970761817,
+          "totalRevenue": 46828306844,
+          "dependence": 34.1049311682525,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 39162297456,
+          "received": 16368080851,
+          "totalRevenue": 52540641986,
+          "dependence": 31.15318015245392,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "PI": {
+      "name": "Piauí",
+      "region": "Nordeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 5190767593,
+          "received": 3716043214,
+          "totalRevenue": 9599877625,
+          "dependence": 38.709276927398115,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 6615127643,
+          "received": 4424470080,
+          "totalRevenue": 10457071274,
+          "dependence": 42.31079585998974,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 5597684163,
+          "received": 6825036843,
+          "totalRevenue": 12678158609,
+          "dependence": 53.83302933300327,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 5920594736,
+          "received": 5462234701,
+          "totalRevenue": 13673537017,
+          "dependence": 39.94748903699944,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 6744499146,
+          "received": 6708927911,
+          "totalRevenue": 14381504053,
+          "dependence": 46.649695928295365,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 7896891816,
+          "received": 7647026443,
+          "totalRevenue": 18387325760,
+          "dependence": 41.588573253880014,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 8902547236,
+          "received": 8392033248,
+          "totalRevenue": 20493868514,
+          "dependence": 40.948995265804705,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 8926060513,
+          "received": 9215515168,
+          "totalRevenue": 22908704199,
+          "dependence": 40.22713414328052,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "RN": {
+      "name": "Rio Grande do Norte",
+      "region": "Nordeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 6951370307,
+          "received": 3757915458,
+          "totalRevenue": 10046457195,
+          "dependence": 37.40537967431919,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 8481661704,
+          "received": 4090896147,
+          "totalRevenue": 11116885038,
+          "dependence": 36.79894262727164,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 7787717162,
+          "received": 5029497134,
+          "totalRevenue": 11860547612,
+          "dependence": 42.405269118560554,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 8520588508,
+          "received": 5090571496,
+          "totalRevenue": 13420904138,
+          "dependence": 37.930168072124204,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 9341206368,
+          "received": 6362308376,
+          "totalRevenue": 15725635196,
+          "dependence": 40.458196418610065,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 10340536806,
+          "received": 6550726235,
+          "totalRevenue": 17640710138,
+          "dependence": 37.13414133239045,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 11399327497,
+          "received": 7671190321,
+          "totalRevenue": 19085896138,
+          "dependence": 40.19297949207773,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 11075367958,
+          "received": 8696710103,
+          "totalRevenue": 21066584266,
+          "dependence": 41.28201322797863,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "SE": {
+      "name": "Sergipe",
+      "region": "Nordeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 4891026155,
+          "received": 3490060138,
+          "totalRevenue": 7925137431,
+          "dependence": 44.03785005463143,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 6201157275,
+          "received": 3948555654,
+          "totalRevenue": 8682557292,
+          "dependence": 45.476874164376525,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 5201799474,
+          "received": 4648783913,
+          "totalRevenue": 9497731807,
+          "dependence": 48.946253777303525,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 5876866393,
+          "received": 4803844226,
+          "totalRevenue": 10580067437,
+          "dependence": 45.4046654677629,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 6407250097,
+          "received": 5673031902,
+          "totalRevenue": 12314896019,
+          "dependence": 46.066421460508735,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 6868963451,
+          "received": 6242852732,
+          "totalRevenue": 13512004227,
+          "dependence": 46.20227042228636,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 8253613879,
+          "received": 7184582738,
+          "totalRevenue": 16129987037,
+          "dependence": 44.54177626573702,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 7479909216,
+          "received": 8117571003,
+          "totalRevenue": 18024652735,
+          "dependence": 45.035935627493394,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "DF": {
+      "name": "Distrito Federal",
+      "region": "Centro-Oeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 114685185471,
+          "received": 2051855896,
+          "totalRevenue": 22808686105,
+          "dependence": 8.995940785088418,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 118908979480,
+          "received": 2385466962,
+          "totalRevenue": 23142025074,
+          "dependence": 10.307943898120538,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 118443160439,
+          "received": 3948183814,
+          "totalRevenue": 24871412314,
+          "dependence": 15.874385275137639,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 137540751161,
+          "received": 3004932945,
+          "totalRevenue": 28451064068,
+          "dependence": 10.56175944195846,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 158571647282,
+          "received": 3382641498,
+          "totalRevenue": 30984998453,
+          "dependence": 10.917029745859097,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 166707988768,
+          "received": 3951200122,
+          "totalRevenue": 33361387405,
+          "dependence": 11.84363250373693,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 184096264565,
+          "received": 3623719026,
+          "totalRevenue": 35629361263,
+          "dependence": 10.170597781217412,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 583464931706,
+          "received": 3456443608,
+          "totalRevenue": 39145054315,
+          "dependence": 8.82983474806856,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "GO": {
+      "name": "Goiás",
+      "region": "Centro-Oeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 19435665508,
+          "received": 2836381428,
+          "totalRevenue": 22766930750,
+          "dependence": 12.458339065823044,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 22159878414,
+          "received": 3330438269,
+          "totalRevenue": 27916837436,
+          "dependence": 11.929855152170914,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 21704408939,
+          "received": 4678332321,
+          "totalRevenue": 27960171309,
+          "dependence": 16.732130390759174,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 28170832806,
+          "received": 4338094106,
+          "totalRevenue": 33354921272,
+          "dependence": 13.00585922874401,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 32991778755,
+          "received": 5372748042,
+          "totalRevenue": 42034150726,
+          "dependence": 12.781864149797991,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 36718720767,
+          "received": 6354269748,
+          "totalRevenue": 40422679810,
+          "dependence": 15.719565792595441,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 41837064347,
+          "received": 6178898456,
+          "totalRevenue": 44601992497,
+          "dependence": 13.853413513617344,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 38596977980,
+          "received": 6710401376,
+          "totalRevenue": 47761280430,
+          "dependence": 14.049877465564045,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "MT": {
+      "name": "Mato Grosso",
+      "region": "Centro-Oeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 12086598024,
+          "received": 2346156383,
+          "totalRevenue": 16669987899,
+          "dependence": 14.074133692020885,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 15312547943,
+          "received": 2767911912,
+          "totalRevenue": 19143579350,
+          "dependence": 14.458695846735386,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 14555448267,
+          "received": 4626799236,
+          "totalRevenue": 21861897467,
+          "dependence": 21.163758739246408,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 19123145450,
+          "received": 3622969533,
+          "totalRevenue": 26480512651,
+          "dependence": 13.681644235054552,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 23755197278,
+          "received": 4827559480,
+          "totalRevenue": 31153902759,
+          "dependence": 15.495841780038983,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 25006504393,
+          "received": 4806288326,
+          "totalRevenue": 32723020132,
+          "dependence": 14.687789532563366,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 25790015357,
+          "received": 4852841071,
+          "totalRevenue": 36117367824,
+          "dependence": 13.436308799850377,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 23668451353,
+          "received": 5436389555,
+          "totalRevenue": 39563837766,
+          "dependence": 13.740804384972977,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "MS": {
+      "name": "Mato Grosso do Sul",
+      "region": "Centro-Oeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 8908935896,
+          "received": 1516947388,
+          "totalRevenue": 12629924730,
+          "dependence": 12.01073973793996,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 10911697869,
+          "received": 1615944388,
+          "totalRevenue": 12871473211,
+          "dependence": 12.554463357166945,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 9980572035,
+          "received": 2590727364,
+          "totalRevenue": 15417593218,
+          "dependence": 16.803708125120043,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 12721565631,
+          "received": 2143914439,
+          "totalRevenue": 17678304507,
+          "dependence": 12.127375894304352,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 14498689430,
+          "received": 2549600329,
+          "totalRevenue": 20304992223,
+          "dependence": 12.556519602691635,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 15905939839,
+          "received": 2764872821,
+          "totalRevenue": 21835307542,
+          "dependence": 12.662394680811673,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 17145477528,
+          "received": 2956066961,
+          "totalRevenue": 22126096516,
+          "dependence": 13.360092497685173,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 15459764783,
+          "received": 3393740638,
+          "totalRevenue": 24492670229,
+          "dependence": 13.856148008800465,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "ES": {
+      "name": "Espírito Santo",
+      "region": "Sudeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 21774247268,
+          "received": 4922655992,
+          "totalRevenue": 14066362890,
+          "dependence": 34.995940529972444,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 25079772994,
+          "received": 6065313500,
+          "totalRevenue": 16672101705,
+          "dependence": 36.38001738914762,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 23844585368,
+          "received": 6043463205,
+          "totalRevenue": 16495525531,
+          "dependence": 36.63698494078688,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 30445414455,
+          "received": 5372623335,
+          "totalRevenue": 19754988211,
+          "dependence": 27.196287225208625,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 35425430279,
+          "received": 5540823917,
+          "totalRevenue": 23600482360,
+          "dependence": 23.477587586945443,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 38181479781,
+          "received": 5477954271,
+          "totalRevenue": 25506199553,
+          "dependence": 21.47695214136313,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 49180510763,
+          "received": 5855618015,
+          "totalRevenue": 28814559965,
+          "dependence": 20.321733257277643,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 49701648734,
+          "received": 7197428971,
+          "totalRevenue": 31496269082,
+          "dependence": 22.851687457803397,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "MG": {
+      "name": "Minas Gerais",
+      "region": "Sudeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 84284669642,
+          "received": 6445787511,
+          "totalRevenue": 74368010979,
+          "dependence": 8.667419535189255,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 101493120990,
+          "received": 6789147381,
+          "totalRevenue": 82639343720,
+          "dependence": 8.215393630916711,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 97230198934,
+          "received": 10837616749,
+          "totalRevenue": 90257471507,
+          "dependence": 12.007445553866534,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 125754487750,
+          "received": 8512488245,
+          "totalRevenue": 110718733468,
+          "dependence": 7.688390192176174,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 140999656854,
+          "received": 12663396654,
+          "totalRevenue": 99875369926,
+          "dependence": 12.679198748503563,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 152193760078,
+          "received": 9864228703,
+          "totalRevenue": 100495835796,
+          "dependence": 9.815559645061077,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 177393071124,
+          "received": 11457726581,
+          "totalRevenue": 111987208007,
+          "dependence": 10.231281576265388,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 166526107487,
+          "received": 11635167752,
+          "totalRevenue": 118732072791,
+          "dependence": 9.799515395440931,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "RJ": {
+      "name": "Rio de Janeiro",
+      "region": "Sudeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 264493140285,
+          "received": 3316208467,
+          "totalRevenue": 63588213953,
+          "dependence": 5.215130699322159,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 267262653270,
+          "received": 4285728910,
+          "totalRevenue": 61948111329,
+          "dependence": 6.918255969482165,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 232883654444,
+          "received": 6401820313,
+          "totalRevenue": 62473175508,
+          "dependence": 10.247310563547536,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 329312956553,
+          "received": 4128573214,
+          "totalRevenue": 85704046208,
+          "dependence": 4.817244222163887,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 446965819842,
+          "received": 4917422227,
+          "totalRevenue": 94355331814,
+          "dependence": 5.2115997393074895,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 409750036406,
+          "received": 7336332049,
+          "totalRevenue": 95750987731,
+          "dependence": 7.66188654893978,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 459204018299,
+          "received": 5812676074,
+          "totalRevenue": 98296331941,
+          "dependence": 5.91342114147211,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 401663913745,
+          "received": 6283277874,
+          "totalRevenue": 108745366047,
+          "dependence": 5.777972986257125,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "SP": {
+      "name": "São Paulo",
+      "region": "Sudeste",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 567702653840,
+          "received": 22166430364,
+          "totalRevenue": 213157634519,
+          "dependence": 10.399078791583687,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 565118180415,
+          "received": 12927774511,
+          "totalRevenue": 225590276412,
+          "dependence": 5.7306434996517215,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 568811383774,
+          "received": 22219111816,
+          "totalRevenue": 229490778967,
+          "dependence": 9.681919210672408,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 715681940362,
+          "received": 15855410632,
+          "totalRevenue": 278608954737,
+          "dependence": 5.690919248163521,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 830706992186,
+          "received": 25087709212,
+          "totalRevenue": 320864449697,
+          "dependence": 7.818787414914128,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 904983655245,
+          "received": 20834621953,
+          "totalRevenue": 309232504038,
+          "dependence": 6.737526514996202,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 1036613903315,
+          "received": 17401607318,
+          "totalRevenue": 354009688730,
+          "dependence": 4.915573746135917,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 964733600129,
+          "received": 16525432979,
+          "totalRevenue": 358946518137,
+          "dependence": 4.603870533388499,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "PR": {
+      "name": "Paraná",
+      "region": "Sul",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 69184537036,
+          "received": 4896425267,
+          "totalRevenue": 49340139969,
+          "dependence": 9.923817140162553,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 76472955796,
+          "received": 4979756706,
+          "totalRevenue": 50620217548,
+          "dependence": 9.837485784915314,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 75879596687,
+          "received": 7628435525,
+          "totalRevenue": 45515604684,
+          "dependence": 16.760044337227107,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 91883903597,
+          "received": 6312038281,
+          "totalRevenue": 51190157200,
+          "dependence": 12.330570223919054,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 100990979700,
+          "received": 7441549856,
+          "totalRevenue": 60391806347,
+          "dependence": 12.322118356617985,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 106848584192,
+          "received": 8831506399,
+          "totalRevenue": 67580036626,
+          "dependence": 13.06821783421558,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 123154809288,
+          "received": 8830769312,
+          "totalRevenue": 70236705707,
+          "dependence": 12.57286944687265,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 108004638528,
+          "received": 10283959806,
+          "totalRevenue": 75332107887,
+          "dependence": 13.651496146995864,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "RS": {
+      "name": "Rio Grande do Sul",
+      "region": "Sul",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 73390628411,
+          "received": 8071681055,
+          "totalRevenue": 53232264828,
+          "dependence": 15.163136645836254,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 75940989254,
+          "received": 3919062074,
+          "totalRevenue": 55049960200,
+          "dependence": 7.119100648742603,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 72238485891,
+          "received": 6924754227,
+          "totalRevenue": 47075815826,
+          "dependence": 14.709791228110522,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 88409433318,
+          "received": 4830510456,
+          "totalRevenue": 56873228322,
+          "dependence": 8.493469771382433,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 102811841846,
+          "received": 5409588871,
+          "totalRevenue": 56591288211,
+          "dependence": 9.55904882506522,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 108959488666,
+          "received": 7080127058,
+          "totalRevenue": 64899574053,
+          "dependence": 10.909358283446645,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 120222154287,
+          "received": 7126579761,
+          "totalRevenue": 65575024546,
+          "dependence": 10.867826295001883,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 108323727600,
+          "received": 6963786499,
+          "totalRevenue": 72330264579,
+          "dependence": 9.627763066093094,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    },
+    "SC": {
+      "name": "Santa Catarina",
+      "region": "Sul",
+      "fiscal": [
+        {
+          "year": 2018,
+          "sent": 58774448973,
+          "received": 2094058919,
+          "totalRevenue": 23995579051,
+          "dependence": 8.726853036039211,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2019,
+          "sent": 66328917674,
+          "received": 2067438220,
+          "totalRevenue": 26304349107,
+          "dependence": 7.859682106030425,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2020,
+          "sent": 69753350122,
+          "received": 3896162897,
+          "totalRevenue": 28295348466,
+          "dependence": 13.7696233061012,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2021,
+          "sent": 97167462823,
+          "received": 3029511128,
+          "totalRevenue": 32438213873,
+          "dependence": 9.339327805608523,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2022,
+          "sent": 107335892003,
+          "received": 3504450649,
+          "totalRevenue": 40426419962,
+          "dependence": 8.66871380676046,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2023,
+          "sent": 112994165627,
+          "received": 4388084931,
+          "totalRevenue": 43489641250,
+          "dependence": 10.089954307303111,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2024,
+          "sent": 140218428065,
+          "received": 4422972772,
+          "totalRevenue": 49164303865,
+          "dependence": 8.996309158943662,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        },
+        {
+          "year": 2025,
+          "sent": 135267064459,
+          "received": 5527772496,
+          "totalRevenue": 54008062514,
+          "dependence": 10.23508757472418,
+          "sentSource": "Receita Federal — Arrecadação por Estado",
+          "sentUrl": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
+          "receivedSource": "Tesouro Nacional — SICONFI, RREO Anexo 01 (6º bimestre)",
+          "receivedUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+        }
+      ],
+      "indicators": {}
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "A lei em que o aumento sobe junto com o cargo",
+  "intro": "Cargo em comissão é a exceção que a Constituição abre à regra do concurso público: quem ocupa não precisou passar em prova nenhuma, e pode ser nomeado e exonerado a qualquer momento. Em 2 de junho de 2025 uma lei reajustou a tabela inteira desses cargos no Executivo federal, em duas parcelas. O reajuste não foi igual para todos, e não variou aos poucos: são quatro degraus — 30%, 23%, 17% e 9% —, e o degrau depende só de quão alto é o cargo.",
+  "constitution": {
+    "legalArticle": "Constituição Federal, art. 37, inciso II",
+    "legalText": "a investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos, ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração",
+    "source": "Planalto — texto da Constituição",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+  },
+  "law": {
+    "legalArticle": "Lei nº 15.141, de 2 de junho de 2025",
+    "where": "Anexo CCXCVII, alínea f — que passa a valer como o Anexo I da Lei nº 11.526, de 4 de outubro de 2007",
+    "fromLabel": "1º de fevereiro de 2025",
+    "toLabel": "1º de janeiro de 2026",
+    "source": "Planalto — anexos da Lei 15.141/2025",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/Anexo/Anexo254a323-Lei15141.htm"
+  },
+  "levels": [
+    {
+      "level": "CCE-18",
+      "from": 24553.28,
+      "to": 31919.27,
+      "fceFrom": null,
+      "fceTo": null
+    },
+    {
+      "level": "CCE-17",
+      "from": 22718.03,
+      "to": 27943.17,
+      "fceFrom": 13630.81,
+      "fceTo": 16765.9
+    },
+    {
+      "level": "CCE-16",
+      "from": 20008.08,
+      "to": 23409.45,
+      "fceFrom": 12004.84,
+      "fceTo": 14045.67
+    },
+    {
+      "level": "CCE-15",
+      "from": 17373.92,
+      "to": 20327.48,
+      "fceFrom": 10424.34,
+      "fceTo": 12196.47
+    },
+    {
+      "level": "CCE-14",
+      "from": 14860.92,
+      "to": 17387.27,
+      "fceFrom": 8916.56,
+      "fceTo": 10432.37
+    },
+    {
+      "level": "CCE-13",
+      "from": 13229.07,
+      "to": 14419.69,
+      "fceFrom": 7937.44,
+      "fceTo": 8651.81
+    },
+    {
+      "level": "CCE-12",
+      "from": 9960.05,
+      "to": 10856.45,
+      "fceFrom": 5976.02,
+      "fceTo": 6513.87
+    },
+    {
+      "level": "CCE-11",
+      "from": 7941.89,
+      "to": 8656.66,
+      "fceFrom": 4765.13,
+      "fceTo": 5193.87
+    },
+    {
+      "level": "CCE-10",
+      "from": 6813.25,
+      "to": 7426.44,
+      "fceFrom": 4087.96,
+      "fceTo": 4455.87
+    },
+    {
+      "level": "CCE-9",
+      "from": 5349.34,
+      "to": 5803.78,
+      "fceFrom": 3209.6,
+      "fceTo": 3498.47
+    },
+    {
+      "level": "CCE-8",
+      "from": 5130.61,
+      "to": 5592.36,
+      "fceFrom": 3078.91,
+      "fceTo": 3356.01
+    },
+    {
+      "level": "CCE-7",
+      "from": 4447.45,
+      "to": 4847.72,
+      "fceFrom": 2668.47,
+      "fceTo": 2908.64
+    },
+    {
+      "level": "CCE-6",
+      "from": 3766.05,
+      "to": 4104.99,
+      "fceFrom": 2259.64,
+      "fceTo": 2463.0
+    },
+    {
+      "level": "CCE-5",
+      "from": 3209.6,
+      "to": 3498.47,
+      "fceFrom": 1925.77,
+      "fceTo": 2099.09
+    },
+    {
+      "level": "CCE-4",
+      "from": 1425.44,
+      "to": 1553.73,
+      "fceFrom": 1425.44,
+      "fceTo": 1553.73
+    },
+    {
+      "level": "CCE-3",
+      "from": 1187.56,
+      "to": 1294.43,
+      "fceFrom": 1187.56,
+      "fceTo": 1294.43
+    },
+    {
+      "level": "CCE-2",
+      "from": 664.2,
+      "to": 723.98,
+      "fceFrom": 664.2,
+      "fceTo": 723.98
+    },
+    {
+      "level": "CCE-1",
+      "from": 393.01,
+      "to": 428.38,
+      "fceFrom": 393.01,
+      "fceTo": 428.38
+    }
+  ],
+  "gap": {
+    "title": "O mesmo reajuste, em reais por mês",
+    "topLabel": "a mais por mês no topo da tabela",
+    "bottomLabel": "a mais por mês na base dela",
+    "note": "Os dois valores saem da mesma tabela, da mesma lei e da mesma janela de onze meses. Não é uma comparação entre carreiras diferentes nem entre anos diferentes: é a diferença entre a primeira linha e a última linha de um único anexo. Um detalhe da tabela, para que ninguém precise conferir depois: dos treze níveis de baixo, doze levaram exatamente 9% e o CCE-9 levou 8,50%."
+  },
+  "fce": {
+    "title": "E há duas colunas, não uma",
+    "body": "Cada linha da tabela tem dois valores: o do cargo (CCE) e o da função (FCE). A função só pode ser exercida por quem já é servidor. Do CCE-5 para cima, ela vale exatamente 60% do cargo. Do CCE-4 para baixo, os dois valem o mesmo. Ou seja: a diferença entre ser servidor de carreira e ser nomeado de fora só existe em dinheiro nos catorze níveis de cima."
+  },
+  "minimumWage": {
+    "title": "A régua de fora, na mesma janela",
+    "body": "O salário mínimo passou de R$ 1.518, em 1º de janeiro de 2025, para R$ 1.621, em 1º de janeiro de 2026: um reajuste de 6,79%. Na mesma janela, a base da tabela dos comissionados subiu 9% e o topo subiu 30%.",
+    "fromBrl": 1518.0,
+    "toBrl": 1621.0,
+    "pct": 6.79,
+    "source": "Planalto — decreto que reajusta o salário mínimo para R$ 1.621",
+    "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/12/publicado-decreto-que-reajusta-salario-minimo-para-r-1-621-a-partir-de-1o-de-janeiro"
+  },
+  "question": "A inflação que corrói o salário de quem ocupa um CCE-1 é a mesma que corrói o de quem ocupa um CCE-18. Por que, então, um recebeu R$ 35 a mais por mês e o outro R$ 7.365?"
+}

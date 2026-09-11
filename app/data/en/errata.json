@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Every published correction is listed here, with the date, what it said and what it says now. The full history is in the repository.",
+  "correcoes[0].antes": "The Impostômetro annual series carried, for 2019 and 2021, the R$ 2.5 trillion mark hit on 20 December, not the year's total.",
+  "correcoes[0].depois": "Totals read from the Arrecadação Brasil panel from 1 January to 31 December of each year: 2018 R$ 2,388 bn, 2021 R$ 2,592 bn and 2022 R$ 2,890 bn, among smaller adjustments.",
+  "correcoes[1].antes": "The infant mortality series mixed two IBGE products: the Life Table and the 2018 Population Projection.",
+  "correcoes[1].depois": "The whole series now comes from the 2024 Complete Life Table: 28.1 in 2000 and 15.0 in 2010.",
+  "correcoes[2].antes": "The share of households connected to the sewage network by state was attributed to the Census.",
+  "correcoes[2].depois": "The values were right; the source is the PNAD Contínua survey, and the page now says so.",
+  "correcoes[3].antes": "The 82% of municipalities that cannot sustain themselves on their own revenue appeared without a year.",
+  "correcoes[3].depois": "The figure is from the 2016 National Public Sector Balance; the neighbouring figure, from Poder360, is from 2020. Both now say when they are from.",
+  "correcoes[4].antes": "It said opening a company took 30 to 45 days until the operating licence.",
+  "correcoes[4].depois": "The cited report says 7 to 34 hours to formalise, varying 386% between states. What the source supports went in.",
+  "correcoes[5].antes": "A sentence attributed to President Lula about a single tax rate appeared in quotation marks, as if verbatim.",
+  "correcoes[5].depois": "The report summarises a post; the sentence was marked as paraphrase and the promise now says \"up to 20%\", which is what the coverage states.",
+  "correcoes[6].antes": "The illiteracy pair crossed the 2003 PNAD with the 2024 PNAD Contínua, and the 11.6% for 2003 was not in the cited report.",
+  "correcoes[6].depois": "The Census pair went in, on the same yardstick: 13.6% in 2000 and 7.0% in 2022.",
+  "correcoes[7].antes": "Eight promises and one justification appeared in quotation marks although they were an outlet's summary, a translation or a third party's account.",
+  "correcoes[7].depois": "Each now appears without quotation marks and with the mark \"paraphrase, not verbatim\". The item on the JBS case, with no inquiry number and outside the site's subject, was removed.",
+  "correcoes[8].antes": "It attributed to Graça Foster, in quotation marks, that announcing the initial figure for Abreu e Lima \"was a mistake\".",
+  "correcoes[8].depois": "The sentence was the Chamber news agency's headline, not her words. The text now reports the testimony and quotes the page's only verbatim sentence.",
+  "correcoes[9].antes": "The answer about a phone bought abroad was cited as item 1.8 of the Traveller's Guide.",
+  "correcoes[9].depois": "It is item 1.13; item 1.8 covers vehicle parts."
+}

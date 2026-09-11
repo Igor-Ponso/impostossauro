@@ -1,0 +1,201 @@
+{
+  "updatedAt": "2026-08-15",
+  "disclaimer": "Frases com aspas exatas e fonte primária ou de imprensa que registrou a fala; cada recibo com fonte oficial. A mesma régua vale para todos os governos.",
+  "contrasts": [
+    {
+      "key": "lula3-picanha",
+      "governmentKey": "lula3",
+      "quote": {
+        "text": "O povo tem que voltar a comer um churrasquinho, a comer uma picanha e tomar uma cervejinha",
+        "speaker": "Luiz Inácio Lula da Silva",
+        "role": "então candidato à Presidência",
+        "date": "agosto de 2022",
+        "occasion": "entrevista ao Jornal Nacional — a frase virou mantra da campanha",
+        "source": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2022/08/5032120-lula-no-jn-o-povo-tem-que-voltar-a-comer-churrasquinho-e-picanha.html"
+      },
+      "receipts": [
+        {
+          "value": "+20,8%",
+          "label": "foi a alta do grupo Carnes em 2024, no meio do mandato — a maior desde 2019. A régua completa: a carne caiu 9,4% em 2023, disparou em 2024 e subiu 2,1% em 2025.",
+          "period": "12 meses até dez/2024",
+          "source": "IBGE, IPCA (via Agência Brasil)",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-01/clima-dolar-e-preco-da-carne-explicam-inflacao-acima-da-meta-em-2024",
+          "direction": "up"
+        },
+        {
+          "value": "+8,7%",
+          "label": "subiu a picanha em 2024. Em 2025 ela devolveu 1% — único corte bovino em queda no ano. O churrasco encareceu no meio do caminho e só aliviou no fim.",
+          "period": "acumulado 2024 / 2025",
+          "source": "IBGE, IPCA (via CNN Brasil) e IPCA-15 (via B3)",
+          "url": "https://borainvestir.b3.com.br/noticias/preco-da-carne-subiu-abaixo-da-inflacao-em-2025-e-picanha-ficou-mais-barata-veja-ranking/",
+          "direction": "up"
+        },
+        {
+          "value": "+4,7%",
+          "label": "subiu a cervejinha em 12 meses — acima da inflação geral do mesmo período (4,56%).",
+          "period": "12 meses até jan/2025",
+          "source": "IBGE, IPCA (via O Especialista/Safra)",
+          "url": "https://oespecialista.safra.com.br/inflacao-da-cerveja-ipca/",
+          "direction": "up"
+        },
+        {
+          "value": "78,9% → 82%",
+          "label": "das famílias brasileiras estão endividadas. Era 78,9% no último levantamento antes do mandato começar; é 82% agora, o maior da série. Para muita família, o churrasco de domingo disputa orçamento com a dívida do cartão.",
+          "period": "nov/2022 → jul/2026",
+          "source": "CNC, Peic (via Agência Brasil) — as duas pontas",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cnc-endividamento-das-familias-sobe-para-82-mas-inadimplencia-cai",
+          "direction": "up",
+          "startUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-12/endividamento-atinge-789-das-familias-brasileiras-revela-pesquisa"
+        }
+      ],
+      "question": "A picanha voltou para a mesa de quem? Saiu do discurso — mas, com 82 em cada 100 famílias endividadas, saiu do orçamento?"
+    },
+    {
+      "key": "lula3-desemprego",
+      "governmentKey": "lula3",
+      "quote": {
+        "text": "Fechamos 2025 com o menor desemprego da série histórica, e aumento da renda da população.",
+        "speaker": "Luiz Inácio Lula da Silva",
+        "role": "Presidente da República",
+        "date": "31 de janeiro de 2026",
+        "occasion": "publicação nas redes sociais após a PNAD Contínua de dezembro; o veículo resume o post",
+        "source": "Band Notícias",
+        "url": "https://www.band.com.br/noticias/lula-em-2025-tivemos-menor-desemprego-com-aumento-da-renda-a-populacao-202601311130",
+        "paraphrase": true
+      },
+      "receipts": [
+        {
+          "value": "5,6%",
+          "label": "A taxa é real — mas é a menor da série da PNAD Contínua, iniciada em 2012; antes disso a metodologia era outra. E ela só conta quem procurou emprego no mês.",
+          "period": "média anual 2025",
+          "source": "IBGE, PNAD Contínua — média anual (SIDRA, tabela 4562)",
+          "url": "https://sidra.ibge.gov.br/tabela/4562",
+          "direction": "flat"
+        },
+        {
+          "value": "16,6 milhões",
+          "label": "de subutilizados fora da manchete: desocupados + quem trabalha menos do que precisa + quem poderia trabalhar. A taxa de subutilização é 14,5%.",
+          "period": "média anual 2025",
+          "source": "IBGE, PNAD Contínua — pessoas desocupadas, na força de trabalho potencial ou subocupadas por insuficiência de horas (SIDRA, tabela 4666): 16.647 mil em 2025",
+          "url": "https://sidra.ibge.gov.br/tabela/4666",
+          "direction": "flat"
+        },
+        {
+          "value": "38,1%",
+          "label": "dos ocupados estão na informalidade — contam como empregados na taxa, sem carteira, sem FGTS, sem INSS pago.",
+          "period": "média anual 2025",
+          "source": "IBGE, PNAD Contínua — média anual de 2025",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45920-pnad-continua-taxas-anuais-de-desocupacao-sao-as-menores-da-serie-em-20-unidades-da-federacao",
+          "direction": "flat"
+        },
+        {
+          "value": "9 estados",
+          "label": "têm mais beneficiários do Bolsa Família do que trabalhadores com carteira assinada — todos no Norte e Nordeste; no Maranhão a diferença passa de 520 mil pessoas. Eram 13 estados em 2023: melhorou, e ainda assim é isso.",
+          "period": "fevereiro de 2026",
+          "source": "Gazeta do Povo (MDS × emprego formal)",
+          "url": "https://www.gazetadopovo.com.br/economia/nove-estados-tem-mais-beneficiarios-do-bolsa-familia-do-que-clts/",
+          "direction": "flat"
+        },
+        {
+          "value": "18,65 milhões",
+          "label": "de famílias no Bolsa Família — cerca de R$ 158 bilhões por ano. O programa importa; a pergunta é por que, com o desemprego mais baixo da série, tanta gente ainda precisa dele.",
+          "period": "novembro de 2025",
+          "source": "MDS / Senado (Orçamento 2025)",
+          "url": "https://agenciagov.ebc.com.br/noticias/202511/bolsa-familia-chega-a-18-65-milhoes-de-lares-a-partir-desta-sexta-feira-14-de-novembro",
+          "direction": "flat"
+        }
+      ],
+      "question": "O menor desemprego da série e 16,6 milhões de pessoas precisando de mais trabalho são o mesmo país. Qual dos dois números aparece no discurso?"
+    },
+    {
+      "key": "lula3-blusinha",
+      "governmentKey": "lula3",
+      "quote": {
+        "text": "Não tem nada a ver com arrecadação, não tem nada a ver comigo, tem a ver com os governadores e com o Congresso Nacional",
+        "speaker": "Fernando Haddad",
+        "role": "ministro da Fazenda, sobre a 'taxa das blusinhas'",
+        "date": "10 de agosto de 2026",
+        "occasion": "entrevista à CNN Brasil",
+        "source": "InfoMoney",
+        "url": "https://www.infomoney.com.br/politica/nao-tem-nada-a-ver-comigo-haddad-atribui-taxa-das-blusinhas-a-varejo-e-congresso/"
+      },
+      "receipts": [
+        {
+          "value": "27/06/2024",
+          "label": "foi o dia em que Lula sancionou a Lei 14.902/2024, criando o imposto de 20% sobre compras internacionais de até US$ 50 — em vigor a partir de 1º de agosto de 2024.",
+          "source": "Senado Notícias",
+          "url": "https://www12.senado.leg.br/noticias/materias/2024/06/28/lula-sanciona-taxacao-de-compra-internacional-e-criacao-do-programa-mover",
+          "direction": "flat"
+        },
+        {
+          "value": "44,6%",
+          "label": "foi a carga total sobre a blusinha de US$ 50: 20% de imposto federal + 17% de ICMS calculado 'por dentro'. Em 2025, vários estados ainda subiram o ICMS para 20%.",
+          "period": "ago/2024 a mai/2026",
+          "source": "BPMoney (cálculo com ICMS por dentro)",
+          "url": "https://bpmoney.com.br/economia/taxa-das-blusinhas-veja-o-icms-cobrado-em-cada-estado/",
+          "direction": "up"
+        },
+        {
+          "value": "R$ 5 bilhões",
+          "label": "foi a arrecadação recorde do imposto de importação sobre remessas em 2025, segundo a Receita Federal. 'Nada a ver com arrecadação.'",
+          "period": "2025",
+          "source": "Receita Federal (via Terra)",
+          "url": "https://www.terra.com.br/noticias/arrecadacao-com-taxa-das-blusinhas-atinge-recorde-de-r-5-bilhoes-em-2025,c68e0f4856c87e96f867a36a39d4e3aah3woioea.html",
+          "direction": "up"
+        },
+        {
+          "value": "R$ 112,7 bi",
+          "label": "foi o lucro recorde dos quatro maiores bancos em 2024 (R$ 107,8 bi em 2025) — com dividendos isentos de imposto de renda desde 1996. Só a partir de 2026 passam a pagar 10%, e apenas acima de R$ 50 mil por mês.",
+          "period": "2024–2025",
+          "source": "Finsiders / Metrópoles / Lei 15.270/2025 (Câmara)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2025/lei-15270-26-novembro-2025-798354-publicacaooriginal-177117-pl.html",
+          "direction": "flat"
+        },
+        {
+          "value": "mai/2026",
+          "label": "a MP 1.357/2026 zerou a taxa, abrindo mão de quase R$ 10 bilhões em três anos. A CNI estima que a taxa preservava 135 mil empregos.",
+          "period": "efeito a partir de 13/05/2026",
+          "source": "Senado Notícias / CNN Brasil / CNI (via Agência Brasil)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/05/13/medida-provisoria-zera-taxa-das-blusinhas-para-importacoes-de-ate-us-50",
+          "direction": "down"
+        }
+      ],
+      "question": "A blusinha de US$ 50 do trabalhador pagou 44,6%; o dividendo do acionista de banco pagou zero por três décadas. Qual das duas foi zerada em 2026?"
+    },
+    {
+      "key": "dilma-emprego",
+      "governmentKey": "dilma",
+      "quote": {
+        "text": "Geramos 5 milhões e 800 mil empregos formais em um período em que o mundo submergia no desemprego",
+        "speaker": "Dilma Rousseff",
+        "role": "Presidente da República",
+        "date": "1º de janeiro de 2015",
+        "occasion": "discurso de posse do 2º mandato, no Congresso",
+        "source": "Câmara dos Deputados (íntegra)",
+        "url": "https://www.camara.leg.br/noticias/448217-integra-do-discurso-de-posse-da-presidente-dilma-rousseff-no-congresso/"
+      },
+      "receipts": [
+        {
+          "value": "7,0% → 11,6%",
+          "label": "foi o salto do desemprego em apenas dois anos: da menor taxa até então (2014) para 11,6% em 2016, o ano do impeachment.",
+          "period": "médias anuais, 2014–2016",
+          "source": "IBGE, PNAD Contínua — média anual (SIDRA, tabela 4562)",
+          "url": "https://sidra.ibge.gov.br/tabela/4562",
+          "direction": "up"
+        },
+        {
+          "value": "12,6%",
+          "label": "foi a maior taxa da série até então, em 2017 — já no governo Temer, como conta da recessão de 2015-16 que começou no mandato que prometia empregos. O recorde viria depois, em 2021, com 14,0%.",
+          "period": "média anual 2017",
+          "source": "IBGE, PNAD Contínua — média anual (SIDRA, tabela 4562)",
+          "url": "https://sidra.ibge.gov.br/tabela/4562",
+          "direction": "up"
+        }
+      ],
+      "question": "O discurso celebrava 5,8 milhões de empregos criados. Nos dois anos seguintes, o desemprego quase dobrou. Quantos brasileiros ouviram a promessa e perderam a carteira?"
+    }
+  ],
+  "verifiedAt": "2026-08-23",
+  "verifiedNote": "Conferência de 23/08/2026, recibo a recibo. Dois defeitos corrigidos: o endividamento partia de \"78% em dez/2022\", número que a matéria citada não traz — a ponta documentada é 78,9% em nov/2022, e 78% nunca foi o recorde de 2022 (outubro daquele ano marcou 79,2%). E a informalidade de 38,1% apontava para a matéria do TRIMESTRE, que diz 37,5%; o 38,1% é a média anual de 2025 e agora aponta para o release anual do IBGE."
+}

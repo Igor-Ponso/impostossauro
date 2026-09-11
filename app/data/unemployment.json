@@ -1,0 +1,187 @@
+{
+  "updatedAt": "2026-08-24",
+  "disclaimer": "Todo número desta peça foi lido na tabela primária do IBGE (SIDRA) ou na reportagem que o produziu, com o crédito de quem apurou. Nada aqui é conta nossa: onde há divisão, ela está escrita ao lado, e onde o número é de terceiro, o nome dele vem junto.",
+  "headline": {
+    "rate": 5.6,
+    "unemployed": 6.2,
+    "year": 2025,
+    "label": "é a taxa oficial de desocupação de 2025 — a menor desde que a série começou, em 2012",
+    "source": "IBGE, PNAD Contínua — média anual de 2025 (SIDRA, tabela 4562)",
+    "url": "https://sidra.ibge.gov.br/tabela/4562"
+  },
+  "whatItMisses": [
+    {
+      "key": "subutilizacao",
+      "value": 16.6,
+      "unit": "milhões",
+      "pct": 14.5,
+      "label": "é a taxa composta de subutilização: os 6,2 milhões de desocupados MAIS 5,9 milhões que queriam trabalhar e não procuraram ou não estavam disponíveis, MAIS 4,6 milhões trabalhando menos horas do que precisam. Quase o triplo da manchete.",
+      "source": "IBGE, PNAD Contínua (SIDRA, tabelas 4666 e 4677)",
+      "url": "https://sidra.ibge.gov.br/tabela/4666"
+    },
+    {
+      "key": "foraDaForca",
+      "value": 22.9,
+      "unit": "milhões",
+      "pct": null,
+      "label": "de brasileiros entre 25 e 59 anos — nem jovens demais, nem velhos demais — não trabalham e não procuram trabalho. Por definição, nenhum deles entra na taxa de desemprego. São quase quatro vezes os 6,2 milhões que a taxa conta.",
+      "source": "IBGE, PNAD Contínua — fora da força de trabalho por grupo de idade, 4º trimestre de 2025 (SIDRA, tabela 4094)",
+      "url": "https://sidra.ibge.gov.br/tabela/4094"
+    },
+    {
+      "key": "informalidade",
+      "value": 38.0,
+      "unit": "%",
+      "pct": null,
+      "label": "dos ocupados estão na informalidade. Quem faz bico, quem trabalha por aplicativo, quem vende na rua: tudo isso conta como emprego na taxa de 5,6%.",
+      "source": "IBGE — indicador 8.3.1 dos ODS, taxa de informalidade das pessoas de 15 anos ou mais (SIDRA, tabela 9535)",
+      "url": "https://sidra.ibge.gov.br/tabela/9535"
+    }
+  ],
+  "duel": {
+    "question": "Como pode haver 5,6% de desemprego num país onde há mais gente no Bolsa Família do que com carteira assinada?",
+    "left": {
+      "value": 49.4,
+      "unit": "milhões",
+      "label": "pessoas atendidas pelo Bolsa Família",
+      "note": "18,91 milhões de famílias, benefício médio de R$ 683,42 — outubro de 2025",
+      "source": "Agência Gov — dados do Ministério do Desenvolvimento e Assistência Social (MDS)",
+      "url": "https://agenciagov.ebc.com.br/noticias/202510/bolsa-familia-de-outubro-beneficia-18-91-milhoes-de-familias-com-investimento-de-r-12-88-bilhoes"
+    },
+    "right": {
+      "value": 48.8,
+      "unit": "milhões",
+      "label": "pessoas com emprego formal",
+      "note": "Cadastro Geral de Empregados e Desempregados — fevereiro de 2026",
+      "source": "Caged, conforme levantamento do Poder360",
+      "url": "https://www.poder360.com.br/poder-governo/9-estados-tem-mais-bolsa-familia-que-trabalho-com-carteira-assinada/"
+    },
+    "note": "As duas pontas são pessoas, e não famílias: a reportagem compara famílias beneficiárias com pessoas empregadas, e aqui a conta foi refeita na mesma unidade — 49,4 milhões de pessoas atendidas contra 48,8 milhões com carteira."
+  },
+  "states": {
+    "title": "Nove estados têm mais famílias no Bolsa Família do que empregos com carteira",
+    "period": "fevereiro de 2026",
+    "unit": "beneficiários a mais que carteiras assinadas",
+    "rows": [
+      {
+        "uf": "Maranhão",
+        "surplus": 460043
+      },
+      {
+        "uf": "Pará",
+        "surplus": 232117
+      },
+      {
+        "uf": "Piauí",
+        "surplus": 163337
+      },
+      {
+        "uf": "Bahia",
+        "surplus": 85914
+      },
+      {
+        "uf": "Paraíba",
+        "surplus": 76449
+      },
+      {
+        "uf": "Amazonas",
+        "surplus": 21554
+      },
+      {
+        "uf": "Alagoas",
+        "surplus": 20789
+      },
+      {
+        "uf": "Acre",
+        "surplus": 8798
+      },
+      {
+        "uf": "Amapá",
+        "surplus": 8773
+      }
+    ],
+    "extra": "O Maranhão tem 1,66 beneficiário para cada carteira assinada. No país inteiro são 38,6 beneficiários para cada 100 carteiras, e 2.639 municípios têm mais Bolsa Família do que emprego formal. No extremo oposto, Santa Catarina tem 13 empregos para cada família beneficiada, e São Paulo tem 12,5 milhões de carteiras a mais que beneficiários.",
+    "source": "Poder360, cruzando dados do MDS e do Caged (fevereiro de 2026)",
+    "url": "https://www.poder360.com.br/poder-governo/9-estados-tem-mais-bolsa-familia-que-trabalho-com-carteira-assinada/"
+  },
+  "disincentive": {
+    "title": "O desincentivo não é opinião: está na portaria",
+    "body": "A família sai do Bolsa Família quando a renda passa de R$ 218 por pessoa. Uma família de quatro em que alguém consegue um emprego formal de um salário mínimo (R$ 1.621) vai a R$ 405 por pessoa — e perde o benefício inteiro. O governo criou a Regra de Proteção: quem ultrapassa o limite continua recebendo METADE do benefício por até 24 meses, desde que a renda não passe de meio salário mínimo por pessoa. A regra existe porque o desenho do programa fazia perder o benefício inteiro quem arrumava emprego com carteira.",
+    "sources": [
+      {
+        "label": "Lei 14.601/2023, que recriou o Bolsa Família",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm"
+      },
+      {
+        "label": "MDS — portaria que atualiza a Regra de Proteção",
+        "url": "https://agenciagov.ebc.com.br/noticias/202505/portaria-do-mds-atualiza-regra-de-protecao-do-bolsa-familia"
+      }
+    ]
+  },
+  "bpc": {
+    "value": 6.36,
+    "unit": "milhões",
+    "elderly": 2675506,
+    "disabled": 3681079,
+    "total": 6357998,
+    "label": "amparos assistenciais (LOAS) estavam sendo pagos em abril de 2026: 2.675.506 a idosos e 3.681.079 a pessoas com deficiência. Cada um vale exatamente um salário mínimo — R$ 1.621 em 2026 —, porque a Constituição fixa esse piso no artigo 203, inciso V.",
+    "growth": {
+      "text": "O número de beneficiários cresceu 33% em 31 meses, de meados de 2022 a março de 2025, conforme levantamento divulgado pela CNN Brasil.",
+      "source": "Crescimento de 33%, conforme divulgado pela CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/numero-de-beneficiarios-do-bpc-dispara-33-e-pressiona-gastos-do-governo/"
+    },
+    "source": "Ministério da Previdência Social — Boletim Estatístico da Previdência Social (BEPS), abril de 2026, tabela de benefícios emitidos",
+    "url": "https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/Dados-estatisticos-previdencia-social-e-inss/boletins-da-previdencia-social/2026/beps042026_final.pdf"
+  },
+  "ghani": {
+    "title": "A conta que um economista fez com os mesmos dados",
+    "body": "Alan Ghani, doutor em Finanças pela FEA-USP, publicou na Gazeta do Povo que, somando os desempregados pelo critério do IBGE aos que não procuram trabalho, o Brasil teria 72,7 milhões de pessoas em idade ativa sem trabalhar — uma taxa de 41%. A conta é dele, não nossa, e o número de partida está certo: são 66,2 milhões fora da força de trabalho.",
+    "breakdown": [
+      {
+        "faixa": "60 anos ou mais",
+        "value": 26.5
+      },
+      {
+        "faixa": "40 a 59 anos",
+        "value": 13.9
+      },
+      {
+        "faixa": "14 a 17 anos",
+        "value": 10.0
+      },
+      {
+        "faixa": "25 a 39 anos",
+        "value": 9.0
+      },
+      {
+        "faixa": "18 a 24 anos",
+        "value": 6.8
+      }
+    ],
+    "caveat": "A composição por idade está acima: 40% dos 66,2 milhões têm 60 anos ou mais, e outros 15% têm de 14 a 17. Por isso este site publica o recorte de 25 a 59 anos — 22,9 milhões que não trabalham e não procuram —, e não a taxa de 41%.",
+    "source": "Alan Ghani — \"O que não te contam sobre a taxa de desemprego no Brasil\", Gazeta do Povo, 7 de fevereiro de 2025",
+    "url": "https://www.gazetadopovo.com.br/vozes/alan-ghani/o-que-nao-te-contam-sobre-a-taxa-de-desemprego-no-brasil/",
+    "breakdownSource": "IBGE, PNAD Contínua — fora da força de trabalho por grupo de idade, 4º trimestre de 2025 (SIDRA, tabela 4094)",
+    "breakdownUrl": "https://sidra.ibge.gov.br/tabela/4094"
+  },
+  "question": "Um país pode ter, ao mesmo tempo, o menor desemprego da série e mais gente no Bolsa Família do que com carteira assinada. Os dois números são oficiais e não se contradizem — o que eles medem é que é diferente. Qual dos dois você viu na manchete?",
+  "participation": {
+    "rate": 62.7,
+    "peak": 63.8,
+    "peakYear": 2019,
+    "sameAs": 2012,
+    "title": "A taxa cai porque a base encolhe",
+    "body": "A taxa de desocupação divide os desempregados pela força de trabalho — quem trabalha ou procura. Quem sai dessa base derruba a taxa sem que ninguém tenha arrumado emprego. E a base encolheu: a participação na força de trabalho está em 62,7%, exatamente o nível de 2012 e 1,1 ponto abaixo do pico de 2019.",
+    "source": "IBGE, PNAD Contínua — taxa de participação na força de trabalho (SIDRA, tabela 4359)",
+    "url": "https://sidra.ibge.gov.br/tabela/4359"
+  },
+  "cost": {
+    "title": "O que os dois programas custam por ano",
+    "bolsaFamilia": 158.6,
+    "bpc": 112.0,
+    "unit": "R$ bilhões",
+    "body": "Bolsa Família e BPC somam R$ 270,6 bilhões no Orçamento de 2025. É dinheiro de imposto, e é a conta que a manchete de \"menor desemprego da série\" não menciona.",
+    "source": "Orçamento federal de 2025",
+    "url": "https://www.gov.br/planejamento/pt-br/assuntos/orcamento"
+  }
+}

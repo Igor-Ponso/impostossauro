@@ -1,0 +1,18 @@
+{
+  "disclaimer": "Figures from published financial statements (earnings releases and the DVA, the statement of value added). Net margin = net profit ÷ net revenue; where we calculated it ourselves, it is flagged.",
+  "companies[0].note": "Seventy-four billion passed through the till; one per cent became profit. The rest paid suppliers, staff, power, rent, interest and tax. The company's release headlines GROSS revenue, R$ 80.6bn — what counts here is net revenue (R$ 73.8bn), which is the denominator of the margin and the same yardstick as the other two. Divergence on record: other sources cite R$ 930 million in profit, under a different accounting treatment (IFRS 16); we use the figure from the company's own release.",
+  "companies[1].note": "One of the healthier margins in Brazilian food retail — and even so, R$ 96 of every R$ 100 sold walks out of the door before anything becomes profit. The R$ 1.35bn profit is the figure the company publishes excluding extraordinary items.",
+  "companies[2].note": "This one comes in under the same yardstick: Ambev's margin really is high, and it would be dishonest to show only the thin cases. What the shopper does not see is the other side of the bill — with beer, a large share of the price of the can is tax before any margin at all.",
+  "sectorMargin.finding": "In supermarkets, the sector's profit margin sits between 1% and 2%, according to the sector's own association. When someone says 'the shops are profiting from your hunger', they are talking about one cent per real.",
+  "dvaPending": "Each company's DVA — the statement of value added, the table showing how much of the value created went to government, wages, banks and shareholders — is in the annual reports and is the next dataset to land here. We do not publish estimates: only the number the company published.",
+  "smallBusiness[0].label": "of Brazilian companies do not reach their fifth birthday. Of those born in 2017, only 37.9% were still open five years later.",
+  "smallBusiness[1].label": "of the 21.6 million active companies are in Simples Nacional — the regime created to cut the burden and paperwork of small firms (LC 123/2006).",
+  "smallBusiness[2].label": "is the range of rates under Simples, depending on the schedule and the turnover. The 'simple' in the name is not about how much you pay.",
+  "smallBusiness[3].label": "is what an average company has to comply with to stay in good standing. And 46 new tax obligations appear every working day.",
+  "smallBusiness[4].label": "from the start of the process to the licence to operate. Getting a company number takes hours; being allowed to open the door takes a month and a half.",
+  "smallBusiness[5].label": "sole-trader registrations in 2025 alone — 78% of the country's new businesses. Brazilian entrepreneurship is, to a large extent, one person issuing invoices.",
+  "smallBusiness[0].value": "6 in every 10",
+  "verifiedNote": "All three releases were opened and checked on 23 August 2026: net revenue, net profit and the division between them. The three margins use the same yardstick — net profit over net revenue — which meant replacing Assaí's gross revenue with its net revenue on the card.",
+  "companies[0].revenueLabel": "R$ 73.8bn",
+  "companies[0].profitLabel": "R$ 769mn"
+}

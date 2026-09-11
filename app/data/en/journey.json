@@ -1,0 +1,12 @@
+{
+  "disclaimer": "Rates in force in 2025/2026. The tax reform (Constitutional Amendment 132/2023) replaces PIS/COFINS/ICMS/ISS with CBS/IBS over the 2026–2033 transition.",
+  "steps[0].taxes[3].name": "Sistema S + education levy",
+  "steps[0].taxes[4].name": "13th-salary and holiday accruals",
+  "steps[2].taxes[3].name": "average embedded in prices",
+  "steps[3].taxes[0].name": "income tax on investment returns",
+  "steps[5].taxes[0].name": "ITCMD (inheritance and gift tax)",
+  "steps[0].taxes[5].name": "total cost of one formal employee",
+  "steps[1].taxes[0].name": "employee pension contribution",
+  "steps[3].taxes[1].rate": "96% → 3% of the return",
+  "steps[0].taxes[5].rate": "1.7–2×"
+}

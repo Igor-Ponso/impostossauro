@@ -1,0 +1,36 @@
+{
+  "verifiedAt": "2026-09-08",
+  "stalled": {
+    "total": 22621,
+    "stopped": 11469,
+    "healthEducation": 8053,
+    "asOf": "2025-04",
+    "source": "TCU — Painel de Obras Paralisadas, 30/07/2025",
+    "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas"
+  },
+  "dnit": {
+    "savedBrl": 264000000,
+    "tenders": 10,
+    "source": "TCU — Acórdão 2306/2025, 08/10/2025",
+    "url": "https://portal.tcu.gov.br/imprensa/noticias/auditoria-em-editais-de-obras-rodoviarias-resulta-em-economia-de-r-264-milhoes"
+  },
+  "fiscobras": {
+    "audited": 25,
+    "seriousIndications": 15,
+    "source": "TCU — Fiscobras 2025, 22/10/2025",
+    "url": "https://portal.tcu.gov.br/imprensa/noticias/fiscobras-2025-aponta-15-obras-com-indicios-de-irregularidade-grave"
+  },
+  "bridge": {
+    "reportedBrl": 6000000,
+    "daysAfterCollapse": 138,
+    "opened": "2024-01-20",
+    "communityLengthM": 120,
+    "stateProjectLengthM": 180,
+    "source": "José Maria Tomazela — Estadão/Terra, 29/10/2025",
+    "url": "https://www.terra.com.br/economia/agricultores-gauchos-constroem-ponte-derrubada-por-enchente-e-retomam-a-vida-no-campo-em-138-dias,54f404f04865f24d1e52d693b73fdb761sr1agmy.html",
+    "technical": {
+      "source": "Daer — audiência pública de 22/02/2024, p. 12",
+      "url": "https://www.daer.rs.gov.br/upload/arquivos/202402/22175911-22172033-audiencia-publica-chuvas-2.pdf"
+    }
+  }
+}

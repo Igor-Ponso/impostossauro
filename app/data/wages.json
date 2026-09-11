@@ -1,0 +1,157 @@
+{
+  "updatedAt": "2026-08-24",
+  "disclaimer": "Valores mensais vigentes hoje, nominais. A peça compara NÍVEL, não variação: não depende de janela escolhida, de correção pela inflação nem de qual régua se usa. Cada componente tem o seu ato e a sua fonte.",
+  "title": "Um mandato custa 126 salários mínimos por mês",
+  "intro": "O salário de um deputado federal é R$ 46.366,19. Não é o que o mandato custa. Ao lado dele há verba de gabinete, cota parlamentar e auxílio-moradia — cada um com valor fixado em ato da Mesa e publicado pela própria Câmara. Somados, passam de duzentos mil reais por mês, por parlamentar.",
+  "level": {
+    "minimumBrl": 1621.0,
+    "mandateBrl": 203907.32,
+    "pocketBrl": 50619.19,
+    "timesTotal": 125.8,
+    "timesPocket": 31.2,
+    "minimumLabel": "o salário mínimo, hoje",
+    "mandateLabel": "o que um mandato custa por mês",
+    "note": "São 594 mandatos — 513 deputados e 81 senadores, com o mesmo subsídio pela Constituição (art. 49, VII)."
+  },
+  "minimumSource": {
+    "source": "Banco Central — série 1619 do SGS, salário mínimo mensal",
+    "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json"
+  },
+  "perks": {
+    "title": "O salário é só a parte que aparece",
+    "intro": "Comparar o subsídio com o salário mínimo subestima a conta, porque o subsídio é o que cai no contracheque — e não é o que o mandato custa. Ao lado dele há verba de gabinete, cota parlamentar e auxílio-moradia, cada um com valor fixado em ato da Mesa e publicado pela própria Câmara.",
+    "items": [
+      {
+        "key": "subsidio",
+        "label": "Subsídio",
+        "brl": 46366.19,
+        "destino": "bolso",
+        "note": "A remuneração bruta mensal, igual para deputado federal e senador (Constituição, art. 49, VII). Fixada pelo Decreto Legislativo 172/2022.",
+        "source": "Câmara dos Deputados — Salário parlamentar e desconto por faltas",
+        "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/salario-de-deputados"
+      },
+      {
+        "key": "moradia",
+        "label": "Auxílio-moradia",
+        "brl": 4253.0,
+        "destino": "bolso",
+        "note": "Pago a quem não ocupa um dos 432 apartamentos funcionais. Pode ser recebido em espécie, sem recibo — nesse caso com 27,5% de imposto de renda na fonte. Ato da Mesa 3/2015.",
+        "source": "Câmara dos Deputados — Auxílio-moradia e apartamento funcional",
+        "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/auxilio-moradia-e-apartamento-funcional"
+      },
+      {
+        "key": "gabinete",
+        "label": "Verba de gabinete",
+        "brl": 111675.58,
+        "destino": "movimenta",
+        "note": "Paga até 25 secretários parlamentares, \"que podem ser escolhidos livremente (sem a necessidade de concurso público)\", nas palavras da própria Câmara. Ato da Mesa 117/2016.",
+        "source": "Câmara dos Deputados — Verba de Gabinete",
+        "url": "https://www2.camara.leg.br/transparencia/acesso-a-informacao/copy_of_perguntas-frequentes/verba-de-gabinete"
+      },
+      {
+        "key": "cota",
+        "label": "Cota parlamentar (CEAP)",
+        "brl": 41612.55,
+        "brlMax": 58474.7,
+        "destino": "movimenta",
+        "note": "Varia por estado, porque leva em conta o preço da passagem de Brasília até a capital: de R$ 41.612,55 (DF) a R$ 58.474,70 (RR). Cobre aluguel de escritório, passagem, alimentação, combustível e aluguel de carro. Ato da Mesa 43/2009.",
+        "source": "Câmara dos Deputados — Cota Parlamentar",
+        "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/cota-parlamentar"
+      }
+    ],
+    "destinoLabels": {
+      "bolso": "vai para ele",
+      "movimenta": "ele movimenta"
+    },
+    "totalMonthlyMin": 203907.32,
+    "totalMonthlyMax": 220769.47,
+    "pocketMonthly": 50619.19,
+    "honesty": {
+      "title": "O que ele ganha e o que ele movimenta",
+      "text": "O subsídio e o auxílio-moradia caem no bolso do parlamentar. A verba de gabinete paga até 25 pessoas que ele escolhe sem concurso, e a cota reembolsa despesa do mandato. São duas colunas, e as duas saem do mesmo imposto."
+    },
+    "punch": "São 126 salários mínimos por mês, por parlamentar — e 31 deles caem direto no bolso dele.",
+    "question": "Se o subsídio é R$ 46 mil e o mandato custa mais de R$ 200 mil por mês, qual dos dois números aparece quando eles discutem o próprio reajuste?"
+  },
+  "stepsTitle": "A escada do subsídio, degrau a degrau",
+  "steps": [
+    {
+      "from": 2014,
+      "brl": 33763.0,
+      "act": "Decreto Legislativo 276/2014",
+      "note": "Fixado em 2014 e congelado por oito anos.",
+      "source": "Câmara dos Deputados — Salário parlamentar e desconto por faltas",
+      "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/salario-de-deputados",
+      "verified": "oficial"
+    },
+    {
+      "from": 2023,
+      "brl": 39293.32,
+      "act": "Decreto Legislativo 172/2022, 1ª parcela",
+      "note": "Primeira das três parcelas do reajuste aprovado em dezembro de 2022.",
+      "source": "Câmara dos Deputados — Transparência, Salário dos Deputados",
+      "url": "https://www2.camara.leg.br/transparencia/acesso-a-informacao/copy_of_perguntas-frequentes/subsidios",
+      "verified": "oficial"
+    },
+    {
+      "from": 2023,
+      "brl": 41650.92,
+      "act": "Decreto Legislativo 172/2022, 2ª parcela",
+      "note": "A partir de abril de 2023.",
+      "source": "Rádio Itatiaia — as três parcelas do Decreto Legislativo 172/2022 (publicado em 2025)",
+      "url": "https://www.itatiaia.com.br/politica/eleicoes/saiba-como-funciona-e-quanto-ganham-os-deputados-e-senadores-no-brasil/",
+      "verified": "imprensa"
+    },
+    {
+      "from": 2024,
+      "brl": 44008.52,
+      "act": "Decreto Legislativo 172/2022, 3ª parcela",
+      "note": "A partir de fevereiro de 2024.",
+      "source": "Rádio Itatiaia — as três parcelas do Decreto Legislativo 172/2022 (publicado em 2025)",
+      "url": "https://www.itatiaia.com.br/politica/eleicoes/saiba-como-funciona-e-quanto-ganham-os-deputados-e-senadores-no-brasil/",
+      "verified": "imprensa"
+    },
+    {
+      "from": 2025,
+      "brl": 46366.19,
+      "act": "Decreto Legislativo 172/2022, valor final",
+      "note": "A partir de 1º de fevereiro de 2025, e vigente hoje.",
+      "source": "Câmara dos Deputados — Salário parlamentar e desconto por faltas",
+      "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/salario-de-deputados",
+      "verified": "oficial"
+    }
+  ],
+  "rule": "Valor vigente em 2026, para os dois lados.",
+  "sources": [
+    {
+      "key": "minimo2026Planalto",
+      "label": "Planalto — decreto que reajusta o salário mínimo para R$ 1.621 em 1º/01/2026 (reajuste de 6,79%)",
+      "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/12/publicado-decreto-que-reajusta-salario-minimo-para-r-1-621-a-partir-de-1o-de-janeiro"
+    },
+    {
+      "key": "minimo2026Senado",
+      "label": "Rádio Senado — salário mínimo de R$ 1.621 em janeiro de 2026, contra R$ 1.518 em 2025",
+      "url": "https://www12.senado.leg.br/radio/1/noticia/2025/12/15/salario-minimo-tera-granho-real-e-subira-para-r-1-621-ja-em-janeiro-de-2026"
+    },
+    {
+      "key": "subsidioDecreto",
+      "label": "Câmara dos Deputados — aprovação do reajuste de subsídios de parlamentares, presidente e ministros (Decreto Legislativo 172/2022)",
+      "url": "https://www.camara.leg.br/noticias/930619-camara-aprova-reajuste-de-subsidios-do-presidente-da-republica-de-parlamentares-e-ministros-de-estado/"
+    },
+    {
+      "key": "subsidioCamara",
+      "label": "Câmara dos Deputados — salário de deputados: R$ 33.763 fixado em 2014 e R$ 46.366,19 desde 1º/02/2025",
+      "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/salario-de-deputados"
+    },
+    {
+      "key": "minimoBcSgs",
+      "label": "Banco Central — série 1619 do SGS, salário mínimo mensal",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json"
+    },
+    {
+      "key": "subsidioFaqCamara",
+      "label": "Câmara dos Deputados — Transparência, Salário dos Deputados (1ª parcela do Decreto Legislativo 172/2022)",
+      "url": "https://www2.camara.leg.br/transparencia/acesso-a-informacao/copy_of_perguntas-frequentes/subsidios"
+    }
+  ]
+}

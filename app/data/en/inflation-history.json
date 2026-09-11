@@ -1,0 +1,17 @@
+{
+  "decades[0].stat": "+215.6% over the decade",
+  "decades[0].note": "Prices more than doubled during the Second World War. The IGP, the index that measures the pre-IPCA era, was born at the end of the decade (backcast to 1944).",
+  "decades[1].note": "Decade average (IGP-DI). Inflation was already a permanent companion to Brazilians.",
+  "decades[2].note": "Acceleration to a peak of ~92% in 1964 (IGP), the height of the crisis that preceded the coup. The PAEG plan brought the pace down, at the cost of squeezing wages.",
+  "decades[3].stat": "22% → 51% a year",
+  "decades[3].note": "The 'economic miracle' lived alongside double-digit inflation; after the 1973 oil shock, the average jumped to 51% a year.",
+  "decades[4].stat": "13.3 trillion %",
+  "decades[4].note": "Chronic hyperinflation: an annual peak of 2,477% (1993) and ~5,000% accumulated in the 12 months to June 1994.",
+  "minimumWage.creationNote": "Created by Getúlio Vargas (Decree-Law 2,162, 1 May 1940), with 14 regional levels — the highest, 240 mil-réis, in Rio de Janeiro.",
+  "minimumWage.creationSource": "Chamber of Deputies (original text) / DIEESE",
+  "minimumWage.peakNote": "The minimum wage's greatest purchasing power came in the late 1950s, under president Juscelino Kubitschek (sources differ between 1957 and 1959): roughly R$ 3,000 in today's money — nearly double today's minimum. The basic food basket took less than 30% of the wage.",
+  "minimumWage.peakSource": "DIEESE (via Agência Brasil) / Ipea — historical evolution of the minimum wage",
+  "minimumWage.caveat": "Restated figures vary with the base date of the calculation; the divergences are documented in the methodology.",
+  "decades[1].stat": "19% a year",
+  "decades[2].stat": "45% a year"
+}

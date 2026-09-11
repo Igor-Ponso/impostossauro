@@ -1,0 +1,20 @@
+{
+  "title": "Their tariff and ours",
+  "intro": "In July 2025 the United States announced a 50% tariff on Brazilian goods. The government answered in a national broadcast, created a rescue plan and released R$ 30 billion in credit for exporters. Meanwhile, the tariff the Brazilian state charges a Brazilian who buys a product from abroad was never called a tarifaço — and it is larger.",
+  "quote.role": "President of Brazil",
+  "quote.occasion": "national radio and television address, on the 50% United States tariff",
+  "quote.source": "Agência Brasil — full text of the address",
+  "receipts[0].label": "is the tariff the United States charges the Brazilian exporter since August 2025. The Finance Ministry estimated its impact at 0.2 percentage point of GDP, and the government answered with the Plano Brasil Soberano: R$ 30 billion in credit, under Provisional Measure 1,309/2025.",
+  "receipts[0].period": "since August 2025",
+  "receipts[0].source": "Chamber of Deputies — the measure releasing R$ 30bn for companies hit by the US tariffs",
+  "receipts[1].label": "is what the Brazilian state charges someone who buys R$ 100 from a foreign site outside the Remessa Conforme programme. The figure is not our arithmetic: it is Example 2.1 from the Federal Revenue Service itself — R$ 60.00 of federal import duty plus R$ 32.77 of state VAT at 17%, which is calculated \"from the inside\" and falls on the federal tax as well.",
+  "receipts[1].period": "rule in force since 12 May 2026",
+  "receipts[1].source": "Federal Revenue Service — New Rules, Example 2.1",
+  "receipts[2].label": "is what someone pays who returns from a trip carrying more than the allowance and walks through the \"nothing to declare\" lane. Two rules stack: the Special Baggage Taxation Regime charges 50% on the amount above the allowance, and the penalty for a false declaration is another 50% of that amount — \"without prejudice to payment of the tax due\", in the Revenue Service's own words. The item costs double: one for you, one for the state.",
+  "receipts[2].period": "US$ 1,000 allowance by air",
+  "receipts[2].source": "Federal Revenue Service — Traveller's Guide, items 3.7 and 7.1",
+  "phones.title": "And the second phone only escapes if the first one broke",
+  "phones.body": "That is answer 1.13 of the Federal Revenue Service's Traveller's Guide, to the question about buying a phone abroad and using it before flying home. One handset is a personal-use good and pays no tax. Two are not — unless you prove the first one failed.",
+  "phones.source": "Federal Revenue Service — Traveller's Guide, item 1.13",
+  "question": "If 50% charged out there is a tariff war, what are 92.77% charged in here?"
+}

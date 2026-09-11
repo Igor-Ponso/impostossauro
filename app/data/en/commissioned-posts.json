@@ -1,0 +1,17 @@
+{
+  "title": "The law where the raise climbs with the rank",
+  "intro": "A commissioned post is the exception the Constitution carves out of the public-exam rule: whoever holds one sat no exam, and can be appointed and dismissed at any moment. On 2 June 2025 a law raised the entire table of these posts in the federal Executive, in two instalments. The raise was not the same for everyone, and it did not vary gradually: there are four steps — 30%, 23%, 17% and 9% — and which step you get depends only on how senior the post is.",
+  "law.where": "Annex CCXCVII, item f — which becomes Annex I of Law 11.526 of 4 October 2007",
+  "law.fromLabel": "1 February 2025",
+  "law.toLabel": "1 January 2026",
+  "gap.title": "The same raise, in reais per month",
+  "gap.topLabel": "more per month at the top of the table",
+  "gap.bottomLabel": "more per month at the bottom of it",
+  "gap.note": "Both figures come from the same table, the same law and the same eleven-month window. This is not a comparison between different careers or different years: it is the difference between the first line and the last line of a single annex. One detail of the table, so no one has to check later: of the thirteen bottom levels, twelve got exactly 9% and CCE-9 got 8.50%.",
+  "fce.title": "And there are two columns, not one",
+  "fce.body": "Every line of the table carries two values: the post (CCE) and the function (FCE). The function can only be held by someone who is already a civil servant. From CCE-5 up, it is worth exactly 60% of the post. From CCE-4 down, the two are worth the same. Which means the difference in money between being a career servant and being appointed from outside exists only in the fourteen levels at the top.",
+  "minimumWage.title": "An outside ruler, over the same window",
+  "minimumWage.body": "The minimum wage went from R$ 1,518 on 1 January 2025 to R$ 1,621 on 1 January 2026: a raise of 6.79%. Over the same window, the bottom of the commissioned-post table rose 9% and the top rose 30%.",
+  "minimumWage.source": "Planalto — the decree raising the minimum wage to R$ 1,621",
+  "question": "The inflation eating the pay of whoever holds a CCE-1 is the same inflation eating the pay of whoever holds a CCE-18. Why, then, did one of them get R$ 35 more a month and the other R$ 7,365?"
+}

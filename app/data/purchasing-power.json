@@ -1,0 +1,124 @@
+{
+  "updatedAt": "2026-08-23",
+  "metric": "O custo da cesta básica em São Paulo, ano a ano, em três réguas: reais correntes, fatia do salário mínimo líquido e tempo de trabalho.",
+  "scope": "Boletim de DEZEMBRO de cada ano, sempre da mesma capital e da mesma pesquisa. Reais correntes de 2010 e de 2025 são moedas diferentes e não se comparam entre si — quem atravessa a inflação sem precisar de índice é o TEMPO DE TRABALHO, e é por isso que ele está aqui. A fatia do mínimo é líquida, já descontados os 7,5% da Previdência, como o DIEESE calcula.",
+  "capital": "São Paulo",
+  "month": "dezembro",
+  "source": "DIEESE — Pesquisa Nacional da Cesta Básica de Alimentos, boletim de dezembro de cada ano",
+  "url": "https://www.dieese.org.br/analisecestabasica/2025/202512cestabasica.pdf",
+  "generatedBy": "scripts/coleta/cesta-basica.py",
+  "years": [
+    {
+      "year": 2010,
+      "brl": 265.15,
+      "pctNetMinimumWage": 56.51,
+      "workHours": 114.38,
+      "workLabel": "114h23"
+    },
+    {
+      "year": 2011,
+      "brl": 277.27,
+      "pctNetMinimumWage": 55.3,
+      "workHours": 111.93,
+      "workLabel": "111h56"
+    },
+    {
+      "year": 2012,
+      "brl": 304.9,
+      "pctNetMinimumWage": 53.28,
+      "workHours": 107.85,
+      "workLabel": "107h51"
+    },
+    {
+      "year": 2013,
+      "brl": 327.24,
+      "pctNetMinimumWage": 52.46,
+      "workHours": 106.18,
+      "workLabel": "106h11"
+    },
+    {
+      "year": 2014,
+      "brl": 354.19,
+      "pctNetMinimumWage": 53.18,
+      "workHours": 107.63,
+      "workLabel": "107h38"
+    },
+    {
+      "year": 2015,
+      "brl": 412.12,
+      "pctNetMinimumWage": 56.85,
+      "workHours": 115.07,
+      "workLabel": "115h04"
+    },
+    {
+      "year": 2016,
+      "brl": 438.89,
+      "pctNetMinimumWage": 54.21,
+      "workHours": 109.72,
+      "workLabel": "109h43"
+    },
+    {
+      "year": 2017,
+      "brl": 424.36,
+      "pctNetMinimumWage": 49.23,
+      "workHours": 99.63,
+      "workLabel": "99h38"
+    },
+    {
+      "year": 2018,
+      "brl": 471.44,
+      "pctNetMinimumWage": 53.71,
+      "workHours": 108.72,
+      "workLabel": "108h43"
+    },
+    {
+      "year": 2019,
+      "brl": 506.5,
+      "pctNetMinimumWage": 55.16,
+      "workHours": 111.65,
+      "workLabel": "111h39"
+    },
+    {
+      "year": 2020,
+      "brl": 631.46,
+      "pctNetMinimumWage": 65.33,
+      "workHours": 132.93,
+      "workLabel": "132h56"
+    },
+    {
+      "year": 2021,
+      "brl": 690.51,
+      "pctNetMinimumWage": 67.86,
+      "workHours": 138.1,
+      "workLabel": "138h06"
+    },
+    {
+      "year": 2022,
+      "brl": 791.29,
+      "pctNetMinimumWage": 70.58,
+      "workHours": 143.63,
+      "workLabel": "143h38"
+    },
+    {
+      "year": 2023,
+      "brl": 761.01,
+      "pctNetMinimumWage": 62.33,
+      "workHours": 126.83,
+      "workLabel": "126h50"
+    },
+    {
+      "year": 2024,
+      "brl": 841.29,
+      "pctNetMinimumWage": 64.41,
+      "workHours": 131.08,
+      "workLabel": "131h05"
+    },
+    {
+      "year": 2025,
+      "brl": 845.95,
+      "pctNetMinimumWage": 60.25,
+      "workHours": 122.6,
+      "workLabel": "122h36"
+    }
+  ]
+}

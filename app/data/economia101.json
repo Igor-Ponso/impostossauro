@@ -1,0 +1,148 @@
+{
+  "updatedAt": "2026-08-15",
+  "disclaimer": "Conceitos de manual de economia ancorados em números já verificados; seções que dependem de pesquisa (estudos brasileiros da curva, casos concretos, comparações internacionais) só entram com fonte confirmada.",
+  "concepts": [
+    {
+      "key": "inflationTax",
+      "anchorValue": "4,3% do PIB",
+      "anchorLabel": "chegou a render por ano o imposto inflacionário no auge da hiperinflação — cobrado de quem vivia de salário no bolso, sem acesso ao overnight.",
+      "note": "Depois do Real, caiu para ~0,5% do PIB: a estabilização foi o maior corte de imposto da história do pobre brasileiro.",
+      "source": "Revista de Economia Política (SciELO) / Ipea",
+      "url": "https://www.scielo.br/j/rep/a/cRXHnzVbdNvzF8DqDFX53Bk/?lang=pt"
+    },
+    {
+      "key": "incidence",
+      "anchorValue": "R$ 5,25 → R$ 5,57",
+      "anchorLabel": "subiu a gasolina em UMA semana após a reoneração federal de março de 2023 (+6,09%): o imposto federal chegou à bomba em dias.",
+      "note": "E o repasse é assimétrico: quando o IPI dos carros caiu em 2012, os preços caíram só 1% a 2% — menos que o corte. Imposto sobe rápido no preço; desce devagar.",
+      "source": "ANP (via Agência Brasil) / InfoMoney",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2023-03/gasolina-sobe-609-apos-reoneracao-dos-combustiveis"
+    },
+    {
+      "key": "deadweight",
+      "anchorValue": "17,8% do PIB",
+      "anchorLabel": "movimenta a economia subterrânea brasileira — R$ 1,7 trilhão por ano fora do sistema que custa caro demais para existir.",
+      "note": "E 38,1% dos trabalhadores ocupados estão na informalidade — média anual de 2025 na PNAD Contínua do IBGE, outra fonte que não a do número acima.",
+      "source": "ETCO / FGV IBRE — Índice de Economia Subterrânea (2022)",
+      "url": "https://en.etco.org.br/projetos/economia-subterranea/economia-subterranea-movimenta-r-17-trilhoes-no-brasil-e-volta-ao-padrao-pre-pandemia/",
+      "noteSource": "IBGE — PNAD Contínua, média anual de 2025",
+      "noteUrl": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45920-pnad-continua-taxas-anuais-de-desocupacao-sao-as-menores-da-serie-em-20-unidades-da-federacao"
+    },
+    {
+      "key": "opportunity",
+      "anchorValue": "R$ 4,9 bilhões",
+      "anchorLabel": "custou o Fundo Eleitoral de 2024 — 145% maior que o de 2020. Dava para custear quase 25 mil anos de leito de UTI no SUS.",
+      "note": "A conta: R$ 4,9 bi ÷ R$ 197,1 mil (custeio anual de um leito de UTI, Ministério da Saúde). Todo real tem endereço alternativo; esse escolheu campanha.",
+      "source": "Senado Notícias / TSE · Ministério da Saúde (Portaria GM/MS 160/2022)",
+      "url": "https://www12.senado.leg.br/noticias/materias/2023/12/22/aprovado-orcamento-campanhas-eleitorais-terao-r-4-9-bilhoes-em-2024"
+    }
+  ],
+  "lafferHistory": {
+    "finding": "A curva tem até guardanapo: em 13 de setembro de 1974, num restaurante de Washington, o economista Arthur Laffer desenhou o morro num guardanapo para convencer Donald Rumsfeld e Dick Cheney de que o aumento de impostos do governo Ford sairia pela culatra. O jornalista Jude Wanniski guardou o guardanapo — hoje ele está no museu Smithsonian — e batizou a ideia de 'Curva de Laffer' em \"Taxes, Revenues, and the 'Laffer Curve'\", na The Public Interest, no inverno de 1978.",
+    "source": "Smithsonian, National Museum of American History (o guardanapo) · The Laffer Center (o artigo de 1978 que batizou a curva)",
+    "url": "https://americanhistory.si.edu/collections/object/nmah_1439217"
+  },
+  "lafferDebate": [
+    {
+      "key": "peak",
+      "finding": "Onde fica o topo? A estimativa acadêmica mais citada (Trabandt & Uhlig, 2011) coloca o pico do imposto sobre trabalho em alíquotas efetivas de ~50% a 70% — a maioria dos países ricos está do lado esquerdo do morro. A curva é real; o topo é alto e varia por imposto.",
+      "source": "Trabandt & Uhlig, \"How Far Are We From The Slippery Slope? The Laffer Curve Revisited\" — NBER Working Paper 15343, publicado no Journal of Monetary Economics (2011)",
+      "url": "https://www.nber.org/papers/w15343"
+    },
+    {
+      "key": "reagan",
+      "finding": "E o outro lado: corte de imposto raramente 'se paga'. O corte de Reagan em 1981 custou ~US$ 750 bilhões de receita entre 1981 e 1986, segundo o próprio governo americano. Usar o morro para justificar qualquer corte é tão desonesto quanto ignorá-lo para justificar qualquer aumento.",
+      "source": "Brookings Institution — 'What we learned from Reagan's tax cuts'",
+      "url": "https://www.brookings.edu/articles/what-we-learned-from-reagans-tax-cuts/"
+    },
+    {
+      "key": "brazil",
+      "finding": "E o Brasil? Um estudo acadêmico (UEL, 2017) estimou para 1996-2014 o ponto em que a arrecadação brasileira seria máxima: carga de ~40,7% do PIB — acima dos 32,4% atuais, mas com margem menor do que parece, porque a conta ignora o retorno em serviços. Outro estudo, do Tesouro, achou evidência da curva no ICMS gaúcho: aumentos de alíquota com retorno cada vez menor. É um campo com poucos estudos e muitas ressalvas — por isso o morro do desenho é conceito, não mapa.",
+      "source": "Economia & Região (UEL, 2017) · Cadernos de Finanças Públicas (Tesouro Nacional)",
+      "url": "https://ojs.uel.br/revistas/uel/index.php/ecoreg/article/view/28090"
+    }
+  ],
+  "brazilCases": [
+    {
+      "key": "cigarros",
+      "title": "Cigarros: 71% de imposto, 4 em cada 10 ilegais",
+      "finding": "A carga sobre o cigarro no Brasil é 71% do preço; no Paraguai, 13%. Resultado: o consumidor migrou para o contrabando e o governo perde bilhões — o lado errado do morro, via evasão.",
+      "numbers": "41% dos cigarros consumidos no Brasil em 2022 eram ilegais; R$ 8,3 bilhões em tributos não recolhidos, pela estimativa do FNCP",
+      "source": "Pesquisa Ipec / FNCP (Mercado Ilegal de Cigarros 2022)",
+      "url": "https://fncp.org.br/wp-content/uploads/2023/07/Mercado-Ilegal-BR-2022-2023.pdf"
+    },
+    {
+      "key": "ipi-carros",
+      "title": "IPI de carros (2009): imposto caiu, vendas bateram recorde",
+      "finding": "Na crise global de 2009, o governo cortou o IPI dos automóveis. Com exportações desabando 40,5%, as vendas internas bateram o terceiro recorde anual seguido — a atividade respondeu na hora ao imposto menor.",
+      "numbers": "3,14 milhões de veículos vendidos em 2009 (+11,4% sobre 2008), em plena crise",
+      "source": "Fenabrave/Anfavea (via Correio Braziliense, jan/2010)",
+      "url": "https://www.correiobraziliense.com.br/app/noticia/economia/2010/01/08/internas_economia,165141/em-2009-producao-da-industria-automotiva-cai-mas-vendas-aumentam.shtml"
+    },
+    {
+      "key": "ipi-linha-branca",
+      "title": "Linha branca (2009): geladeira com menos imposto voou da loja",
+      "finding": "Fogões de 4% para 0%, geladeiras de 15% para 5%, lavadoras de 20% para 10%. As vendas subiram tanto que o governo prorrogou o benefício mais de uma vez.",
+      "numbers": "IPI: fogões 4%→0% · geladeiras 15%→5% · lavadoras 20%→10%",
+      "source": "Gazeta do Povo / Jusbrasil (prorrogação do IPI reduzido)",
+      "url": "https://www.jusbrasil.com.br/noticias/governo-prorroga-ipi-reduzido-para-eletrodomesticos/3068112"
+    }
+  ],
+  "worldData": [
+    {
+      "key": "iva",
+      "value": "26,5% a 28%",
+      "label": "é a faixa do novo IVA brasileiro (CBS+IBS) — o 1º ou 2º maior do mundo, disputando com a Hungria (27%). O comitê gestor estima 27,91%.",
+      "note": "A LC 214/2025 criou uma trava de 26,5%; a alíquota final será fixada pelo Senado. Se passar de 27%, será oficialmente o maior IVA do planeta.",
+      "source": "LC 214/2025 / CGIBS (estimativa 27,91%)",
+      "url": "https://simplifique.contmatic.com.br/blogs/aliquota-referencia-ibs-cbs-cgibs-estima-27-91"
+    },
+    {
+      "key": "oecd",
+      "value": "32,3% × 34,1%",
+      "label": "Brasil × média da OCDE em carga sobre o PIB. Surpresa: a mordida brasileira é um pouco MENOR que a média dos países ricos.",
+      "note": "O problema não é o tamanho da mordida — é o que volta dela. Carga de país rico, serviço de país emergente.",
+      "source": "Tesouro Nacional (2024) / OECD Revenue Statistics 2025",
+      "url": "https://www.oecd.org/en/publications/2025/12/revenue-statistics-2025_07ca0a8e/full-report/tax-revenue-trends-1965-2024_98c75833.html"
+    },
+    {
+      "key": "latam",
+      "value": "+10,7 pontos",
+      "label": "acima da média da América Latina (21,3% do PIB): na nossa vizinhança, ninguém é mordido como o brasileiro.",
+      "source": "OECD, Revenue Statistics in Latin America and the Caribbean 2025",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/revenue-statistics-in-latin-america-and-the-caribbean-2025-country-notes_29961c77/brazil_b08e62db/f6a5cb34-en.pdf"
+    },
+    {
+      "key": "swiss",
+      "value": "32,3% × 27,2%",
+      "label": "Brasil × Suíça: o brasileiro entrega ao Estado uma fatia maior do que o suíço entrega ao dele.",
+      "note": "Régua honesta: a versão popular 'mais que Suíça e Suécia' não fecha — a Suécia taxa 41,7%, mais que nós. Publicamos só a conta que fecha.",
+      "source": "OECD Revenue Statistics (Suíça, 2024)",
+      "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-switzerland.pdf"
+    },
+    {
+      "key": "irbes",
+      "value": "30º de 30",
+      "label": "é a posição do Brasil em retorno de bem-estar à população entre os 30 países de maior carga — último lugar nas 14 edições do estudo, desde 2011.",
+      "note": "IRBES (IBPT): carga tributária + IDH. A Irlanda lidera; Uruguai e Argentina ficam à nossa frente.",
+      "source": "IBPT — Estudo IRBES, 14ª edição (dados de 2023, publicada em maio de 2025)",
+      "url": "https://ibpt.org.br/estudo-irbes-14a-edicao-idh-e-carga-tributaria-pib-dados-de-2023-maio-2025/"
+    },
+    {
+      "key": "hours",
+      "value": "1.501 × 234 horas",
+      "label": "horas por ano que uma empresa gasta para pagar impostos: Brasil × média mundial. Somos o pior do planeta — o vice, a Bolívia, gasta 1.025.",
+      "note": "Último dado disponível (2019); o ranking Doing Business foi descontinuado em 2021.",
+      "source": "Banco Mundial, Doing Business 2020",
+      "url": "https://archive.doingbusiness.org/content/dam/doingBusiness/country/b/brazil/BRA.pdf"
+    },
+    {
+      "key": "consumption",
+      "value": "40,2% × 31,9%",
+      "label": "fatia da arrecadação que vem do consumo: Brasil × média OCDE. Imposto no preço pesa igual para quem ganha mil e para quem ganha um milhão.",
+      "note": "O resultado, segundo a própria Receita: em 2024, a população de menor renda bancou 43,5% de toda a carga tributária.",
+      "source": "Receita Federal/CETAD (via Poder360 e O Povo) / OCDE",
+      "url": "https://www.poder360.com.br/economia/tributos-sobre-o-consumo-dominam-arrecadacao-no-brasil/"
+    }
+  ]
+}

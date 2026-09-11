@@ -1,0 +1,85 @@
+{
+  "disclaimer": "Toda correção publicada fica aqui, com data, o que dizia e o que passou a dizer. O histórico completo está no repositório.",
+  "correcoes": [
+    {
+      "data": "2026-08-25",
+      "pagina": "/maquina-do-tempo",
+      "antes": "A série anual do Impostômetro trazia, em 2019 e 2021, a marca de R$ 2,5 trilhões batida em 20 de dezembro, não o total do ano.",
+      "depois": "Totais lidos no painel Arrecadação Brasil de 1º de janeiro a 31 de dezembro de cada ano: 2018 R$ 2.388 bi, 2021 R$ 2.592 bi e 2022 R$ 2.890 bi, entre outros ajustes menores.",
+      "source": "Impostômetro, painel Arrecadação Brasil",
+      "url": "https://impostometro.com.br/"
+    },
+    {
+      "data": "2026-08-25",
+      "pagina": "/maquina-do-tempo",
+      "antes": "A série de mortalidade infantil misturava dois produtos do IBGE: a Tábua de Mortalidade e a Projeção da População de 2018.",
+      "depois": "Toda a série vem da Tábua Completa de Mortalidade 2024: 28,1 em 2000 e 15,0 em 2010.",
+      "source": "IBGE, Tábua Completa de Mortalidade 2024",
+      "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/9126-tabuas-completas-de-mortalidade.html"
+    },
+    {
+      "data": "2026-08-25",
+      "pagina": "/maquina-publica",
+      "antes": "O percentual de domicílios ligados à rede de esgoto por estado era atribuído ao Censo.",
+      "depois": "Os valores estavam certos; a fonte é a PNAD Contínua, e a página passou a dizer isso.",
+      "source": "IBGE, PNAD Contínua",
+      "url": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html"
+    },
+    {
+      "data": "2026-08-25",
+      "pagina": "/maquina-publica",
+      "antes": "Os 82% de municípios que não se sustentam com receita própria apareciam sem ano.",
+      "depois": "O número é do Balanço do Setor Público Nacional de 2016; o número vizinho, do Poder360, é de 2020. Os dois passaram a dizer de quando são.",
+      "source": "Tesouro Nacional, Balanço do Setor Público Nacional 2016",
+      "url": "https://www.tesourotransparente.gov.br/publicacoes/balanco-do-setor-publico-nacional-bspn/2016/114"
+    },
+    {
+      "data": "2026-08-25",
+      "pagina": "/custo-brasil",
+      "antes": "Dizia que abrir uma empresa levava de 30 a 45 dias até a licença de funcionamento.",
+      "depois": "A reportagem citada diz de 7 a 34 horas para formalizar, com variação de 386% entre estados. Entrou o que a fonte sustenta.",
+      "source": "Reportagem citada na página",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas"
+    },
+    {
+      "data": "2026-08-25",
+      "pagina": "/maquina-do-tempo",
+      "antes": "Uma frase atribuída ao presidente Lula sobre alíquota única aparecia entre aspas, como se fosse literal.",
+      "depois": "A reportagem resume um post; a frase foi marcada como paráfrase e a promessa passou a dizer \"até 20%\", que é o que a cobertura afirma.",
+      "source": "Cobertura citada no dossiê",
+      "url": "https://www.mixvale.com.br/2018/10/28/veja-quais-sao-as-propostas-jair-bolsonaro-para-o-imposto-de-renda-em-2018/"
+    },
+    {
+      "data": "2026-08-25",
+      "pagina": "/falacias",
+      "antes": "O par de analfabetismo cruzava a PNAD de 2003 com a PNAD Contínua de 2024, e o 11,6% de 2003 não estava na reportagem citada.",
+      "depois": "Entrou o par do Censo, na mesma régua: 13,6% em 2000 e 7,0% em 2022.",
+      "source": "IBGE, Censo 2022",
+      "url": "https://sidra.ibge.gov.br/tabela/9543"
+    },
+    {
+      "data": "2026-09-08",
+      "pagina": "/maquina-do-tempo",
+      "antes": "Oito promessas e uma justificativa saíam entre aspas, embora fossem resumo de veículo, tradução ou relato de terceiro.",
+      "depois": "Cada uma passou a sair sem aspas e com a marca \"paráfrase, não fala literal\". O item sobre o caso JBS, sem número de inquérito e fora do tema do site, foi retirado.",
+      "source": "Repositório do projeto",
+      "url": "https://github.com/Igor-Ponso/impostossauro"
+    },
+    {
+      "data": "2026-09-08",
+      "pagina": "/o-que-dava-para-comprar",
+      "antes": "Atribuía a Graça Foster, entre aspas, que anunciar o valor inicial de Abreu e Lima \"foi um erro\".",
+      "depois": "A frase era o título da Agência Câmara, não fala dela. O texto passou a relatar o depoimento e a citar a única frase literal da página.",
+      "source": "Agência Câmara",
+      "url": "https://www.camara.leg.br/noticias/454003-foi-um-erro-dizer-que-abreu-e-lima-custaria-25-bilhoes-de-dolares-diz-graca-foster/"
+    },
+    {
+      "data": "2026-09-08",
+      "pagina": "/maquina-publica",
+      "antes": "A resposta sobre celular comprado no exterior era citada como item 1.8 do Guia do Viajante.",
+      "depois": "É o item 1.13; o 1.8 trata de partes e peças de veículo.",
+      "source": "Receita Federal, Guia do Viajante",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/aduana-e-comercio-exterior/manuais/guia-do-viajante/perguntas-e-respostas"
+    }
+  ]
+}

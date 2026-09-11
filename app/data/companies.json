@@ -1,0 +1,96 @@
+{
+  "updatedAt": "2026-08-15",
+  "disclaimer": "Números de demonstrações financeiras publicadas (releases de resultados e DVA — Demonstração do Valor Adicionado). Margem líquida = lucro líquido ÷ receita líquida; quando calculada por nós, está sinalizada.",
+  "companies": [
+    {
+      "key": "assai",
+      "name": "Assaí Atacadista",
+      "sector": "Atacarejo",
+      "year": "2024",
+      "revenueLabel": "R$ 73,8 bi",
+      "profitLabel": "R$ 769 mi",
+      "netMarginPct": 1.04,
+      "note": "Setenta e quatro bilhões passaram pelo caixa; um por cento virou lucro. O restante pagou fornecedor, funcionário, energia, aluguel, juros e imposto. O release da empresa destaca o faturamento BRUTO, R$ 80,6 bi — aqui vale a receita líquida (R$ 73,8 bi), que é o denominador da margem e a mesma régua das outras duas. Divergência anotada: outras fontes citam R$ 930 milhões de lucro, por metodologia contábil diferente (IFRS 16); usamos o número do release da própria empresa.",
+      "source": "Assaí — release de resultados de 2024 (receita líquida via ADVFN, 20/02/2025)",
+      "url": "https://www.assai.com.br/imprensa/assai-avanca-em-eficiencia-reduz-divida-e-supera-r-80-bi-em-faturamento-em-2024",
+      "revenueUrl": "https://br.advfn.com/jornal/2025/02/assai-asai3-lucro-liquido-de-r-430-milhoes-no-4t24-alta-de-44-8"
+    },
+    {
+      "key": "mateus",
+      "name": "Grupo Mateus",
+      "sector": "Varejo alimentar",
+      "year": "2024",
+      "revenueLabel": "R$ 32,1 bi",
+      "profitLabel": "R$ 1,35 bi",
+      "netMarginPct": 4.2,
+      "note": "Uma das margens mais saudáveis do varejo alimentar brasileiro — e ainda assim, R$ 96 de cada R$ 100 vendidos saem pela porta antes de virar lucro. O lucro de R$ 1,35 bi é o número que a empresa publica excluindo efeitos extraordinários.",
+      "source": "Grupo Mateus (via SuperHiper)",
+      "url": "https://superhiper.com.br/grupo-mateus-tem-lucro-liquido-de-r-135-bilhao-em-2024-aumento-de-127/"
+    },
+    {
+      "key": "ambev",
+      "name": "Ambev",
+      "sector": "Bebidas",
+      "year": "2024",
+      "revenueLabel": "R$ 89,4 bi",
+      "profitLabel": "R$ 14,8 bi",
+      "netMarginPct": 16.55,
+      "note": "Esta entra pela mesma régua: a margem da Ambev é alta de verdade, e seria desonesto mostrar só os casos magros. O detalhe que o consumidor não vê é o outro lado da conta — na cerveja, boa parte do preço da lata já é tributo antes de qualquer margem.",
+      "source": "Ambev — resultados de 2024 (via CNN Brasil)",
+      "url": "https://www.cnnbrasil.com.br/economia/negocios/lucro-liquido-da-ambev-soma-r-5024-bi-no-4o-tri-alta-de-11-em-um-ano/"
+    }
+  ],
+  "dva": [],
+  "smallBusiness": [
+    {
+      "key": "mortality",
+      "value": "6 em cada 10",
+      "label": "empresas brasileiras não chegam aos 5 anos de vida. Das que nasceram em 2017, só 37,9% seguiam abertas cinco anos depois.",
+      "source": "IBGE, Demografia das Empresas",
+      "url": "https://exame.com/negocios/60-das-empresas-nao-sobrevivem-apos-cinco-anos-no-brasil-aponta-ibge/"
+    },
+    {
+      "key": "simples",
+      "value": "84%",
+      "label": "das 21,6 milhões de empresas ativas estão no Simples Nacional — o regime criado para reduzir carga e burocracia de quem é pequeno (LC 123/2006).",
+      "source": "Receita Federal (2024)",
+      "url": "https://www.jornalcontabil.com.br/noticia/brasil-atinge-216-milhoes-de-empresas-ativas-em-2024-simples-nacional-domina-84-do-mercado/"
+    },
+    {
+      "key": "aliquotas",
+      "value": "4% a 33%",
+      "label": "é a faixa de alíquotas do Simples, conforme o anexo e o faturamento. O 'simples' do nome não é sobre o quanto se paga.",
+      "source": "Tabelas do Simples Nacional (LC 123/2006)",
+      "url": "https://contaja.com.br/blog/tabela-simples-nacional/"
+    },
+    {
+      "key": "regras",
+      "value": "~5.000 regras",
+      "label": "é o que uma empresa média precisa cumprir para estar em dia. E surgem 46 novas obrigações fiscais por dia útil.",
+      "source": "IBPT",
+      "url": "https://ibpt.org.br/atraves-da-simplificacao-a-reforma-tributaria-tem-a-capacidade-de-diminuir-as-obrigacoes-acessorias/"
+    },
+    {
+      "key": "alvara",
+      "value": "7 a 34 horas",
+      "label": "é o tempo para formalizar um negócio, dependendo do estado — uma variação de 386% entre o mais rápido e o mais lento. O mesmo país, a mesma lei, cinco vezes mais espera.",
+      "source": "Mapa da Burocracia (via Forbes Brasil) — o número anterior aqui, \"30 a 45 dias até a licença para funcionar\", não está na parte visível da reportagem e foi retirado",
+      "url": "https://forbes.com.br/forbes-money/2026/07/tempo-abertura-empresas-brasil/"
+    },
+    {
+      "key": "mei",
+      "value": "3,8 milhões",
+      "label": "de MEIs abertos só em 2025 — 78% dos novos negócios do país. O empreendedorismo brasileiro é, em boa medida, gente sozinha emitindo nota.",
+      "source": "Sebrae",
+      "url": "https://agenciasebrae.com.br/dados/meis-lideram-abertura-de-empresas-no-pais-e-ja-representam-78-dos-novos-negocios-em-2026/"
+    }
+  ],
+  "sectorMargin": {
+    "finding": "No supermercado, a margem de lucro do setor fica entre 1% e 2%, segundo a própria associação do setor. Quando alguém diz que 'o mercado está lucrando com a sua fome', está falando de um centavo por real.",
+    "source": "ABRAS — Associação Brasileira de Supermercados",
+    "url": "https://www.abras.com.br/clipping/geral/15391/supermercados-margem-de-lucro-fica-entre-1-e-2"
+  },
+  "dvaPending": "A DVA (Demonstração do Valor Adicionado) de cada empresa — a tabela que mostra quanto do valor gerado foi para governo, salários, bancos e sócios — está nos relatórios anuais e é o próximo dado a entrar aqui. Não publicamos estimativa: só o número que a empresa publicou.",
+  "verifiedAt": "2026-08-23",
+  "verifiedNote": "Os três releases foram abertos e conferidos em 23/08/2026: receita líquida, lucro líquido e a divisão entre os dois. As três margens usam a mesma régua — lucro líquido sobre receita líquida —, o que exigiu trocar o faturamento bruto do Assaí pela receita líquida no cartão."
+}

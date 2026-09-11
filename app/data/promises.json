@@ -1,0 +1,315 @@
+{
+  "updatedAt": "2026-08-17",
+  "disclaimer": "Cada caso confronta o que a lei prometeu com o que foi feito depois, usando o texto oficial dos dois lados. A página não afirma que o tributo causou a piora de nenhum indicador: ela cobra a promessa de quem pediu o dinheiro. Casos que ainda não foram conferidos no documento original não aparecem.",
+  "cases": [
+    {
+      "id": "cpmf",
+      "layer": "tributo",
+      "government": {
+        "label": "Fernando Henrique Cardoso",
+        "period": "1995-2002",
+        "note": "Criada no primeiro mandato de FHC e prorrogada nos governos seguintes, até ser extinta em 2007."
+      },
+      "tribute": {
+        "name": "Contribuição Provisória sobre Movimentação ou Transmissão de Valores e de Créditos e Direitos de Natureza Financeira",
+        "acronym": "CPMF",
+        "law": {
+          "type": "Lei",
+          "number": "9.311",
+          "year": 1996,
+          "date": "24 de outubro de 1996",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9311.htm"
+        }
+      },
+      "promise": {
+        "legalArticle": "art. 18",
+        "legalText": "O produto da arrecadação da contribuição de que trata esta Lei será destinado integralmente ao Fundo Nacional de Saúde, para financiamento das ações e serviços de saúde, sendo que sua entrega obedecerá aos prazos e condições estabelecidos para as transferências de que trata o art. 159 da Constituição Federal.",
+        "deadlineArticle": "art. 20",
+        "deadlineText": "A contribuição incidirá sobre os fatos geradores verificados no período de tempo correspondente a treze meses, contados após decorridos noventa dias da data da publicação desta Lei, quando passará a ser exigida.",
+        "source": "Lei 9.311/1996, texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9311.htm"
+      },
+      "collected": {
+        "amount": "R$ 223 bilhões",
+        "period": "1997 a 2007",
+        "months": 132,
+        "lastYear": "R$ 37,2 bilhões só em 2007",
+        "source": "Senado Federal, Entenda o assunto: CPMF, citando a Receita Federal",
+        "url": "https://www12.senado.leg.br/noticias/entenda-o-assunto/cpmf",
+        "note": "Número de página institucional que cita a Receita, não do documento original da Receita."
+      },
+      "outcome": {
+        "indicator": "A destinação integral à saúde foi fatiada por emenda constitucional",
+        "legalArticle": "Ato das Disposições Constitucionais Transitórias, art. 84, § 2º, incluído pela Emenda Constitucional 37/2002",
+        "legalText": "§ 2º Do produto da arrecadação da contribuição social de que trata este artigo será destinada a parcela correspondente à alíquota de: I - vinte centésimos por cento ao Fundo Nacional de Saúde, para financiamento das ações e serviços de saúde; II - dez centésimos por cento ao custeio da previdência social; III - oito centésimos por cento ao Fundo de Combate e Erradicação da Pobreza, de que tratam os arts. 80 e 81 deste Ato das Disposições Constitucionais Transitórias.",
+        "split": [
+          {
+            "destino": "Fundo Nacional de Saúde",
+            "aliquota": "0,20%",
+            "fatia": "52,6%"
+          },
+          {
+            "destino": "previdência social",
+            "aliquota": "0,10%",
+            "fatia": "26,3%"
+          },
+          {
+            "destino": "combate à pobreza",
+            "aliquota": "0,08%",
+            "fatia": "21,1%"
+          }
+        ],
+        "source": "Constituição Federal, ADCT, texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      },
+      "loophole": {
+        "name": "A denúncia mais dura veio da fundação do presidente que a criou",
+        "explanation": "A linha do tempo publicada pela Fundação FHC registra o que aconteceu com o dinheiro da saúde: \"Criada em um período em que o SUS enfrentava uma grande restrição orçamentária, a CPMF acabou por se tornar uma contribuição substitutiva, e sua receita apenas ocupou o lugar das receitas orçamentárias anteriores. Quanto mais dinheiro era arrecadado pelo tributo, menos dinheiro o próprio Tesouro investia na saúde — o que resultou em poucas mudanças no financiamento do SUS.\" O ministro da Saúde que sustentou a criação da contribuição, Adib Jatene, deixou o cargo em novembro de 1996.",
+        "source": "Fundação FHC — linha do tempo, \"Criação da CPMF\"",
+        "url": "https://fundacaofhc.org.br/linhasdotempo/criacao-da-cpmf/"
+      },
+      "end": {
+        "text": "Em 19 de setembro de 2007, no dia em que a Câmara começou a votar a prorrogação, o presidente Lula disse em discurso: \"Nenhum governo, nem do PT, nem do PMDB, nem do PSDB, nem do PFL, se viessem mais partidos novos, ninguém conseguiria governar sem a CPMF.\" E sugeriu que quem quisesse discutir o fim propusesse \"para depois de 2010\". Oitenta e cinco dias depois, em 13 de dezembro, o Senado derrubou a prorrogação, e a contribuição acabou em 31 de dezembro de 2007. Governaram sem ela o próprio Lula por três anos, e depois Dilma, Temer, Bolsonaro e Lula de novo. A arrecadação federal saiu de R$ 618 bilhões em 2007 para R$ 826,5 bilhões em 2010.",
+        "source": "O Estado de São Paulo, 20/09/2007, p. A5 (\"Ninguém governaria sem esse imposto\", de Tânia Monteiro) e 16/12/2007, p. A4 — recortes do acervo BDSF do Senado; série de arrecadação da Receita Federal",
+        "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/330817/noticia.htm"
+      },
+      "question": "Uma contribuição chamada provisória, com prazo de treze meses escrito na própria lei, durou onze anos — e quando acabou, o governo que defendeu a prorrogação em 2007 governou mais três anos sem ela. O que mais continua provisório?",
+      "verified": "primaria"
+    },
+    {
+      "id": "fundo-social-pre-sal",
+      "layer": "tributo",
+      "government": {
+        "label": "Luiz Inácio Lula da Silva",
+        "period": "2003-2010",
+        "note": "Criado no segundo mandato de Lula e ampliado em 2025, no terceiro."
+      },
+      "tribute": {
+        "name": "Fundo Social do pré-sal",
+        "acronym": "Fundo Social",
+        "law": {
+          "type": "Lei",
+          "number": "12.351",
+          "year": 2010,
+          "date": "22 de dezembro de 2010",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12351.htm"
+        }
+      },
+      "promise": {
+        "legalArticle": "art. 47",
+        "legalText": "É criado o Fundo Social - FS, de natureza contábil e financeira, vinculado à Presidência da República, com a finalidade de constituir fonte de recursos para o desenvolvimento social e regional, na forma de programas e projetos nas áreas de combate à pobreza e de desenvolvimento: I - da educação; II - da cultura; III - do esporte; IV - da saúde pública; V - da ciência e tecnologia; VI - do meio ambiente; e VII - de mitigação e adaptação às mudanças climáticas.",
+        "source": "Lei 12.351/2010, redação original",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12351.htm"
+      },
+      "collected": {
+        "amount": "sete áreas na origem",
+        "period": "2010",
+        "lastYear": "doze áreas a partir de 2025",
+        "source": "Comparação entre a redação original do art. 47 e a dada pela Lei 15.164/2025",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15164.htm",
+        "note": "Aqui o que cresceu não foi o valor arrecadado, e sim o número de destinos que dividem o mesmo dinheiro."
+      },
+      "outcome": {
+        "indicator": "A lista de destinos quase dobrou: de sete áreas para doze",
+        "legalArticle": "Lei 15.164, de 2025, que deu nova redação ao art. 47 da Lei 12.351/2010",
+        "legalText": "VIII  da infraestrutura social; IX  da habitação de interesse social; X  da infraestrutura hídrica; XI  da segurança alimentar e nutricional; XII  da defesa dos direitos e dos interesses dos povos indígenas.",
+        "split": [
+          {
+            "destino": "áreas na criação, em 2010",
+            "aliquota": "7",
+            "fatia": "educação, cultura, esporte, saúde, ciência e tecnologia, meio ambiente, clima"
+          },
+          {
+            "destino": "áreas acrescentadas em 2025",
+            "aliquota": "5",
+            "fatia": "infraestrutura social, habitação, infraestrutura hídrica, segurança alimentar, povos indígenas"
+          },
+          {
+            "destino": "áreas hoje",
+            "aliquota": "12",
+            "fatia": "o mesmo dinheiro, dividido por mais destinos"
+          }
+        ],
+        "source": "Lei 15.164/2025",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15164.htm"
+      },
+      "loophole": {
+        "name": "Lei nova, não descumprimento",
+        "explanation": "Nenhuma regra foi violada. O Congresso aprovou uma lei que acrescentou cinco áreas à lista original e ampliou uma sexta para incluir calamidades públicas. É o mesmo mecanismo da CPMF, quinze anos depois e em outro governo: a promessa não foi quebrada por fora da lei, foi reescrita por dentro dela.",
+        "amendments": [
+          {
+            "number": "15.164",
+            "year": 2025,
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15164.htm"
+          }
+        ],
+        "source": "Lei 15.164/2025",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15164.htm"
+      },
+      "question": "Quando o dinheiro do petróleo foi carimbado para educação e saúde, quantas outras filas ainda não existiam?",
+      "verified": "primaria"
+    },
+    {
+      "id": "teto-de-gastos",
+      "layer": "gasto",
+      "government": {
+        "label": "Michel Temer, Jair Bolsonaro e Luiz Inácio Lula da Silva",
+        "period": "2016-2023",
+        "note": "Criado em um governo, alterado em outro, substituído no terceiro."
+      },
+      "tribute": {
+        "name": "Novo Regime Fiscal, o teto de gastos",
+        "acronym": "teto de gastos",
+        "law": {
+          "type": "Emenda Constitucional",
+          "number": "95",
+          "year": 2016,
+          "date": "15 de dezembro de 2016",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc95.htm"
+        }
+      },
+      "promise": {
+        "legalArticle": "ADCT, art. 106, incluído pela Emenda Constitucional 95/2016",
+        "legalText": "Fica instituído o Novo Regime Fiscal no âmbito dos Orçamentos Fiscal e da Seguridade Social da União, que vigorará por vinte exercícios financeiros, nos termos dos arts. 107 a 114 deste Ato das Disposições Constitucionais Transitórias.",
+        "source": "Emenda Constitucional 95/2016",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc95.htm"
+      },
+      "collected": {
+        "amount": "vinte exercícios prometidos",
+        "period": "2017 a 2023",
+        "months": 7,
+        "lastYear": "sete cumpridos, e cinco alterações pelo caminho",
+        "source": "Emenda Constitucional 95/2016 e Lei Complementar 200/2023",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm",
+        "note": "O número aqui não é dinheiro: é o prazo que a própria emenda fixou, contra o que durou."
+      },
+      "outcome": {
+        "indicator": "O regime que duraria vinte anos foi substituído no sétimo",
+        "legalArticle": "Lei Complementar 200, de 30 de agosto de 2023, art. 1º",
+        "legalText": "Art. 1º Fica instituído regime fiscal sustentável para garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico, com fundamento no art. 6º da Emenda Constitucional nº 126, de 21 de dezembro de 2022 , e no inciso VIII do caput e no parágrafo único do art. 163 da Constituição Federal.",
+        "split": [
+          {
+            "destino": "prometido pela Emenda 95",
+            "aliquota": "20",
+            "fatia": "exercícios financeiros"
+          },
+          {
+            "destino": "cumpridos",
+            "aliquota": "7",
+            "fatia": "de 2017 a 2023"
+          },
+          {
+            "destino": "alterações no caminho",
+            "aliquota": "5",
+            "fatia": "emendas 113, 114, 123 e 126, mais a lei que o substituiu"
+          }
+        ],
+        "source": "Lei Complementar 200/2023",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm"
+      },
+      "loophole": {
+        "name": "Cinco reescritas, três governos",
+        "explanation": "A regra nunca foi descumprida: foi alterada. As emendas 113 e 114, de 2021, mudaram a conta dos precatórios; a 123, de 2022, pôs benefícios fora do limite em ano eleitoral; a 126, do fim de 2022, abriu espaço para a transição de governo; e a Lei Complementar 200, de 2023, substituiu o regime inteiro. Governos diferentes, partidos diferentes, o mesmo mecanismo.",
+        "amendments": [
+          {
+            "number": "113",
+            "year": 2021,
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc113.htm"
+          },
+          {
+            "number": "114",
+            "year": 2021,
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc114.htm"
+          },
+          {
+            "number": "123",
+            "year": 2022,
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc123.htm"
+          },
+          {
+            "number": "126",
+            "year": 2022,
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm"
+          }
+        ],
+        "source": "Emendas Constitucionais 113, 114, 123 e 126",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm"
+      },
+      "question": "Uma regra escrita na Constituição para durar vinte anos foi reescrita cinco vezes em sete. Quantos anos dura uma promessa fiscal no Brasil?",
+      "verified": "primaria"
+    },
+    {
+      "id": "taxa-das-blusinhas",
+      "layer": "tributo",
+      "government": {
+        "label": "Luiz Inácio Lula da Silva",
+        "period": "2023-2026",
+        "note": "Sancionada em junho de 2024."
+      },
+      "tribute": {
+        "name": "Imposto de importação sobre remessas internacionais de até 50 dólares",
+        "acronym": "a taxa das blusinhas",
+        "law": {
+          "type": "Lei",
+          "number": "14.902",
+          "year": 2024,
+          "date": "27 de junho de 2024",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm"
+        }
+      },
+      "promise": {
+        "legalArticle": "ementa da lei",
+        "legalText": "Institui o Programa Mobilidade Verde e Inovação (Programa Mover); altera o Decreto-Lei nº 1.804, de 3 de setembro de 1980; e revoga dispositivos da Lei nº 13.755, de 10 de dezembro de 2018.",
+        "deadlineArticle": "art. 1º",
+        "deadlineText": "Esta Lei institui o Programa Mobilidade Verde e Inovação (Programa Mover), com as seguintes medidas: I - requisitos obrigatórios para a comercialização de veículos novos produzidos no País e para a importação de veículos novos; II - regime de incentivos à realização de atividades de pesquisa e desenvolvimento para as indústrias de mobilidade e logística; III - regime de autopeças não produzidas; e IV - Fundo Nacional de Desenvolvimento Industrial e Tecnológico (FNDIT).",
+        "source": "Lei 14.902/2024, ementa e art. 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm"
+      },
+      "collected": {
+        "amount": "20% sobre compras de até US$ 50, de agosto de 2024 a maio de 2026",
+        "period": "a partir de agosto de 2024",
+        "lastYear": "e 50% dos gastos em pesquisa como crédito para a indústria, na mesma lei",
+        "source": "Lei 14.902/2024, tabela do § 2º-A e art. 16",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm",
+        "note": "As duas medidas estão no mesmo diploma legal, sancionadas no mesmo dia."
+      },
+      "outcome": {
+        "indicator": "A lei que devolve metade da pesquisa à indústria é a mesma que passou a taxar a compra de 50 dólares",
+        "legalArticle": "Decreto-Lei 1.804/1980, § 2º-A, com a redação dada pela Lei 14.902/2024",
+        "legalText": "O imposto de importação do regime de tributação simplificada de que dispõe o art. 1º deste Decreto-Lei será calculado conforme as alíquotas e a parcela a deduzir da seguinte tabela progressiva: De (US$) 0 Até (US$) 50,00, alíquota 20,0%; De (US$) 50,01 Até (US$) 3.000,00, alíquota 60,0%, parcela a deduzir US$ 20,00.",
+        "split": [
+          {
+            "destino": "era o que passava a pagar de imposto de importação quem comprasse até US$ 50 num site estrangeiro, a partir de agosto de 2024",
+            "fatia": "20%"
+          },
+          {
+            "destino": "é quanto a indústria pode abater dos gastos com pesquisa e desenvolvimento, recebido de volta como crédito financeiro — na mesma lei, sancionada no mesmo dia",
+            "fatia": "50%"
+          }
+        ],
+        "source": "Lei 14.902/2024",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm"
+      },
+      "loophole": {
+        "name": "A taxação entrou numa lei sobre outra coisa",
+        "explanation": "A ementa não menciona comércio eletrônico nem importação de bens de consumo: ela institui um programa de mobilidade e inovação para a indústria automotiva. A taxação das remessas pequenas aparece como alteração de um decreto-lei de 1980, no mesmo texto que concede à indústria crédito de metade do que ela gastar em pesquisa e desenvolvimento.",
+        "amendments": [
+          {
+            "number": "1.804",
+            "year": 1980,
+            "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/1965-1988/del1804.htm"
+          }
+        ],
+        "source": "Lei 14.902/2024, ementa e art. 32",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm"
+      },
+      "question": "A mesma lei devolveu metade do que a indústria gasta em pesquisa e cobrou 20% de quem comprava 50 dólares. A cobrança acabou em 2026; o crédito da indústria não. Qual das duas foi chamada de proteção ao comércio nacional?",
+      "verified": "primaria",
+      "end": {
+        "text": "A taxa durou vinte e um meses. Desde 12 de maio de 2026 o imposto de importação federal sobre compras de até US$ 50 é ZERO nas plataformas do Remessa Conforme — restou o ICMS estadual. O crédito de 50% para a pesquisa da indústria continua de pé.",
+        "source": "Receita Federal — Novas Regras, tabela em vigor desde 12/05/2026",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/remessas-postal-e-expressa/regras-futuras"
+      }
+    }
+  ]
+}

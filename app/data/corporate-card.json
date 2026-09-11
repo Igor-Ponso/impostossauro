@@ -1,0 +1,79 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "Metade do cartão do governo não diz onde o dinheiro foi",
+  "intro": "O Portal da Transparência publica cada compra feita com o cartão de pagamento do governo federal: o órgão, a data, o valor e o estabelecimento. Em 2025 foram 160.800 transações e R$ 122,3 milhões. Em quase metade do valor, o estabelecimento não aparece.",
+  "year": 2025,
+  "transactions": 160800,
+  "totalMi": 122.25,
+  "secretMi": 50.6,
+  "cashMi": 9.34,
+  "secretPct": 41.4,
+  "cashPct": 7.6,
+  "opaquePct": 49.0,
+  "secretLabel": "está marcado como \"Informações protegidas por sigilo\" — o valor aparece, o destino não",
+  "cashLabel": "saiu em saque, dinheiro vivo de um cartão de governo, que por definição não deixa rastro de fornecedor",
+  "mirror": {
+    "text": "Você é obrigado a declarar de onde veio cada real que entrou na sua conta, e a omissão tem multa. O governo marcou 41% do que gastou no cartão como sigilo — e o sigilo não é uma falha: é uma categoria do próprio sistema criado para mostrar o gasto.",
+    "highlight": "41% do que gastou no cartão como sigilo",
+    "source": "Receita Federal — obrigatoriedade e multa por omissão na declaração do Imposto de Renda",
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda"
+  },
+  "byOrgTitle": "O sigilo não é distribuído por igual",
+  "byOrg": [
+    {
+      "org": "Ministério da Justiça e Segurança Pública",
+      "totalMi": 35.12,
+      "secretMi": 26.96,
+      "pct": 76.7
+    },
+    {
+      "org": "Presidência da República",
+      "totalMi": 23.13,
+      "secretMi": 22.73,
+      "pct": 98.3
+    },
+    {
+      "org": "Ministério da Fazenda",
+      "totalMi": 2.89,
+      "secretMi": 0.9,
+      "pct": 31.0
+    },
+    {
+      "org": "Ministério da Defesa",
+      "totalMi": 19.6,
+      "secretMi": 0.02,
+      "pct": 0.1
+    }
+  ],
+  "cashTitle": "E o dinheiro vivo",
+  "byCash": [
+    {
+      "org": "Ministério do Planejamento e Orçamento",
+      "cashMi": 5.57,
+      "pct": 62.9
+    },
+    {
+      "org": "Ministério da Justiça e Segurança Pública",
+      "cashMi": 2.27,
+      "pct": 6.5
+    },
+    {
+      "org": "Ministério do Meio Ambiente e Mudança do Clima",
+      "cashMi": 0.42,
+      "pct": 10.7
+    },
+    {
+      "org": "Ministério da Agricultura e Pecuária",
+      "cashMi": 0.24,
+      "pct": 12.5
+    }
+  ],
+  "punch": "O Ministério da Defesa, que opera as Forças Armadas, declarou sigilo em 0,1% do que gastou no cartão. A Presidência da República declarou em 98,3%.",
+  "honesty": {
+    "title": "O sigilo varia por órgão",
+    "text": "Dois órgãos que alegam segurança declararam sigilo em 0,1% e em 98,3% do que gastaram no cartão. Se o sigilo fosse consequência da atividade, os dois números estariam perto. R$ 50,6 milhões saíram do seu imposto sem dizer para onde. Qual norma explica a diferença?"
+  },
+  "question": "Se o Portal da Transparência existe para mostrar onde o dinheiro foi, o que ele mostra quando metade do cartão vem marcada como sigilo ou sai em dinheiro vivo?",
+  "source": "Portal da Transparência — Cartão de Pagamento do Governo Federal, arquivos abertos de janeiro a dezembro de 2025",
+  "url": "https://portaldatransparencia.gov.br/download-de-dados/cpgf"
+}

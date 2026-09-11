@@ -1,0 +1,16 @@
+{
+  "title": "They promised to give back R$ 22 billion",
+  "intro": "Operation Lava Jato closed 278 collaboration and leniency agreements, committing companies to return R$ 22 billion to the public purse. Part of that money came back. Part was renegotiated. And part can be paid not in cash, but with tax credits the company already held against the federal government.",
+  "headline.label": "was the total repayment commitment across the 278 collaboration and leniency agreements",
+  "headline.source": "Operation Lava Jato balance sheet",
+  "odebrecht.title": "The case that sums up all seven",
+  "odebrecht.body": "Odebrecht (now Novonor) had the largest debt among the companies that signed leniency agreements: R$ 3.9 billion. From the 2018 agreement to 2025 it paid around R$ 171 million — less than 5% of what it owed, over six years. In the renegotiation the figure fell to R$ 1.9 billion. Proportionally, it was the most favoured of the seven.",
+  "companiesNote": "The seven companies that renegotiated their leniency agreements within ADPF 1051.",
+  "taxCredit.title": "The part that is not paid in cash",
+  "taxCredit.body": "The renegotiation allowed an alternative form of payment: using credits the companies already held against the federal government. Under the proposal the Attorney General and the Comptroller General delivered to the Supreme Court, up to HALF of the remaining balance of each agreement can be settled with tax-loss credits — that is, written off against tax rather than returned to the treasury.",
+  "divergence.title": "Two official accounts of the same renegotiation",
+  "divergence.note": "Both are official sources and they do not say the same thing. The site publishes both because the divergence is the fact — and because the judgment is not over: it has been suspended since August 2025 by a request for review from Justice Flávio Dino.",
+  "question": "A company that owed R$ 3.9 billion paid R$ 171 million over six years, and what remains can be settled up to half with tax credits. How much of what the agreements promised to return actually came back to the people who pay the bill?",
+  "divergence.tcu.text": "The Federal Audit Court, in a technical note sent to the Supreme Court, described the renegotiation as a discount of more than R$ 5.7 billion to the seven companies — almost 50% of the total debt.",
+  "divergence.stf.text": "The rapporteur at the Supreme Court, Justice André Mendonça, voted that the agreements \"offered no discounts on the principal amount of the fines\" — what changed was the payment schedule and the form of payment."
+}

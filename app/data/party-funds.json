@@ -1,0 +1,115 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "O imposto que a classe política reserva para si",
+  "intro": "Empresa não pode doar para campanha desde 2015. Quem paga a campanha, hoje, é o contribuinte — por dois fundos criados em lei: o Fundo Partidário, que corre todo ano, e o Fundo Eleitoral, que aparece em ano de eleição. Em 2026 os dois somam mais de R$ 6 bilhões.",
+  "total": {
+    "electoral": 4.96,
+    "party": 1.4,
+    "unit": "R$ bilhões",
+    "label": "é o que os dois fundos somam no Orçamento de 2026",
+    "note": "O Fundo Eleitoral de 2026 é de R$ 4.961.519.777,00, distribuídos entre 30 partidos. O Fundo Partidário está estimado em R$ 1,4 bilhão na Lei Orçamentária — em 2025 ele repassou R$ 1.126.071.496,13 a 19 partidos, mais R$ 102.572.513,68 vindos de multas eleitorais."
+  },
+  "raise": {
+    "title": "O Congresso quintuplicou o próprio fundo, e disse de onde tiraria",
+    "from": 1.0,
+    "to": 4.9,
+    "unit": "R$ bilhões",
+    "body": "Em 30 de setembro de 2025, a Comissão Mista de Orçamento elevou de R$ 1 bilhão para R$ 4,9 bilhões o valor reservado no Orçamento de 2026 para as eleições. O dinheiro não veio de lugar nenhum: o governo já havia tirado R$ 1 bilhão das emendas de bancadas estaduais, e a comissão tirou mais R$ 2,9 bilhões das mesmas emendas. O restante saiu de despesas não obrigatórias. Com isso, a reserva para emendas de bancada caiu de R$ 15,2 bilhões para R$ 11,2 bilhões.",
+    "source": "Agência Câmara — Comissão Mista de Orçamento, 30 de setembro de 2025 (PLN 15/25, IN 1/25)",
+    "url": "https://www.camara.leg.br/noticias/1205778-comissao-de-orcamento-eleva-recursos-do-fundo-eleitoral-para-2026"
+  },
+  "parties": {
+    "title": "Quanto cada partido recebe do Fundo Eleitoral em 2026",
+    "note": "A distribuição segue a representatividade no Congresso: quem tem mais parlamentar recebe mais. As três primeiras siglas concentram quase 40% do total. A lista abaixo tem os 21 partidos que a Agência Senado publicou; são 30 no total.",
+    "unit": "R$ milhões",
+    "rows": [
+      {
+        "party": "PL",
+        "value": 881
+      },
+      {
+        "party": "PT",
+        "value": 615
+      },
+      {
+        "party": "União Brasil",
+        "value": 526
+      },
+      {
+        "party": "PSD",
+        "value": 421
+      },
+      {
+        "party": "PP",
+        "value": 417
+      },
+      {
+        "party": "MDB",
+        "value": 400
+      },
+      {
+        "party": "Republicanos",
+        "value": 348
+      },
+      {
+        "party": "Podemos",
+        "value": 246
+      },
+      {
+        "party": "PDT",
+        "value": 169
+      },
+      {
+        "party": "PSB",
+        "value": 152
+      },
+      {
+        "party": "PSDB",
+        "value": 147
+      },
+      {
+        "party": "PSOL",
+        "value": 131
+      },
+      {
+        "party": "Solidariedade",
+        "value": 88
+      },
+      {
+        "party": "Avante",
+        "value": 72
+      },
+      {
+        "party": "PRD",
+        "value": 71
+      },
+      {
+        "party": "PC do B",
+        "value": 60
+      },
+      {
+        "party": "Cidadania",
+        "value": 60
+      },
+      {
+        "party": "PV",
+        "value": 45
+      },
+      {
+        "party": "Novo",
+        "value": 37
+      },
+      {
+        "party": "Rede",
+        "value": 35
+      },
+      {
+        "party": "Unidade Popular",
+        "value": 3.3
+      }
+    ],
+    "source": "TSE, conforme publicado pela Agência Senado em 8 de junho de 2026",
+    "url": "https://www12.senado.leg.br/noticias/materias/2026/06/08/fundo-eleitoral-vai-repassar-quase-r-5-bi-a-30-partidos-para-campanhas-em-2026"
+  },
+  "question": "Empresa não pode financiar campanha, e o contribuinte não foi perguntado se queria. São R$ 6 bilhões de imposto em ano eleitoral, tirados em parte das emendas que financiariam obra nos estados. Alguém votou nisso?"
+}

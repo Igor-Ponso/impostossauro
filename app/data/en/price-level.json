@@ -1,0 +1,20 @@
+{
+  "title": "Inflation slowed down. Your meat did not come back.",
+  "intro": "The inflation rate measures the SPEED at which prices rise, not the height they have already reached. When the headline says inflation fell, it is saying prices are rising more slowly — not that they came back. These are the same items on two rulers: the last twelve months, which is what makes the headline, and the last three years, which is what is on your supermarket receipt.",
+  "period.months12": "July 2026",
+  "period.months36": "August 2023 to July 2026",
+  "generalIndex.label": "official inflation (full IPCA)",
+  "items[0].label": "ground coffee",
+  "items[1].label": "electricity",
+  "items[2].label": "meat",
+  "items[3].label": "eating out",
+  "items[4].label": "petrol",
+  "items[5].label": "bread roll",
+  "items[6].label": "rent",
+  "items[7].label": "bottled cooking gas",
+  "items[8].label": "UHT milk",
+  "items[9].label": "city bus",
+  "punch": "Coffee fell 17% over twelve months — and is 56% more expensive than three years ago. Both sentences are true at the same time, and only one fits in a headline.",
+  "question": "If prices \"stopped rising\", why does the same money buy less? Because stopping rising is not coming down. The sum you do at the till is the three-year one, not the twelve-month one.",
+  "source": "IBGE — IPCA, monthly variation by item (SIDRA, table 7060). The three-year accumulation is the compounding of the monthly variations from August 2023 to July 2026."
+}

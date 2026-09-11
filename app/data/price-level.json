@@ -1,0 +1,80 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "A inflação desacelerou. Sua carne não voltou.",
+  "intro": "A taxa de inflação mede a VELOCIDADE em que os preços sobem, não a altura em que eles já estão. Quando a manchete diz que a inflação caiu, ela está dizendo que os preços sobem mais devagar — não que voltaram. Estes são os mesmos itens em duas réguas: os últimos doze meses, que é o que aparece na manchete, e os últimos três anos, que é o que está na sua conta do mercado.",
+  "period": {
+    "months12": "julho de 2026",
+    "months36": "agosto de 2023 a julho de 2026"
+  },
+  "generalIndex": {
+    "label": "a inflação oficial (IPCA cheio)",
+    "pct12": 4.44,
+    "pct36": 14.8
+  },
+  "items": [
+    {
+      "label": "café moído",
+      "pct12": -17.2,
+      "pct36": 56.4,
+      "vsGeneral": 3.8
+    },
+    {
+      "label": "energia elétrica",
+      "pct12": 8.85,
+      "pct36": 27.5,
+      "vsGeneral": 1.9
+    },
+    {
+      "label": "carnes",
+      "pct12": 7.88,
+      "pct36": 27.1,
+      "vsGeneral": 1.8
+    },
+    {
+      "label": "comer fora",
+      "pct12": 5.55,
+      "pct36": 19.4,
+      "vsGeneral": 1.3
+    },
+    {
+      "label": "gasolina",
+      "pct12": 4.76,
+      "pct36": 17.7,
+      "vsGeneral": 1.2
+    },
+    {
+      "label": "pão francês",
+      "pct12": 4.66,
+      "pct36": 13.3,
+      "vsGeneral": 0.9
+    },
+    {
+      "label": "aluguel",
+      "pct12": 4.89,
+      "pct36": 13.0,
+      "vsGeneral": 0.9
+    },
+    {
+      "label": "gás de botijão",
+      "pct12": 4.17,
+      "pct36": 11.7,
+      "vsGeneral": 0.8
+    },
+    {
+      "label": "leite longa vida",
+      "pct12": 7.52,
+      "pct36": 11.5,
+      "vsGeneral": 0.8
+    },
+    {
+      "label": "ônibus urbano",
+      "pct12": 3.68,
+      "pct36": 7.8,
+      "vsGeneral": 0.5
+    }
+  ],
+  "punch": "O café caiu 17% em doze meses — e está 56% mais caro que há três anos. As duas frases são verdadeiras ao mesmo tempo, e só uma cabe na manchete.",
+  "question": "Se os preços \"pararam de subir\", por que o mesmo dinheiro compra menos? Porque parar de subir não é descer. A conta que você faz no caixa é a de três anos, não a de doze meses.",
+  "source": "IBGE — IPCA, variação mensal por item (SIDRA, tabela 7060). O acumulado de três anos é a composição das variações mensais de agosto de 2023 a julho de 2026.",
+  "url": "https://sidra.ibge.gov.br/tabela/7060"
+}

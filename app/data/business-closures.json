@@ -1,0 +1,58 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "Quem emprega está fechando as portas",
+  "intro": "Todo imposto sai de alguém que produz. Quando a empresa que emprega fecha, some o imposto que ela recolhia, some o imposto do salário que ela pagava e some o consumo de quem recebia esse salário. É a fonte secando na origem — e ela está secando no ritmo mais alto em três anos.",
+  "closures": {
+    "value": 874900,
+    "period": "1º trimestre de 2026",
+    "label": "pequenos negócios fechados em um único trimestre",
+    "previous": 749200,
+    "previousLabel": "no mesmo trimestre de 2025",
+    "quarterGrowthPct": 33.6,
+    "note": "126 mil a mais que um ano antes, e o maior volume desde 2023. Contra o trimestre imediatamente anterior, as baixas de CNPJ cresceram 33,6%.",
+    "source": "Sebrae — Panorama Econômico Trimestral dos Pequenos Negócios",
+    "url": "https://agenciadcnews.com.br/publicacao/s/meis-lideram-aberturas-mas-respondem-por-71-dos-pequenos-negocios-fechados-em-2026"
+  },
+  "breakdown": [
+    {
+      "label": "MEIs",
+      "pct": 71.6,
+      "note": "o microempreendedor individual — o vendedor, o entregador, a manicure, o pedreiro"
+    },
+    {
+      "label": "micro e pequenas empresas",
+      "pct": 28.4,
+      "note": "as que empregam com carteira"
+    }
+  ],
+  "sectors": [
+    {
+      "label": "serviços",
+      "value": 528700,
+      "pct": 60.4
+    },
+    {
+      "label": "comércio",
+      "value": 213600,
+      "pct": 24.4
+    }
+  ],
+  "default": {
+    "value": 7200000,
+    "pct": 31,
+    "label": "empresas estavam inadimplentes em 2025 — 31% de tudo que está ativo no país",
+    "source": "Serasa Experian, conforme divulgado pela imprensa",
+    "url": "https://timesbrasil.com.br/empresas-e-negocios/veja-fatores-responsaveis-por-fechamentos-de-empresas/"
+  },
+  "banks": {
+    "title": "No mesmo período, do outro lado do balcão",
+    "fourBanks": 107.8,
+    "privateThree": 86.55,
+    "privatePrevious": 72.7,
+    "itau": 46.8,
+    "body": "Os quatro maiores bancos lucraram R$ 107,8 bilhões em 2025. Os três privados somaram R$ 86,55 bilhões — o maior valor nominal da série, contra R$ 72,7 bilhões em 2024. Só o Itaú fez R$ 46,8 bilhões, mais que Bradesco e Santander juntos. Os dois números são do mesmo ano e do mesmo país.",
+    "source": "Balanços de 2025 divulgados pelos próprios bancos, conforme compilado pela imprensa",
+    "url": "https://www.metropoles.com/negocios/lucro-dos-bancoes-bate-r-107-bilhoes-em-2025-mas-cai-puxado-por-bb"
+  },
+  "question": "De onde vem o imposto que sobe todo ano, se quem emprega fecha 874,9 mil portas por trimestre e 31% das empresas ativas estão inadimplentes?"
+}

@@ -1,0 +1,120 @@
+{
+  "updatedAt": "2026-08-15",
+  "employerCharges": [
+    {
+      "name": "INSS patronal",
+      "rate": "20%",
+      "source": "Lei 8.212/1991, art. 22",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm"
+    },
+    {
+      "name": "FGTS",
+      "rate": "8%",
+      "source": "Lei 8.036/1990, art. 15",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"
+    },
+    {
+      "name": "RAT (acidentes)",
+      "rate": "1–3%",
+      "source": "Lei 8.212/1991, art. 22, II",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm"
+    },
+    {
+      "name": "Sistema S + salário-educação",
+      "rate": "~5,8%",
+      "source": "Contribuições a terceiros (inclui salário-educação de 2,5%)",
+      "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/financiamento/salario-educacao"
+    },
+    {
+      "name": "Provisões de 13º e férias (+1/3)",
+      "rate": "~19,4%",
+      "source": "CLT / guias contábeis",
+      "url": "https://contaja.com.br/blog/quanto-custa-um-funcionario-para-empresa/"
+    }
+  ],
+  "multiplier": {
+    "conservative": 1.62,
+    "accountingRange": "1,68–1,8×",
+    "pastore": "≈2× (encargos de 103%, José Pastore/USP)",
+    "fgvCni": "até ≈2,8× com custos indiretos (peso de 183%)",
+    "sources": [
+      {
+        "label": "Exame — custo do funcionário é de até 3× o salário (FGV/CNI)",
+        "url": "https://exame.com/economia/custo-do-funcionario-e-de-ate-3-vezes-o-salario-mensal/"
+      },
+      {
+        "label": "Senado — Texto para Discussão nº 288 (revisão das metodologias)",
+        "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td288"
+      }
+    ]
+  },
+  "revenueTaxes": [
+    {
+      "name": "PIS/COFINS",
+      "rate": "3,65% ou 9,25% da receita",
+      "source": "Leis 9.718/98, 10.637/02 e 10.833/03",
+      "url": "https://www.portaltributario.com.br/artigos/pis-cofins-regimes.htm"
+    },
+    {
+      "name": "ICMS (comércio)",
+      "rate": "17–23% por estado",
+      "source": "Leis estaduais (tabela 2025)",
+      "url": "https://www.taxgroup.com.br/intelligence/tabela-icms-atualizada/"
+    },
+    {
+      "name": "ISS (serviços)",
+      "rate": "2–5% por município",
+      "source": "LC 116/2003",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm"
+    },
+    {
+      "name": "IRPJ",
+      "rate": "15% + adicional de 10%",
+      "source": "Lei 9.249/1995, art. 3º",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm"
+    },
+    {
+      "name": "CSLL",
+      "rate": "9% do lucro",
+      "source": "Lei 7.689/1988",
+      "url": "https://planning.com.br/lucro-presumido-irpj-csll/"
+    }
+  ],
+  "stats": [
+    {
+      "key": "hours",
+      "value": "1.501 horas/ano",
+      "detail": "Tempo que uma empresa média gastava para cumprir obrigações tributárias no Brasil — recorde mundial absoluto na última medição da série (média global: ~234h). O ranking foi descontinuado em 2021; nenhum país chegou perto.",
+      "source": "Banco Mundial — Doing Business 2020 (Paying Taxes)",
+      "url": "https://archive.doingbusiness.org/content/dam/doingBusiness/country/b/brazil/BRA.pdf"
+    },
+    {
+      "key": "custoBrasil",
+      "value": "R$ 1,7 trilhão/ano",
+      "detail": "O 'Custo Brasil': quanto custa a mais produzir aqui em vez de num país médio da OCDE — cerca de 19,5% do PIB, todo ano.",
+      "source": "MDIC / Movimento Brasil Competitivo (medição 2021, divulgada em 2023)",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2023/maio/custo-brasil-atinge-o-patamar-de-r-1-7-trilhao-e-mdic-prepara-plano-para-reducao"
+    },
+    {
+      "key": "litigation",
+      "value": "74,8% do PIB",
+      "detail": "O estoque de brigas entre contribuintes e fisco: R$ 5,69 trilhões em disputas administrativas e judiciais — mais que o dobro da arrecadação anual de todos os entes juntos.",
+      "source": "Insper — Contencioso Tributário no Brasil, Relatório 2021 (ano-ref. 2020)",
+      "url": "https://repositorio.insper.edu.br/bitstreams/ac44b28d-85f9-432f-afd8-ff0de7cca343/download"
+    },
+    {
+      "key": "vat",
+      "value": "~28%",
+      "detail": "Alíquota-padrão estimada do novo IVA da reforma tributária (CBS+IBS): a maior do mundo, à frente da Hungria (27%). A lei trava a referência em 26,5%, mas as estimativas oficiais já passam disso.",
+      "source": "Ministério da Fazenda — notas técnicas das alíquotas de referência / LC 214/2025",
+      "url": "https://www.gov.br/fazenda/pt-br/central-de-conteudo/publicacoes/notas-informativas/2024/agosto/nota-tecnica-aliquotas-sertmf.pdf"
+    },
+    {
+      "key": "norms",
+      "value": "541.680 normas",
+      "detail": "Normas tributárias editadas desde a Constituição de 1988 — cerca de 40 por dia útil. Só acompanhar as mudanças custa às empresas ~R$ 279 bilhões por ano.",
+      "source": "IBPT — Quantidade de Normas Editadas no Brasil (edição 2025)",
+      "url": "https://ibpt.org.br/estudo-quantidade-de-normas-editadas-no-brasil-2024/"
+    }
+  ]
+}

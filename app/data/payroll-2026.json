@@ -1,0 +1,41 @@
+{
+  "year": 2026,
+  "disclaimer": "Tabelas oficiais vigentes desde 1º/01/2026.",
+  "sources": [
+    {
+      "label": "INSS 2026 — Portaria Interministerial MPS/MF nº 13, de 9/01/2026 (Anexo II)",
+      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/documentos/PortariaInterministerialMPSMF13de9dejaneirode2026.pdf"
+    },
+    {
+      "label": "IRRF 2026 — Receita Federal, Tabelas de Tributação 2026",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026"
+    },
+    {
+      "label": "Redutor de isenção até R$ 5.000 — Lei nº 15.270/2025 e exemplos de aplicação da Receita Federal",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/exemplos-de-aplicacao-da-lei-15-270-2025"
+    }
+  ],
+  "tables": {
+    "inss": {
+      "brackets": [
+        { "upTo": 1621.0, "ratePct": 7.5 },
+        { "upTo": 2902.84, "ratePct": 9 },
+        { "upTo": 4354.27, "ratePct": 12 },
+        { "upTo": 8475.55, "ratePct": 14 }
+      ],
+      "ceiling": 8475.55
+    },
+    "irrf": {
+      "brackets": [
+        { "upTo": 2428.8, "ratePct": 0, "deduction": 0 },
+        { "upTo": 2826.65, "ratePct": 7.5, "deduction": 182.16 },
+        { "upTo": 3751.05, "ratePct": 15, "deduction": 394.16 },
+        { "upTo": 4664.68, "ratePct": 22.5, "deduction": 675.49 },
+        { "upTo": null, "ratePct": 27.5, "deduction": 908.73 }
+      ],
+      "dependentDeduction": 189.59,
+      "simplifiedDeduction": 607.2,
+      "lowIncomeReduction": { "a": 978.62, "b": 0.133145 }
+    }
+  }
+}

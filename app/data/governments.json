@@ -1,0 +1,249 @@
+{
+  "updatedAt": "2026-08-15",
+  "disclaimer": "Citações com fonte linkada; paráfrases marcadas. A mesma régua para todos os governos.",
+  "governments": [
+    {
+      "key": "dilma",
+      "fullName": "Dilma Vana Rousseff",
+      "party": "PT",
+      "period": "2011 – ago/2016 (mandato cassado pelo Senado)",
+      "promises": [
+        {
+          "quote": "A luta mais obstinada do meu governo será pela erradicação da pobreza extrema. Não vou descansar enquanto houver brasileiros sem alimento na mesa.",
+          "context": "Discurso de posse no Congresso Nacional, 1º/01/2011 — origem do plano Brasil Sem Miséria",
+          "source": "Senado Notícias (íntegra do discurso)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2011/01/01/integra-do-discurso-da-presidente-dilma-rousseff-na-cerimonia-de-posse"
+        },
+        {
+          "quote": "Não vou reduzir direitos trabalhistas nem que a vaca tussa — nem férias, nem 13º, nem FGTS, nem hora extra.",
+          "context": "Campanha à reeleição, setembro de 2014",
+          "source": "Agência Brasil (EBC)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-09/dilma-diz-que-nao-reduz-direitos-trabalhistas-nem-que-vaca-tussa",
+          "paraphrase": true
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "PIB",
+          "value": "−3,5% em 2015 e −3,3% em 2016 — a pior recessão da série",
+          "source": "IBGE, Contas Nacionais Trimestrais — taxa acumulada no ano (SIDRA, tabela 5932)",
+          "url": "https://sidra.ibge.gov.br/tabela/5932"
+        },
+        {
+          "label": "Inflação (IPCA) 2015",
+          "value": "10,67% — maior alta desde 2002, estourando o teto da meta",
+          "source": "IBGE, IPCA — variação acumulada no ano (SIDRA, tabela 1737)",
+          "url": "https://sidra.ibge.gov.br/tabela/1737"
+        },
+        {
+          "label": "Desemprego",
+          "value": "saltou para 12,0% no fim de 2016 (PNAD Contínua)",
+          "source": "IBGE, PNAD Contínua trimestral (SIDRA, tabela 4099)",
+          "url": "https://sidra.ibge.gov.br/tabela/4099"
+        },
+        {
+          "label": "Fim do mandato",
+          "value": "cassada pelo Senado (61 a 20) por crime de responsabilidade — 'pedaladas fiscais' e decretos sem autorização, após rejeição das contas pelo TCU",
+          "source": "Processo no Senado Federal (referências no verbete)",
+          "url": "https://pt.wikipedia.org/wiki/Impeachment_de_Dilma_Rousseff"
+        }
+      ],
+      "excuse": {
+        "quote": "Estamos na segunda etapa de enfrentamento da mais grave crise internacional desde a Grande Depressão de 1929.",
+        "context": "Pronunciamento em rede nacional, 8/03/2015, atribuindo a piora à crise externa",
+        "source": "Exame",
+        "url": "https://exame.com/brasil/dilma-culpa-crise-externa-e-falta-de-chuva-por-situacao-no-pais-diz-que-ajuste-dura-o-tempo-que-for-preciso-e-pede-uniao/"
+      }
+    },
+    {
+      "key": "temer",
+      "fullName": "Michel Miguel Elias Temer Lulia",
+      "party": "MDB",
+      "period": "ago/2016 – 2018",
+      "promises": [
+        {
+          "quote": "'Uma Ponte para o Futuro': restabelecer o equilíbrio fiscal e retomar o crescimento econômico.",
+          "context": "Programa PMDB/Fundação Ulysses Guimarães, out/2015, que virou a plataforma do governo",
+          "source": "Agência Brasil (EBC)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2015-10/pmdb-critica-excessos-economicos-do-governo-e-aumento-de-impostos",
+          "paraphrase": true
+        },
+        {
+          "quote": "Os setores produtivos estimam que a modernização na lei trabalhista criará, em curto prazo, mais de 2 milhões de empregos.",
+          "context": "Após sancionar a reforma trabalhista (Lei 13.467), julho de 2017, segundo a CartaCapital",
+          "source": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/economia/a-reforma-trabalhista-completa-4-anos-sem-cumprir-suas-promessas/",
+          "paraphrase": true
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "PIB",
+          "value": "+1,3% em 2017 e +1,1% em 2018 (revisado depois para 1,8%) — retomada anêmica",
+          "source": "IBGE, Contas Nacionais Trimestrais — taxa acumulada no ano (SIDRA, tabela 5932)",
+          "url": "https://sidra.ibge.gov.br/tabela/5932"
+        },
+        {
+          "label": "Desemprego",
+          "value": "média de 12,6% em 2017 — a maior até então; o recorde da série só viria em 2021, com 14,0%. Os 2 milhões de empregos estimados não vieram",
+          "source": "IBGE, PNAD Contínua — média anual (SIDRA, tabela 4562)",
+          "url": "https://sidra.ibge.gov.br/tabela/4562"
+        },
+        {
+          "label": "Aprovação",
+          "value": "3% de ótimo/bom (CNI/Ibope, set/2017) — a pior desde Sarney",
+          "source": "Agência Brasil (EBC)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2017-09/popularidade-de-temer-tem-3-de-aprovacao-diz-pesquisa-cniibope"
+        }
+      ],
+      "excuse": {
+        "quote": "Fui extremamente impopular, o que foi extremamente útil para o Brasil.",
+        "context": "Avaliação retrospectiva do próprio governo — a impopularidade como 'trunfo'",
+        "source": "InfoMoney",
+        "url": "https://www.infomoney.com.br/politica/impopularidade-foi-trunfo-para-governar-e-tomar-decisoes-dificeis-avalia-temer/"
+      }
+    },
+    {
+      "key": "bolsonaro",
+      "fullName": "Jair Messias Bolsonaro",
+      "party": "PSL / PL",
+      "period": "2019 – 2022",
+      "promises": [
+        {
+          "quote": "Reduzir de forma gradativa os impostos, com eliminação e unificação de tributos, controle de gastos e privatizações.",
+          "context": "Plano de governo 'O Caminho da Prosperidade', registrado no TSE, campanha 2018",
+          "source": "Agência Brasil (EBC)",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-10/em-programa-de-governo-bolsonaro-fala-em-corte-de-gastos",
+          "paraphrase": true
+        },
+        {
+          "quote": "Alíquota única de até 20% no Imposto de Renda.",
+          "context": "Proposta de Paulo Guedes, assessor econômico da campanha, outubro de 2018",
+          "source": "Cobertura da campanha 2018 (Mix Vale), citando o plano econômico",
+          "url": "https://www.mixvale.com.br/2018/10/28/veja-quais-sao-as-propostas-jair-bolsonaro-para-o-imposto-de-renda-em-2018/",
+          "paraphrase": true
+        },
+        {
+          "quote": "Programa amplo de privatizações para equilibrar as contas públicas.",
+          "context": "Propostas econômicas da campanha de 2018",
+          "source": "Agência Brasil (EBC)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2018-10/veja-propostas-de-governo-de-jair-bolsonaro",
+          "paraphrase": true
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Carga tributária",
+          "value": "recordes da série do Tesouro: 33,90% do PIB em 2021 e 33,71% em 2022 (metodologia da época) — o governo que prometeu reduzir impostos bateu o recorde de arrecadar",
+          "source": "Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-33-71-do-pib-em-2022"
+        },
+        {
+          "label": "Inflação (IPCA) 2021",
+          "value": "10,06% — maior desde 2015, o dobro do teto da meta",
+          "source": "IBGE, IPCA — variação acumulada no ano (SIDRA, tabela 1737)",
+          "url": "https://sidra.ibge.gov.br/tabela/1737"
+        },
+        {
+          "label": "Teto de gastos",
+          "value": "flexibilizado pela PEC dos Precatórios (dez/2021): ~R$ 106 bilhões fora da regra original",
+          "source": "Câmara dos Deputados",
+          "url": "https://www.camara.leg.br/noticias/825537-pec-dos-precatorios-muda-forma-de-calcular-teto-de-gastos/"
+        },
+        {
+          "label": "Privatizações",
+          "value": "das 'amplas privatizações', uma só de grande porte: Eletrobras, em junho de 2022, no último ano do mandato",
+          "source": "Poder360",
+          "url": "https://www.poder360.com.br/economia/bolsonaro-privatiza-eletrobras-por-r-337-bilhoes/"
+        },
+        {
+          "label": "Orçamento secreto",
+          "value": "bilhões em emendas de relator pagos sem identificação de quem indicava; o STF suspendeu os repasses em 2021",
+          "source": "CNN Brasil / Estadão",
+          "url": "https://www.cnnbrasil.com.br/nacional/saiba-o-que-e-e-como-funciona-o-orcamento-secreto/"
+        }
+      ],
+      "excuse": {
+        "quote": "O Brasil está quebrado, chefe. Eu não consigo fazer nada. Eu queria mexer na tabela do Imposto de Renda; teve esse vírus, potencializado pela mídia que nós temos.",
+        "context": "A apoiadores na saída do Palácio da Alvorada, 5/01/2021",
+        "source": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/bolsonaro-diz-que-brasil-esta-quebrado-e-que-nao-pode-fazer-nada/"
+      }
+    },
+    {
+      "key": "lula3",
+      "fullName": "Luiz Inácio Lula da Silva",
+      "party": "PT",
+      "period": "2023 – 2026 (3º mandato)",
+      "promises": [
+        {
+          "quote": "O povo tem que voltar a comer um churrasquinho, a comer uma picanha e tomar uma cervejinha.",
+          "context": "Entrevista ao Jornal Nacional como candidato, agosto de 2022",
+          "source": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/politica/2022/08/5032120-lula-no-jn-o-povo-tem-que-voltar-a-comer-churrasquinho-e-picanha.html"
+        },
+        {
+          "quote": "Colocar o pobre no Orçamento e o rico no Imposto de Renda.",
+          "context": "Compromisso da campanha de 2022, nas palavras de Fernando Haddad",
+          "source": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/lula-me-pediu-para-colocar-pobre-no-orcamento-e-rico-no-imposto-de-renda-diz-haddad/",
+          "paraphrase": true
+        },
+        {
+          "quote": "Resgatar da pobreza 33 milhões de pessoas e acabar novamente com a fome no Brasil.",
+          "context": "Discurso de posse, 1º/01/2023",
+          "source": "Cobertura da posse",
+          "url": "https://www.diariodecuyo.com.ar/mundo/Lula-juro-como-presidente-Mi-objetivo-es-rescatar-de-la-pobreza-a-33-millones-de-personas--20230101-0027.html",
+          "paraphrase": true
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Arrecadação federal",
+          "value": "R$ 2.886,9 bi em 2025 — o maior da série da Receita, que começa em 1995",
+          "note": "O valor é o \"TOTAL GERAL\" da série que a Receita publica: administrado + previdenciário + outros órgãos. Confere com os R$ 2,886 tri que ela anunciou em janeiro de 2026.",
+          "noteUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/janeiro/arrecadacao-de-receitas-federais-alcanca-r-2-886-trilhoes-em-2025",
+          "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+        },
+        {
+          "label": "Receita com apostas",
+          "value": "de R$ 91 mi para R$ 9,95 bi em um ano",
+          "source": "Receita Federal",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/janeiro/arrecadacao-de-receitas-federais-alcanca-r-2-886-trilhoes-em-2025"
+        },
+        {
+          "label": "Carga tributária",
+          "value": "recorde da série do Tesouro: 32,40% do PIB em 2025",
+          "source": "Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-40-do-pib-em-2025"
+        },
+        {
+          "label": "Déficit primário",
+          "value": "R$ 230,5 bilhões em 2023 (2,12% do PIB) e R$ 43 bilhões em 2024 — gastou-se mais do que o recorde arrecadado",
+          "source": "Ministério da Fazenda / Tesouro",
+          "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2024/janeiro/governo-central-registrou-deficit-primario-de-r-230-535-bilhoes-em-2023"
+        },
+        {
+          "label": "Fome e pobreza",
+          "value": "saiu do Mapa da Fome (SOFI 2025) — mas 28 milhões seguiam em insegurança alimentar e 48,9 milhões (23,1%) abaixo da linha de pobreza em 2024",
+          "source": "FAO / IBGE SIS 2025",
+          "url": "https://www.gov.br/secretariageral/pt-br/noticias/2025/julho/nota-publica-o-brasil-sai-novamente-do-mapa-da-fome-da-fao"
+        },
+        {
+          "label": "Impostos",
+          "value": "IOF elevado por decreto em 2025 (derrubado pelo Congresso, restabelecido pelo STF); isenção do IR até R$ 5 mil sancionada só em nov/2025, valendo a partir de 2026",
+          "source": "Agência Brasil / Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes"
+        }
+      ],
+      "excuse": {
+        "quote": "O Brasil era uma casa em ruínas, uma terra arrasada.",
+        "context": "Expressão recorrente desde 2023 sobre a herança do governo anterior; em 2026 chegou a comparar a herança à Faixa de Gaza",
+        "source": "Poder360",
+        "url": "https://www.poder360.com.br/poder-governo/lula-usa-gaza-para-falar-de-terra-arrasada-deixada-por-bolsonaro/",
+        "paraphrase": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "criterio": "The 30 countries with the highest tax burden in the world, a group defined by the IBPT's IRBES study (14th edition, May 2025, 2023 data). Brazil is in the group on its own merit, in 30th place.",
+  "irbes.fonte": "IBPT — study on tax burden/GDP vs. HDI, IRBES calculation, 14th edition",
+  "irbes.metodologia": "IRBES weights the tax burden at 15% and HDI at 85%. The burden comes from the OECD; the HDI, from the UNDP.",
+  "irbes.fonteCargaPorPais.BRA": "The study names the OECD as the source of the tax burden, but Brazil's figure (33.43%) is the result of the calculation the IBPT itself shows in section 2.1 (R$ 3.629 trillion collected over R$ 10.856 trillion of GDP). It is the only one of the 30 with two decimal places; the other 29 have one, in the format of the OECD tables.",
+  "indicadores[0].rotulo": "Life expectancy at birth",
+  "indicadores[1].rotulo": "Homicides per 100,000 people",
+  "indicadores[2].rotulo": "Population with safely managed sanitation",
+  "indicadores[2].unidade": "% of population",
+  "indicadores[3].unidade": "per 1,000 births",
+  "indicadores[4].unidade": "per 100,000 births",
+  "indicadores[5].rotulo": "Adults who completed secondary school",
+  "indicadores[6].rotulo": "Public spending on education",
+  "indicadores[7].rotulo": "Total health spending",
+  "indicadores[8].rotulo": "GDP per capita",
+  "indicadores[1].unidade": "per 100,000",
+  "indicadores[5].unidade": "% of those aged 25+"
+}

@@ -1,0 +1,701 @@
+{
+  "updatedAt": "2026-08-15",
+  "disclaimer": "Todos os valores têm fonte citada. Estimativas do ano corrente são revisadas quando os consolidados oficiais são publicados.",
+  "currentYear": {
+    "year": 2026,
+    "totalBillions": 4109,
+    "basis": "Os dois números são publicados pela ACSP, e a conta entre eles é multiplicação. O fechamento de 2025 sai do painel Arrecadação Brasil do próprio Impostômetro, lido de 01/01 a 31/12: R$ 3.985 bi. É a mesma régua dos outros anos da série — antes daqui, cada ano vinha de um anúncio de imprensa, e 2019 e 2021 traziam o mesmo valor porque R$ 2,5 tri é a MARCA batida em dezembro nos dois, não o total de nenhum. O ritmo é o medido pela ACSP: o painel bateu R$ 2 trilhões em 27/06/2026, 3,1% à frente do mesmo ponto de 2025, quando a marca só caiu em 3 de julho. R$ 3.985 bi × 1,031 = R$ 4.109 bi. O contador distribui esse total pelos segundos do ano; o ano corrente ainda não fechou, e o número é estimativa — por isso o asterisco no herói.",
+    "source": "Impostômetro — ACSP (painel Arrecadação Brasil para o fechamento de 2025; marca de R$ 2 tri em 27/06/2026 para o ritmo)",
+    "url": "https://acsp.com.br/publicacao-imprensa/s/pela-primeira-vez-na-historia-impostometro-atingira-r-2-trilhoes-ainda-no-primeiro-semestre",
+    "pace": {
+      "previousYearBillions": 3985,
+      "previousYearUrl": "https://impostometro.com.br/Noticias/Interna?idNoticia=1401",
+      "growthPctVsPreviousYear": 3.1,
+      "milestoneBillions": 2000,
+      "milestoneDate": "2026-06-27",
+      "milestoneUrl": "https://acsp.com.br/publicacao-imprensa/s/pela-primeira-vez-na-historia-impostometro-atingira-r-2-trilhoes-ainda-no-primeiro-semestre"
+    }
+  },
+  "revenueSeries": [
+    {
+      "year": 2010,
+      "totalBillions": 1273,
+      "source": "Impostômetro — ACSP, painel Arrecadação Brasil (fechamento do ano, 01/01 a 31/12)",
+      "url": "https://impostometro.com.br/"
+    },
+    {
+      "year": 2015,
+      "totalBillions": 1992,
+      "source": "Impostômetro — ACSP, painel Arrecadação Brasil (fechamento do ano, 01/01 a 31/12)",
+      "url": "https://impostometro.com.br/"
+    },
+    {
+      "year": 2018,
+      "totalBillions": 2388,
+      "source": "Impostômetro — ACSP, painel Arrecadação Brasil (fechamento do ano, 01/01 a 31/12)",
+      "url": "https://impostometro.com.br/"
+    },
+    {
+      "year": 2019,
+      "totalBillions": 2504,
+      "source": "Impostômetro — ACSP, painel Arrecadação Brasil (fechamento do ano, 01/01 a 31/12)",
+      "url": "https://impostometro.com.br/"
+    },
+    {
+      "year": 2021,
+      "totalBillions": 2592,
+      "source": "Impostômetro — ACSP, painel Arrecadação Brasil (fechamento do ano, 01/01 a 31/12)",
+      "url": "https://impostometro.com.br/"
+    },
+    {
+      "year": 2022,
+      "totalBillions": 2890,
+      "source": "Impostômetro — ACSP, painel Arrecadação Brasil (fechamento do ano, 01/01 a 31/12)",
+      "url": "https://impostometro.com.br/"
+    },
+    {
+      "year": 2023,
+      "totalBillions": 3059,
+      "source": "Impostômetro — ACSP, painel Arrecadação Brasil (fechamento do ano, 01/01 a 31/12)",
+      "url": "https://impostometro.com.br/"
+    },
+    {
+      "year": 2024,
+      "totalBillions": 3632,
+      "source": "Impostômetro — ACSP, painel Arrecadação Brasil (fechamento do ano, 01/01 a 31/12)",
+      "url": "https://impostometro.com.br/"
+    },
+    {
+      "year": 2025,
+      "totalBillions": 3985,
+      "source": "Impostômetro — ACSP, painel Arrecadação Brasil (fechamento do ano, 01/01 a 31/12)",
+      "url": "https://impostometro.com.br/"
+    }
+  ],
+  "federalRevenueSeries": [
+    {
+      "year": 1994,
+      "totalBillions": 64.3,
+      "ruler": "nucleo",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 1995,
+      "totalBillions": 119.1,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 1996,
+      "totalBillions": 138.8,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 1997,
+      "totalBillions": 160.6,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 1998,
+      "totalBillions": 183.3,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 1999,
+      "totalBillions": 204,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2000,
+      "totalBillions": 234.3,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2001,
+      "totalBillions": 263.3,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2002,
+      "totalBillions": 317.1,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2003,
+      "totalBillions": 356,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2004,
+      "totalBillions": 418.8,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2005,
+      "totalBillions": 474.6,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2006,
+      "totalBillions": 535.4,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2007,
+      "totalBillions": 618,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2008,
+      "totalBillions": 701.7,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2009,
+      "totalBillions": 716.8,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2010,
+      "totalBillions": 826.5,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2011,
+      "totalBillions": 969.9,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2012,
+      "totalBillions": 1029.3,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    },
+    {
+      "year": 2013,
+      "totalBillions": 1138.8,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "divergence": {
+        "announced": 1100,
+        "announcedSource": "Receita Federal",
+        "announcedUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2014/janeiro/arrecadacao-de-impostos-em-2013-atingiu-r-1-1-trilhao"
+      }
+    },
+    {
+      "year": 2014,
+      "totalBillions": 1188,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2015-01/arrecadacao-federal-encerra-2014-com-primeira-queda-real-em-cinco-anos"
+      }
+    },
+    {
+      "year": 2015,
+      "totalBillions": 1221.5,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2016-01/arrecadacao-do-governo-registra-queda-de-562-em-2015"
+      }
+    },
+    {
+      "year": 2016,
+      "totalBillions": 1289.9,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2017-01/arrecadacao-cai-297-e-fica-em-r-1289-trilhoes-em-2016-diz-receita-federal"
+      }
+    },
+    {
+      "year": 2017,
+      "totalBillions": 1342.4,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-01/arrecadacao-federal-encerra-2017-com-o-primeiro-crescimento-real-em-quatro"
+      }
+    },
+    {
+      "year": 2018,
+      "totalBillions": 1457.1,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2019-01/arrecadacao-federal-soma-r-1457-trilhao-em-2018-maior-desde-2014"
+      }
+    },
+    {
+      "year": 2019,
+      "totalBillions": 1537.1,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2020-01/arrecadacao-federal-com-impostos-chega-r-1537-trilhoes-em-2019"
+      }
+    },
+    {
+      "year": 2020,
+      "totalBillions": 1479.4,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-01/arrecadacao-federal-cai-691-em-2020"
+      }
+    },
+    {
+      "year": 2021,
+      "totalBillions": 1878.8,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-01/arrecadacao-federal-soma-r-187-trilhao-e-bate-recorde-em-2021"
+      }
+    },
+    {
+      "year": 2022,
+      "totalBillions": 2218.5,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2023/janeiro/arrecadacao-federal-alcanca-mais-de-r-2-21-trilhoes-no-acumulado-de-janeiro-a-dezembro-de-2022"
+      }
+    },
+    {
+      "year": 2023,
+      "totalBillions": 2318.1,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Ministério da Fazenda",
+        "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2024/janeiro/arrecadacao-federal-de-2023-somou-r-2-318-trilhoes"
+      }
+    },
+    {
+      "year": 2024,
+      "totalBillions": 2652.7,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+      "corroboration": {
+        "source": "Receita Federal / Ministério da Fazenda",
+        "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2025/janeiro/arrecadacao-total-das-de-receitas-federais-alcancou-r-2-652-trilhoes-no-ano-de-2024"
+      }
+    },
+    {
+      "year": 2025,
+      "totalBillions": 2886.9,
+      "ruler": "completa",
+      "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica"
+    }
+  ],
+  "ipcaSeries": [
+    {
+      "year": 2010,
+      "pct": 5.91
+    },
+    {
+      "year": 2011,
+      "pct": 6.5
+    },
+    {
+      "year": 2012,
+      "pct": 5.84
+    },
+    {
+      "year": 2013,
+      "pct": 5.91
+    },
+    {
+      "year": 2014,
+      "pct": 6.41
+    },
+    {
+      "year": 2015,
+      "pct": 10.67
+    },
+    {
+      "year": 2016,
+      "pct": 6.29
+    },
+    {
+      "year": 2017,
+      "pct": 2.95
+    },
+    {
+      "year": 2018,
+      "pct": 3.75
+    },
+    {
+      "year": 2019,
+      "pct": 4.31
+    },
+    {
+      "year": 2020,
+      "pct": 4.52
+    },
+    {
+      "year": 2021,
+      "pct": 10.06
+    },
+    {
+      "year": 2022,
+      "pct": 5.79
+    },
+    {
+      "year": 2023,
+      "pct": 4.62
+    },
+    {
+      "year": 2024,
+      "pct": 4.83
+    },
+    {
+      "year": 2025,
+      "pct": 4.26
+    }
+  ],
+  "ipcaMonthsAfterOct2022": [
+    {
+      "month": "2022-11",
+      "pct": 0.41
+    },
+    {
+      "month": "2022-12",
+      "pct": 0.62
+    }
+  ],
+  "ipcaSource": {
+    "source": "IBGE — IPCA (SIDRA, tabela 1737)",
+    "url": "https://sidra.ibge.gov.br/tabela/1737"
+  },
+  "taxBurden": {
+    "pctGdp": 32.4,
+    "referenceYear": 2025,
+    "description": "Carga tributária bruta do Governo Geral em 2025: 32,40% do PIB — maior nível da série iniciada em 2010.",
+    "source": "Tesouro Nacional",
+    "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-40-do-pib-em-2025",
+    "previousPublished": {
+      "year": 2024,
+      "pctGdp": 32.32,
+      "note": "O boletim de 2024 publicou 32,32% do PIB para aquele ano; o de 2025 revisou para 32,22%. Revisão da fonte, não correção nossa — a série do Tesouro é revista a cada edição.",
+      "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-32-do-pib-em-2024"
+    }
+  },
+  "taxBurdenBySphere": {
+    "metric": "Carga tributária bruta por esfera de governo, em R$ bilhões correntes e em % do PIB",
+    "scope": "As três esferas, na régua das contas nacionais: é o que o Tesouro chama de Governo Geral. NÃO é a mesma grandeza da `revenueSeries` (contador do Impostômetro, que mede caixa) nem da `federalRevenueSeries` (só a União, medida pela Receita). Comparar as três entre si é comparar réguas diferentes.",
+    "source": "Tesouro Nacional — Estimativa da Carga Tributária Bruta do Governo Geral, Tabela 1",
+    "url": "https://www.tesourotransparente.gov.br/publicacoes/carga-tributaria-do-governo-geral/2025/114",
+    "years": [
+      {
+        "year": 2010,
+        "central": 794.4,
+        "states": 318.5,
+        "municipal": 65.2,
+        "total": 1178.1,
+        "pctGdp": 30.32
+      },
+      {
+        "year": 2011,
+        "central": 926.5,
+        "states": 354.3,
+        "municipal": 75.8,
+        "total": 1356.6,
+        "pctGdp": 31
+      },
+      {
+        "year": 2012,
+        "central": 996,
+        "states": 391.4,
+        "municipal": 85.8,
+        "total": 1473.1,
+        "pctGdp": 30.6
+      },
+      {
+        "year": 2013,
+        "central": 1085.4,
+        "states": 434.7,
+        "municipal": 95.1,
+        "total": 1615.2,
+        "pctGdp": 30.3
+      },
+      {
+        "year": 2014,
+        "central": 1135.6,
+        "states": 464.7,
+        "municipal": 106.3,
+        "total": 1706.5,
+        "pctGdp": 29.53
+      },
+      {
+        "year": 2015,
+        "central": 1179.6,
+        "states": 485.6,
+        "municipal": 114.8,
+        "total": 1780,
+        "pctGdp": 29.69
+      },
+      {
+        "year": 2016,
+        "central": 1239.1,
+        "states": 509.6,
+        "municipal": 119.1,
+        "total": 1867.9,
+        "pctGdp": 29.79
+      },
+      {
+        "year": 2017,
+        "central": 1299,
+        "states": 544.2,
+        "municipal": 127.9,
+        "total": 1971,
+        "pctGdp": 29.93
+      },
+      {
+        "year": 2018,
+        "central": 1400.7,
+        "states": 586.1,
+        "municipal": 142.7,
+        "total": 2129.5,
+        "pctGdp": 30.4
+      },
+      {
+        "year": 2019,
+        "central": 1461.9,
+        "states": 624.9,
+        "municipal": 159,
+        "total": 2245.8,
+        "pctGdp": 30.39
+      },
+      {
+        "year": 2020,
+        "central": 1418,
+        "states": 638.1,
+        "municipal": 162.4,
+        "total": 2218.5,
+        "pctGdp": 29.15
+      },
+      {
+        "year": 2021,
+        "central": 1792.9,
+        "states": 794.3,
+        "municipal": 195.9,
+        "total": 2783.1,
+        "pctGdp": 30.88
+      },
+      {
+        "year": 2022,
+        "central": 2073.8,
+        "states": 855.1,
+        "municipal": 219.9,
+        "total": 3148.7,
+        "pctGdp": 31.24
+      },
+      {
+        "year": 2023,
+        "central": 2180.9,
+        "states": 881.3,
+        "municipal": 249,
+        "total": 3311.3,
+        "pctGdp": 30.26
+      },
+      {
+        "year": 2024,
+        "central": 2513.7,
+        "states": 998.8,
+        "municipal": 282.2,
+        "total": 3794.7,
+        "pctGdp": 32.22
+      },
+      {
+        "year": 2025,
+        "central": 2750.9,
+        "states": 1067.6,
+        "municipal": 308.7,
+        "total": 4127.2,
+        "pctGdp": 32.4
+      }
+    ]
+  },
+  "consumption": {
+    "averageEmbeddedPct": 33,
+    "description": "Percentual médio aproximado de tributos embutidos nos preços ao consumidor, cifra amplamente citada a partir de estudos do IBPT/ACSP. Produtos individuais variam muito (ver exemplos).",
+    "source": "IBPT / Impostômetro — ACSP",
+    "url": "https://impostometro.com.br/Noticias/Interna?idNoticia=1305",
+    "examples": [
+      {
+        "item": "cigarette",
+        "pct": 83.32,
+        "source": "IBPT (via Fenacon)",
+        "url": "https://fenacon.org.br/noticias/veja-o-ranking-dos-10-produtos-com-mais-impostos-no-brasil/"
+      },
+      {
+        "item": "perfume",
+        "pct": 78.99,
+        "source": "IBPT (via IDV)",
+        "url": "https://www.idv.org.br/sala-de-imprensa/saiba-quanto-se-paga-de-impostos-no-brasil-por-um-sapato-vestido-ou-perfume-carga-chega-a-142/"
+      },
+      {
+        "item": "videogame",
+        "pct": 72.18,
+        "source": "IBPT (via Fenacon)",
+        "url": "https://fenacon.org.br/noticias/veja-o-ranking-dos-10-produtos-com-mais-impostos-no-brasil/"
+      },
+      {
+        "item": "smartphone",
+        "pct": 68.76,
+        "source": "IBPT (via Fenacon)",
+        "url": "https://fenacon.org.br/noticias/veja-o-ranking-dos-10-produtos-com-mais-impostos-no-brasil/"
+      },
+      {
+        "item": "gasoline",
+        "pct": 61.95,
+        "source": "IBPT / Impostômetro",
+        "url": "https://impostometro.com.br/Noticias/Interna?idNoticia=1305"
+      },
+      {
+        "item": "electricity",
+        "pct": 48.28,
+        "source": "IBPT / Impostômetro",
+        "url": "https://impostometro.com.br/Noticias/Interna?idNoticia=1305"
+      }
+    ]
+  },
+  "workDays": {
+    "days": 149,
+    "referenceYear": 2025,
+    "freedomDay": "2025-05-29",
+    "incomeSharePct": 40.82,
+    "description": "Estudo 'Dias Trabalhados para Pagar Tributos' do IBPT: 149 dias em 2025 (Dia da Liberdade de Impostos em 29/05/2025), com 40,82% da renda média destinada a tributos.",
+    "source": "IBPT — Instituto Brasileiro de Planejamento e Tributação",
+    "url": "https://ibpt.org.br/carga-tributaria-brasileira-exige-149-dias-de-trabalho/"
+  },
+  "hypocrisy": {
+    "povertyMillions": 48.9,
+    "povertyPct": 23.1,
+    "extremePovertyMillions": 7.4,
+    "extremePovertyPct": 3.5,
+    "povertyYear": 2024,
+    "sources": [
+      {
+        "label": "IBGE — Síntese de Indicadores Sociais 2025 (pobreza na PNAD 2024)",
+        "url": "https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/71016b2eb0a5feb8f7685271b1233db7.pdf"
+      }
+    ]
+  },
+  "referenceCosts": {
+    "school": {
+      "unitCost": 3500000,
+      "description": "Creche/pré-escola padrão FNDE (Novo PAC Seleções 2025) para até 188 crianças em dois turnos.",
+      "source": "FNDE / MEC",
+      "url": "https://www.gov.br/fnde/pt-br/assuntos/noticias/novo-pac-selecoes-educacao-inscricoes-vao-ate-31-3"
+    },
+    "ambulance": {
+      "unitCost": 470000,
+      "description": "Ambulância SAMU 192 — Unidade de Suporte Avançado (UTI móvel), valores de 2024.",
+      "source": "Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2024/marco/com-537-novas-ambulancias-cobertura-do-samu-192-vai-alcancar-93-da-populacao"
+    },
+    "ubs": {
+      "unitCost": 1800000,
+      "description": "Construção de Unidade Básica de Saúde Porte I (Novo PAC Saúde).",
+      "source": "Ministério da Saúde",
+      "url": "https://agenciagov.ebc.com.br/noticias/202403/primeira-etapa-do-novo-pac-saude-vai-construir-1-8-mil-ubs-em-todo-o-pais"
+    },
+    "utiBedYear": {
+      "unitCost": 197100,
+      "description": "Custeio anual de um leito de UTI adulto tipo II pelo SUS (diária de R$ 600, ocupação de 90%).",
+      "source": "Ministério da Saúde — Portaria GM/MS nº 160/2022",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2022/janeiro/ministerio-da-saude-aumenta-valor-para-custeio-de-utis"
+    },
+    "minimumWageYear": {
+      "unitCost": 21613,
+      "description": "Um ano de salário mínimo de 2026 (R$ 1.621 × 12 + 13º + 1/3 de férias), Decreto nº 12.797/2025.",
+      "source": "Planalto — Decreto nº 12.797/2025",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12797.htm"
+    },
+    "basicBasket": {
+      "unitCost": 906,
+      "description": "Cesta básica na capital mais cara (São Paulo, abril/2026): R$ 906,14.",
+      "source": "DIEESE — Pesquisa Nacional da Cesta Básica de Alimentos",
+      "url": "https://www.dieese.org.br/analisecestabasica/2026/202604cestabasica.html"
+    },
+    "bolsaFamiliaMonth": {
+      "unitCost": 683,
+      "description": "Benefício médio mensal do Bolsa Família por família (outubro/2025): R$ 683,42.",
+      "source": "Agência Gov — dados do Ministério do Desenvolvimento e Assistência Social (MDS)",
+      "url": "https://agenciagov.ebc.com.br/noticias/202510/bolsa-familia-de-outubro-beneficia-18-91-milhoes-de-familias-com-investimento-de-r-12-88-bilhoes"
+    }
+  },
+  "federalRevenueDefinition": {
+    "metric": "Arrecadação total das receitas federais no ano, em valores nominais",
+    "includes": "Inclui o subtotal administrado pela Receita Federal, a receita previdenciária e as administradas por outros órgãos — as três parcelas que a própria Receita soma no \"TOTAL GERAL\" da série que publica. Essa régua vale para 1995 em diante, que são os anos marcados como \"completa\". 1994 fica marcado como \"nucleo\": naquele ano a planilha não traz receita previdenciária, e ele não se compara com o resto.",
+    "source": "Receita Federal — Arrecadação das Receitas Federais, série histórica (ReceitaData)",
+    "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/serie-historica",
+    "note": "A série sai da planilha mensal que a própria Receita publica, e não da soma do arquivo por estado nem de notícias ano a ano. A troca fez três coisas. Primeiro, estendeu a série de treze anos (2013-2025) para trinta e um (1995-2025) na MESMA régua: o arquivo por estado só traz a coluna de receita previdenciária a partir de 2013 e a de outros órgãos a partir de 2010, e somá-lo antes disso devolve um ano cerca de 30% menor sem que nada acuse. Segundo, confirmou o que já estava publicado: onde as duas fontes se sobrepõem (2013-2024) elas fecham com diferença de até 0,05%. Terceiro, resolveu a divergência de 2025 — os R$ 2.886 bi anunciados pela Receita em janeiro de 2026 são o total da própria série dela (R$ 2.886,9 bi); quem não fechava era o arquivo por estado, que soma R$ 2.855,8 bi e continua servindo ao mapa, onde a pergunta é outra.",
+    "rulers": {
+      "completa": "O TOTAL GERAL da planilha da Receita: subtotal administrado + receita previdenciária + administradas por outros órgãos. É o número que a Receita divulga quando fecha o ano.",
+      "nucleo": "O ano em que uma das três parcelas não existe na fonte. Hoje é só 1994, que não traz receita previdenciária — em 1995, o primeiro ano em que ela aparece, ela sozinha vale R$ 35,1 bi de um total de R$ 119,1 bi, quase um terço. Emendar 1994 ao resto desenharia um degrau que é mudança de definição, não de arrecadação."
+    },
+    "avisoParaQuemPublicar": "A régua sai da CONTAGEM DE MESES de cada parcela, nunca da soma dela: uma parcela com um mês solto faz a soma passar de zero e o ano se declarar completo sem ser. Foi assim que 2005 quase entrou como régua completa no arquivo por estado, por causa de três meses de previdenciária."
+  }
+}

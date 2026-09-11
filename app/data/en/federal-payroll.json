@@ -1,0 +1,13 @@
+{
+  "title": "The payroll did not shrink. The bite grew faster.",
+  "intro": "Every government promises to cut the machine, and every critic swears it exploded. The Treasury's own series, in today's reais, says a third thing — and nobody tells it: personnel spending by the Central Government almost doubled since 1997. And it still fell as a share of what the state collects, because collection grew more than twice as fast.",
+  "deflatorBase": "In reais of May 2026, adjusted for inflation by the National Treasury itself, in Table 1.1-A",
+  "unit": "R$ billion",
+  "payrollLabel": "Personnel and social charges",
+  "revenueLabel": "Net revenue of the Central Government",
+  "growth.text": "Between 1997 and 2025 the payroll went from R$ 217 billion to R$ 421 billion — 94% more, with inflation already stripped out. Over the same period net revenue went from R$ 728 billion to R$ 2,442 billion: 235% more. That, and only that, is why the share fell from 29.8% to 17.2%.",
+  "growth.source": "National Treasury — Resultado do Tesouro Nacional, historical series, Table 1.1-A",
+  "pandemic.text": "In 2020 the share rises, and the reason is the opposite of what it looks like: the payroll stayed roughly flat and it was REVENUE that collapsed. A share that grows because the denominator shrank is not new spending — it is the same trap, in reverse.",
+  "question": "If the machine costs almost twice what it used to and still weighs less in the budget, how much exactly did what the state takes from you grow?",
+  "source": "National Treasury — Resultado do Tesouro Nacional, historical series, Table 1.1-A"
+}

@@ -1,0 +1,65 @@
+{
+  "updatedAt": "2026-08-15",
+  "disclaimer": "Alíquotas vigentes em 2025/2026. A reforma tributária (EC 132/2023) substitui PIS/COFINS/ICMS/ISS pela CBS/IBS na transição 2026–2033.",
+  "taxCount": 95,
+  "taxCountSource": {
+    "source": "Portal Tributário — Os Tributos no Brasil (lista nominal, 2025)",
+    "url": "https://www.portaltributario.com.br/tributos.htm"
+  },
+  "incomeBurdenPct": 40.82,
+  "incomeBurdenSource": {
+    "source": "IBPT — Dias Trabalhados para Pagar Tributos (2025)",
+    "url": "https://ibpt.org.br/carga-tributaria-brasileira-exige-149-dias-de-trabalho/"
+  },
+  "steps": [
+    {
+      "key": "ghost",
+      "taxes": [
+        { "name": "INSS patronal", "rate": "20%", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm" },
+        { "name": "FGTS", "rate": "8%", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm" },
+        { "name": "RAT (acidentes)", "rate": "1–3%", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm" },
+        { "name": "Sistema S + salário-educação", "rate": "~5,8%", "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/financiamento/salario-educacao" },
+        { "name": "provisões de 13º e férias", "rate": "~19,4%", "url": "https://contaja.com.br/blog/quanto-custa-um-funcionario-para-empresa/" },
+        { "name": "custo total de um CLT", "rate": "1,7–2×", "url": "https://exame.com/economia/custo-do-funcionario-e-de-ate-3-vezes-o-salario-mensal/", "destaque": true }
+      ]
+    },
+    {
+      "key": "payslip",
+      "taxes": [
+        { "name": "INSS do empregado", "rate": "7,5–14%", "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/destaques/publicada-a-portaria-interministerial-mps-mf-no-13-de-9-01-2026-que-dispoe-sobre-o-reajuste-dos-beneficios-pagos-pelo-inss-e-demais-valores" },
+        { "name": "IRRF", "rate": "até 27,5%", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026", "destaque": true }
+      ]
+    },
+    {
+      "key": "spend",
+      "taxes": [
+        { "name": "ICMS", "rate": "17–23%", "url": "https://www.taxgroup.com.br/intelligence/tabela-icms-atualizada/" },
+        { "name": "PIS/COFINS", "rate": "3,65–9,25%", "url": "https://www.portaltributario.com.br/artigos/pis-cofins-regimes.htm" },
+        { "name": "ISS", "rate": "2–5%", "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm" },
+        { "name": "média embutida nos preços", "rate": "~33%", "url": "https://impostometro.com.br/Noticias/Interna?idNoticia=1305", "destaque": true }
+      ]
+    },
+    {
+      "key": "save",
+      "taxes": [
+        { "name": "IR sobre rendimentos", "rate": "15–22,5%", "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l11033.htm", "destaque": true },
+        { "name": "IOF (resgate < 30 dias)", "rate": "96% → 3% do rendimento", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/entenda-como-fica-o-iof-apos-derrubada-de-decreto" },
+        { "name": "come-cotas (fundos)", "rate": "15–20%, 2×/ano", "url": "https://oespecialista.safra.com.br/tabela-regressiva-ir/" }
+      ]
+    },
+    {
+      "key": "house",
+      "taxes": [
+        { "name": "ITBI (comprar)", "rate": "2–3%", "url": "https://prefeitura.sp.gov.br/web/fazenda/w/servicos/itbi/2513" },
+        { "name": "IPTU (manter, todo ano)", "rate": "~0,5–1,5%/ano", "url": "https://www.boaconta.com.br/iptu/sao-paulo/", "destaque": true },
+        { "name": "IPVA (carro, todo ano)", "rate": "1–4%/ano", "url": "https://www.cnnbrasil.com.br/auto/ipva-2026-saiba-quais-estados-cobram-os-impostos-mais-caros-e-baratos/" }
+      ]
+    },
+    {
+      "key": "inherit",
+      "taxes": [
+        { "name": "ITCMD (herança e doação)", "rate": "2–8%", "url": "https://www.notariado.org.br/novas-regras-para-itcmd-e-itbi-entram-em-vigor-e-podem-deixar-herancas-doacoes-e-compras-de-imoveis-mais-caras/", "destaque": true }
+      ]
+    }
+  ]
+}

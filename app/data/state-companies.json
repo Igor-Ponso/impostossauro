@@ -1,0 +1,111 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "O lucro consolidado esconde a dependência do Tesouro",
+  "intro": "O governo anunciou R$ 136 bilhões de lucro das estatais até o terceiro trimestre de 2025. A planilha da SEST distingue as empresas que geram esse resultado das que dependem de aportes do Tesouro. É essa separação que permite cobrar gestão, eficiência e uso do dinheiro público.",
+  "period": "acumulado até o 3º trimestre de 2025, as 44 estatais federais",
+  "announced": {
+    "profitBi": 136.0,
+    "text": "Lucro das estatais aumenta 22% e chega a R$ 136 bilhões até o 3º trimestre de 2025",
+    "source": "Ministério da Gestão — anúncio de janeiro de 2026",
+    "url": "https://www.gov.br/gestao/pt-br/assuntos/noticias/2026/janeiro/lucro-das-estatais-aumenta-22-e-chega-a-r-136-bilhoes-ate-o-3o-trimestre-de-2025"
+  },
+  "totals": {
+    "receivedBi": 21.68,
+    "dividendsToUnionBi": 33.04,
+    "profitBi": 136.33,
+    "employees": 440953
+  },
+  "groups": [
+    {
+      "key": "naoDependente",
+      "count": 27,
+      "receivedBi": 0.14,
+      "dividendsToUnionBi": 33.04,
+      "profitBi": 137.6,
+      "employees": 343436
+    },
+    {
+      "key": "dependente",
+      "count": 17,
+      "receivedBi": 21.54,
+      "dividendsToUnionBi": 0.0,
+      "profitBi": -1.27,
+      "employees": 97517
+    }
+  ],
+  "groupLabels": {
+    "naoDependente": "Não dependentes do Tesouro",
+    "dependente": "Dependentes do Tesouro"
+  },
+  "exceptions": {
+    "tickers": [
+      "CODERN",
+      "INFRAERO"
+    ],
+    "receivedBi": 0.14,
+    "text": "Duas das 27 não dependentes ainda assim receberam recursos do Tesouro — a Codern e a Infraero, juntas R$ 0,14 bilhão. É 0,6% de tudo o que o Tesouro repassou, e está escrito aqui em vez de arredondado para caber na frase."
+  },
+  "topReceivers": [
+    {
+      "ticker": "EBSERH",
+      "receivedBi": 10.03,
+      "profitBi": -0.02
+    },
+    {
+      "ticker": "EMBRAPA",
+      "receivedBi": 3.41,
+      "profitBi": -0.26
+    },
+    {
+      "ticker": "CONCEIÇÃO",
+      "receivedBi": 1.88,
+      "profitBi": -0.27
+    },
+    {
+      "ticker": "CODEVASF",
+      "receivedBi": 1.56,
+      "profitBi": -0.37
+    },
+    {
+      "ticker": "HCPA",
+      "receivedBi": 1.42,
+      "profitBi": -0.11
+    },
+    {
+      "ticker": "CONAB",
+      "receivedBi": 0.95,
+      "profitBi": -0.02
+    }
+  ],
+  "topPayers": [
+    {
+      "ticker": "Grupo BNDES",
+      "dividendsToUnionBi": 13.34
+    },
+    {
+      "ticker": "Grupo PETROBRAS",
+      "dividendsToUnionBi": 11.28
+    },
+    {
+      "ticker": "Grupo BB",
+      "dividendsToUnionBi": 3.0
+    },
+    {
+      "ticker": "Grupo CAIXA",
+      "dividendsToUnionBi": 2.77
+    },
+    {
+      "ticker": "EMGEA",
+      "dividendsToUnionBi": 0.54
+    }
+  ],
+  "receiversLabel": "As que mais receberam do Tesouro",
+  "payersLabel": "As que mais devolveram à União",
+  "hidden": {
+    "title": "O que o anúncio não separa",
+    "text": "As 27 empresas classificadas como não dependentes registraram R$ 137,6 bilhões de lucro. As 17 dependentes receberam R$ 21,5 bilhões do Tesouro e tiveram prejuízo contábil de R$ 1,3 bilhão no período. A soma consolidada não explica a necessidade dos repasses nem a entrega de cada empresa."
+  },
+  "question": "Se o governo anuncia lucro consolidado, por que não dá o mesmo destaque aos R$ 21,5 bilhões que o Tesouro repassou às estatais dependentes?",
+  "source": "Ministério da Gestão — Boletim Trimestral da SEST, planilha de dados desagregados (3º trimestre de 2025)",
+  "url": "https://www.gov.br/gestao/pt-br/assuntos/estatais/transparencia/boletim-trimestral-sest"
+}

@@ -1,0 +1,58 @@
+{
+  "updatedAt": "2026-08-15",
+  "changes": [
+    { "year": 1942, "from": "Réis (Rs)", "to": "Cruzeiro (Cr$)", "factorLabel": "1.000 → 1", "government": "Getúlio Vargas", "zeros": 3 },
+    { "year": 1967, "from": "Cruzeiro (Cr$)", "to": "Cruzeiro Novo (NCr$)", "factorLabel": "1.000 → 1", "government": "Castelo Branco", "zeros": 3 },
+    { "year": 1986, "from": "Cruzeiro (Cr$)", "to": "Cruzado (Cz$)", "factorLabel": "1.000 → 1", "government": "José Sarney", "zeros": 3 },
+    { "year": 1989, "from": "Cruzado (Cz$)", "to": "Cruzado Novo (NCz$)", "factorLabel": "1.000 → 1", "government": "José Sarney", "zeros": 3 },
+    { "year": 1990, "from": "Cruzado Novo (NCz$)", "to": "Cruzeiro (Cr$)", "factorLabel": "1 → 1", "government": "Fernando Collor", "zeros": 0 },
+    { "year": 1993, "from": "Cruzeiro (Cr$)", "to": "Cruzeiro Real (CR$)", "factorLabel": "1.000 → 1", "government": "Itamar Franco", "zeros": 3 },
+    { "year": 1994, "from": "Cruzeiro Real (CR$)", "to": "Real (R$)", "factorLabel": "2.750 → 1", "government": "Itamar Franco / FHC (Plano Real)", "zeros": 3 }
+  ],
+  "totalZeros": 18,
+  "equivalenceLabel": "R$ 1,00 de 1994 = 2.750.000.000.000.000.000 réis (2,75 quintilhões)",
+  "changesSource": {
+    "source": "Banco Central do Brasil — Museu de Valores, Síntese dos Padrões Monetários Brasileiros",
+    "url": "https://www.bcb.gov.br/content/acessoinformacao/museudocs/pub/SintesePadroesMonetariosBrasileiros.pdf"
+  },
+  "hyperinflation": {
+    "annualIpca": [
+      { "year": 1988, "pct": 980.21 },
+      { "year": 1989, "pct": 1972.91 },
+      { "year": 1990, "pct": 1620.97 },
+      { "year": 1991, "pct": 472.7 },
+      { "year": 1992, "pct": 1119.1 },
+      { "year": 1993, "pct": 2477.15 },
+      { "year": 1994, "pct": 916.46 }
+    ],
+    "accumulated1980to1994": "13.342.346.717.671,70%",
+    "accumulatedSource": {
+      "source": "IBGE — IBGE Explica: Inflação",
+      "url": "https://www.ibge.gov.br/explica/inflacao.php"
+    },
+    "annualSource": {
+      "source": "IBGE — Série histórica do IPCA (SIDRA, tabela 1737)",
+      "url": "https://sidra.ibge.gov.br/tabela/1737"
+    }
+  },
+  "planoReal": {
+    "realOneIn1994EqualsIn2024": 8.08,
+    "accumulatedPctAt30Years": 708,
+    "source": "CNN Brasil, com base na Calculadora do Cidadão do Banco Central (30 anos do Plano Real)",
+    "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/30-anos-do-plano-real-r-1-em-1994-equivale-a-mais-de-r-8-hoje/"
+  },
+  "minimumWage": {
+    "in1994": 64.79,
+    "in2026": 1621,
+    "source": "Tabelas históricas do salário mínimo (Previdenciarista/Exame) e Decreto nº 12.797/2025",
+    "url": "https://previdenciarista.com/tabela-historica-dos-salarios-minimos/"
+  },
+  "capitalGains": {
+    "law": "Lei nº 9.249/1995, arts. 4º e 17",
+    "summary": "Desde 1º/01/1996 é vedada a correção monetária: o custo de aquisição não é corrigido e o IR incide sobre o ganho nominal. Alíquota de 15% em operações comuns com ações (Lei nº 11.033/2004), com isenção quando as vendas do mês somam até R$ 20 mil.",
+    "sources": [
+      { "label": "Lei nº 9.249/1995 (Planalto)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm" },
+      { "label": "Receita Federal — alíquotas de ganho de capital", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/pagamento/ganhos-de-capital/aliquotas" }
+    ]
+  }
+}

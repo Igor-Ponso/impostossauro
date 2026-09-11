@@ -1,0 +1,372 @@
+{
+  "updatedAt": "2026-08-15",
+  "disclaimer": "Somente marcos confirmados textualmente nas fontes; divergências metodológicas (revisão do PIB de 2007, séries Tesouro × FGV/Ibre) documentadas na metodologia.",
+  "burdenMilestones": [
+    {
+      "year": 1947,
+      "pctGdp": 13.8,
+      "source": "Varsano et al., Ipea TD 583 (1998)",
+      "url": "https://repositorio.ipea.gov.br/bitstreams/20c733ed-f19c-4503-a914-1151d84e73a4/download",
+      "ruler": "varsano"
+    },
+    {
+      "year": 1958,
+      "pctGdp": 18.7,
+      "source": "Série Varsano/Ipea (via NEPP-Unicamp)",
+      "url": "https://nepp.unicamp.br/wp-content/uploads/sites/57/2024/10/CadPesq_55.pdf",
+      "ruler": "varsano"
+    },
+    {
+      "year": 1965,
+      "pctGdp": 18.99,
+      "source": "Varsano et al., Ipea TD 583 — ano da EC 18/1965",
+      "url": "https://repositorio.ipea.gov.br/bitstreams/20c733ed-f19c-4503-a914-1151d84e73a4/download",
+      "ruler": "varsano"
+    },
+    {
+      "year": 1970,
+      "pctGdp": 25.98,
+      "source": "Varsano et al., Ipea TD 583 — salto pós-reforma militar",
+      "url": "https://repositorio.ipea.gov.br/bitstreams/20c733ed-f19c-4503-a914-1151d84e73a4/download",
+      "ruler": "varsano"
+    },
+    {
+      "year": 1988,
+      "pctGdp": 22.4,
+      "source": "Varsano et al., Ipea TD 583 — ano da Constituição",
+      "url": "https://repositorio.ipea.gov.br/bitstreams/20c733ed-f19c-4503-a914-1151d84e73a4/download",
+      "ruler": "varsano"
+    },
+    {
+      "year": 1994,
+      "pctGdp": 29.8,
+      "source": "Varsano et al., Ipea TD 583 — primeiro ano do Real",
+      "url": "https://repositorio.ipea.gov.br/bitstreams/20c733ed-f19c-4503-a914-1151d84e73a4/download",
+      "ruler": "varsano"
+    },
+    {
+      "year": 2007,
+      "pctGdp": 33.64,
+      "source": "Observatório de Política Fiscal FGV/Ibre",
+      "url": "https://observatorio-politica-fiscal.ibre.fgv.br/series-historicas/carga-tributaria/carga-tributaria-no-brasil-1990-2024",
+      "ruler": "fgvIbre"
+    },
+    {
+      "year": 2015,
+      "pctGdp": 32.1,
+      "source": "Observatório de Política Fiscal FGV/Ibre",
+      "url": "https://observatorio-politica-fiscal.ibre.fgv.br/series-historicas/carga-tributaria/carga-tributaria-no-brasil-1990-2020",
+      "ruler": "fgvIbre"
+    },
+    {
+      "year": 2020,
+      "pctGdp": 30.91,
+      "source": "Observatório de Política Fiscal FGV/Ibre — efeito das desonerações da pandemia",
+      "url": "https://observatorio-politica-fiscal.ibre.fgv.br/series-historicas/carga-tributaria/carga-tributaria-no-brasil-1990-2024",
+      "ruler": "fgvIbre",
+      "divergence": {
+        "tesouroPctGdp": 29.15,
+        "note": "O Tesouro calcula 29,15% para 2020, pela metodologia das contas nacionais. A diferença entre as duas réguas é sistemática: em todos os quinze anos em que as duas existem, o Tesouro fica de 1,65 a 2,47 pontos abaixo do FGV/Ibre.",
+        "url": "https://www.tesourotransparente.gov.br/publicacoes/carga-tributaria-do-governo-geral/2025/114"
+      }
+    },
+    {
+      "year": 2024,
+      "pctGdp": 32.32,
+      "source": "Tesouro Nacional — recorde da série",
+      "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-32-do-pib-em-2024",
+      "ruler": "tesouro",
+      "divergence": {
+        "fgvPctGdp": 34.24,
+        "tesouroRevisedPctGdp": 32.22,
+        "note": "O FGV/Ibre calcula 34,24% para 2024, por metodologia diferente. E o próprio Tesouro revisou o ano para 32,22% no boletim seguinte — a série dele é restated a cada edição.",
+        "url": "https://www.tesourotransparente.gov.br/publicacoes/carga-tributaria-do-governo-geral/2025/114"
+      }
+    }
+  ],
+  "burdenSeries": {
+    "metric": "Carga tributária bruta em % do PIB, ano a ano, nas duas réguas que a medem hoje",
+    "scope": "As duas colunas medem a MESMA coisa e não são o mesmo número: em todos os quinze anos em que as duas existem, o Tesouro fica de 1,65 a 2,47 pontos abaixo do FGV/Ibre. A diferença é de metodologia, não de erro, e some se alguém emendar as duas numa linha só. Antes de 1990 não existe nenhuma das duas: o que alcança 1947 são os marcos Varsano/Ipea em `burdenMilestones`, que é uma terceira régua e não se emenda com estas.",
+    "generatedBy": "scripts/coleta/carga-tributaria.py",
+    "sources": [
+      {
+        "ruler": "fgvIbre",
+        "label": "FGV/Ibre — Observatório de Política Fiscal, Carga Tributária no Brasil 1990-2024",
+        "url": "https://observatorio-politica-fiscal.ibre.fgv.br/series-historicas/carga-tributaria/carga-tributaria-no-brasil-1990-2024"
+      },
+      {
+        "ruler": "tesouro",
+        "label": "Tesouro Nacional — Estimativa da Carga Tributária Bruta do Governo Geral, Tabela 1",
+        "url": "https://www.tesourotransparente.gov.br/publicacoes/carga-tributaria-do-governo-geral/2025/114"
+      }
+    ],
+    "years": [
+      {
+        "year": 1990,
+        "fgvIbre": 28.48
+      },
+      {
+        "year": 1991,
+        "fgvIbre": 23.55
+      },
+      {
+        "year": 1992,
+        "fgvIbre": 24.46
+      },
+      {
+        "year": 1993,
+        "fgvIbre": 25.37
+      },
+      {
+        "year": 1994,
+        "fgvIbre": 28.31
+      },
+      {
+        "year": 1995,
+        "fgvIbre": 27.43
+      },
+      {
+        "year": 1996,
+        "fgvIbre": 26.29
+      },
+      {
+        "year": 1997,
+        "fgvIbre": 26.48
+      },
+      {
+        "year": 1998,
+        "fgvIbre": 27.07
+      },
+      {
+        "year": 1999,
+        "fgvIbre": 28.19
+      },
+      {
+        "year": 2000,
+        "fgvIbre": 29.46
+      },
+      {
+        "year": 2001,
+        "fgvIbre": 30.73
+      },
+      {
+        "year": 2002,
+        "fgvIbre": 32.12
+      },
+      {
+        "year": 2003,
+        "fgvIbre": 31.37
+      },
+      {
+        "year": 2004,
+        "fgvIbre": 32.38
+      },
+      {
+        "year": 2005,
+        "fgvIbre": 33.57
+      },
+      {
+        "year": 2006,
+        "fgvIbre": 33.29
+      },
+      {
+        "year": 2007,
+        "fgvIbre": 33.64
+      },
+      {
+        "year": 2008,
+        "fgvIbre": 33.5
+      },
+      {
+        "year": 2009,
+        "fgvIbre": 32.24
+      },
+      {
+        "year": 2010,
+        "fgvIbre": 32.51,
+        "tesouro": 30.32
+      },
+      {
+        "year": 2011,
+        "fgvIbre": 33.35,
+        "tesouro": 31.0
+      },
+      {
+        "year": 2012,
+        "fgvIbre": 32.62,
+        "tesouro": 30.6
+      },
+      {
+        "year": 2013,
+        "fgvIbre": 32.55,
+        "tesouro": 30.3
+      },
+      {
+        "year": 2014,
+        "fgvIbre": 31.84,
+        "tesouro": 29.53
+      },
+      {
+        "year": 2015,
+        "fgvIbre": 32.1,
+        "tesouro": 29.69
+      },
+      {
+        "year": 2016,
+        "fgvIbre": 32.26,
+        "tesouro": 29.79
+      },
+      {
+        "year": 2017,
+        "fgvIbre": 32.28,
+        "tesouro": 29.93
+      },
+      {
+        "year": 2018,
+        "fgvIbre": 32.58,
+        "tesouro": 30.4
+      },
+      {
+        "year": 2019,
+        "fgvIbre": 32.53,
+        "tesouro": 30.39
+      },
+      {
+        "year": 2020,
+        "fgvIbre": 30.91,
+        "tesouro": 29.15
+      },
+      {
+        "year": 2021,
+        "fgvIbre": 32.53,
+        "tesouro": 30.88
+      },
+      {
+        "year": 2022,
+        "fgvIbre": 33.01,
+        "tesouro": 31.24
+      },
+      {
+        "year": 2023,
+        "fgvIbre": 32.11,
+        "tesouro": 30.26
+      },
+      {
+        "year": 2024,
+        "fgvIbre": 34.24,
+        "tesouro": 32.22
+      },
+      {
+        "year": 2025,
+        "tesouro": 32.4
+      }
+    ]
+  },
+  "eras": [
+    {
+      "period": "1947–1964",
+      "note": "Sistema apoiado em comércio exterior e impostos em cascata. A carga sobe devagar, de 13,8% para ~19% do PIB.",
+      "source": "Varsano et al., Ipea TD 583",
+      "url": "https://repositorio.ipea.gov.br/bitstreams/20c733ed-f19c-4503-a914-1151d84e73a4/download"
+    },
+    {
+      "period": "1965–1970 · a reforma da ditadura",
+      "note": "EC 18/1965 e CTN criam ICM e IPI. Em cinco anos, a carga salta de 19% para 26% do PIB — o maior aumento da história em tão pouco tempo.",
+      "source": "Receita Federal (memória) / Ipea TD 583",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/memoria/imposto-de-renda/historia/1964-a-1967-a-reforma-tributaria"
+    },
+    {
+      "period": "1971–1988",
+      "note": "A carga oscila em 24–26% e cai a 22,4% em 1988, corroída pela crise e pela inflação alta. A Constituição descentraliza receitas.",
+      "source": "Varsano et al., Ipea TD 583 / Senado",
+      "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/volume-iv-constituicao-de-1988-o-brasil-20-anos-depois.-estado-e-economia-em-vinte-anos-de-mudancas/do-sistema-tributario-nacional-o-sistema-tributario-da-constituicao-de-1988"
+    },
+    {
+      "period": "1988–1993",
+      "note": "Para compensar a descentralização, a União multiplica contribuições que não divide com ninguém: CSLL, Cofins, depois IPMF/CPMF.",
+      "source": "Varsano et al., Ipea TD 583",
+      "url": "https://repositorio.ipea.gov.br/bitstreams/20c733ed-f19c-4503-a914-1151d84e73a4/download"
+    },
+    {
+      "period": "1994–2007 · o Real",
+      "note": "A moeda estabilizou — e a carga disparou: ~10 pontos de PIB a mais nas duas décadas após o Real, chegando a 33,64% em 2007.",
+      "source": "Agência Brasil / FGV Ibre",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2014-07/carga-tributaria-aumentou-dez-pontos-percentuais-apos-criacao-do-real"
+    },
+    {
+      "period": "2008–2024",
+      "note": "Estável entre 31% e 34%: alívio só na pandemia (31,64% em 2020) e recorde em 2024. O patamar escandinavo veio; os serviços escandinavos, não.",
+      "source": "Tesouro Nacional / FGV Ibre",
+      "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-32-do-pib-em-2024"
+    }
+  ],
+  "empire": {
+    "finding": "Não existe % do PIB confiável para o século XIX — não havia contas nacionais. O que a historiografia documenta: o Império de Dom Pedro II vivia do imposto de importação, que respondia por metade ou mais da receita do governo central (acima de 60% em alguns anos). A tarifa aduaneira média saiu de ~17% nos anos 1830 para quase 50% no fim dos anos 1880. Taxar tudo que entra: o hábito é mais velho que a República.",
+    "source": "Marcelo de Paiva Abreu e Luiz A. Corrêa do Lago — A economia brasileira no Império (PUC-Rio, TD 584)",
+    "url": "https://www.econ.puc-rio.br/api/uploads/adm/trabalhos/files/td584.pdf",
+    "ruler": "A régua do século XIX não é a mesma do século XXI, e fingir que é seria o defeito que este site cobra dos outros. Não havia contas nacionais no Império: \"carga tributária em % do PIB\" não existe para o período, porque o PIB não era medido. O que existe, e está na tabela abaixo, é DE ONDE vinha cada real que o governo central arrecadava.",
+    "milestones": [
+      {
+        "label": "1823",
+        "imports": 48.7,
+        "exports": 12.8,
+        "others": 38.5
+      },
+      {
+        "label": "1830-31",
+        "imports": 22.1,
+        "exports": 7.1,
+        "others": 70.8
+      },
+      {
+        "label": "1850-51",
+        "imports": 62.7,
+        "exports": 14.4,
+        "others": 22.9
+      },
+      {
+        "label": "1870-71",
+        "imports": 54.2,
+        "exports": 15.3,
+        "others": 30.5
+      },
+      {
+        "label": "1888",
+        "imports": 59.2,
+        "exports": 9.8,
+        "others": 31.0
+      }
+    ],
+    "tariff": "A tarifa de importação subiu o Império inteiro. A razão entre o que se arrecadava de direitos de importação e o valor importado ficou em torno de 17% nos anos 1830, cresceu depressa nos 1840 com a tarifa Alves Branco de 1844, ficou entre 25% e 30% até o fim dos 1860, subiu para 35-40% e chegou a quase 50% no fim dos anos 1880.",
+    "denominatorCaveat": "Uma ressalva que o próprio estudo obriga, e que muda a leitura de uma das barras: o texto do trabalho diz que o imposto de importação foi \"sempre superior a 50%\" da receita ORDINÁRIA do governo central depois de 1833, enquanto a tabela mede a participação na receita TOTAL. São denominadores diferentes, e é por isso que 1830-31 aparece em 22,1% aqui. Publicamos a tabela como ela é, e a frase do estudo ao lado — emendar as duas num número só seria trocar a régua no meio.",
+    "table": {
+      "source": "Abreu e Corrêa do Lago, \"A economia brasileira no Império\" (PUC-Rio, TD 584), tabela 1.2, a partir de Carreira (1980)",
+      "url": "https://www.econ.puc-rio.br/api/uploads/adm/trabalhos/files/td584.pdf"
+    }
+  },
+  "tiradentes": {
+    "headline": "Tiradentes morreu por menos imposto do que o que aceitamos hoje.",
+    "finding": "A Coroa portuguesa cobrava o quinto: cerca de 20% de todo o ouro extraído em Minas. Quando a cota anual de 100 arrobas não fechava, vinha a derrama — a cobrança forçada da diferença, sob armas. Foi a ameaça da derrama de 1789 que detonou a Inconfidência Mineira; Tiradentes foi enforcado e esquartejado em 21 de abril de 1792. Hoje, o Estado brasileiro fica com 32,40% de tudo que o país produz e cerca de 41% da renda média do trabalhador — e a derrama é automática: desconta na folha e embute na prateleira, sem precisar de tropa.",
+    "caveat": "Bases diferentes, comparação honesta: o quinto incidia sobre o ouro extraído; a carga atual, sobre toda a renda e o consumo. A ordem de grandeza, ainda assim, fala por si.",
+    "source": "Radioagência Nacional/EBC (Inconfidência Mineira) · Tesouro Nacional (32,32% do PIB, 2024) · IBPT (40,82% da renda média)",
+    "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/educacao/audio/2018-04/na-trilha-da-historia-inconfidencia-mineira-insurreicao"
+  },
+  "tenthPenny": {
+    "headline": "Dez por cento foi o bastante — e o imposto nem chegou a ser cobrado.",
+    "finding": "Em março de 1569 o Duque de Alba anunciou aos Países Baixos um imposto geral e permanente de 10% sobre toda venda, o Décimo Penny, para dar independência financeira ao governo central. A Britannica registra o efeito: a proposta \"uniu católicos romanos e calvinistas contra a Espanha e deu vida à rebelião\". O imposto estava previsto para valer só em 1571 — a revolta veio do anúncio, dois anos antes de o primeiro tostão sair do bolso de alguém. A proposta bastou.",
+    "quote": "the Tenth Penny proposal had united Roman Catholics and Calvinists against Spain and breathed life into the rebellion",
+    "caveat": "Comparação de alíquota, não de época: os 10% incidiam sobre toda venda, e a carga brasileira de hoje soma tributos de bases diferentes. O que se compara aqui é o LIMITE — quanto uma sociedade considera aceitável antes de perguntar por quê. Em 1569, dez por cento uniu contra o mesmo imposto gente que não se unia por mais nada. Uma compra de R$ 100 num site estrangeiro fora do Remessa Conforme paga R$ 92,77 pelo cálculo da própria Receita Federal.",
+    "closing": "A diferença entre as duas épocas não está na alíquota. Está em quanto se considera normal.",
+    "source": "Britannica — verbete \"Council of Troubles\"; Receita Federal — Novas Regras, Exemplo 2.1",
+    "url": "https://www.britannica.com/topic/Council-of-Troubles"
+  },
+  "fullSeriesSource": {
+    "label": "IBGE Séries Estatísticas (SCN49): carga tributária 1947–2011, complementada pelo Observatório FGV/Ibre (1990–2024) e Tesouro Nacional (2010–2024)",
+    "url": "https://seriesestatisticas.ibge.gov.br/series.aspx?vcodigo=SCN49"
+  },
+  "burdenRulers": {
+    "varsano": "Série Varsano/Ipea (TD 583), reconstruída para 1947-1994. É a única fonte que alcança o período, e não se compara ponto a ponto com as duas seguintes.",
+    "fgvIbre": "Observatório de Política Fiscal do FGV/Ibre, 1990 em diante. Calcula sistematicamente ACIMA do Tesouro — em 2024, 34,24% contra 32,22%.",
+    "tesouro": "Tesouro Nacional, Carga Tributária Bruta do Governo Geral, 2010 em diante. É a régua oficial das contas nacionais, e a que o governo divulga."
+  }
+}

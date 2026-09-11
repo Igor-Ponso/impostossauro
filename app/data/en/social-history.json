@@ -1,0 +1,17 @@
+{
+  "disclaimer": "Only milestones confirmed word for word in the sources; series breaks and methodological divergences are noted on each indicator and in the methodology. Primary IBGE sources verified through official releases reproduced by Agência Brasil/EBC and the press.",
+  "indicators[0].note": "Population aged 15 and over, census series. The PNAD Contínua household survey records less: 4.9% in 2025. And literate on paper is not the same as a real reader: INAF estimates 29% functional illiteracy among the literate.",
+  "indicators[1].note": "During the pandemic it fell to 72.8 years (2021) and only regained the previous level in 2023. The original annual life tables give slightly lower figures for 2000 and 2010; we use the IBGE's revised decennial series.",
+  "indicators[2].unit": "per 1,000 births",
+  "indicators[2].note": "Deaths before the first birthday per 1,000 live births. The lowest figure on record was 11.5 (2020); since then the fall has stalled at ~12.5. For 2010, estimates range from ~16 (census) to 17.2 (life tables).",
+  "indicators[3].note": "Connection to the main sewage network. After 80 years of rising tax revenue, almost 4 in every 10 Brazilians still have no sewage connection. Series break: 1970-1980 measure households (academic study); 2000-2022, population (IBGE).",
+  "indicators[4].note": "Homicides per 100,000 people (SIM/Datasus, series since 1979). The rate almost tripled between 1980 and the 2017 peak and has fallen 30% since. In 2024 there were 42,590 homicides, the lowest absolute number on record — with a warning from the Atlas itself about growing under-reporting. Intermediate milestones from the Mapa da Violência were left out because we could not confirm them at the source.",
+  "indicators[5].note": "Unemployment rate, annual average. A comparable national series only exists from 2012 (PNAD Contínua, reweighted after the 2022 census). Earlier measurements — PME (6 metropolitan areas) and PED (Dieese, a broader concept) — are not comparable with each other or with the current one, so they are left off the chart.",
+  "sourcesNote": "IBGE portals were unreachable to the research robot; figures were checked against official releases reproduced by Agência Brasil/EBC and the press, with the primary URLs kept for verification.",
+  "gdpEras[0].label": "The dictatorship's 'economic miracle': record growth, with wage squeezes and censorship alongside.",
+  "gdpEras[1].label": "The lost decade: foreign debt, hyperinflation and five economic plans that did not hold inflation down.",
+  "gdpEras[2].label": "Opening up and the Real plan: the currency stabilised, growth did not take off.",
+  "gdpEras[3].label": "The commodities boom: the best decade since the return to democracy.",
+  "gdpEras[4].label": "The 2015-16 recession and a slow recovery: almost a second lost decade.",
+  "indicators[4].unit": "per 100,000"
+}

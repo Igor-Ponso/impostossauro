@@ -1,0 +1,137 @@
+{
+  "updatedAt": "2026-08-15",
+  "hunger44": {
+    "wfpUsdBillions": 6.6,
+    "wfpBrlBillions": 34,
+    "wfpPeopleMillions": 42,
+    "twitterUsdBillions": 44,
+    "twitterBrlBillions": 231,
+    "ptaxRate": 5.2539,
+    "sources": [
+      {
+        "label": "CNBC — Musk e o pedido de US$ 6 bi do Programa Mundial de Alimentos (2021)",
+        "url": "https://www.cnbc.com/2021/11/01/elon-musk-tells-un-food-chief-hell-spend-6-billion-to-fight-hunger.html"
+      },
+      {
+        "label": "Newsweek — 'Musk podia ter resolvido a fome em vez de comprar o Twitter?'",
+        "url": "https://www.newsweek.com/could-elon-musk-have-solved-world-hunger-instead-buying-twitter-1700942"
+      },
+      {
+        "label": "Banco Central — PTAX out/2022 (via compilação PortalBrasil)",
+        "url": "https://portalbrasil.net/indices-do-dolar-euro-e-risco-pais-brasil-2022/"
+      }
+    ]
+  },
+  "gold": {
+    "producedTonnes": "800–1.000",
+    "documentedArrivalTonnes": "280–557",
+    "generousTonnes": 1000,
+    "valueLowBrlBillions": 390,
+    "valueHighBrlBillions": 760,
+    "daysLow": 36,
+    "daysHigh": 70,
+    "sources": [
+      {
+        "label": "Virgílio Noya Pinto — produção de ~876 t no séc. XVIII (via Revista Clio/UFPE)",
+        "url": "https://periodicos.ufpe.br/revistas/index.php/revistaclio/article/view/242104/34217"
+      },
+      {
+        "label": "Universidade de Lisboa — 557 t aportadas em Portugal (1720–1807), via Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/ideias/quanto-ouro-portugal-levou-do-brasil/"
+      },
+      {
+        "label": "Cotação do ouro (~US$ 4.375/oz, ago/2026)",
+        "url": "https://tradingeconomics.com/commodity/gold"
+      }
+    ]
+  },
+  "hungerMap": {
+    "timeline": [
+      {
+        "year": 2014,
+        "event": "exit",
+        "threshold": "linha divulgada: 5%",
+        "pou": "~3%"
+      },
+      {
+        "year": 2021,
+        "event": "return",
+        "threshold": "corte: 2,5%",
+        "pou": "4,1% (triênio 2019–2021)"
+      },
+      {
+        "year": 2025,
+        "event": "exit",
+        "threshold": "corte: 2,5%",
+        "pou": "< 2,5% (triênio 2022–2024)"
+      }
+    ],
+    "sources": [
+      {
+        "label": "FAO/ONU Brasil — retorno ao mapa (SOFI 2022: PoU 4,1%)",
+        "url": "https://brasil.un.org/pt-br/299851-artigo-brasil-voltou-sair-do-mapa-da-fome"
+      },
+      {
+        "label": "Secretaria-Geral da Presidência — saída em 2025 (SOFI 2025)",
+        "url": "https://www.gov.br/secretariageral/pt-br/noticias/2025/julho/nota-publica-o-brasil-sai-novamente-do-mapa-da-fome-da-fao"
+      },
+      {
+        "label": "Observatório da Imprensa — a mudança da régua divulgada (5% → 2,5%)",
+        "url": "https://www.observatoriodaimprensa.com.br/seguranca-alimentar/geografia-da-fome-a-montanha-russa-do-brasil-no-mapa-da-fome/"
+      },
+      {
+        "label": "Portal ODM (governo, 2014) — saída com linha de 5%",
+        "url": "http://www.odmbrasil.gov.br/noticias/2014/09/17-09-2014-brasil-sai-do-mapa-da-fome-das-nacoes-unidas-segundo-fao"
+      }
+    ]
+  },
+  "fortyTrillion": {
+    "totalTrillions": 40,
+    "periodYears": 20,
+    "note": "Soma nominal 2005–2025 (sem correção pela inflação — corrigido, o total real é maior).",
+    "source": "IBPT / Impostômetro (ACSP) — marco dos 20 anos",
+    "url": "https://www.ibpt.org.br/em-20-anos-brasil-arrecadou-mais-de-r-40-trilhoes-de-impostos-segundo-impostometro/"
+  },
+  "indicators": [
+    {
+      "key": "illiteracy",
+      "then": "13,6%",
+      "thenYear": 2000,
+      "now": "7,0%",
+      "nowYear": 2022,
+      "trend": "improved",
+      "source": "IBGE, Censos Demográficos — a régua dos dois pontos é a mesma. O par anterior (11,6% em 2003 → 5,3% em 2024) cruzava PNAD com PNAD Contínua, pesquisas diferentes, e o 11,6% não estava na reportagem citada",
+      "url": "https://educa.ibge.gov.br/jovens/conheca-o-brasil/territorio/22321-alfabetizacao.html"
+    },
+    {
+      "key": "homicides",
+      "then": "65.602 (pico, 2017)",
+      "thenYear": 2017,
+      "now": "45.747 · 21,2/100 mil",
+      "nowYear": 2023,
+      "trend": "improved",
+      "source": "Atlas da Violência 2025 (Ipea/FBSP)",
+      "url": "https://forumseguranca.org.br/publicacoes/atlas-da-violencia/"
+    },
+    {
+      "key": "sanitation",
+      "then": "37,9% do esgoto tratado",
+      "thenYear": 2010,
+      "now": "52,2%",
+      "nowYear": 2022,
+      "trend": "slow",
+      "source": "SNIS 2010 / Ranking do Saneamento 2024 (Trata Brasil)",
+      "url": "https://tratabrasil.org.br/wp-content/uploads/2024/04/Release-Ranking-do-Saneamento-de-2024-TRATA-BRASIL-GO-ASSOCIADOS-V2.pdf"
+    },
+    {
+      "key": "pisa",
+      "then": "356 pts em matemática",
+      "thenYear": 2003,
+      "now": "379 pts (OCDE: 472)",
+      "nowYear": 2022,
+      "trend": "stagnant",
+      "source": "INEP/OCDE — Nota sobre o Brasil no PISA 2022",
+      "url": "https://download.inep.gov.br/acoes_internacionais/pisa/resultados/2022/pisa_2022_brazil_prt.pdf"
+    }
+  ]
+}

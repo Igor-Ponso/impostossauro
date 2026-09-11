@@ -1,0 +1,20 @@
+{
+  "title": "The people who employ are closing down",
+  "intro": "Every tax comes from someone who produces. When the company that employs closes, the tax it collected disappears, the tax on the wages it paid disappears, and so does the spending of whoever earned those wages. It is the source drying up at the origin — and it is drying at the fastest rate in three years.",
+  "closures.period": "first quarter of 2026",
+  "closures.label": "small businesses closed in a single quarter",
+  "closures.previousLabel": "in the same quarter of 2025",
+  "closures.note": "126,000 more than a year earlier, and the largest volume since 2023. Against the immediately preceding quarter, company closures grew 33.6%.",
+  "breakdown[0].label": "sole traders (MEI)",
+  "breakdown[0].note": "the individual microentrepreneur — the street vendor, the delivery rider, the manicurist, the bricklayer",
+  "breakdown[1].label": "micro and small companies",
+  "breakdown[1].note": "the ones that employ with a formal contract",
+  "sectors[0].label": "services",
+  "sectors[1].label": "retail",
+  "default.label": "companies were in default in 2025 — 31% of everything active in the country",
+  "default.source": "Serasa Experian, as reported in the press",
+  "banks.title": "In the same period, on the other side of the counter",
+  "banks.body": "The four largest banks made R$ 107.8 billion in 2025. The three private ones together made R$ 86.55 billion — the highest nominal figure on record, against R$ 72.7 billion in 2024. Itaú alone made R$ 46.8 billion, more than Bradesco and Santander combined. Both figures are from the same year and the same country.",
+  "banks.source": "2025 results published by the banks themselves, as compiled by the press",
+  "question": "Where does the tax that rises every year come from, if the people who employ are closing 874,900 doors a quarter and 31% of active companies are in default?"
+}

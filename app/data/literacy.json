@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-08-15",
+  "functionalIlliteratePct": 29,
+  "proficientPct": 10,
+  "notProficientPct": 90,
+  "referenceYear": 2024,
+  "stagnantYears": 23,
+  "youthWorsened": { "from": 14, "fromYear": 2018, "to": 16, "toYear": 2024 },
+  "pisaReadingBelowBasicPct": 50,
+  "note": "INAF 2024 (divulgado em maio/2025): analfabetos funcionais = níveis Analfabeto (7%) + Rudimentar (22%). Proficientes oscilam entre 10–12% desde 2001.",
+  "source": {
+    "source": "INAF Brasil 2024 — Ação Educativa / Instituto Paulo Montenegro (via UNICEF Brasil e Agência Brasil)",
+    "url": "https://www.unicef.org/brazil/comunicados-de-imprensa/analfabetismo-funcional-nao-apresenta-melhora-e-alcanca-29-por-cento-dos-brasileiros-mesmo-patamar-de-2018-aponta-novo-levantamento-do-inaf"
+  },
+  "pisaSource": {
+    "source": "INEP/OCDE — Nota sobre o Brasil no PISA 2022 (50% abaixo do nível básico em leitura)",
+    "url": "https://download.inep.gov.br/acoes_internacionais/pisa/resultados/2022/pisa_2022_brazil_prt.pdf"
+  }
+}

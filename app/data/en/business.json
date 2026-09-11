@@ -1,0 +1,20 @@
+{
+  "employerCharges[3].name": "Sistema S + education levy",
+  "employerCharges[4].name": "13th-salary and holiday accruals (+1/3)",
+  "multiplier.pastore": "≈2× (103% in charges, José Pastore/USP)",
+  "multiplier.fgvCni": "up to ≈2.8× with indirect costs (183% on top)",
+  "revenueTaxes[1].name": "ICMS (goods)",
+  "revenueTaxes[1].rate": "17–23%, varies by state",
+  "revenueTaxes[2].name": "ISS (services)",
+  "revenueTaxes[2].rate": "2–5%, varies by city",
+  "stats[0].detail": "Hours an average company spent complying with tax obligations in Brazil — the outright world record in the last measurement of the series (global average: ~234h). The ranking was discontinued in 2021; no country came close.",
+  "stats[1].value": "R$ 1.7 trillion a year",
+  "stats[1].detail": "The 'Custo Brasil': how much more it costs to produce here than in an average OECD country — around 19.5% of GDP, every year.",
+  "stats[2].detail": "The backlog of fights between taxpayers and the tax authorities: R$ 5.69 trillion in administrative and court disputes — more than twice what all levels of government collect in a year.",
+  "stats[3].detail": "Estimated standard rate of the new VAT created by the tax reform (CBS+IBS): the highest in the world, ahead of Hungary (27%). The law pegs the reference at 26.5%, but official estimates already run above it.",
+  "stats[4].detail": "Tax rules issued since the 1988 Constitution — about 40 per working day. Simply keeping up with the changes costs companies ~R$ 279 billion a year.",
+  "revenueTaxes[0].rate": "3.65% or 9.25% of revenue",
+  "revenueTaxes[3].rate": "15% + a 10% surcharge",
+  "revenueTaxes[4].rate": "9% of profit",
+  "stats[2].value": "74.8% of GDP"
+}

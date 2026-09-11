@@ -1,0 +1,214 @@
+{
+  "updatedAt": "2026-08-24",
+  "disclaimer": "Só entram achados confirmados textualmente na fonte. Onde dois estudos sérios divergem, publicamos os dois e explicamos por que divergem — não escolhemos o que favorece a tese.",
+  "howItWorks": [
+    {
+      "key": "split",
+      "value": "85% × 15%",
+      "label": "É a regra de rateio do Fundo de Participação dos Estados na redação ORIGINAL da LC 62/1989: 85% do bolo para Norte, Nordeste e Centro-Oeste; 15% para Sul e Sudeste. Ela valeu até 31 de dezembro de 2015. A LC 143/2013 não manteve esse texto — substituiu por coeficientes calculados, que o STF declarou inconstitucionais na ADI 5069 em 2023, modulando os efeitos e prorrogando a vigência provisória porque o Congresso não legislou. O desenho regional continua o mesmo; o que mudou foi como se chega ao número de cada estado.",
+      "source": "LC 62/1989, art. 2º (redação original, vigente até 31/12/2015) · LC 143/2013 · STF, ADI 5069",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp62.htm"
+    },
+    {
+      "key": "flow",
+      "value": "R$ 2,2 tri → R$ 608 bi",
+      "label": "Em 2022, os estados enviaram R$ 2,218 trilhões em tributos federais e voltaram R$ 607,8 bilhões em transferências a estados e municípios. Atenção à régua: transferência não é todo o retorno — aposentadoria do INSS, salário de servidor federal, universidade federal e repasse do SUS também são dinheiro federal que desembarca no estado, e não estão nessa conta.",
+      "source": "Gazeta do Povo, cruzando Receita Federal e CGU (ano-base 2022)",
+      "url": "https://www.gazetadopovo.com.br/ideias/quanto-seu-estado-recebe-de-volta-dos-impostos-enviados-ao-governo-federal/"
+    }
+  ],
+  "dependency": [
+    {
+      "key": "municipios75",
+      "value": "82%",
+      "label": "dos municípios brasileiros tiveram mais de três quartos da receita vinda de transferências federais e estaduais em 2016. Não arrecadam o que gastam — recebem.",
+      "source": "Tesouro Nacional, Balanço do Setor Público Nacional 2016 (via CNM) — o dado é de 2016; o número irmão, do Poder360, é de 2020",
+      "url": "https://cnm.org.br/comunicacao/noticias/mais-de-tres-quartos-da-receita-de-82-dos-municipios-brasileiros-sao-transferencias-aponta-tesouro"
+    },
+    {
+      "key": "municipios90",
+      "value": "2.698",
+      "label": "cidades brasileiras — quase metade das 5.570 — tiveram 90% ou mais da receita corrente de 2020 vinda de repasses da União, dos estados ou de outras instituições públicas. Sem o dinheiro de fora, a prefeitura fecha.",
+      "source": "Poder360, sobre dados da Secretaria do Tesouro Nacional (receita corrente de 2020)",
+      "url": "https://www.poder360.com.br/poder-brasil/quase-metade-das-cidades-brasileiras-dependem-90-ou-mais-de-repasses/"
+    },
+    {
+      "key": "ceara",
+      "value": "32,6%",
+      "label": "dos municípios do Ceará não cobrem nem as despesas básicas com receita própria — 59 das 181 prefeituras tiraram nota zero no IFGF Autonomia, com dados de 2024. Nesse mesmo indicador, 92,8% dos municípios do estado (168 de 181) ficaram com conceito C ou D.",
+      "source": "Firjan — IFGF 2025, indicador Autonomia (ano-base 2024)",
+      "url": "https://www.firjan.com.br/ifgf/destaques/brasil/ifgf-2025-ceara-municipios-cearenses-apresentam-situacao-fiscal-dificil-aponta-firjan.htm"
+    }
+  ],
+  "verdict": [
+    {
+      "key": "ipea",
+      "institution": "Ipea",
+      "finding": "O sistema de partilha não consegue igualar a capacidade fiscal dos estados nem reduzir a desigualdade entre eles — que é o objetivo que a Constituição dá a ele.",
+      "source": "Ipea — \"Equalização Fiscal no Brasil: distorções e proposta para o caso dos estados\", Boletim de Análise Político-Institucional nº 30 (nov/2021), Considerações Finais",
+      "url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/f2e6c7fb-f4b3-464d-8705-8cb7a617a73d/content",
+      "quote": "A constatação preliminar é que os critérios de equalização nacional por meio das transferências fiscais incondicionais (FPE) não são capazes de equalizar a capacidade fiscal própria ou disponível dos estados, e muito menos de reduzir as desigualdades socioeconômicas estaduais, como objetivo previsto nos preceitos constitucionais."
+    },
+    {
+      "key": "worldbank",
+      "institution": "Banco Mundial",
+      "finding": "As transferências intergovernamentais brasileiras não são efetivas em reduzir a desigualdade fiscal entre os entes: segundo o estudo, as simulações mostram estados de renda média recebendo mais transferências do que os mais pobres (paráfrase).",
+      "source": "Banco Mundial — Pablo Acosta, \"Como trazer mais equilíbrio e coesão às relações federativas no Brasil?\", 25/01/2023 (arquivo do Wayback Machine: a página saiu do ar no site do Banco Mundial)",
+      "url": "https://web.archive.org/web/20260517050722/https://www.worldbank.org/pt/news/opinion/2023/01/25/como-trazer-mais-equilibrio-e-coesao-as-relacoes-federativas-no-brasil",
+      "unverified": true
+    }
+  ],
+  "counterpoint": {
+    "title": "Contar só transferência dá um retrato. Contar o gasto inteiro dá outro.",
+    "finding": "Um estudo da FGV IBRE chega a uma conclusão que contraria a versão simples de que Sul e Sudeste 'carregam o país nas costas'. Medindo o gasto federal total no estado — e não apenas as transferências —, o Rio de Janeiro recebe de volta mais do que contribui (10,4% do gasto federal contra 9,4% da arrecadação), e Minas e Espírito Santo pesam mais em população do que em arrecadação. O próprio estudo mede o Sudeste: a região responde por cerca de 56% da arrecadação de impostos federais e concentra 42% da população. E o desequilíbrio está concentrado em São Paulo — 35,8% da receita da União contra 21,6% da população.",
+    "source": "FGV IBRE — Observatório de Política Fiscal, 'Federação brasileira em perspectiva'",
+    "url": "https://observatorio-politica-fiscal.ibre.fgv.br/politica-economica/outros/federacao-brasileira-em-perspectiva-uma-analise-da-contribuicao-e-retorno"
+  },
+  "originCaveat": {
+    "title": "Quem \"arrecadou\" não é quem pagou",
+    "finding": "E há uma distorção que envenena qualquer mapa de 'quem paga': a arrecadação federal é registrada no domicílio fiscal da empresa, não onde a atividade aconteceu. O caso mais claro é o Distrito Federal, que arrecadou R$ 158 bilhões em tributos federais em 2022 — mais que Minas Gerais (R$ 141 bilhões), um estado com quase sete vezes mais gente. Não é a economia de Brasília que produz isso: é o endereço da matriz. Pelo mesmo mecanismo, São Paulo respondeu por 43,4% de todo o IRPF do país no primeiro semestre de 2026 — R$ 22,3 bilhões de R$ 51,3 bilhões. Quem publica um mapa de 'quem sustenta quem' sem essa ressalva está fabricando uma briga entre estados com um número que não significa o que parece.",
+    "source": "Gazeta do Povo (arrecadação por UF, Receita Federal × CGU) · Fenafisco / IstoÉ Dinheiro (IRPF)",
+    "url": "https://istoedinheiro.com.br/sao-paulo-responde-por-43-de-todo-o-imposto-de-irpf"
+  },
+  "states": [],
+  "sanitationExtremes": {
+    "year": "2022",
+    "metric": "% dos domicílios urbanos ligados à rede de esgoto",
+    "best": [
+      {
+        "uf": "São Paulo",
+        "pct": 96.4
+      },
+      {
+        "uf": "Distrito Federal",
+        "pct": 94.1
+      },
+      {
+        "uf": "Minas Gerais",
+        "pct": 92.3
+      },
+      {
+        "uf": "Rio de Janeiro",
+        "pct": 90.6
+      }
+    ],
+    "worst": [
+      {
+        "uf": "Pará",
+        "pct": 28.0
+      },
+      {
+        "uf": "Rondônia",
+        "pct": 27.3
+      },
+      {
+        "uf": "Piauí",
+        "pct": 23.3
+      },
+      {
+        "uf": "Amapá",
+        "pct": 23.1
+      }
+    ],
+    "source": "IBGE — PNAD Contínua 2022, módulo Características Gerais dos Domicílios e dos Moradores",
+    "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/37179-amapa-piaui-rondonia-e-para-tinham-menos-de-30-dos-seus-domicilios-urbanos-conectados-a-rede-de-esgoto-em-2022"
+  },
+  "piauiCase": {
+    "title": "O estado que mais subiu no IDH ainda não tem esgoto",
+    "finding": "O Piauí é um dos estados mais dependentes de transferência do país, e este é o número que o governo mostra: o IDH saiu de 0,480 em 2000 para 0,710 em 2020, o maior avanço do Brasil no período. No mesmo Piauí, apenas 23,3% dos domicílios urbanos têm rede de esgoto — quase o pior índice do país. Vinte anos de dinheiro chegando, e o básico não chegou.",
+    "source": "PNUD Brasil (IDH) · IBGE, Censo 2022 (esgoto)",
+    "url": "https://www.undp.org/pt/brazil/news/relatorio-detalha-forte-ascensao-de-idh-do-piaui-entre-2000-e-2020"
+  },
+  "returnRatio": {
+    "narrowRuler": {
+      "label": "Régua estreita: só as transferências",
+      "explain": "Conta apenas o repasse da União aos governos estaduais e municipais — FPE, FPM e afins. É a régua que aparece na maioria das manchetes.",
+      "unit": "de volta a cada R$ 100 arrecadados no estado",
+      "rows": [
+        {
+          "uf": "São Paulo",
+          "value": "R$ 7",
+          "note": "\"a cada real pago por São Paulo ao país, apenas 7 centavos retornam ao estado\". Outro recorte da mesma publicação já trouxe R$ 10 — a divergência não foi reconciliada"
+        },
+        {
+          "uf": "Santa Catarina",
+          "value": "R$ 13",
+          "note": "o terceiro pior retorno do país, entre o Rio de Janeiro e São Paulo"
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "value": "R$ 16",
+          "note": "o estado que mais recebeu em valor absoluto (R$ 69 bi) e ainda assim está no top 3 do prejuízo"
+        },
+        {
+          "uf": "Roraima",
+          "value": "R$ 336"
+        },
+        {
+          "uf": "Acre",
+          "value": "R$ 358",
+          "note": "o que menos recebeu em volume total (R$ 7,2 bi) e o segundo mais beneficiado na proporção"
+        },
+        {
+          "uf": "Amapá",
+          "value": "R$ 397",
+          "note": "R$ 3,97 de volta para cada R$ 1 enviado"
+        }
+      ],
+      "source": "Gazeta do Povo, cruzando Receita Federal e CGU (ano-base 2022)",
+      "url": "https://www.gazetadopovo.com.br/ideias/quanto-seu-estado-recebe-de-volta-dos-impostos-enviados-ao-governo-federal/",
+      "scope": "Os 27 estados enviaram R$ 2,218 trilhões em tributos federais em 2022 e receberam de volta R$ 607,8 bilhões em repasses — pouco mais de um quarto. Quinze estados pagaram mais do que receberam. Só entram aqui as proporções que a reportagem afirma no texto; as que só existem no infográfico ficaram de fora."
+    },
+    "confirmation": {
+      "finding": "Uma segunda apuração independente, do Poder360 com dados de 2021, chegou ao mesmo desenho: Sul, Sudeste e — pela primeira vez desde o início da série, em 2014 — todo o Centro-Oeste pagaram mais do que receberam. Todos os estados do Nordeste receberam mais do que pagaram; no Norte, a única exceção foi o Amazonas.",
+      "source": "Poder360",
+      "url": "https://www.poder360.com.br/governo/centro-oeste-sudeste-e-sul-pagam-mais-do-que-recebem-da-uniao/"
+    },
+    "broadRuler": {
+      "label": "Régua ampla: todo o gasto federal no estado",
+      "explain": "Soma também aposentadoria do INSS, salário e aposentadoria de servidor federal, universidade federal e unidades de saúde. É o dinheiro federal que desembarca no estado por qualquer porta — e o resultado vira quase outro país.",
+      "rows": [
+        {
+          "uf": "Distrito Federal",
+          "value": "+66%",
+          "note": "recebe dois terços a mais do que contribui"
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "value": "+19%",
+          "note": "retorno acima da contribuição — o oposto do que a régua estreita sugere"
+        },
+        {
+          "uf": "Roraima, Amapá e Acre",
+          "value": "acima de 3×",
+          "note": "ultrapassam o limite de três vezes observado no Maranhão, o estado mais pobre do país — pelo critério de partilha do FPE, que beneficia desproporcionalmente as unidades de menor população"
+        }
+      ],
+      "source": "FGV IBRE — Observatório de Política Fiscal, \"Federação brasileira em perspectiva: uma análise da contribuição e retorno fiscal obtido por cada unidade federativa\"",
+      "url": "https://observatorio-politica-fiscal.ibre.fgv.br/politica-economica/outros/federacao-brasileira-em-perspectiva-uma-analise-da-contribuicao-e-retorno"
+    },
+    "keyInsight": {
+      "title": "O número que explica a discórdia inteira",
+      "finding": "São Paulo recebe 9% dos R$ 505 bilhões que a União repassa diretamente a estados e municípios — e recebe 28% dos R$ 734 bilhões que ela usa para pagar benefícios previdenciários. O dinheiro volta; volta como aposentadoria, não como FPE. Quem só conta transferência enxerga um estado espoliado; quem conta o gasto inteiro enxerga outro retrato. Os dois números são verdadeiros — o que muda é o que cada um decidiu chamar de \"retorno\".",
+      "source": "FGV IBRE — Observatório de Política Fiscal, \"Federação em perspectiva: um balanço de custos e benefícios por UF\" (Bráulio Borges)",
+      "url": "https://observatorio-politica-fiscal.ibre.fgv.br/politica-economica/outros/federacao-em-perspectiva-um-balanco-de-custos-e-beneficios-por-uf"
+    },
+    "officialGap": {
+      "finding": "Uma curiosidade que diz muito: as duas metades dessa conta são públicas e oficiais — a Receita Federal publica quanto cada estado arrecada, o Tesouro e o Portal da Transparência publicam quanto cada estado recebe. Nenhum órgão do governo junta as duas. Quem faz essa divisão é a imprensa e a academia.",
+      "sources": [
+        {
+          "label": "Receita Federal — Arrecadação por Estado",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/receitadata/arrecadacao/arrecadacao-por-estado/arrecadacao-por-estado"
+        },
+        {
+          "label": "Tesouro Transparente — Painel das Transferências Intergovernamentais",
+          "url": "https://www.tesourotransparente.gov.br/visualizacao/painel-das-transferencias-intergovernamentais"
+        },
+        {
+          "label": "Portal da Transparência (CGU) — Recursos Transferidos",
+          "url": "https://portaldatransparencia.gov.br/transferencias/consulta"
+        }
+      ]
+    }
+  }
+}

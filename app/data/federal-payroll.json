@@ -1,0 +1,196 @@
+{
+  "updatedAt": "2026-08-24",
+  "title": "A folha não encolheu. A mordida é que cresceu mais rápido.",
+  "intro": "Todo governo promete cortar a máquina, e todo crítico jura que ela explodiu. A série do próprio Tesouro, em reais de hoje, diz uma terceira coisa — e é ela que ninguém conta: a despesa com pessoal do Governo Central quase dobrou desde 1997. E mesmo assim caiu como fatia do que o Estado arrecada, porque a arrecadação cresceu mais que o dobro disso.",
+  "deflatorBase": "R$ de maio de 2026, corrigidos pelo IPCA — pelo próprio Tesouro Nacional, na Tabela 1.1-A",
+  "unit": "R$ bilhões",
+  "years": [
+    {
+      "year": 1997,
+      "payrollBi": 217.0,
+      "netRevenueBi": 728.3,
+      "pctOfRevenue": 29.8
+    },
+    {
+      "year": 1998,
+      "payrollBi": 234.2,
+      "netRevenueBi": 819.7,
+      "pctOfRevenue": 28.6
+    },
+    {
+      "year": 1999,
+      "payrollBi": 240.9,
+      "netRevenueBi": 892.8,
+      "pctOfRevenue": 27.0
+    },
+    {
+      "year": 2000,
+      "payrollBi": 254.4,
+      "netRevenueBi": 925.3,
+      "pctOfRevenue": 27.5
+    },
+    {
+      "year": 2001,
+      "payrollBi": 276.1,
+      "netRevenueBi": 993.0,
+      "pctOfRevenue": 27.8
+    },
+    {
+      "year": 2002,
+      "payrollBi": 289.1,
+      "netRevenueBi": 1078.4,
+      "pctOfRevenue": 26.8
+    },
+    {
+      "year": 2003,
+      "payrollBi": 269.2,
+      "netRevenueBi": 1050.8,
+      "pctOfRevenue": 25.6
+    },
+    {
+      "year": 2004,
+      "payrollBi": 278.4,
+      "netRevenueBi": 1168.6,
+      "pctOfRevenue": 23.8
+    },
+    {
+      "year": 2005,
+      "payrollBi": 287.3,
+      "netRevenueBi": 1256.1,
+      "pctOfRevenue": 22.9
+    },
+    {
+      "year": 2006,
+      "payrollBi": 315.5,
+      "netRevenueBi": 1338.9,
+      "pctOfRevenue": 23.6
+    },
+    {
+      "year": 2007,
+      "payrollBi": 335.7,
+      "netRevenueBi": 1474.0,
+      "pctOfRevenue": 22.8
+    },
+    {
+      "year": 2008,
+      "payrollBi": 357.4,
+      "netRevenueBi": 1589.5,
+      "pctOfRevenue": 22.5
+    },
+    {
+      "year": 2009,
+      "payrollBi": 395.2,
+      "netRevenueBi": 1592.0,
+      "pctOfRevenue": 24.8
+    },
+    {
+      "year": 2010,
+      "payrollBi": 412.8,
+      "netRevenueBi": 1923.9,
+      "pctOfRevenue": 21.5
+    },
+    {
+      "year": 2011,
+      "payrollBi": 417.3,
+      "netRevenueBi": 1897.7,
+      "pctOfRevenue": 22.0
+    },
+    {
+      "year": 2012,
+      "payrollBi": 411.0,
+      "netRevenueBi": 1964.8,
+      "pctOfRevenue": 20.9
+    },
+    {
+      "year": 2013,
+      "payrollBi": 421.3,
+      "netRevenueBi": 2047.2,
+      "pctOfRevenue": 20.6
+    },
+    {
+      "year": 2014,
+      "payrollBi": 429.5,
+      "netRevenueBi": 1977.3,
+      "pctOfRevenue": 21.7
+    },
+    {
+      "year": 2015,
+      "payrollBi": 422.2,
+      "netRevenueBi": 1852.4,
+      "pctOfRevenue": 22.8
+    },
+    {
+      "year": 2016,
+      "payrollBi": 420.0,
+      "netRevenueBi": 1776.6,
+      "pctOfRevenue": 23.6
+    },
+    {
+      "year": 2017,
+      "payrollBi": 447.5,
+      "netRevenueBi": 1819.8,
+      "pctOfRevenue": 24.6
+    },
+    {
+      "year": 2018,
+      "payrollBi": 452.9,
+      "netRevenueBi": 1873.5,
+      "pctOfRevenue": 24.2
+    },
+    {
+      "year": 2019,
+      "payrollBi": 458.6,
+      "netRevenueBi": 1972.3,
+      "pctOfRevenue": 23.2
+    },
+    {
+      "year": 2020,
+      "payrollBi": 455.9,
+      "netRevenueBi": 1706.6,
+      "pctOfRevenue": 26.7
+    },
+    {
+      "year": 2021,
+      "payrollBi": 431.5,
+      "netRevenueBi": 2067.4,
+      "pctOfRevenue": 20.9
+    },
+    {
+      "year": 2022,
+      "payrollBi": 405.2,
+      "netRevenueBi": 2227.5,
+      "pctOfRevenue": 18.2
+    },
+    {
+      "year": 2023,
+      "payrollBi": 416.7,
+      "netRevenueBi": 2181.3,
+      "pctOfRevenue": 19.1
+    },
+    {
+      "year": 2024,
+      "payrollBi": 403.5,
+      "netRevenueBi": 2375.3,
+      "pctOfRevenue": 17.0
+    },
+    {
+      "year": 2025,
+      "payrollBi": 421.0,
+      "netRevenueBi": 2441.7,
+      "pctOfRevenue": 17.2
+    }
+  ],
+  "payrollLabel": "Despesa com Pessoal e Encargos Sociais",
+  "revenueLabel": "Receita Líquida do Governo Central",
+  "growth": {
+    "text": "Entre 1997 e 2025, a folha saiu de R$ 217 bilhões para R$ 421 bilhões — 94% a mais, já descontada a inflação. No mesmo período a receita líquida saiu de R$ 728 bilhões para R$ 2.442 bilhões: 235% a mais. É por isso, e só por isso, que a fatia caiu de 29,8% para 17,2%.",
+    "source": "Tesouro Nacional — Resultado do Tesouro Nacional, Série Histórica, Tabela 1.1-A",
+    "url": "https://www.tesourotransparente.gov.br/ckan/dataset/resultado-do-tesouro-nacional"
+  },
+  "pandemic": {
+    "text": "Em 2020 a fatia sobe, e o motivo é o inverso do que parece: a folha ficou praticamente igual e foi a RECEITA que despencou. Uma fatia que cresce porque o denominador encolheu não é gasto novo — é a mesma armadilha, ao contrário."
+  },
+  "question": "Se a máquina custa quase o dobro do que custava e ainda assim pesa menos no orçamento, quanto exatamente cresceu o que o Estado tira de você?",
+  "source": "Tesouro Nacional — Resultado do Tesouro Nacional, Série Histórica, Tabela 1.1-A",
+  "url": "https://www.tesourotransparente.gov.br/ckan/dataset/resultado-do-tesouro-nacional"
+}

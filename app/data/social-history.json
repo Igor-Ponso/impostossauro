@@ -1,0 +1,320 @@
+{
+  "updatedAt": "2026-08-24",
+  "disclaimer": "Somente marcos confirmados textualmente nas fontes; quebras de série e divergências metodológicas anotadas em cada indicador e na metodologia. Fontes primárias do IBGE verificadas via divulgações oficiais reproduzidas por Agência Brasil/EBC e veículos de imprensa.",
+  "indicators": [
+    {
+      "key": "illiteracy",
+      "unit": "%",
+      "direction": "down",
+      "points": [
+        {
+          "year": 1900,
+          "value": 65.3,
+          "source": "INEP, Mapa do Analfabetismo do Brasil (Censos IBGE) — tabela conferida no PDF",
+          "url": "https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/mapa_do_analfabetismo_do_brasil.pdf"
+        },
+        {
+          "year": 1920,
+          "value": 65.0,
+          "source": "INEP, Mapa do Analfabetismo do Brasil (Censos IBGE) — tabela conferida no PDF",
+          "url": "https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/mapa_do_analfabetismo_do_brasil.pdf"
+        },
+        {
+          "year": 1940,
+          "value": 56.1,
+          "source": "INEP, Mapa do Analfabetismo do Brasil (Censos IBGE) — tabela conferida no PDF",
+          "url": "https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/mapa_do_analfabetismo_do_brasil.pdf"
+        },
+        {
+          "year": 1950,
+          "value": 50.6,
+          "source": "INEP, Mapa do Analfabetismo do Brasil (Censos IBGE) — tabela conferida no PDF",
+          "url": "https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/mapa_do_analfabetismo_do_brasil.pdf"
+        },
+        {
+          "year": 1960,
+          "value": 39.7,
+          "source": "INEP, Mapa do Analfabetismo do Brasil (Censos IBGE) — tabela conferida no PDF",
+          "url": "https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/mapa_do_analfabetismo_do_brasil.pdf"
+        },
+        {
+          "year": 1970,
+          "value": 33.7,
+          "source": "INEP, Mapa do Analfabetismo do Brasil (Censos IBGE) — tabela conferida no PDF",
+          "url": "https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/mapa_do_analfabetismo_do_brasil.pdf"
+        },
+        {
+          "year": 1980,
+          "value": 25.9,
+          "source": "INEP, Mapa do Analfabetismo do Brasil (Censos IBGE) — tabela conferida no PDF",
+          "url": "https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/mapa_do_analfabetismo_do_brasil.pdf"
+        },
+        {
+          "year": 1991,
+          "value": 19.7,
+          "source": "INEP, Mapa do Analfabetismo do Brasil (Censos IBGE) — tabela conferida no PDF",
+          "url": "https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/mapa_do_analfabetismo_do_brasil.pdf"
+        },
+        {
+          "year": 2000,
+          "value": 13.6,
+          "source": "INEP, Mapa do Analfabetismo do Brasil (Censos IBGE) — tabela conferida no PDF",
+          "url": "https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/mapa_do_analfabetismo_do_brasil.pdf"
+        },
+        {
+          "year": 2010,
+          "value": 9.6,
+          "source": "IBGE, Censo Demográfico 2010 (IBGE Educa) — único ponto da série ainda não conferido na tabela primária",
+          "url": "https://educa.ibge.gov.br/jovens/conheca-o-brasil/territorio/22321-alfabetizacao.html"
+        },
+        {
+          "year": 2022,
+          "value": 7.0,
+          "source": "IBGE, Censo 2022 — taxa de alfabetização de 15 anos ou mais: 93,0% (SIDRA, tabela 9543)",
+          "url": "https://sidra.ibge.gov.br/tabela/9543"
+        }
+      ],
+      "note": "População de 15 anos ou mais, série dos Censos. A PNAD Contínua (amostral) registra menos: 4,9% em 2025. E alfabetizado no papel não é leitor de verdade: o INAF estima 29% de analfabetos funcionais entre alfabetizados."
+    },
+    {
+      "key": "lifeExpectancy",
+      "unit": "anos",
+      "direction": "up",
+      "points": [
+        {
+          "year": 1940,
+          "value": 45.5,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 1960,
+          "value": 52.5,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 1980,
+          "value": 62.5,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 2000,
+          "value": 71.1,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 2010,
+          "value": 74.4,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 2024,
+          "value": 76.6,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        }
+      ],
+      "note": "Na pandemia caiu a 72,8 anos (2021) e só recuperou o patamar anterior em 2023. As tábuas anuais originais trazem valores um pouco menores para 2000 e 2010; usamos a série decenal revisada do IBGE."
+    },
+    {
+      "key": "infantMortality",
+      "unit": "por mil nascidos",
+      "direction": "down",
+      "points": [
+        {
+          "year": 1940,
+          "value": 146.6,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 1970,
+          "value": 97.6,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 1991,
+          "value": 45.1,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 2000,
+          "value": 28.1,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 2010,
+          "value": 15.0,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 2023,
+          "value": 12.5,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "year": 2024,
+          "value": 12.3,
+          "source": "IBGE, Tábua Completa de Mortalidade 2024 — a mesma tábua traz a série inteira, de 1940 a 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        }
+      ],
+      "note": "Mortes antes do 1º aniversário por mil nascidos vivos. O menor valor da série foi 11,5 (2020); desde então a queda estagnou em ~12,5. Para 2010, estimativas variam entre ~16 (Censo apurado) e 17,2 (tábuas)."
+    },
+    {
+      "key": "sewage",
+      "unit": "%",
+      "direction": "up",
+      "points": [
+        {
+          "year": 1970,
+          "value": 10.8,
+          "source": "Censo IBGE 1970, em Saiani & Toneto Jr. (Economia e Sociedade/Unicamp)",
+          "url": "https://www.researchgate.net/publication/46542296_Evolucao_do_acesso_a_servicos_de_saneamento_basico_no_Brasil_1970_a_2004"
+        },
+        {
+          "year": 1980,
+          "value": 19.1,
+          "source": "Censo IBGE 1980, em Saiani & Toneto Jr. (Economia e Sociedade/Unicamp)",
+          "url": "https://www.researchgate.net/publication/46542296_Evolucao_do_acesso_a_servicos_de_saneamento_basico_no_Brasil_1970_a_2004"
+        },
+        {
+          "year": 2000,
+          "value": 44.4,
+          "source": "IBGE, Censo 2000 (comparativo do Censo 2022)",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/39237-censo-2022-rede-de-esgoto-alcanca-62-5-da-populacao-mas-desigualdades-regionais-e-por-cor-e-raca-persistem"
+        },
+        {
+          "year": 2010,
+          "value": 52.8,
+          "source": "IBGE, Censo 2010 (comparativo do Censo 2022)",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/39237-censo-2022-rede-de-esgoto-alcanca-62-5-da-populacao-mas-desigualdades-regionais-e-por-cor-e-raca-persistem"
+        },
+        {
+          "year": 2022,
+          "value": 62.5,
+          "source": "IBGE, Censo Demográfico 2022",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/39237-censo-2022-rede-de-esgoto-alcanca-62-5-da-populacao-mas-desigualdades-regionais-e-por-cor-e-raca-persistem"
+        }
+      ],
+      "note": "Ligação à rede geral de esgoto. Depois de 80 anos de arrecadação crescente, quase 4 em cada 10 brasileiros seguem sem rede de esgoto. Quebra de série: 1970-1980 medem domicílios (estudo acadêmico); 2000-2022, população (IBGE)."
+    },
+    {
+      "key": "homicides",
+      "unit": "por 100 mil",
+      "direction": "down",
+      "points": [
+        {
+          "year": 1980,
+          "value": 11.4,
+          "source": "Murray, Cerqueira & Medeiros (2013), com base no SIM/Datasus",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3763365/"
+        },
+        {
+          "year": 2002,
+          "value": 28.4,
+          "source": "Murray, Cerqueira & Medeiros (2013), com base no SIM/Datasus",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3763365/"
+        },
+        {
+          "year": 2017,
+          "value": 31.6,
+          "source": "Atlas da Violência (Ipea/FBSP) — pico da série",
+          "url": "https://www.ipea.gov.br/atlasviolencia/"
+        },
+        {
+          "year": 2023,
+          "value": 21.2,
+          "source": "Atlas da Violência 2025 (Ipea/FBSP) — menor taxa em 11 anos",
+          "url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/noticias/2025/05/atlas-da-violencia-2025-registra-menor-taxa-de-homicidios-no-brasil-em-11-anos"
+        }
+      ],
+      "note": "Homicídios por 100 mil habitantes (SIM/Datasus, série desde 1979). A taxa quase triplicou entre 1980 e o pico de 2017 e caiu 30% desde então. Em 2024 foram 42.590 homicídios, menor número absoluto da série — com alerta do próprio Atlas para subnotificação crescente. Marcos intermediários do Mapa da Violência foram omitidos por não termos conseguido conferi-los na fonte."
+    },
+    {
+      "key": "unemployment",
+      "unit": "%",
+      "direction": "down",
+      "points": [
+        {
+          "year": 2012,
+          "value": 7.4,
+          "source": "IBGE, PNAD Contínua — média anual (retrospectiva 2012-2025)",
+          "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Principais_destaques_PNAD_continua/2012_2025/PNAD_continua_retrospectiva_2012_2025.pdf"
+        },
+        {
+          "year": 2014,
+          "value": 7.0,
+          "source": "IBGE, PNAD Contínua — média anual",
+          "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Principais_destaques_PNAD_continua/2012_2025/PNAD_continua_retrospectiva_2012_2025.pdf"
+        },
+        {
+          "year": 2017,
+          "value": 12.6,
+          "source": "IBGE, PNAD Contínua — média anual (SIDRA, tabela 4562)",
+          "url": "https://sidra.ibge.gov.br/tabela/4562"
+        },
+        {
+          "year": 2021,
+          "value": 14.0,
+          "source": "IBGE, PNAD Contínua — pior média anual da série (SIDRA, tabela 4562)",
+          "url": "https://sidra.ibge.gov.br/tabela/4562"
+        },
+        {
+          "year": 2025,
+          "value": 5.6,
+          "source": "IBGE, PNAD Contínua — menor média anual da série",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45759-pnad-continua-em-2025-taxa-anual-de-desocupacao-foi-de-5-6-enquanto-taxa-de-subutilizacao-foi-14-5"
+        }
+      ],
+      "note": "Taxa de desocupação, média anual. A série nacional comparável só existe desde 2012 (PNAD Contínua, reponderada após o Censo 2022). As medições anteriores — PME (6 regiões metropolitanas) e PED (Dieese, conceito mais amplo) — não são comparáveis entre si nem com a atual; por isso não entram no gráfico."
+    }
+  ],
+  "gdpEras": [
+    {
+      "period": "1968–1973",
+      "label": "O 'milagre econômico' da ditadura: crescimento recorde, com arrocho salarial e censura junto.",
+      "avg": "11,1% a.a.",
+      "source": "Veloso, Villela & Giambiagi, Revista Brasileira de Economia (IBGE/Ipea)",
+      "url": "https://www.scielo.br/j/rbe/a/5SyG8QnVhQHdyyfKdd893mk/?format=pdf&lang=pt"
+    },
+    {
+      "period": "1981–1990",
+      "label": "A década perdida: dívida externa, hiperinflação e cinco planos econômicos que não seguraram a inflação.",
+      "avg": "1,6% a.a.",
+      "source": "IBGE, Contas Nacionais (via J. E. Diniz Alves)",
+      "url": "https://www.ecodebate.com.br/2018/05/16/brasil-quatro-decadas-de-baixo-crescimento-economico-sendo-duas-decadas-perdidas-artigo-de-jose-eustaquio-diniz-alves/"
+    },
+    {
+      "period": "1991–2000",
+      "label": "Abertura e Plano Real: a moeda estabilizou, o crescimento não decolou.",
+      "avg": "2,6% a.a.",
+      "source": "IBGE, Contas Nacionais (via J. E. Diniz Alves)",
+      "url": "https://www.ecodebate.com.br/2018/05/16/brasil-quatro-decadas-de-baixo-crescimento-economico-sendo-duas-decadas-perdidas-artigo-de-jose-eustaquio-diniz-alves/"
+    },
+    {
+      "period": "2001–2010",
+      "label": "Boom das commodities: a melhor década desde a redemocratização.",
+      "avg": "3,7% a.a.",
+      "source": "IBGE, Contas Nacionais (via J. E. Diniz Alves)",
+      "url": "https://www.ecodebate.com.br/2018/05/16/brasil-quatro-decadas-de-baixo-crescimento-economico-sendo-duas-decadas-perdidas-artigo-de-jose-eustaquio-diniz-alves/"
+    },
+    {
+      "period": "2011–2018",
+      "label": "Recessão de 2015-16 e recuperação lenta: quase uma segunda década perdida.",
+      "avg": "0,5% a.a.",
+      "source": "Ministério da Economia, nota informativa (IBGE, Contas Nacionais)",
+      "url": "https://www.gov.br/gestao/pt-br/central-de-conteudo/publicacoes/notas-informativas/2019/2019-02-28_ni-comparacao-do-pib-decadas-1980-x-2010.pdf/@@download/file"
+    }
+  ],
+  "sourcesNote": "Conferência de 24/08/2026: os portais do IBGE recusam robô, mas a API de agregados (servicodados.ibge.gov.br) e o FTP respondem — foi por eles que a série de desocupação e o ponto de 2022 do analfabetismo passaram a ser lidos na tabela primária, e não em divulgação reproduzida. O que ainda não foi conferido na tabela de origem está dito no próprio ponto."
+}

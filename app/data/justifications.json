@@ -1,0 +1,226 @@
+{
+  "updatedAt": "2026-08-24",
+  "disclaimer": "Cada caso tem três tempos: a justificativa que o governo deu, com aspas exatas e fonte; a medida que ela justificou, com o ato oficial; e o indicador do MESMO recorte de tempo. A página não afirma que a medida causou o resultado — ela cobra a justificativa de quem pediu o dinheiro. Correlação não é causalidade, e a conclusão é do leitor. Casos que não foram conferidos no documento original não aparecem.",
+  "cases": [
+    {
+      "key": "temer-combustiveis-2017",
+      "verified": "primaria",
+      "government": {
+        "key": "temer",
+        "name": "Michel Temer",
+        "party": "MDB",
+        "period": "ago/2016 – 2018"
+      },
+      "justification": {
+        "quote": "a responsabilidade fiscal, o equilíbrio fiscal",
+        "paraphrase": "Meirelles apresentou o aumento como o que preservava a responsabilidade e o equilíbrio fiscal, e o atribuiu à queda na arrecadação: eram R$ 10,4 bilhões para cumprir a meta de déficit primário de R$ 139 bilhões.",
+        "speaker": "Henrique Meirelles",
+        "role": "ministro da Fazenda",
+        "date": "20 de julho de 2017",
+        "source": "Agência Brasil — anúncio do aumento",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2017-07/governo-divulga-aumento-de-aliquota-do-piscofins-sobre-combustiveis"
+      },
+      "measure": {
+        "name": "Aumento do PIS/Cofins sobre combustíveis",
+        "legalArticle": "Decreto nº 9.101, de 20 de julho de 2017",
+        "legalText": "Altera o Decreto nº 5.059, de 30 de abril de 2004, e o Decreto nº 6.573, de 19 de setembro de 2008, que reduzem as alíquotas da Contribuição para o PIS/PASEP e da Contribuição para o Financiamento da Seguridade Social - COFINS incidentes sobre a importação e a comercialização de gasolina, óleo diesel, gás liquefeito de petróleo (GLP), querosene de aviação e álcool.",
+        "legalNote": "A ementa do decreto que aumentou o tributo diz que ele altera os decretos \"que reduzem as alíquotas\". O instrumento do aumento é, no papel, uma emenda aos decretos da redução.",
+        "changes": [
+          {
+            "item": "gasolina",
+            "from": "R$ 0,3816",
+            "to": "R$ 0,7925",
+            "unit": "por litro"
+          },
+          {
+            "item": "óleo diesel",
+            "from": "R$ 0,2480",
+            "to": "R$ 0,4615",
+            "unit": "por litro"
+          },
+          {
+            "item": "etanol (produtor)",
+            "from": "R$ 0,12",
+            "to": "R$ 0,1309",
+            "unit": "por litro"
+          }
+        ],
+        "expected": "R$ 10,4 bilhões",
+        "source": "Planalto — texto do decreto",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9101.htm"
+      },
+      "outcome": {
+        "indicator": "A meta que justificou o aumento",
+        "headline": "26 dias",
+        "headlineLabel": "foi o tempo entre o aumento e o anúncio de que a meta mudaria",
+        "steps": [
+          {
+            "date": "20/07/2017",
+            "text": "O decreto aumenta o PIS/Cofins sobre combustíveis para arrecadar R$ 10,4 bi e cumprir a meta de déficit primário de R$ 139 bi.",
+            "source": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2017-07/governo-divulga-aumento-de-aliquota-do-piscofins-sobre-combustiveis"
+          },
+          {
+            "date": "15/08/2017",
+            "text": "O governo anuncia que a meta sobe de R$ 139 bi para R$ 159 bi, em 2017 e em 2018.",
+            "source": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2017-08/governo-eleva-metas-de-deficit-primario-para-2017-e-2018"
+          },
+          {
+            "date": "14/09/2017",
+            "text": "A Lei 13.480/2017 é sancionada e a meta de R$ 159 bi vira lei.",
+            "source": "Senado Notícias",
+            "url": "https://www12.senado.leg.br/noticias/materias/2017/09/14/sancionada-a-lei-que-altera-meta-fiscal-e-eleva-deficit-no-orcamento"
+          },
+          {
+            "date": "janeiro de 2018",
+            "text": "O ano fecha com déficit primário de R$ 124,401 bi — R$ 34,6 bi ABAIXO da meta revisada de R$ 159 bi, e abaixo também dos R$ 139 bi que motivaram o aumento.",
+            "source": "Agência Brasil / Tesouro Nacional",
+            "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-01/governo-central-encerra-2017-com-deficit-de-r-1244-bilhoes"
+          }
+        ]
+      },
+      "question": "Se a meta podia ser mudada por lei em setembro, por que o motorista pagou o dobro de PIS/Cofins na gasolina desde julho?"
+    },
+    {
+      "key": "lula3-bets-2023",
+      "verified": "primaria",
+      "government": {
+        "key": "lula3",
+        "name": "Luiz Inácio Lula da Silva",
+        "party": "PT",
+        "period": "2023 – 2026"
+      },
+      "justification": {
+        "quote": "",
+        "paraphrase": "A Lei 14.790/2023 regulamentou e tributou a aposta de quota fixa com destinação carimbada em lei: dos 12% reservados da arrecadação, 36% vão para o esporte, 13,60% para a segurança pública e 10% para a educação. O argumento público foi que regular protegeria o apostador e traria receita para essas áreas.",
+        "speaker": "Governo federal",
+        "role": "exposição do projeto e sanção da Lei 14.790/2023",
+        "date": "29 de dezembro de 2023",
+        "source": "Planalto — texto da Lei 14.790/2023",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm"
+      },
+      "measure": {
+        "name": "Regulamentação e tributação das apostas de quota fixa",
+        "legalArticle": "Lei nº 14.790, de 29 de dezembro de 2023",
+        "legalText": "Dispõe sobre a modalidade lotérica denominada apostas de quota fixa; altera as Leis nºs 5.768, de 20 de dezembro de 1971, e 13.756, de 12 de dezembro de 2018, e a Medida Provisória nº 2.158-35, de 24 de agosto de 2001; revoga dispositivos do Decreto-Lei nº 204, de 27 de fevereiro de 1967; e dá outras providências.",
+        "legalNote": "A lei carimba 12% da arrecadação, e reparte esses 12% assim: 36% para o esporte, 13,60% para a segurança pública e 10% para a educação, entre outras destinações. É a promessa que a regulamentação carregava.",
+        "changes": [],
+        "expected": "",
+        "source": "Planalto — texto da lei",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm"
+      },
+      "outcome": {
+        "indicator": "Para onde foi o dinheiro do Bolsa Família em agosto de 2024",
+        "headline": "R$ 3 bilhões",
+        "headlineLabel": "saíram de famílias do Bolsa Família para casas de aposta em um único mês — e o próprio Banco Central diz que o número pode estar subestimado",
+        "steps": [
+          {
+            "date": "agosto de 2024",
+            "text": "\"Estima-se que, em agosto de 2024, 5 milhões de pessoas pertencentes a famílias beneficiárias do Bolsa Família (PBF) enviaram R$ 3 bilhões às empresas de aposta utilizando a plataforma Pix, sendo a MEDIANA dos valores gastos por pessoa de R$ 100.\"",
+            "source": "Banco Central — Estudo Especial nº 119/2024, pedido pelo senador Omar Aziz",
+            "url": "https://www.bcb.gov.br/conteudo/relatorioinflacao/EstudosEspeciais/EE119_Analise_tecnica_sobre_o_mercado_de_apostas_online_no_Brasil_e_o_perfil_dos_apostadores.pdf"
+          },
+          {
+            "date": "agosto de 2024",
+            "text": "Dessas pessoas, 4 milhões (70%) são chefes de família — quem de fato recebe o benefício — e sozinhas enviaram R$ 2 bilhões, dois terços do total.",
+            "source": "Banco Central — Estudo Especial nº 119/2024",
+            "url": "https://www.bcb.gov.br/conteudo/relatorioinflacao/EstudosEspeciais/EE119_Analise_tecnica_sobre_o_mercado_de_apostas_online_no_Brasil_e_o_perfil_dos_apostadores.pdf"
+          },
+          {
+            "date": "agosto de 2024",
+            "text": "O próprio estudo avisa que o valor \"pode estar subestimado\": ele contou apenas o Pix, e cartão de crédito e transferência eletrônica ficaram de fora da conta.",
+            "source": "Banco Central — Estudo Especial nº 119/2024",
+            "url": "https://www.bcb.gov.br/conteudo/relatorioinflacao/EstudosEspeciais/EE119_Analise_tecnica_sobre_o_mercado_de_apostas_online_no_Brasil_e_o_perfil_dos_apostadores.pdf"
+          },
+          {
+            "date": "média mensal de 2024",
+            "text": "O mercado de apostas movimentou R$ 20,8 bilhões por mês, contra R$ 1,9 bilhão das loterias da Caixa. Onze vezes o que o Estado arrecada com a própria loteria.",
+            "source": "Banco Central — Estudo Especial nº 119/2024, tabela comparativa",
+            "url": "https://www.bcb.gov.br/conteudo/relatorioinflacao/EstudosEspeciais/EE119_Analise_tecnica_sobre_o_mercado_de_apostas_online_no_Brasil_e_o_perfil_dos_apostadores.pdf"
+          }
+        ]
+      },
+      "question": "O Estado legalizou, taxou e carimbou a receita para educação, esporte e segurança. No ano seguinte, quatro milhões de chefes de família que recebem Bolsa Família mandaram R$ 2 bilhões para o setor que o Estado acabara de legalizar. Quem ganhou a regulamentação?"
+    },
+    {
+      "key": "bolsonaro-iof-2021",
+      "verified": "primaria",
+      "government": {
+        "key": "bolsonaro",
+        "name": "Jair Bolsonaro",
+        "party": "sem partido à época",
+        "period": "2019 – 2022"
+      },
+      "justification": {
+        "quote": "Apesar de arrecadação recorde, a Lei de Responsabilidade Fiscal (LRF) determina que é necessário indicar a fonte para o aumento de despesa obrigatória",
+        "paraphrase": "O Ministério da Economia explicou que elevou o IOF temporariamente porque a Lei de Responsabilidade Fiscal exige indicar a fonte de receita para toda despesa obrigatória nova — no caso, os R$ 1,62 bilhão que o Auxílio Brasil acrescentaria à despesa obrigatória de caráter continuado ainda em 2021.",
+        "speaker": "Ministério da Economia",
+        "role": "em nota divulgada com o decreto",
+        "date": "17 de setembro de 2021",
+        "source": "Agência Brasil — publicação do decreto que aumenta o IOF",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-09/publicado-decreto-que-aumenta-iof-para-custear-auxilio-brasil"
+      },
+      "measure": {
+        "name": "Aumento do IOF sobre operações de crédito para custear o Auxílio Brasil",
+        "legalArticle": "Decreto nº 10.797, de 16 de setembro de 2021",
+        "legalText": "Nas operações de crédito cujos fatos geradores ocorram entre 20 de setembro de 2021 e 31 de dezembro de 2021, as alíquotas do IOF previstas nos incisos I, II, III, IV, V e VII do caput ficam reduzidas, conforme o caso, a: I - mutuário pessoa jurídica: 0,00559%; II - mutuário pessoa física: 0,01118%",
+        "legalNote": "O decreto que AUMENTOU o imposto diz que as alíquotas \"ficam reduzidas\". Não é erro: a lei fixa alíquotas maiores e o decreto reduz; aumentar é reduzir menos. As alíquotas do Decreto 6.306/2007 eram 0,0041% ao dia para empresa e 0,0082% para pessoa física — as novas são 36,3% maiores. É o mesmo instrumento do aumento do PIS/Cofins de 2017. A vigência foi de 20 de setembro a 31 de dezembro de 2021 — 103 dias.",
+        "changes": [
+          {
+            "item": "pessoa física",
+            "from": "3,00% ao ano",
+            "to": "4,08% ao ano",
+            "unit": "IOF sobre crédito"
+          },
+          {
+            "item": "pessoa jurídica",
+            "from": "1,50% ao ano",
+            "to": "2,04% ao ano",
+            "unit": "IOF sobre crédito"
+          }
+        ],
+        "expected": "R$ 2,14 bilhões",
+        "source": "Planalto — texto do decreto",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/decreto/D10797.htm"
+      },
+      "outcome": {
+        "indicator": "O ano em que o imposto subiu",
+        "headline": "0,09%",
+        "headlineLabel": "foi o quanto a despesa nova representava da arrecadação daquele mesmo ano — o governo aumentou um imposto para cobrir isso",
+        "steps": [
+          {
+            "date": "17/09/2021",
+            "text": "O decreto sobe o IOF do crédito por 103 dias. A nota do Ministério da Economia reconhece, na mesma frase, que a arrecadação está em nível recorde.",
+            "source": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-09/publicado-decreto-que-aumenta-iof-para-custear-auxilio-brasil"
+          },
+          {
+            "date": "setembro de 2021",
+            "text": "A despesa nova que precisava de fonte era de R$ 1,62 bilhão em 2021 — o acréscimo do Auxílio Brasil à despesa obrigatória de caráter continuado.",
+            "source": "Agência Brasil / Ministério da Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-09/publicado-decreto-que-aumenta-iof-para-custear-auxilio-brasil"
+          },
+          {
+            "date": "janeiro de 2022",
+            "text": "O ano fecha com R$ 1,879 trilhão arrecadados, recorde da série, com crescimento de 17,36% acima da inflação. Os R$ 1,62 bilhão eram 0,09% disso.",
+            "source": "Agência Brasil / Receita Federal",
+            "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-01/arrecadacao-federal-soma-r-187-trilhao-e-bate-recorde-em-2021"
+          }
+        ]
+      },
+      "question": "A arrecadação cresceu 17,36% acima da inflação e bateu recorde no mesmo ano. Se faltava R$ 1,62 bilhão — nove centésimos de por cento do que entrou —, por que a conta foi para quem pegou crédito?"
+    }
+  ],
+  "pending": {
+    "note": "Casos identificados cujo documento do INDICADOR ainda não foi aberto. Não aparecem na página. O caso do IOF de 2021 saiu desta fila em 24/08/2026 e está publicado; resta o da desoneração da folha, que espera o estudo do Ipea — a página da Agência Brasil segue fora do ar por legislação eleitoral.",
+    "cases": [
+      {
+        "government": "dilma",
+        "measure": "Desoneração da folha (Lei 12.546/2011, plano Brasil Maior)",
+        "justification": "trocar contribuição sobre a folha por contribuição sobre o faturamento, em troca de manter e criar empregos",
+        "missing": "o estudo do Ipea que conclui que os setores desonerados reduziram emprego enquanto os demais aumentaram — página da Agência Brasil fora do ar por legislação eleitoral"
+      }
+    ]
+  }
+}
