@@ -1,0 +1,442 @@
+[
+  {
+    "id": "dino-mascote-happy",
+    "width": 230,
+    "height": 200,
+    "bytes": 3099,
+    "kind": "mascot",
+    "alt": {
+      "pt-BR": "Impostossauro de paletó e gravata, sorrindo com a palma aberta.",
+      "en": "Impostossauro wearing a jacket and tie, smiling with an open palm."
+    }
+  },
+  {
+    "id": "dino-mascote-hungry",
+    "width": 230,
+    "height": 200,
+    "bytes": 3087,
+    "kind": "mascot",
+    "alt": {
+      "pt-BR": "Impostossauro de paletó e gravata, com fome e a mão estendida.",
+      "en": "Impostossauro wearing a jacket and tie, hungry, with an outstretched hand."
+    }
+  },
+  {
+    "id": "dino-mascote-greedy",
+    "width": 230,
+    "height": 200,
+    "bytes": 3417,
+    "kind": "mascot",
+    "alt": {
+      "pt-BR": "Impostossauro de paletó e gravata, satisfeito, segurando moedas.",
+      "en": "Impostossauro wearing a jacket and tie, pleased with himself, holding coins."
+    }
+  },
+  {
+    "id": "dino-mascote",
+    "width": 230,
+    "height": 200,
+    "bytes": 3099,
+    "kind": "mascot",
+    "alt": {
+      "pt-BR": "Impostossauro, dinossauro político de gravata.",
+      "en": "Impostossauro, a dinosaur politician wearing a tie."
+    }
+  },
+  {
+    "id": "dino-cabecalho",
+    "width": 152,
+    "height": 140,
+    "bytes": 2133,
+    "kind": "mascot",
+    "alt": {
+      "pt-BR": "Impostossauro de gravata.",
+      "en": "Impostossauro wearing a tie."
+    }
+  },
+  {
+    "id": "inflacao-nota",
+    "width": 200,
+    "height": 100,
+    "bytes": 1847,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Ilustração de uma cédula azul de real com uma garoupa.",
+      "en": "Illustration of a blue Brazilian real banknote with a grouper fish."
+    }
+  },
+  {
+    "id": "impostossauro-cidade",
+    "width": 640,
+    "height": 640,
+    "bytes": 17320,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "O Impostossauro político segura moedas acima de uma cidade brasileira com o Congresso Nacional e cédulas de real.",
+      "en": "The Impostossauro politician holds coins above a Brazilian city with the National Congress and real banknotes."
+    }
+  },
+  {
+    "id": "parabola-ac-1",
+    "width": 640,
+    "height": 480,
+    "bytes": 4584,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Uma sala com ar-condicionado ligado e duas pessoas confortáveis.",
+      "en": "A room with air conditioning running and two comfortable people."
+    }
+  },
+  {
+    "id": "parabola-ac-2",
+    "width": 640,
+    "height": 480,
+    "bytes": 6864,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Um carro abriu um buraco na parede; o ar frio escapa e uma pessoa está preocupada.",
+      "en": "A car has broken through the wall; cool air escapes while a person looks worried."
+    }
+  },
+  {
+    "id": "parabola-ac-3",
+    "width": 640,
+    "height": 480,
+    "bytes": 10945,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "O buraco continua aberto; há dois aparelhos de ar-condicionado e o Impostossauro de gravata segura moedas, satisfeito.",
+      "en": "The hole remains open; there are two air conditioners and Impostossauro in a tie holds coins, pleased with himself."
+    }
+  },
+  {
+    "id": "equivalencia-escola",
+    "width": 64,
+    "height": 64,
+    "bytes": 421,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Escola",
+      "en": "School"
+    }
+  },
+  {
+    "id": "equivalencia-ambulancia",
+    "width": 64,
+    "height": 64,
+    "bytes": 656,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Ambulância",
+      "en": "Ambulance"
+    }
+  },
+  {
+    "id": "equivalencia-ubs",
+    "width": 64,
+    "height": 64,
+    "bytes": 518,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Unidade básica de saúde",
+      "en": "Primary care clinic"
+    }
+  },
+  {
+    "id": "equivalencia-uti",
+    "width": 64,
+    "height": 64,
+    "bytes": 602,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Leito de UTI",
+      "en": "Intensive care bed"
+    }
+  },
+  {
+    "id": "equivalencia-salario",
+    "width": 64,
+    "height": 64,
+    "bytes": 1392,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Salário mínimo por ano",
+      "en": "Annual minimum wage"
+    }
+  },
+  {
+    "id": "equivalencia-cesta",
+    "width": 64,
+    "height": 64,
+    "bytes": 591,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Cesta básica",
+      "en": "Basic food basket"
+    }
+  },
+  {
+    "id": "equivalencia-bolsa-familia",
+    "width": 64,
+    "height": 64,
+    "bytes": 503,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Benefício para uma família",
+      "en": "Family benefit"
+    }
+  },
+  {
+    "id": "equivalencia-dinheiro",
+    "width": 64,
+    "height": 64,
+    "bytes": 497,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Dinheiro",
+      "en": "Money"
+    }
+  },
+  {
+    "id": "jornada-ghost",
+    "width": 64,
+    "height": 64,
+    "bytes": 328,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Imposto invisível",
+      "en": "Hidden tax"
+    }
+  },
+  {
+    "id": "jornada-payslip",
+    "width": 64,
+    "height": 64,
+    "bytes": 408,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Holerite",
+      "en": "Payslip"
+    }
+  },
+  {
+    "id": "jornada-spend",
+    "width": 64,
+    "height": 64,
+    "bytes": 982,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Compra",
+      "en": "Purchase"
+    }
+  },
+  {
+    "id": "jornada-save",
+    "width": 64,
+    "height": 64,
+    "bytes": 648,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Banco",
+      "en": "Bank"
+    }
+  },
+  {
+    "id": "jornada-house",
+    "width": 64,
+    "height": 64,
+    "bytes": 386,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Casa",
+      "en": "Home"
+    }
+  },
+  {
+    "id": "jornada-inherit",
+    "width": 64,
+    "height": 64,
+    "bytes": 569,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Herança",
+      "en": "Inheritance"
+    }
+  },
+  {
+    "id": "sistema-calendario",
+    "width": 64,
+    "height": 64,
+    "bytes": 926,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Calendário",
+      "en": "Calendar"
+    }
+  },
+  {
+    "id": "sistema-nao",
+    "width": 64,
+    "height": 64,
+    "bytes": 272,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Ilustração: uma editora recusa a pressão de um político para substituir um relatório de gastos públicos por um gráfico manipulado.",
+      "en": "Illustration: an editor refuses a politician’s pressure to replace a public-spending report with a manipulated chart."
+    }
+  },
+  {
+    "id": "sistema-sim",
+    "width": 64,
+    "height": 64,
+    "bytes": 274,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Ilustração: cidadãos conferem documentos e dados abertos, comparando a promessa de uma escola pronta com uma obra inacabada.",
+      "en": "Illustration: citizens check documents and open data, comparing the promise of a completed school with an unfinished construction site."
+    }
+  },
+  {
+    "id": "sistema-compartilhar",
+    "width": 64,
+    "height": 64,
+    "bytes": 383,
+    "kind": "icon",
+    "alt": {
+      "pt-BR": "Compartilhar",
+      "en": "Share"
+    }
+  },
+  {
+    "id": "calculadora-calendario",
+    "width": 640,
+    "height": 352,
+    "bytes": 1316,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Base de calendário com doze meses; os dias são preenchidos pelo cálculo da página.",
+      "en": "A twelve-month calendar frame; days are filled in by the page calculation."
+    }
+  },
+  {
+    "id": "calculadora-calendario-mobile",
+    "width": 336,
+    "height": 613,
+    "bytes": 1315,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Base de calendário em duas colunas para celular; os dias são preenchidos pelo cálculo da página.",
+      "en": "A two-column calendar frame for mobile; days are filled in by the page calculation."
+    }
+  },
+  {
+    "id": "economia-morro",
+    "width": 640,
+    "height": 300,
+    "bytes": 4699,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "O Impostossauro no topo de um morro; metáfora da Curva de Laffer, sem escala quantitativa.",
+      "en": "Impostossauro atop a hill; a metaphor for the Laffer curve, without a quantitative scale."
+    }
+  },
+  {
+    "id": "custo-margem",
+    "width": 640,
+    "height": 260,
+    "bytes": 932,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Uma lupa amplia a fatia fina no fim de um bloco; metáfora da margem de lucro, sem escala quantitativa.",
+      "en": "A magnifying glass enlarges the thin slice at the end of a block; a profit-margin metaphor without a quantitative scale."
+    }
+  },
+  {
+    "id": "maquina-fluxo",
+    "width": 640,
+    "height": 260,
+    "bytes": 5270,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Escola, Congresso e unidade de saúde ligados por setas de ida e volta; representação conceitual do fluxo federativo.",
+      "en": "A school, Congress and clinic connected by arrows in both directions; a conceptual illustration of fiscal flows."
+    }
+  },
+  {
+    "id": "falacia-ouro",
+    "width": 640,
+    "height": 260,
+    "bytes": 982,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Um navio com ouro de um lado e uma pilha maior do outro; os valores comparados estão no texto.",
+      "en": "A ship carrying gold on one side and a larger pile on the other; the compared values are in the text."
+    }
+  },
+  {
+    "id": "falacia-regua",
+    "width": 640,
+    "height": 260,
+    "bytes": 2051,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Um prato de comida e um mapa do Brasil atravessado por uma régua; a medida da fome importa.",
+      "en": "A plate of food and a map of Brazil crossed by a ruler; how hunger is measured matters."
+    }
+  },
+  {
+    "id": "falacia-fome",
+    "width": 640,
+    "height": 260,
+    "bytes": 7243,
+    "kind": "scene",
+    "alt": {
+      "pt-BR": "Um prato de comida diante de prédios e dinheiro; contraste entre recursos e entrega.",
+      "en": "A plate of food alongside buildings and money; a contrast between resources and delivery."
+    }
+  },
+  {
+    "id": "social-home",
+    "width": 1200,
+    "height": 630,
+    "bytes": 21124,
+    "kind": "social",
+    "alt": {
+      "pt-BR": "Cartão de compartilhamento home com o Impostossauro político.",
+      "en": "Social card for home featuring the Impostossauro politician."
+    }
+  },
+  {
+    "id": "social-manifesto",
+    "width": 1200,
+    "height": 630,
+    "bytes": 14751,
+    "kind": "social",
+    "alt": {
+      "pt-BR": "Cartão de compartilhamento manifesto com o Impostossauro político.",
+      "en": "Social card for manifesto featuring the Impostossauro politician."
+    }
+  },
+  {
+    "id": "social-calculadora",
+    "width": 1200,
+    "height": 630,
+    "bytes": 5664,
+    "kind": "social",
+    "alt": {
+      "pt-BR": "Cartão de compartilhamento calculadora com o Impostossauro político.",
+      "en": "Social card for calculadora featuring the Impostossauro politician."
+    }
+  },
+  {
+    "id": "social-jornada",
+    "width": 1200,
+    "height": 630,
+    "bytes": 7019,
+    "kind": "social",
+    "alt": {
+      "pt-BR": "Cartão de compartilhamento jornada com o Impostossauro político.",
+      "en": "Social card for jornada featuring the Impostossauro politician."
+    }
+  }
+]

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /embed/
+
+Sitemap: https://igor-ponso.github.io/impostossauro/sitemap.xml

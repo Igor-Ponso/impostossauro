@@ -1,0 +1,13 @@
+{
+  "name": "Impostossauro",
+  "short_name": "Impostossauro",
+  "description": "Quanto imposto o brasileiro já pagou este ano, em tempo real, e o que poderia ter sido feito com esse dinheiro.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#070b09",
+  "theme_color": "#070b09",
+  "icons": [
+    { "src": "icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icone-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
