@@ -1,0 +1,43 @@
+name: Update data
+
+on:
+  schedule:
+    # Dia 15 de cada mês, 09:00 UTC — após as divulgações do IPCA
+    - cron: '0 9 15 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: dev
+
+      # Mesma versao do .nvmrc que a CI usa. Ver o comentario em ci.yml.
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Fetch latest official data
+        run: node scripts/update-data.mjs
+
+      - name: Open PR when data changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          base: dev
+          branch: chore/data-update
+          title: 'chore(data): atualização automática das séries oficiais'
+          commit-message: 'chore(data): update official series (automated)'
+          body: |
+            Atualização automática mensal das séries oficiais (IPCA/IBGE via SIDRA).
+
+            Revisar antes do merge:
+            - [ ] Valores novos conferem com a divulgação oficial
+            - [ ] Fechamento anual do Impostômetro (dezembro) precisa de atualização manual?
+            - [ ] Estimativa do ano corrente, custos de referência e tabelas de folha seguem válidos?
+          delete-branch: true

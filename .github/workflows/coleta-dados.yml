@@ -1,0 +1,72 @@
+name: Coleta de fontes primárias
+
+# Manual. Baixa as fontes primárias pelo runner (que alcança gov.br, IBGE e
+# Tesouro) e as deposita na branch de dados, separada do site.
+on:
+  workflow_dispatch:
+    inputs:
+      siconfi:
+        description: 'Percorrer o SICONFI (297 consultas, demorado). Desligue quando so precisar das fontes do fontes.tsv.'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # A publicacao abaixo substitui a branch inteira; sem isto, uma coleta
+      # sem SICONFI apagaria os arquivos dele.
+      - name: Preservar o que ja esta na branch de dados
+        run: |
+          if git ls-remote --exit-code --heads origin dados-brutos > /dev/null 2>&1; then
+            git fetch origin dados-brutos
+            mkdir -p data-bruto
+            # `--worktree` escreve so no disco: preencher a area de preparacao
+            # faz a limpeza da publicacao abaixo abortar nos arquivos que o
+            # baixar.sh sobrescreve.
+            git restore --source=origin/dados-brutos --worktree -- data-bruto
+            echo "Recuperados $(find data-bruto -type f | wc -l) arquivos da coleta anterior."
+          else
+            echo "A branch dados-brutos ainda nao existe: primeira coleta."
+          fi
+
+      - name: Baixar fontes
+        run: |
+          chmod +x scripts/coleta/baixar.sh
+          scripts/coleta/baixar.sh
+
+      # 297 consultas; so muda quando um exercicio fecha.
+      - name: Percorrer o SICONFI (estado a estado, ano a ano)
+        if: ${{ inputs.siconfi }}
+        run: |
+          chmod +x scripts/coleta/siconfi.sh
+          scripts/coleta/siconfi.sh
+
+      # Antes da publicacao: se o passo do git falhar, a coleta continua
+      # recuperavel pela aba da execucao.
+      - name: Guardar como artefato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-bruto
+          path: data-bruto
+          retention-days: 14
+
+      - name: Publicar na branch de dados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan dados-brutos
+          # A branch orfa herda a area de preparacao; sem -f, qualquer
+          # divergencia com o disco aborta a limpeza.
+          git rm -rf --cached . > /dev/null
+          git add -f data-bruto
+          git commit -m "Coleta de fontes primárias por estado"
+          git push -f origin dados-brutos
