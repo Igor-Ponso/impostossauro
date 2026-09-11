@@ -1,0 +1,33 @@
+# Build
+.nuxt
+.output
+.data
+dist
+
+# Dependências
+node_modules
+*.log
+
+# Sistema operacional e editor
+.DS_Store
+.idea
+.vscode/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Cobertura de testes
+coverage
+__pycache__/
+*.pyc
+
+# Arquivos originais das fontes, baixados sob demanda para consolidação
+data-bruto/
+
+# Insumos de produção da arte: só o catálogo e os originais entram no repositório
+artwork/*
+!artwork/originals/
+!artwork/status.json
+!artwork/catalog-source.json

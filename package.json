@@ -1,0 +1,53 @@
+{
+  "name": "impostossauro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.18.0",
+  "scripts": {
+    "dev": "nuxt dev",
+    "art:build": "node scripts/arte/gerar.mjs && node scripts/arte/exportar.mjs",
+    "build": "nuxt build",
+    "generate": "nuxt generate && node scripts/sitemap.mjs",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "consolidar": "node scripts/coleta/consolidar.mjs",
+    "cambio": "node scripts/coleta/cambio.mjs",
+    "arquivar": "node scripts/verificacao/arquivar.mjs",
+    "verify:publication": "node scripts/verificacao/publicacao.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@fontsource/archivo-black": "^5.3.0",
+    "@fontsource/press-start-2p": "^5.3.0",
+    "@lucide/vue": "^1.34.0",
+    "@nuxtjs/i18n": "^10.0.0",
+    "@pinia/nuxt": "^0.11.0",
+    "@svg-maps/brazil": "^2.0.0",
+    "gsap": "^3.15.0",
+    "nuxt": "^4.0.0",
+    "ogl": "^1.0.11",
+    "pinia": "^3.0.0",
+    "three": "^0.178.0",
+    "vue": "^3.5.0",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.5.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/three": "^0.178.1",
+    "@vue/test-utils": "^2.4.0",
+    "eslint": "^10.0.0",
+    "happy-dom": "^20.11.2",
+    "sharp": "0.35.4",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.0.0",
+    "vue-tsc": "^3.0.0"
+  }
+}
