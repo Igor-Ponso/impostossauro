@@ -1,0 +1,1268 @@
+{
+  "nav": {
+    "calculator": "Calculadora",
+    "methodology": "Metodologia",
+    "timeMachine": "Máquina do Tempo",
+    "inflation": "Inflação",
+    "fallacies": "Falácias",
+    "journey": "A Jornada",
+    "manifesto": "Manifesto",
+    "menu": "Menu",
+    "business": "Custo Brasil",
+    "economics": "Economia 101",
+    "publicMachine": "A Máquina Pública",
+    "promises": "Prometeram",
+    "world": "O Brasil no Mundo",
+    "close": "Fechar",
+    "groups": {
+      "youPay": "Você paga",
+      "whereItGoes": "Para onde vai",
+      "whatTheySay": "O que eles dizem",
+      "understand": "Entenda e confira",
+      "closing": "O fecho"
+    },
+    "hints": {
+      "calculator": "quanto sai do seu bolso por ano",
+      "journey": "o mesmo real, taxado seis vezes",
+      "inflation": "o imposto que ninguém votou",
+      "publicMachine": "quem manda para Brasília e quanto volta",
+      "business": "o que custa produzir qualquer coisa aqui",
+      "timeMachine": "o discurso de cada governo e a conta",
+      "fallacies": "as desculpas que não sobrevivem aos números",
+      "economics": "a economia que a escola não deu",
+      "manifesto": "por que este site existe",
+      "methodology": "de onde vem cada número",
+      "promises": "o que juraram que o imposto ia resolver",
+      "world": "quanto os outros cobram e o que entregam",
+      "whatItBuys": "o tamanho de um ano de imposto, em coisas com preço",
+      "spending": "O que o dinheiro financiou e o que não entregaram"
+    },
+    "whatItBuys": "O que dava para comprar?",
+    "home": "Início",
+    "spending": "Eles gastaram"
+  },
+  "doors": {
+    "kicker": "O site inteiro, seção por seção",
+    "title": "Cada seção abaixo puxa uma conta diferente.",
+    "subtitle": "Todas com fonte, todas com a régua declarada.",
+    "numbers": {
+      "calculator": "{days} dias por ano, na média nacional",
+      "inflation": "R$ {trillions} tri de arrecadação federal em {year}",
+      "fallacies": "R$ {trillions} tri em {years} anos",
+      "publicMachine": "{years} anos, {states} estados",
+      "promises": "{count} casos"
+    }
+  },
+  "calculator": {
+    "pageTitle": "Quanto do seu salário vira imposto?",
+    "title": "Quanto do seu salário vira imposto?",
+    "intro": "O desconto no holerite é só parte da conta. O restante está embutido nas compras que você faz com o salário líquido. Digite seu salário e veja a carga estimada.",
+    "grossLabel": "Salário bruto mensal (CLT)",
+    "dependentsLabel": "Dependentes",
+    "net": "Sobra para você",
+    "effectiveRate": "Carga estimada",
+    "daysLine": "Você trabalha {days} dias por ano — {months} meses — para pagar impostos.",
+    "yearLine": "Em um ano, são {value} em tributos — o equivalente a {baskets} cestas básicas.",
+    "scopeNote": "Holerite: INSS e IRRF com as tabelas oficiais de 2026 (incluindo a isenção até R$ 5.000). Consumo: estimativa com a média de ~{pct}% de tributos embutidos nos preços (IBPT) aplicada sobre a parte do líquido que você gasta. Exemplos do IBPT: videogame 72%, celular 69%, gasolina 62%, energia 48%.",
+    "methodNote": "As tabelas oficiais e as fórmulas usadas aqui estão documentadas.",
+    "pizzaAlt": "Gráfico de pizza do salário: a fatia comida pelo Impostossauro (INSS e IRRF) e o que sobra para você.",
+    "kicker": "Todos os impostos, não só o holerite",
+    "spendLabel": "Parcela do salário líquido que você gasta",
+    "hidden": "Imposto invisível",
+    "ibptLine": "A média nacional é outra medida: em {year} o brasileiro médio trabalhou {days} dias para pagar tributos. A sua conta difere porque parte do seu salário e do quanto gasta —",
+    "tldr": "Holerite e consumo: o imposto continua depois do desconto no salário.",
+    "icebergPunch": "A lei isentou o salário até R$ 5 mil do Imposto de Renda. O preço na prateleira não tem isenção nenhuma.",
+    "consumptionLegend": "Percentual médio aproximado de tributos embutidos nos preços ao consumidor, cifra amplamente citada a partir de estudos do IBPT/ACSP. Produtos individuais variam muito (ver exemplos).",
+    "liberation": {
+      "kicker": "Seu Dia da Liberdade de Impostos",
+      "line": "Até {date}, você trabalha só para o Impostossauro.",
+      "note": "A carga estimada de holerite e consumo é convertida em dias de salário. Compartilhe o resultado com as hipóteses da conta.",
+      "zero": "Com os dados informados, a estimativa é de zero dias para pagar impostos."
+    },
+    "inputsTitle": "Informe seus dados",
+    "liveHint": "O resultado muda conforme você ajusta os valores.",
+    "grossHint": "O valor antes dos descontos no holerite.",
+    "dependentsHint": "Para a dedução do IRRF.",
+    "spendHint": "Isso representa {value} em compras e contas por mês.",
+    "resultTitle": "O imposto na sua conta do mês",
+    "monthlyTax": "Total estimado de impostos por mês",
+    "rateOfGross": "{pct}% do seu salário bruto.",
+    "totalExplanation": "O desconto no holerite é só o começo. Some a ele o imposto que você paga dentro do preço das compras.",
+    "seeYear": "Veja quanto isso custa em dias de trabalho",
+    "breakdownTitle": "2. O desconto no holerite é só o começo",
+    "grossShort": "Salário bruto",
+    "netSalary": "Salário líquido no holerite",
+    "consumptionTax": "Imposto dentro das suas compras",
+    "consumptionCalculation": "{spending} gastos por mês × {pct}% de carga média nos preços. Esse imposto já está no preço do que você compra.",
+    "assumptionsTitle": "Hipóteses e fontes desta simulação",
+    "shareResult": "Compartilhe o resultado com a fonte.",
+    "editInputs": "Ajustar meus dados",
+    "inputTitle": "1. Faça a sua conta",
+    "payrollLabel": "Desconto no holerite (INSS + IRRF)",
+    "totalLabel": "O Impostossauro fica com cerca de",
+    "rateLine": "{rate}% do seu salário bruto, somando holerite e consumo.",
+    "afterAllTaxes": "Renda após os impostos estimados",
+    "remainingHint": "Esta é a renda descontando apenas os tributos estimados. Parte dela paga suas compras e contas; não é dinheiro livre no fim do mês.",
+    "takeHomeLabel": "Salário líquido que chega à conta",
+    "takeHomeHint": "Os impostos embutidos nas suas compras ainda saem desse valor.",
+    "zeroLine": "Com estes valores, a estimativa de dias para pagar impostos é zero."
+  },
+  "hero": {
+    "pageTitle": "Quanto imposto você já pagou?",
+    "kicker": "Impostos pagos pelos brasileiros em {year}, aproximadamente",
+    "perSecond": "São {value} por segundo, em média.",
+    "sinceArrival": "Desde que você abriu esta página:",
+    "cta": "Calcular o imposto sobre o meu salário",
+    "scroll": "Calcule a sua parte",
+    "ctaSecondary": "Ver o aumento deles",
+    "estimateNote": "Estimativa. Nenhum órgão oficial publica o total das três esferas em tempo real, e a própria ACSP fecha 2025 em dois valores: R$ 3.980 bi no anúncio e R$ 3.985 bi no painel — usamos o do painel, que é a régua de toda a série.",
+    "estimateLink": "Como a conta é feita",
+    "description": "Quanto imposto o brasileiro já pagou este ano, em tempo real, e o que poderia ter sido feito com esse dinheiro. Cada número com fonte."
+  },
+  "equivalences": {
+    "title": "O que dava para fazer com isso?",
+    "subtitle": "A arrecadação estimada até agora em {year} equivale, a custos oficiais, a:",
+    "sourcePrefix": "Fonte",
+    "note": "Cada valor unitário tem fonte oficial citada.",
+    "methodologyLink": "Ver a metodologia",
+    "items": {
+      "school": {
+        "label": "escolas de educação infantil",
+        "description": "Construção de escolas padrão Proinfância (FNDE), da fundação ao telhado."
+      },
+      "ambulance": {
+        "label": "ambulâncias do SAMU",
+        "description": "Unidades de Suporte Avançado completas, equipadas como UTI móvel."
+      },
+      "ubs": {
+        "label": "postos de saúde (UBS)",
+        "description": "Unidades Básicas de Saúde construídas e prontas para atender."
+      },
+      "utiBedYear": {
+        "label": "anos de leito de UTI no SUS",
+        "description": "Anos inteiros de custeio de um leito de UTI adulto pelo SUS."
+      },
+      "minimumWageYear": {
+        "label": "anos de salário mínimo",
+        "description": "Anos inteiros de salário mínimo, com 13º e férias."
+      },
+      "basicBasket": {
+        "label": "cestas básicas",
+        "description": "Cestas básicas completas ao custo médio apurado pelo DIEESE."
+      },
+      "bolsaFamiliaMonth": {
+        "label": "meses de Bolsa Família",
+        "description": "Meses do benefício médio pago por família no programa."
+      }
+    },
+    "kicker": "A conta do banquete"
+  },
+  "closing": {
+    "title": "A promessa é sempre nova. O dinheiro é sempre o seu.",
+    "body": "Todo governo promete acabar com a miséria usando o dinheiro de quem trabalha. A miséria continua aí. A inflação também. Na próxima promessa, a conta vem antes do aplauso.",
+    "cta": "Ver o que fizeram com o dinheiro"
+  },
+  "methodology": {
+    "title": "Metodologia",
+    "intro": "Num site com uma tese explícita, os números precisam ser inatacáveis. Esta página documenta todas as fontes, fórmulas e limitações — e o código é aberto.",
+    "counter": {
+      "title": "O contador",
+      "body": "O contador estima a arrecadação de tributos no Brasil no ano corrente distribuída uniformemente no tempo, no mesmo espírito do Impostômetro da ACSP: o total anual estimado é dividido pelos segundos do ano, gerando uma taxa por segundo aplicada ao tempo já decorrido.",
+      "formula": "valor(t) = (arrecadação anual estimada ÷ segundos no ano) × segundos decorridos no ano",
+      "currentBasis": "Base da estimativa do ano corrente"
+    },
+    "costs": {
+      "title": "Custos de referência",
+      "body": "Cada equivalência usa um custo unitário com fonte oficial (ou imprensa citando órgão oficial). Os valores são arredondados de forma conservadora.",
+      "item": "Item",
+      "cost": "Custo unitário",
+      "source": "Fonte"
+    },
+    "payroll": {
+      "title": "A calculadora de salário",
+      "body": "A calculadora aplica as tabelas oficiais de 2026: INSS progressivo por faixas (Portaria Interministerial MPS/MF nº 13/2026, teto de R$ 8.475,55 e desconto máximo de R$ 988,09) e IRRF com a tabela progressiva da Receita Federal mais o redutor da Lei nº 15.270/2025, que zera o imposto até R$ 5.000 de rendimento mensal e reduz gradualmente até R$ 7.350 (redução = R$ 978,62 − 0,133145 × rendimento). A base do IRRF usa o maior entre as deduções legais (INSS + R$ 189,59 por dependente) e o desconto simplificado de R$ 607,20.",
+      "bracket": "Faixa salarial (INSS 2026)",
+      "rate": "Alíquota",
+      "upTo": "Até {value}",
+      "irrfNote": "O cálculo cobre os descontos em folha do CLT (INSS + IRRF). Não inclui os tributos embutidos no consumo, que incidem depois, a cada compra. Fontes:"
+    },
+    "limits": {
+      "title": "Limitações conhecidas",
+      "item1": "A arrecadação real não é uniforme ao longo do ano — o contador é uma média; o total do período converge para o valor oficial.",
+      "item2": "As equivalências são ilustrativas: comparam o total arrecadado com custos unitários de capital ou consumo, sem descontar custeio contínuo (professores, medicamentos, manutenção).",
+      "item3": "Estimativas do ano corrente são revisadas quando os órgãos oficiais publicam os consolidados."
+    },
+    "open": {
+      "title": "Código e dados abertos",
+      "body": "Todo o código, os dados e as fórmulas deste site estão públicos no {link}. Encontrou um erro? Abra uma issue — correção com fonte é bem-vinda."
+    },
+    "timeMachine": {
+      "title": "A Máquina do Tempo",
+      "body": "A soma por período usa os fechamentos anuais do Impostômetro/ACSP como marcos verificados (2010, 2015, 2018, 2019, 2021–2025). Anos sem marco público são preenchidos por interpolação linear entre os marcos vizinhos, e o ano corrente entra com a estimativa proporcional ao tempo decorrido — períodos que incluem qualquer aproximação são sinalizados na própria página. Os mandatos usam anos-calendário (transições como o impeachment de 2016 são simplificadas para o ano inteiro). A inflação acumulada compõe o IPCA anual do IBGE de cada ano do intervalo (série completa até 2025). A carga tributária histórica (1947–2024) usa marcos confirmados de três séries: Ipea/Varsano (1947–1998, contas nacionais antigas), FGV/Ibre (1990–2024) e Tesouro (2010–2024); a revisão do PIB de 2007 reduziu a série pós-1995 em ~2 p.p., e Tesouro e FGV divergem ~2 p.p. na metodologia atual — por isso publicamos apenas pontos confirmados textualmente e citamos a fonte de cada um. Os indicadores sociais seguem a mesma regra: só marcos confirmados (Censos IBGE, tábuas de mortalidade, SIM/Datasus, PNAD Contínua), com as quebras de série anotadas em cada gráfico — o desemprego, por exemplo, só tem série nacional comparável desde 2012, e marcos de homicídios que não conseguimos conferir na fonte ficaram de fora."
+    },
+    "archive": {
+      "title": "Cópia arquivada de cada fonte",
+      "body": "Página oficial sai do ar, matéria é editada, PDF muda de endereço. Por isso cada fonte citada no site tem uma cópia na Wayback Machine, registrada com data em {link}. Se o link original morrer, a cópia prova o que a fonte dizia quando o número entrou aqui.",
+      "link": "arquivos.json, no repositório"
+    }
+  },
+  "footer": {
+    "disclaimer": "O Impostossauro é uma denúncia independente contra a classe política inteira, de todos os partidos, com a mesma régua para todos. Cada número tem fonte.",
+    "openSource": "Dados com fontes citadas e código aberto no",
+    "privacy": "Privacidade",
+    "terms": "Termos de uso",
+    "visitsAlt": "Total de acessos à página inicial",
+    "visitsUnavailable": "Contador indisponível no momento.",
+    "visitsLoading": "Carregando contador…"
+  },
+  "fiveMonths": {
+    "kicker": "Quase metade do seu ano",
+    "title": "O brasileiro médio trabalha 5 meses por ano só para pagar impostos.",
+    "subtitle": "De janeiro até o fim de maio, cada dia de trabalho do brasileiro médio vai inteiro para o Impostossauro. É a média nacional do IBPT — não a conta de uma pessoa específica.",
+    "yours": "A sua conta é outra: a calculadora faz com o seu salário.",
+    "daysSuffix": "dias de trabalho por ano vão para tributos",
+    "freedomDay": "Dia da Liberdade de Impostos: 29 de maio",
+    "forThem": "trabalhando para o Impostossauro",
+    "forYou": "trabalhando para você",
+    "source": "Estudo do IBPT ({year}): {pct}% da renda média do brasileiro vai para tributos — dado do",
+    "months": {
+      "jan": "jan",
+      "feb": "fev",
+      "mar": "mar",
+      "apr": "abr",
+      "may": "mai",
+      "jun": "jun",
+      "jul": "jul",
+      "aug": "ago",
+      "sep": "set",
+      "oct": "out",
+      "nov": "nov",
+      "dec": "dez"
+    }
+  },
+  "hungerFallacy": {
+    "statTwitter": "foi o preço do Twitter inteiro, em reais de outubro de 2022.",
+    "statRevenue": "foi o total cobrado dos brasileiros só em {year}, nas três esferas.",
+    "statTwitters": "Twitters inteiros, todos os anos. E nenhum político se indigna.",
+    "pictoTitle": "O Estado brasileiro arrecada um Twitter a cada {days} dias.",
+    "punch1": "O plano do Programa Mundial de Alimentos da ONU para salvar 42 milhões de pessoas da fome custava R$ {wfp} bilhões. O Impostossauro engole isso em {days} dias.",
+    "punch2": "Mesmo assim, {poverty} milhões de brasileiros ({povertyPct}%) seguiam abaixo da linha de pobreza em {year}, segundo o IBGE.",
+    "punch3": "O problema nunca foi falta de dinheiro.",
+    "fxNote": "US$ {usd} bi × PTAX média de out/2022 (R$ {ptax}) ≈ R$ {nominal} bilhões.",
+    "ipcaNote": "R$ {nominal} bi em reais de out/2022 · R$ {corrected} bi em reais de {year}, corrigidos pelo IPCA.",
+    "moreFallacies": "Ver mais falácias desmentidas"
+  },
+  "iceberg": {
+    "alt": "Iceberg dos impostos: a ponta visível é o desconto do holerite; a massa submersa são os tributos embutidos no consumo.",
+    "visibleLabel": "O imposto que você VÊ (holerite)",
+    "hiddenLabel": "O que você NÃO vê (embutido no consumo)",
+    "month": "mês"
+  },
+  "timeMachine": {
+    "pageTitle": "Máquina do Tempo dos impostos",
+    "kicker": "Escolha o período. Veja o estrago.",
+    "title": "A Máquina do Tempo",
+    "intro": "Todo governo jura que desta vez o dinheiro será bem usado. Escolha um mandato, o ano em que você nasceu ou qualquer intervalo desde 2010. Veja quanto o governo arrecadou no período, o que dava para construir, e o que a inflação fez com o resto.",
+    "presets": {
+      "dilma": "Dilma (2011–2016)",
+      "temer": "Temer (2016–2018)",
+      "bolsonaro": "Bolsonaro (2019–2022)",
+      "lula3": "Lula (2023–2026)",
+      "all": "Tudo (2010–2026)"
+    },
+    "rangeStart": "Ano inicial",
+    "rangeEnd": "Ano final",
+    "rangeHint": "Escolha um mandato acima ou monte o seu intervalo — o ano em que você nasceu, por exemplo. A série começa em {year}.",
+    "totalLabel": "O governo arrecadou, de {start} a {end}:",
+    "perDay": "Uma média de {value} por dia, todos os dias do período.",
+    "approxNote": "* O período inclui anos interpolados entre marcos verificados do Impostômetro e/ou a estimativa do ano corrente — ver metodologia.",
+    "inflationTitle": "E o que sobrou no seu bolso, a inflação comeu.",
+    "inflationLine": "De {start} para cá, os preços subiram {pct}% (IPCA acumulado). O mesmo dinheiro compra cada vez menos — e quem fabrica essa inflação é o mesmo Estado que promete te salvar dela.",
+    "inflationThen": "R$ 1.000 em {year} compravam...",
+    "inflationNow": "...o que hoje se compra com",
+    "inflationSource": "Inflação oficial (IPCA anual), série completa até 2025:",
+    "equivalencesTitle": "O que dava para fazer com o total do período",
+    "methodNote": "Os marcos da série, as interpolações e as fórmulas estão documentados.",
+    "tldr": "Escolha um governo e veja quanto arrecadou — e o que dava para construir.",
+    "taxBurdenLegend": "Carga tributária bruta do Governo Geral em 2025: 32,40% do PIB — maior nível da série iniciada em 2010.",
+    "workDaysLegend": "Estudo 'Dias Trabalhados para Pagar Tributos' do IBPT: 149 dias em 2025 (Dia da Liberdade de Impostos em 29/05/2025), com 40,82% da renda média destinada a tributos.",
+    "tiradentesConclusion": "A Coroa portuguesa cobrava o quinto: cerca de 20% de todo o ouro extraído em Minas. Quando a cota anual de 100 arrobas não fechava, vinha a derrama — a cobrança forçada da diferença, sob armas. Foi a ameaça da derrama de 1789 que detonou a Inconfidência Mineira; Tiradentes foi enforcado e esquartejado em 21 de abril de 1792. Hoje, o Estado brasileiro fica com 32,40% de tudo que o país produz e cerca de 41% da renda média do trabalhador — e a derrama é automática: desconta na folha e embute na prateleira, sem precisar de tropa."
+  },
+  "inflationPage": {
+    "pageTitle": "A Fábrica de Inflação",
+    "kicker": "O imposto que ninguém votou",
+    "title": "A Fábrica de Inflação",
+    "intro": "Inflação não é fenômeno da natureza. É governo gastando mais do que arrecada e imprimindo a diferença. E a cobrança é dupla: depois de corroer o seu dinheiro, o Estado cobra imposto sobre a correção.",
+    "calc": {
+      "title": "O imposto sobre o nada",
+      "intro": "Você investe, o dinheiro rende, e parte desse rendimento só repõe a inflação que o próprio governo fabricou. Mesmo assim, o IR de 15% incide sobre o ganho inteiro — sem nenhuma correção monetária. Faça a conta:",
+      "principal": "Valor investido",
+      "years": "Anos",
+      "returnPct": "Retorno % a.a.",
+      "inflationPct": "Inflação % a.a.",
+      "note": "A inflação padrão de {pct}% a.a. é a média geométrica do IPCA de 2010–2025 (IBGE). Ajuste como quiser.",
+      "finalValue": "Valor final",
+      "inflationPart": "Parte que é só inflação",
+      "tax": "IR devido (15% do ganho)",
+      "taxOnInflation": "Imposto cobrado sobre a inflação",
+      "punchLost": "Você PERDEU poder de compra — e ainda assim paga {tax} de imposto sobre um \"lucro\" que não existe.",
+      "punchGain": "{share}% do seu imposto incide sobre pura inflação. Sua alíquota real efetiva: {rate}% — não os 15% da propaganda.",
+      "explain": "O governo fabrica a inflação, a inflação infla o seu ganho nominal, e o imposto incide sobre o número inflado. Quanto mais inflação o governo cria, mais imposto cobra de você, sobre um ganho que não comprou nada.",
+      "legalNote": "Desde a Lei nº 9.249/1995, o Brasil não permite correção monetária no cálculo do ganho de capital: o IR de 15% incide sobre o ganho nominal."
+    },
+    "methodNote": "As fórmulas e as fontes estão documentadas.",
+    "currencies": {
+      "title": "As moedas que o governo já queimou",
+      "intro": "Um país sério não troca de moeda. O Brasil trocou seis vezes em 52 anos — cada troca marca uma moeda que a inflação destruiu.",
+      "zerosCut": "corte de {zeros} zeros (acumulado: {total})",
+      "punch": "De 1942 a 1994, o governo brasileiro cortou {zeros} ZEROS da moeda."
+    },
+    "hyper": {
+      "title": "A hiperinflação, ano a ano (IPCA)",
+      "perYear": "Inflação oficial anual nos anos finais da era pré-Real",
+      "accumulatedLabel": "Inflação acumulada de 1980 a 1994 — número oficial do IBGE:",
+      "realLabel": "E mesmo o Real, a moeda \"estável\":",
+      "realNote": "Inflação acumulada de {pct}% nos primeiros 30 anos do Plano Real. O que R$ 1 comprava em 1994, hoje custa mais de R$ 8."
+    },
+    "tldr": "O governo cria a inflação, ela come seu dinheiro — e ele ainda cobra imposto sobre a perda.",
+    "decades": {
+      "title": "A inflação antes do IPCA: 50 anos de desvalorização monetária",
+      "intro": "O IPCA só nasce em 1980. Antes dele, quem conta a história é o IGP da FGV, medido desde 1944. E a história é esta: o brasileiro nunca conheceu moeda estável até 1994.",
+      "wageKicker": "O salário mínimo já comprou mais",
+      "wageTitle": "O auge foi em 1957 — e nunca mais voltou.",
+      "note": "Década a década com fonte citada; divergências entre índices antigos documentadas na metodologia. Série completa:"
+    },
+    "equivalenceLegend": "R$ 1,00 de 1994 = 2.750.000.000.000.000.000 réis (2,75 quintilhões)"
+  },
+  "fallacies": {
+    "pageTitle": "O Desmentidor",
+    "kicker": "Falácias favoritas dos políticos",
+    "title": "O Desmentidor",
+    "intro": "Quando a conta não fecha, aparece uma desculpa pronta: a culpa é de Portugal, do estrangeiro, do bilionário, do governo anterior. Aqui a gente faz o que político odeia: a conta, com fonte.",
+    "claimLabel": "A desculpa",
+    "mathLabel": "A conta",
+    "gold": {
+      "claim": "O Brasil é pobre porque Portugal roubou o nosso ouro.",
+      "statDocumented": "toneladas com chegada documentada em Portugal (1720–1807); produção total estimada em 800–1.000 t.",
+      "statValue": "valor de TODO esse ouro a preço de hoje (até 1.000 t × ~US$ 4.375/oz).",
+      "days": "dias",
+      "statDays": "o que o Impostossauro levou para engolir o mesmo valor, no ritmo de {year}.",
+      "punch": "Um século inteiro de \"exploração colonial\" equivale a um ou dois meses de Brasília. Portugal foi embora em 1822 — quem cobra o quinto sobre a sua vida desde então mora em Brasília."
+    },
+    "hunger": {
+      "claim": "Nós tiramos o Brasil do Mapa da Fome.",
+      "exit": "sai do Mapa da Fome",
+      "return": "volta ao Mapa da Fome",
+      "body": "O detalhe que ninguém conta: a régua não foi a mesma nas duas \"saídas\". Em 2014, a linha divulgada era 5% de subalimentação — o Brasil saiu com ~3%, número que já seria reprovado pela régua atual de 2,5%. E a FAO recalcula a série histórica inteira a cada edição do relatório. A vitória anunciada depende de qual régua se usa, e quem escolhe a manchete nunca mostra a régua.",
+      "punch": "Entre uma foto na ONU e outra, 48,9 milhões de brasileiros seguiam abaixo da linha de pobreza (IBGE, 2024). A fome não lê relatório."
+    },
+    "hunger44": {
+      "claim": "US$ 44 bilhões acabariam com a fome no mundo.",
+      "body": "Em 2021 o Programa Mundial de Alimentos, da ONU, calculou em US$ 6,6 bilhões o custo de tirar 42 milhões de pessoas da fome. Quando Elon Musk comprou o Twitter por US$ 44 bilhões, políticos fizeram fila para se indignar: aquele dinheiro podia ter acabado com a fome. Se dinheiro resolve, a conta vale para todo mundo.",
+      "statPlan": "era o plano da ONU para tirar 42 milhões de pessoas da fome, em reais de outubro de 2022.",
+      "statRevenue": "foi o que o Estado brasileiro arrecadou em {year}, nas três esferas.",
+      "punch": "O Brasil arrecada {times} vezes o plano inteiro da ONU, todo ano. São {days} dias de arrecadação. E a fome continua aqui — por que ninguém faz essa pergunta?"
+    },
+    "indicators": {
+      "kicker": "A pergunta que nenhum governo responde",
+      "title": "R$ {trillions} trilhões depois...",
+      "intro": "Foi isso que o governo arrecadou em {years} anos, segundo o Impostômetro. Com uma montanha de dinheiro dessas, qualquer país vira Suíça. Veja o que o Brasil virou:",
+      "items": {
+        "illiteracy": {
+          "label": "Analfabetismo (15 anos ou mais)",
+          "comment": "Caiu — em VINTE E UM anos. Ainda são ~11 milhões de brasileiros adultos que não leem esta página. Ao custo de trilhões, a régua da vergonha só desceu pela metade."
+        },
+        "homicides": {
+          "label": "Homicídios por ano",
+          "comment": "Melhorou desde o pico — e ainda morre um estádio lotado de brasileiros TODO ANO. Segurança é a função mais básica de qualquer Estado; é para isso que o imposto existiria."
+        },
+        "sanitation": {
+          "label": "Esgoto tratado",
+          "comment": "Em 12 anos, avançou 14 pontos. Nesse ritmo, o Brasil trata 100% do esgoto por volta de 2060. Metade do esgoto do país ainda corre para rios e praias — em pleno século XXI."
+        },
+        "pisa": {
+          "label": "Educação (PISA, matemática)",
+          "comment": "Estagnado desde 2009, ~93 pontos abaixo da média da OCDE — mais de 4 anos de escolaridade de atraso. Trilhões em promessas de prioridade para a educação compraram isto."
+        }
+      },
+      "punch": "Não faltou dinheiro. Nunca faltou dinheiro. Os números mostram um Estado que cobra como a Escandinávia, entrega pouco, e ainda pede gratidão na promessa seguinte."
+    },
+    "methodNote": "Todas as fontes estão linkadas nos cards. Os critérios e as limitações estão documentados.",
+    "tldr": "As desculpas favoritas dos políticos, desmontadas com aritmética e fonte."
+  },
+  "journey": {
+    "pageTitle": "A Jornada do Dinheiro",
+    "kicker": "Siga o dinheiro",
+    "title": "A Jornada de UMA nota de R$ 100",
+    "intro": "Vamos seguir o mesmo dinheiro, o seu, do dia em que nasce do seu trabalho até o dia em que você morre. Em cada parada, alguém aparece para morder. É sempre o mesmo dinossauro, mordendo a mesma nota, de novo.",
+    "scrollHint": "Role para começar a jornada",
+    "stepLabel": "Etapa {n} de {total}",
+    "steps": {
+      "ghost": {
+        "title": "Antes do seu salário existir",
+        "body": "Seu chefe não paga só o seu salário. Sobre cada real da folha ele recolhe INSS patronal, FGTS, seguro de acidente, Sistema S, e ainda provisiona 13º e férias com encargo em cima de encargo. Resultado documentado: um CLT custa de 1,7 a 2 vezes o salário que você vê. No estudo da FGV/CNI, com custos indiretos, chega a 3. É quase um segundo salário seu, comido antes de o holerite existir.",
+        "question": "Se esse dinheiro existe porque você trabalhou... por que você nunca viu a cor dele?"
+      },
+      "payslip": {
+        "title": "O holerite chega com os descontos",
+        "body": "Do que sobrou, INSS e IRRF saem retidos na fonte. Você não paga o imposto: você recebe o que o governo deixou. Primeiro ele, depois você.",
+        "question": "Você autorizou esse débito automático? Alguém te perguntou?"
+      },
+      "spend": {
+        "title": "Você gasta — e paga de novo",
+        "body": "No mercado, na farmácia, na energia e no combustível, o preço inclui tributos como ICMS, PIS/Cofins, ISS e IPI. O dinheiro que passou pela folha volta a ser tributado quando você consome.",
+        "question": "Quando o preço sobe, você culpa o mercado... mas quem leva um terço da sua compra?"
+      },
+      "save": {
+        "title": "Você investe — o rendimento é tributado",
+        "body": "Sobrou algo? Se você investe, o IR leva de 15% a 22,5% do rendimento, inclusive da parte que só repõe a inflação que o próprio governo fabricou. Fundos ainda têm o come-cotas: um imposto que se serve sozinho duas vezes por ano, sem você vender nada.",
+        "question": "Faz sentido pagar imposto sobre um \"ganho\" que só recuperou o que a inflação comeu?"
+      },
+      "house": {
+        "title": "Você compra patrimônio — a cobrança continua",
+        "body": "Comprou a casa? ITBI na escritura, sem o governo ter botado um tijolo. Quitou? O IPTU vence todo ano, para sempre. Comprou carro? IPVA, todo ano, para sempre.",
+        "question": "Se você precisa pagar todo ano para manter o que já é seu... é seu mesmo?"
+      },
+      "inherit": {
+        "title": "Você morre — a herança é tributada",
+        "body": "A transmissão do patrimônio aos seus filhos também é tributada: o ITCMD pode chegar a 8%, conforme o estado e as regras aplicáveis. O dinheiro tributado no trabalho, no consumo e na formação do patrimônio volta a sustentar uma cobrança.",
+        "question": "Quantas vezes o MESMO dinheiro pode ser tributado antes de isso ter outro nome?"
+      }
+    },
+    "reflection": {
+      "opening": "Você trabalha. Seu empregador paga mais do que aparece no seu salário. E a receita que financia esse pagamento também está sujeita a tributos. Ela vem de clientes cujo dinheiro já pode ter passado por outras cobranças.",
+      "title": "A cobrança não começou no seu holerite. E não termina quando o salário chega.",
+      "circulation": "O dinheiro muda de mãos, vira salário, compra, investimento ou patrimônio. Ter sido tributado antes não impede que uma nova operação gere outra cobrança.",
+      "spending": "Com o que sobra, você faz compras. O imposto está no preço. Tenta construir uma reserva. Nas aplicações tributadas, parte do rendimento também fica pelo caminho.",
+      "building": "Resolve construir uma casa. Há imposto na compra do terreno, nos materiais e encargos na obra. Você paga cada etapa, assume cada risco e passa anos quitando tudo.",
+      "ownership": "Finalmente, a casa é sua.",
+      "annual": "Mas quitar a casa não quita o IPTU. A cobrança volta no ano seguinte. E no outro. Você terminou de pagar pela conquista; o Estado continua cobrando sobre ela.",
+      "inheritance": "Então você morre. O patrimônio que levou uma vida para construir passa aos seus entes queridos — e essa transmissão também pode gerar imposto.",
+      "effort": "O trabalho foi seu. As renúncias foram suas. O risco foi seu. Em cada etapa, o Estado cobrou uma parte.",
+      "question": "No fim das contas, quanto do que você construiu é realmente seu?"
+    },
+    "verdict": {
+      "kicker": "O veredito",
+      "title": "No fim, {pct}% de tudo o que você gera é dele.",
+      "body": "É a conta do IBPT para a renda média: 149 dias de trabalho por ano viram tributo. E a barra lá em cima nem contou IPTU, IPVA e herança. A jornada real é pior que a animação.",
+      "note": "A barra ilustra a carga média sobre a renda. Tributos sobre patrimônio e herança têm bases próprias, além dela."
+    },
+    "taxCountLine": "O Brasil tem cerca de {count} tributos entre impostos, taxas e contribuições. Veja os principais ao longo da vida.",
+    "tldr": "O dinheiro atravessa seis etapas de cobrança — do trabalho à herança.",
+    "finale": "Quantas vezes o mesmo real precisará ser taxado para que seja o suficiente?",
+    "custoCltLabel": "custo total de um CLT"
+  },
+  "manifesto": {
+    "pageTitle": "Manifesto",
+    "kicker": "Por que este site existe",
+    "title": "O dinheiro é seu. A cobrança também.",
+    "tldr": "Há 30 anos prometem acabar com a fome, a violência e a ignorância. Trilhões depois, cadê?",
+    "intro": "Este site é uma denúncia. Não contra um partido: contra a classe política inteira, e contra o nosso costume de aplaudir promessa velha como se fosse novidade. Todo governo jurou tirar o brasileiro da miséria. O Impostossauro faz uma coisa só: coloca a promessa ao lado do número e deixa você concluir.",
+    "notTitle": "O que este site NÃO é",
+    "not1": "Não há compromisso de neutralidade. Há uma posição declarada contra o abuso tributário e a má gestão do dinheiro público.",
+    "not2": "Nenhum partido recebe proteção editorial. O documento e o dado determinam o que publicamos.",
+    "not3": "Nenhum número vira prova só porque favorece a denúncia. Fonte, período e definição precisam estar identificados.",
+    "not4": "Não é recorte para fabricar indignação. Um dado isolado não substitui a série histórica nem o contexto.",
+    "not5": "Não é palanque nem pedido de voto. A cobrança continua quando muda o governo.",
+    "not6": "Não é uma tese intocável. Se o documento contrariar a denúncia, quem precisa mudar é a denúncia.",
+    "yesTitle": "O que este site É",
+    "yes1": "Uma denúncia com dados: promessas de 30 anos ao lado dos indicadores oficiais de 30 anos.",
+    "yes2": "Uma cobrança pública: o discurso ao lado da entrega, antes da próxima promessa.",
+    "yes3": "Código e dados abertos: se achar um erro, corrija — a credibilidade é o nosso único patrimônio.",
+    "yes4": "Um caminho até a fonte: consultar o documento, conferir o cálculo e tirar a própria conclusão.",
+    "yes5": "Uma tradução da conta: gráficos, exemplos e explicações para que qualquer pessoa consiga conferir e cobrar.",
+    "yes6": "Um trabalho aberto à correção: erros apontados com documentos são revisados, e as mudanças ficam registradas.",
+    "parable": {
+      "title": "A parábola do ar-condicionado",
+      "intro": "Sempre que alguém defender um imposto novo para \"resolver\" um problema, lembre desta sala:",
+      "p1": "O país é uma sala refrigerada. O equipamento funciona e mantém a temperatura.",
+      "p2": "Um carro atravessa a parede. O ar gelado escapa pelo buraco — corrupção, desperdício, má gestão.",
+      "p3": "A solução do político? Instalar um SEGUNDO ar-condicionado: aumentar o imposto. O buraco? Continua lá.",
+      "punch": "Aumentar imposto sem consertar a parede não gela a sala — só aumenta a conta de luz. A sua.",
+      "taxLabel": "+IMPOSTO"
+    },
+    "literacy": {
+      "title": "Por que este site fala por desenhos",
+      "stat1": "dos brasileiros de 15 a 64 anos são analfabetos funcionais: leem, mas não conseguem entender o que leram (INAF 2024).",
+      "stat2": "apenas — leem com proficiência plena. O índice não sai do lugar há 23 anos. Entre os jovens, PIOROU: de 14% para 16% de analfabetos funcionais.",
+      "body": "Gráficos, números em destaque e explicações diretas tornam os documentos públicos legíveis. Entender a conta é condição para cobrar quem usa o dinheiro.",
+      "punch": "Tem uma ironia aqui: esse número também é obra deles. Décadas de prioridade total para a educação no discurso, trilhões arrecadados, e 9 em cada 10 brasileiros não conseguem ler com proficiência o contrato que assinaram com o Estado. Quem ganha com isso?"
+    },
+    "rules": {
+      "title": "Critérios de publicação",
+      "rule1": "Toda afirmação traz fonte identificada. Documentos oficiais, pesquisas e reportagens são distinguidos. Sem fonte, não publicamos.",
+      "rule2": "Apontamos o dedo com o documento na mão. Quando o discurso e o dado não batem, mostramos os dois — e a conclusão é sua.",
+      "rule3": "A régua é a mesma para todos os governos, sem exceção — PT, PSDB, MDB, PL. Quem troca de régua conforme quem está no poder é exatamente o que este site denuncia.",
+      "rule4": "Errou-se um número? Corrige-se em público, com a fonte certa. O histórico fica no repositório.",
+      "outro": "Todo o código, os dados e as fórmulas estão abertos no"
+    },
+    "cta": "Comece pela Jornada do Dinheiro",
+    "readCta": "Ler o manifesto"
+  },
+  "tldr": {
+    "label": "Em uma frase"
+  },
+  "share": {
+    "label": "Compartilhe",
+    "native": "Outros",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "instagramHint": "Copiar texto e link para compartilhar no Instagram",
+    "instagramCopied": "Texto e link copiados! Cole em uma mensagem no Instagram.",
+    "openInstagram": "Abrir Instagram",
+    "calcText": "Eu trabalho {days} dias por ano SÓ para pagar impostos. Meu Dia da Liberdade é {date}. Descubra o seu:",
+    "timeMachineText": "De {start} a {end}, o governo brasileiro arrecadou {total}. E o que você viu em troca? Faça a conta:",
+    "journeyText": "O mesmo dinheiro é tributado 6 vezes no Brasil — do contracheque à herança. Siga a jornada de uma nota de R$ 100:",
+    "businessText": "Para me pagar R$ 5.000, meu chefe desembolsa mais de R$ 8.000. O resto o Impostossauro come. Faça a conta:",
+    "whatItBuysText": "Um ano de imposto no Brasil compra 4,2 Disneys, 1,1 milhão de creches — ou 20,8 idas à Lua em moedas de R$ 1 empilhadas. Cada preço com fonte:",
+    "failed": "Não foi possível copiar. Selecione o texto abaixo."
+  },
+  "dossier": {
+    "kicker": "Promessa vs. Realidade",
+    "promised": "O que prometeu",
+    "numbers": "O que os números mostram",
+    "excuse": "A desculpa registrada",
+    "question": "A promessa está de um lado. O número está do outro. O que aconteceu no meio?",
+    "note": "Todas as citações e números com fonte linkada. Paráfrases identificadas como tal. A mesma régua vale para todos os governos.",
+    "paraphrase": "paráfrase, não fala literal"
+  },
+  "business": {
+    "pageTitle": "Custo Brasil",
+    "kicker": "Para quem emprega e empreende",
+    "title": "Custo Brasil",
+    "tldr": "Para te pagar R$ 5.000, seu chefe desembolsa mais de R$ 8.000. E a empresa já pagou imposto antes disso.",
+    "intro": "O funcionário vê o holerite. O empresário vê o resto: um quase-segundo salário em encargos, imposto sobre a receita antes de existir lucro, e uma burocracia tributária que consome 1.501 horas por ano de uma empresa. Quem paga tudo isso, no fim, é o preço na prateleira e a vaga que não foi aberta.",
+    "ghost": {
+      "title": "O Contracheque Fantasma, na conta",
+      "intro": "Digite um salário e veja quanto a empresa desembolsa de verdade. A estimativa abaixo é a conservadora, só com encargos legais obrigatórios. Estudos que incluem custos indiretos chegam ao triplo.",
+      "salaryLabel": "Salário registrado (CLT)",
+      "chargesTitle": "O que incide sobre a folha",
+      "resultLabel": "Para pagar {salary} de salário, a empresa desembolsa:",
+      "multiplier": "{mult}× o salário — na estimativa mais conservadora.",
+      "segSalary": "Salário",
+      "segProvisions": "13º + férias",
+      "segCharges": "Encargos",
+      "rangeNote": "Metodologias mais completas vão além: {pastore}; {fgv}. Nenhuma delas chega perto do que o trabalhador imagina."
+    },
+    "revenue": {
+      "title": "Antes do salário, a empresa já pagou",
+      "intro": "O dinheiro que paga a folha vem de clientes que pagaram com renda já tributada. E entre o cliente e o caixa, o Estado morde de novo:",
+      "note": "Alíquotas vigentes em 2025/2026, variando por regime tributário, estado e município. Cada chip linka a norma ou a tabela oficial."
+    },
+    "stats": {
+      "title": "Os números que explicam por que tudo custa caro aqui",
+      "punch": "Empregar custa o dobro, produzir custa um quinto do PIB a mais, e só entender as regras consome mais de mil horas por ano. Depois perguntam por que o Brasil não cresce."
+    },
+    "methodNote": "A metodologia da estimativa e as fontes estão documentadas.",
+    "assaiMarginLegend": "Setenta e quatro bilhões passaram pelo caixa; um por cento virou lucro. O restante pagou fornecedor, funcionário, energia, aluguel, juros e imposto. O release da empresa destaca o faturamento BRUTO, R$ 80,6 bi — aqui vale a receita líquida (R$ 73,8 bi), que é o denominador da margem e a mesma régua das outras duas. Divergência anotada: outras fontes citam R$ 930 milhões de lucro, por metodologia contábil diferente (IFRS 16); usamos o número do release da própria empresa.",
+    "assaiRevenueLegend": "entrou no caixa em 2024, já descontados os impostos sobre a venda. O faturamento bruto, que o release da empresa destaca, foi R$ 80,6 bi.",
+    "assaiProfitLegend": "sobrou no fim do ano, depois de pagar fornecedor, funcionário, energia, aluguel, juros e imposto."
+  },
+  "historyChart": {
+    "title": "A corrida desde 2010: arrecadação × preços",
+    "subtitle": "Em índice (2010 = 100): a arrecadação cresceu {revenue}% e os preços subiram {prices}%. O Impostossauro correu na frente da inflação que o governo diz combater.",
+    "revenueLabel": "Arrecadação",
+    "priceLabel": "Preços (IPCA)",
+    "hint": "Passe o mouse, toque em um ponto ou navegue com Tab para ver os valores de cada ano.",
+    "alt": "Gráfico de linhas comparando o índice da arrecadação total com o índice de preços (IPCA) de 2010 a 2025.",
+    "note": "Arrecadação nominal de todas as esferas (marcos do Impostômetro, anos sem marco interpolados — ver metodologia). Preços: IPCA acumulado."
+  },
+  "federalRevenueChart": {
+    "title": "Arrecadação federal, ano a ano",
+    "headline": "De R$ {first} bi em {firstYear} para R$ {last} bi em {lastYear}.",
+    "subtitle": "Só a União — sem estados, sem municípios. Valores nominais, do ano em que foram arrecadados, sem correção pela inflação.",
+    "unit": "bi",
+    "hint": "Passe o mouse, toque em um ponto ou navegue com Tab para ver o valor de cada ano.",
+    "alt": "Gráfico de linha da arrecadação federal nominal, ano a ano, de {firstYear} a {lastYear}, com faixas marcando cada governo.",
+    "rulerTitle": "Por que a linha começa em {firstYear}, e não em 1994",
+    "rulerText": "A Receita publica esta série mês a mês desde 1994, e o arquivo está no repositório. Só que em 1994 a receita previdenciária não aparece nela. Em {firstYear}, o primeiro ano em que aparece, ela sozinha vale R$ 35,1 bi de um total de R$ 119,1 bi — quase um terço. Emendar 1994 ao resto desenharia um degrau que é mudança de definição, não de arrecadação. Preferimos mostrar um ano a menos.",
+    "caveatsNote": "Todos os mandatos desde {firstYear} aparecem inteiros. Lula 3 segue em mandato; a série vai até {lastYear}, o último ano fechado na planilha da Receita.",
+    "note": "Arrecadação federal nominal, ano a ano, na série que a própria Receita publica: administrado + previdenciário + outros órgãos. Não inclui estados nem municípios — para a régua das três esferas, veja o gráfico acima.",
+    "governments": {
+      "fhc1": "FHC 1",
+      "fhc2": "FHC 2",
+      "lula1": "Lula 1",
+      "lula2": "Lula 2",
+      "dilma": "Dilma",
+      "temer": "Temer",
+      "bolsonaro": "Bolsonaro",
+      "lula3": "Lula 3"
+    }
+  },
+  "embed": {
+    "pageTitle": "Contador embedável",
+    "credit": "veja a conta completa"
+  },
+  "burden": {
+    "kicker": "Antes de 2010",
+    "sectionTitle": "A carga tributária desde 1947: a linha que só sobe",
+    "sectionIntro": "A série oficial mais antiga do Brasil mostra o tamanho do quinhão do Estado sobre tudo que o país produz. Império, ditadura, democracia: muda o regime, muda a moeda, muda o século. A direção da linha, não.",
+    "title": "Carga tributária bruta, em % do PIB",
+    "subtitle": "De {from}% do PIB em 1947 para {to}% hoje. O Estado brasileiro mais que dobrou a fatia que toma de tudo que o país produz.",
+    "dictatorship": "DITADURA MILITAR",
+    "realPlan": "Plano Real",
+    "ofGdp": "do PIB",
+    "hint": "Toque, passe o mouse ou navegue com Tab pelos pontos para ver o valor e a fonte de cada marco.",
+    "alt": "Gráfico de linha da carga tributária brasileira em % do PIB, de 1947 a 2025, com a ditadura militar demarcada.",
+    "note": "A linha usa a fonte mais oficial disponível para cada ano: reconstrução histórica até 1988, FGV/Ibre de 1990 a 2009 e Tesouro de 2010 em diante. O trecho tracejado não é série anual — são marcos, e por isso não vira linha cheia. Fontes:",
+    "empireKicker": "E antes da República?",
+    "tiradentesKicker": "1789: a derrama",
+    "sourceSwitch": "a fonte troca aqui",
+    "milestoneRuler": "Série Varsano/Ipea — reconstrução histórica, única fonte que alcança o período",
+    "divergenceTitle": "Duas fontes oficiais, dois números — todo ano",
+    "divergenceText": "A linha mostra sempre a fonte mais oficial de cada ano, mas ela não é a única que mede isto. O FGV/Ibre calcula acima do Tesouro em TODOS os anos em que as duas existem, e sempre para o mesmo lado: a maior distância foi em {year}, {pp} pontos do PIB. Não é erro de ninguém — é metodologia. Quem cita \"a carga tributária\" sem dizer de quem é o número está escolhendo um dos dois sem avisar.",
+    "tenthPennyKicker": "O limite de 1569"
+  },
+  "indicators": {
+    "kicker": "A tabelinha dos índices que importam",
+    "title": "O que 80 anos de imposto compraram",
+    "intro": "Do primeiro Censo com dado confirmado até hoje: alfabetização, expectativa de vida, mortalidade infantil, esgoto, violência, desemprego. O país melhorou em quase tudo — como melhorou quase todo país no mesmo período. A pergunta que fica é outra: com tudo que foi arrecadado, era para estar onde?",
+    "hint": "Toque ou passe o mouse nos pontos para ver o ano, o valor e a fonte.",
+    "items": {
+      "illiteracy": "Analfabetismo",
+      "lifeExpectancy": "Expectativa de vida",
+      "infantMortality": "Mortalidade infantil",
+      "sewage": "Rede de esgoto",
+      "homicides": "Homicídios",
+      "unemployment": "Desemprego"
+    },
+    "units": {
+      "illiteracy": "15 anos ou mais",
+      "lifeExpectancy": "anos ao nascer",
+      "infantMortality": "por mil nascidos vivos",
+      "sewage": "ligados à rede geral",
+      "homicides": "por 100 mil habitantes",
+      "unemployment": "taxa de desocupação"
+    },
+    "gdpTitle": "E a economia cresceu quanto, em cada era?",
+    "gdpIntro": "Crescimento médio real do PIB por período, na série do IBGE. A carga tributária subiu em quase todas as eras; o crescimento, não."
+  },
+  "contrast": {
+    "kicker": "Eles disseram",
+    "receipts": "Os recibos"
+  },
+  "signature": {
+    "home": "O dinheiro nunca faltou. O que falta é resposta.",
+    "calculator": "Você trabalha até {date} para o governo. Ele trabalha para você até quando?",
+    "timeMachine": "Tiradentes morreu por menos imposto do que o que aceitamos hoje.",
+    "inflation": "O Brasil já cortou 18 zeros da moeda. Nenhum era do tamanho do problema.",
+    "fallacies": "A desculpa muda a cada governo. A conta chega em todos.",
+    "manifesto": "Não é esquerda contra direita. É quem paga contra quem cobra e não entrega.",
+    "methodology": "Não acredite na gente: confira. Toda fonte está a um clique.",
+    "economics": "Não existe dinheiro do governo. Existe o seu, mudando de endereço.",
+    "publicMachine": "O dinheiro chegou em todo canto do Brasil. O resultado, não.",
+    "promises": "A lei disse para que servia e por quanto tempo. Quem mudou as duas coisas foi quem escreveu a lei.",
+    "world": "Dezenove desses países cobram mais imposto que o Brasil. Todos os vinte e nove vivem mais.",
+    "worldDuelLess": "{pais}: cobra {pontos} pontos do PIB a menos que o Brasil — e vive {anos} anos a mais.",
+    "worldDuelMore": "{pais}: cobra {pontos} pontos do PIB a mais que o Brasil e vive {anos} anos a mais."
+  },
+  "laffer": {
+    "chartTitle": "Arrecadação × alíquota",
+    "rateLabel": "Alíquota",
+    "peakLabel": "o topo (ilustrativo)",
+    "axisZero": "ninguém cobra nada",
+    "axisHundred": "ninguém produz nada",
+    "chartNote": "Curva ilustrativa, desenhada para explicar o conceito: o formato real varia por imposto, país e época, e o topo não é conhecido com precisão. Nada aqui é recomendação de alíquota.",
+    "alt": "Curva em forma de morro: a arrecadação sobe com a alíquota até um topo e depois cai até zero em 100%.",
+    "zones": {
+      "low": "Aqui embaixo a carga por real é pequena — mas o país produz muito, e a base cresce. Arrecadação vem de atividade, não de alíquota.",
+      "top": "A zona do topo: cada ponto a mais de alíquota rende cada vez menos, porque parte da atividade desiste, se esconde ou vai embora.",
+      "high": "Depois do topo: a atividade encolhe, o contrabando agradece — e o governo arrecada MENOS cobrando MAIS. Todo mundo perde, inclusive o cofre."
+    }
+  },
+  "econ101": {
+    "pageTitle": "Economia 101 — Impostossauro",
+    "kicker": "Economia 101",
+    "title": "A aula de economia que a escola pulou",
+    "intro": "Nenhum termo difícil sem tradução, nenhuma curva sem desenho. O básico de economia que explica por que mais imposto não vira mais escola — e que todo governo, de qualquer cor, ignora na hora de votar.",
+    "tldr": "Imposto tem um ponto de virada: depois dele, aumentar a alíquota passa a diminuir a arrecadação. Esta página explica isso sem economês.",
+    "cigarrosPunch": "71% de imposto não virou arrecadação: virou contrabando. Cobrar demais também é um jeito de arrecadar de menos.",
+    "cigarrosIlegaisLegend": "dos cigarros consumidos no Brasil em 2022 eram ilegais",
+    "cigarrosSonegadosLegend": "em tributos não recolhidos, pela estimativa do FNCP",
+    "lafferKicker": "O morro do imposto",
+    "lafferTitle": "Aumentar imposto nem sempre aumenta a arrecadação",
+    "lafferLead": "Com alíquota de 0%, o governo arrecada zero. Com 100%, também zero: ninguém trabalha de graça. Entre as duas pontas existe um morro — e depois do topo, subir imposto é descer arrecadação. O nome oficial é Curva de Laffer; o resumo é: matar a atividade custa caro.",
+    "lafferHonestyTitle": "E onde fica o topo?",
+    "lafferHonesty": "Ninguém sabe ao certo — depende do imposto, do país e da época, e economistas discutem isso há décadas. O morro do desenho é ilustrativo, não um mapa do Brasil. O que ninguém séria e honestamente discute: as duas pontas existem, e um país pode estar do lado errado do morro em um imposto específico. É por isso que cigarro tributado demais financia contrabando e imposto de importação alto demais vira mercado cinza.",
+    "conceptsTitle": "Quatro ideias que explicam quase tudo",
+    "conceptsIntro": "Nenhuma delas é opinião: são conceitos de manual de introdução à economia. O que espanta é quantas decisões públicas fingem que eles não existem.",
+    "concepts": {
+      "inflationTax": {
+        "title": "Inflação é imposto sem votação",
+        "body": "Quando o governo gasta mais do que arrecada e a diferença sai da impressora, os preços sobem — e o seu dinheiro compra menos sem que nenhum imposto novo tenha passado pelo Congresso. Quem tinha aplicação bancária se protegia; quem vivia de salário no bolso pagava a conta inteira. O Brasil já viveu isso no modo extremo."
+      },
+      "incidence": {
+        "title": "Quem entrega o imposto não é quem paga",
+        "body": "O \"imposto da empresa\" não sai do bolso do dono: entra no custo, vira preço e sai do seu. Cada elo da cadeia repassa o que consegue. Político que promete \"taxar só as empresas\" está prometendo taxar o seu carrinho de mercado por interposta pessoa."
+      },
+      "deadweight": {
+        "title": "O peso morto: o que morre não aparece em estatística",
+        "body": "Quando o custo de existir formalmente passa do suportável, o negócio não abre, a vaga não é criada, a nota não é emitida. Essa atividade que deixou de acontecer não entra em nenhuma planilha do governo — mas faz falta no seu bairro. Economista chama de peso morto; na prática é a padaria que não existiu."
+      },
+      "opportunity": {
+        "title": "Custo de oportunidade: todo real tem um endereço alternativo",
+        "body": "Não existe \"dinheiro do governo\": existe o dinheiro de quem trabalha, escolhendo destino pelas mãos de quem governa. Cada real desperdiçado era um real que podia ser leito, professor, saneamento. A pergunta certa nunca é só \"quanto custa?\" — é \"o que deixou de existir para pagar isso?\"."
+      }
+    },
+    "methodNote": "Os números citados, as fontes e as limitações estão documentados.",
+    "casesTitle": "O Brasil no morro: três recibos",
+    "casesIntro": "Casos documentados de imposto mexendo com a realidade — para os dois lados do morro.",
+    "casesCaveat": "Venda reagindo a corte de imposto não prova que a arrecadação total subiu: o caso Reagan mostra que cortes raramente se pagam sozinhos. O morro não é desculpa para qualquer corte; é o motivo para fazer a conta antes de mexer em qualquer alíquota.",
+    "worldTitle": "Os dados que o brasileiro não tem",
+    "worldIntro": "Comparações internacionais com a régua declarada: a que fecha, publicamos; a que não fecha — como \"pagamos mais que a Suécia\" — a gente conta por que não."
+  },
+  "profit": {
+    "kicker": "O lucro que parece e o lucro que é",
+    "title": "A empresa faturou bilhões. Sobrou quase nada.",
+    "intro": "Quando um político fala em \"lucro abusivo\", ele conta o faturamento — o dinheiro que entra no caixa antes de pagar fornecedor, salário, energia, aluguel, banco e imposto. O que sobra no fim, o lucro de verdade, cabe numa lasquinha. Veja empresas que você conhece, com os números que elas mesmas publicam.",
+    "revenue": "Faturou",
+    "profit": "Sobrou de lucro",
+    "costs": "Fornecedores, salários, energia, aluguel, juros e impostos",
+    "perHundred": "A cada R$ 100 vendidos, sobraram R$ {value} de lucro. O resto foi embora antes.",
+    "dvaTitle": "Para onde foi o valor que a empresa gerou",
+    "dvaIntro": "A DVA é uma tabela que toda empresa listada publica, mostrando como o valor que ela gerou foi repartido. É o raio-X mais honesto que existe da divisão: governo, trabalhadores, bancos e, por último, os donos.",
+    "dvaGov": "Governo (impostos)",
+    "dvaLabor": "Salários",
+    "dvaOther": "Bancos e aluguéis",
+    "dvaProfit": "Sócios e reinvestimento",
+    "smallTitle": "E quem não tem bilhão nenhum",
+    "smallIntro": "O empresário do bairro não aparece em manchete de lucro recorde. Ele aparece na estatística de quem fechou."
+  },
+  "federative": {
+    "pageTitle": "A Máquina Pública — Impostossauro",
+    "kicker": "O caminho do seu dinheiro",
+    "title": "O dinheiro chegou. E aí?",
+    "intro": "O imposto sai do seu bolso, sobe para Brasília e desce de volta repartido entre estados e municípios. Essa parte todo mundo sabe. A pergunta que quase ninguém faz é a seguinte: depois de décadas de dinheiro chegando, os indicadores de quem recebeu mudaram? Quem responde aqui não somos nós — é o Ipea e o Banco Mundial.",
+    "tldr": "Décadas de transferências depois, Ipea e Banco Mundial dizem que elas não reduziram a desigualdade que deveriam reduzir. O problema nunca foi o dinheiro chegar.",
+    "howTitle": "Como o dinheiro se move",
+    "dependencyTitle": "Quem vive do repasse",
+    "dependencyIntro": "Antes de perguntar se funcionou, vale ver o tamanho da dependência que o sistema criou.",
+    "verdictTitle": "E aí, funcionou?",
+    "verdictIntro": "A Constituição criou as transferências para reduzir a desigualdade entre as regiões (arts. 3º e 161). A pergunta é se o mecanismo entregou o que prometeu. Quem responde não é este site: é o Ipea e o Banco Mundial.",
+    "honestyTitle": "O mapa está certo. Ler errado é fácil.",
+    "honestyIntro": "Duas coisas mudam a leitura de qualquer mapa de \"quem paga quem\", e as duas são de fonte oficial. Sem elas, o número acima engana — não por estar errado, mas por medir menos do que parece medir.",
+    "mapPending": "O mapa interativo por estado — quanto cada um recebeu e como estão os indicadores dele — está em construção: as tabelas oficiais por estado ainda não foram verificadas na fonte primária, e nada entra aqui sem isso.",
+    "methodNote": "As fontes, as divergências e as limitações estão documentadas.",
+    "indicatorsTitle": "O que os indicadores dizem",
+    "indicatorsIntro": "Ainda não temos os 27 estados verificados na fonte — só os extremos, que o IBGE divulgou. Já dizem muito.",
+    "best": "Onde o esgoto chegou",
+    "worst": "Onde ainda não chegou",
+    "ratioTitle": "Quanto volta a cada R$ 100 que o estado manda",
+    "ratioIntro": "Aqui está a conta que todo mundo quer ver — e a razão pela qual ela gera briga. Existem duas réguas honestas para medir \"retorno\", e elas dão respostas quase opostas. Publicamos as duas.",
+    "officialGapTitle": "Ninguém no governo faz essa conta",
+    "mapTitle": "O mapa do dinheiro",
+    "mapIntro": "Clique em um estado: quanto ele mandou para Brasília, quanto voltou, e como estão escola, saúde e segurança de quem mora lá. Cada número tem fonte, e o que não está verificado aparece em cinza.",
+    "piauiTitle": "O estado que mais subiu no IDH ainda não tem esgoto",
+    "sanitationMetricLegend": "% dos domicílios urbanos ligados à rede de esgoto",
+    "ipeaConclusion": "O sistema de partilha não consegue igualar a capacidade fiscal dos estados nem reduzir a desigualdade entre eles — que é o objetivo que a Constituição dá a ele.",
+    "paraphrase": "Paráfrase nossa do estudo, não citação literal.",
+    "paraphraseUnverified": "Paráfrase nossa. O documento original ainda não foi aberto — o servidor recusa acesso automatizado, e a conferência está na fila.",
+    "rowsUnverified": "Estes três números não foram encontrados no texto da página citada — devem estar num gráfico. A conferência está na fila."
+  },
+  "map": {
+    "yearLabel": "Ano",
+    "svgLabel": "Mapa do Brasil por estado",
+    "legendTitle": "Quanto volta a cada R$ 100 enviados",
+    "noData": "sem dado verificado",
+    "hint": "Passe o mouse ou toque em um estado para ver quanto ele mandou para Brasília, quanto voltou e como estão os indicadores de quem mora lá.",
+    "sent": "Mandou para Brasília",
+    "received": "Recebeu de volta",
+    "per100": "A cada R$ 100 enviados",
+    "stateNoData": "Ainda não temos as duas metades da conta verificadas na fonte para este estado. Sem isso, não publicamos.",
+    "timeline": "Série histórica",
+    "indicators": "Como está quem mora lá",
+    "geometryCredit": "Geometria do mapa",
+    "indicator": {
+      "education": "Analfabetismo (15+)",
+      "health": "Mortalidade infantil",
+      "security": "Homicídios por 100 mil",
+      "sanitation": "Esgoto adequado",
+      "idh": "IDH"
+    },
+    "hiddenSentTitle": "Quem “arrecadou” não é quem pagou",
+    "hiddenSentText": "A Receita atribui o tributo ao endereço da matriz da empresa, não ao lugar onde a coisa foi produzida ou consumida. O minério sai do Pará, a soja sai do Mato Grosso, o imposto entra em São Paulo. É por isso que o Distrito Federal arrecada mais que Minas Gerais com uma fração da população: é onde ficam a sede dos bancos públicos e das estatais. Ler este mapa como “quem sustenta quem” é ler errado.",
+    "hiddenReceivedTitle": "“Recebeu de volta” aqui é só o caixa do governo estadual",
+    "hiddenReceivedText": "Este número conta o que a União transferiu para o governo do estado. Não conta o que ela manda direto para as prefeituras, nem aposentadoria do INSS, nem salário de servidor federal, nem universidade federal, nem hospital federal. São Paulo recebe 9% das transferências diretas e 28% de tudo que a União paga em aposentadoria — e nada disso aparece aqui. Por isso o R$ 1,7 de São Paulo neste mapa e o R$ 7 a R$ 10 da apuração da Gazeta do Povo não se contradizem: medem coisas diferentes.",
+    "hiddenNominalTitle": "Os valores são nominais",
+    "hiddenNominalText": "Nenhum número aqui foi corrigido pela inflação. Comparar 2018 com 2025 em reais correntes exagera o crescimento — é exatamente a armadilha que este site denuncia na aba de Inflação, e seria feio cair nela aqui.",
+    "hiddenDependenceTitle": "A razão “quanto volta” não é a pergunta mais útil",
+    "hiddenDependenceText": "Um estado pode receber pouco em relação ao que arrecada e mesmo assim não depender de ninguém. A pergunta que muda o retrato é outra: quanto do orçamento do estado vem de Brasília. Em 2024, o Amapá dependeu da União para 57,4% da sua receita e o Acre para 57,2%, enquanto São Paulo dependeu para 4,9% e o Rio para 5,9%. Esse número está no painel de cada estado, calculado a partir do mesmo relatório oficial.",
+    "dependence": "Do orçamento vem de Brasília"
+  },
+  "theme": {
+    "toLight": "Mudar para o modo claro",
+    "toDark": "Mudar para o modo escuro"
+  },
+  "hidden": {
+    "heading": "O que não te contam",
+    "intro": "O número acima está certo e tem fonte oficial. Isso não quer dizer que ele conte a história inteira — e a parte que falta costuma mudar a conclusão."
+  },
+  "revenueAudit": {
+    "rulerTitle": "Esta linha não é uma medição ano a ano",
+    "rulerText": "O Impostômetro divulga marcos — o dia em que o país passou de R$ 2 trilhões, de R$ 3 trilhões. Não é uma série anual medida. Os anos entre um marco e outro foram preenchidos por reta, e agora aparecem como círculos vazados só onde existe marco divulgado. Onde não há círculo, o ponto foi calculado por nós, não apurado por ninguém.",
+    "sourceTitle": "E o próprio marco é estimativa de uma entidade privada",
+    "sourceText": "O Impostômetro é da Associação Comercial de São Paulo, com metodologia do IBPT. É um contador respeitado e a conta cobre as três esferas — União, estados e municípios —, que é o número mais completo disponível publicamente. Mas não é dado oficial auditado, e a ACSP tem posição pública sobre carga tributária. Usamos porque não existe equivalente oficial consolidado das três esferas em tempo hábil, e dizemos de onde vem.",
+    "measuredTitle": "Onde existe dado oficial, ele agora está no repositório",
+    "measuredText": "Só da parte federal existe medição oficial mês a mês, e a Receita publica a série inteira desde 1994. Conferir a nossa contra ela corrigiu duas coisas e confirmou uma. Corrigiu 2013, que estava publicado numa régua mais estreita que os outros anos (R$ 1.100 bi conta só o que a Receita administra; o total foi R$ 1.138,8 bi), o que transformava mudança de definição em salto de arrecadação. Corrigiu o alcance: a série ia de 2013 a 2025 porque o arquivo por estado não traz as três parcelas antes disso; agora vai de 1995 a 2025 na mesma régua. E confirmou o resto: onde as duas fontes se sobrepõem, elas fecham com diferença de até 0,05%."
+  },
+  "promises": {
+    "pageTitle": "Prometeram: a lei que criou o imposto e a lei que mudou a promessa",
+    "kicker": "O texto oficial contra o texto oficial",
+    "title": "Prometeram",
+    "intro": "Todo imposto novo nasce com uma promessa escrita em lei: para que serve, e por quanto tempo. Aqui estão os dois textos oficiais lado a lado — o que a lei disse quando pediu o dinheiro, e o que outra lei mudou depois. Sem opinião: são artigos, com fonte.",
+    "tldr": "A lei disse para que servia e por quanto tempo. Depois, as duas coisas mudaram — por outra lei, do mesmo Congresso.",
+    "methodNote": "Os textos legais, as fontes e o que ainda falta apurar estão documentados.",
+    "collectedPeriodLabel": "1997 a 2007",
+    "collectedNoteLegend": "Número de página institucional que cita a Receita, não do documento original da Receita.",
+    "cpmfConclusion": "Uma contribuição chamada provisória, com prazo de treze meses escrito na própria lei, durou onze anos — e quando acabou, o governo que defendeu a prorrogação em 2007 governou mais três anos sem ela. O que mais continua provisório?"
+  },
+  "promiseContrast": {
+    "promiseLabel": "A promessa",
+    "deadlinePromised": "O prazo previsto na lei",
+    "collectedLabel": "O que foi cobrado",
+    "months": "meses",
+    "outcomeLabel": "O que aconteceu com a promessa",
+    "rate": "alíquota",
+    "loopholeLabel": "A brecha"
+  },
+  "world": {
+    "pageTitle": "Em comparação global",
+    "kicker": "O Brasil entre os 30 que mais cobram",
+    "title": "Carga semelhante. Entrega diferente.",
+    "intro": "O Brasil está no grupo dos 30 países de maior carga tributária do mundo. Dentro desse grupo, ele não é o que mais cobra — e também não é o que menos gasta com educação e saúde. Mesmo assim, é o último em expectativa de vida, o último em homicídios e o último em saneamento. Cada número aqui vem com o ano e a fonte.",
+    "tldr": "O Brasil cobra e gasta em linha com os países ricos. O que ele entrega é o último lugar do grupo.",
+    "hiddenNotTopTitle": "O Brasil não é o que mais cobra deste grupo",
+    "hiddenNotTopText": "Ele é o {pos}º de {total} em tamanho da carga, do maior para o menor: {acima} desses países ficam com uma fatia do PIB maior que a brasileira. A média simples dos 30 é {media}% do PIB; a do Brasil, {brasil}%. Quem chegou aqui para desmentir a lenda de que o Brasil é o país que mais taxa no mundo encontra o desmentido logo na entrada — e a página não depende dela.",
+    "hiddenGroupTitle": "Ficar no meio deste grupo não é cobrar pouco",
+    "hiddenGroupText": "Os 30 desta lista são justamente os que mais tributam no planeta, e ficar no meio dela continua sendo carga alta. O Brasil fica com uma fatia maior que a de {abaixo} deles — entre eles {exemplos}. O menor do grupo, {paisMenor}, cobra {menor}% do PIB, quase onze pontos abaixo da brasileira.",
+    "hiddenTwoNumbersTitle": "Há dois números de carga do Brasil neste site",
+    "hiddenTwoNumbersText": "Nesta página, dentro do estudo do IBPT, a carga do Brasil é {ibpt}% do PIB, com dados de 2023 — é a conta do próprio IBPT. No resto do site ela aparece como {oecd}, que é o Brasil contra a média da OCDE, na apuração de {fonte}. Anos e metodologias diferentes dão números diferentes, e nenhum dos dois está errado. Preferimos mostrar os dois a escolher o que soa melhor.",
+    "payTitle": "O que o Brasil cobra",
+    "payIntro": "A lista abaixo é o grupo inteiro, do que mais cobra ao que menos cobra, com dados de 2023. O Brasil não está no topo dela.",
+    "payBrazil": "do PIB é a carga tributária do Brasil na tabela do estudo, com dados de 2023.",
+    "payAverage": "é a média simples da carga dos 30 países da tabela. A conta é nossa, sobre os números publicados.",
+    "payAbove": "países deste grupo ficam com uma fatia do PIB maior que a brasileira.",
+    "payMethod": "Sobre o número do Brasil:",
+    "payPick": "Clique em qualquer país da lista para colocá-lo em duelo com o Brasil, logo abaixo.",
+    "inDuel": "em duelo",
+    "receiveTitle": "O que o Brasil entrega",
+    "receiveIntro": "Aqui a régua vira do outro lado. A pergunta deixa de ser quanto o Estado tira e passa a ser o que aparece na vida de quem pagou. Em cada linha: o valor do Brasil, o ano, a régua dos demais e a fonte.",
+    "outcomesTitle": "O que se vive",
+    "outcomesIntro": "Estes três não medem orçamento, medem gente. Em todos, o Brasil é o último do grupo.",
+    "inputsTitle": "E não é por falta de gasto",
+    "inputsIntro": "Estes dois medem quanto entra, não o que sai. O Brasil aplica em linha com o grupo.",
+    "inputsCaveat": "Gasto não é resultado: os dois números acima dizem quanto o país aplica, não o que ele conseguiu com isso. É por isso que eles ficam separados dos de cima.",
+    "worstTitle": "Onde o Brasil é o pior mesmo",
+    "worstIntro": "Nem tudo é meio de tabela. Nestes três a posição do Brasil é de ponta, pela pior ponta — e nenhum deles é sobre quanto se cobra, mas sobre como se cobra.",
+    "irbesTitle": "O resumo de quem faz essa conta",
+    "irbesIntro": "O IRBES é um índice do IBPT que junta carga tributária e IDH para responder quanto de bem-estar cada país devolve em troca do imposto que cobra. Entre os 30, o Brasil ficou em último.",
+    "irbesCard": "Carga {carga}% do PIB · IDH {idh}",
+    "irbesMethodTitle": "De quem é essa régua",
+    "irbesAuthors": "{edicao} edição, publicada em {publicado}, com dados de {ano}. Assinam o estudo: {autores}.",
+    "irbesIdh": "O IDH do Brasil nessa tabela é {brasil} — abaixo do menor dos outros 29 ({pais}, {idh}).",
+    "methodNote": "As fontes, os anos e as limitações de cada número estão documentados.",
+    "rank": "{pos}º de {total}",
+    "brazilIn": "Brasil, {ano}",
+    "stripAlt": "{indicador}: o Brasil marca {valor} e fica em {pos}º de {total} países.",
+    "bestOf": "melhor do grupo",
+    "worstOf": "pior do grupo",
+    "yearSpread": "Os países não medem todos no mesmo ano: os dados vão de {de} a {ate}.",
+    "missing": "{n} dos {total} países têm este dado. Sem dado na fonte: {lista}.",
+    "lifeDuelLegend": "Brasil, {anosA} anos × {pais}, {anosB} anos",
+    "countryTitle": "Brasil × {country}: impostos e resultados",
+    "countryDescription": "Compare a carga tributária e os indicadores de saúde, educação e segurança do Brasil e de {country}, com fontes e limites da comparação."
+  },
+  "duel": {
+    "pageTitle": "Brasil x {pais}",
+    "backToList": "Voltar para a lista dos 30",
+    "charges": "Cobra",
+    "gdpPerCapita": "PIB por habitante US$ {valor}",
+    "skip": "Pular",
+    "noData": "sem dado para {pais}",
+    "started": "O duelo começou!",
+    "menuCompare": "Comparar",
+    "menuSwap": "Trocar país",
+    "menuSources": "Ver fontes",
+    "menuHidden": "O que não contam",
+    "usedMove": "{pais} usou [b]{movimento}[/b]!",
+    "superEffective": "Super efetivo!",
+    "effective": "Foi efetivo.",
+    "brazilResisted": "O Brasil resistiu em {movimentos}.",
+    "verdictLess": "Ele cobra [b]{pontos} pontos[/b] do PIB a menos que o Brasil e vive [b]{anos} anos[/b] a mais.",
+    "verdictMore": "Ele cobra [b]{pontos} pontos[/b] do PIB a mais que o Brasil e vive [b]{anos} anos[/b] a mais.",
+    "and": " e ",
+    "sourceNote": "Os seis índices do duelo vêm do ",
+    "sourceYears": ", com o ano de cada valor indicado ao lado dele — os países não medem todos no mesmo ano."
+  },
+  "wageGap": {
+    "kicker": "O que eles custam e o que você ganha",
+    "pressNote": "conferido em imprensa, não em ato oficial",
+    "perksPocket": "é a parte que cai direto no bolso dele — {n} salários mínimos por mês, só em subsídio e auxílio-moradia",
+    "levelHeadline": "é o que um mandato custa por mês, medido em salários mínimos. Não é uma variação escolhida numa janela: é o valor de hoje, dos dois lados."
+  },
+  "units": {
+    "trillions": "trilhões",
+    "billions": "bilhões",
+    "millions": "milhões"
+  },
+  "sphereBurden": {
+    "title": "Não é só Brasília: três máquinas cobram",
+    "subtitle": "Carga tributária bruta por esfera de governo, em R$ bilhões correntes. É a régua das contas nacionais, do Tesouro — não se compara com o contador do topo do site, que mede caixa, nem com a série federal, que é só a União.",
+    "selectorLabel": "Escolher a esfera de governo",
+    "all": "As três",
+    "central": "União",
+    "states": "Estados",
+    "municipal": "Municípios",
+    "multipleLegend": "é o quanto a arrecadação de {sphere} multiplicou entre {first} e {last}. Hoje ela é {share}% de tudo o que se cobra no país.",
+    "totalLegend": "foi a carga tributária bruta das três esferas em {year} — {pct}% do PIB.",
+    "hint": "Passe o mouse, toque em um ano ou navegue com Tab para ver as três esferas daquele ano.",
+    "alt": "Gráfico de área empilhada da carga tributária bruta por esfera de governo, de {firstYear} a {lastYear}: União, estados e municípios.",
+    "punch": "Entre {first} e {last}, a União multiplicou por {central}. {winner}, por {winnerMultiple} — e é dela que ninguém fala.",
+    "note": "Carga tributária bruta é conceito de contas nacionais: mede tudo o que as três esferas arrecadam de tributos e contribuições, incluindo o que não passa por caixa no mesmo ano. Por isso o total aqui não é igual ao do contador. Valores nominais, sem correção pela inflação. Fonte:"
+  },
+  "justifications": {
+    "sectionKicker": "O outro contraste",
+    "sectionTitle": "Justificaram assim. E depois?",
+    "sectionIntro": "A página acima confronta dois textos oficiais: o que a lei prometeu e o que a lei virou. Aqui o confronto é outro — a justificativa que o governo deu para cobrar, contra o indicador do MESMO período. A justificativa é deles, o indicador é oficial, e a conclusão é sua.",
+    "caseKicker": "Justificou × aconteceu",
+    "actJustification": "A justificativa",
+    "actMeasure": "A medida",
+    "actOutcome": "O que aconteceu",
+    "expectedLabel": "O governo esperava arrecadar",
+    "pendingNote": "Há casos levantados que ainda não entraram: eles esperam o documento do indicador, e casos sem documento aberto não aparecem aqui."
+  },
+  "purchasingPower": {
+    "kicker": "O poder de compra, no concreto",
+    "title": "A mesma cesta, e quanto do seu tempo ela custa",
+    "intro": "Reais de 2010 e reais de 2025 são moedas diferentes: comparar os dois números não diz nada. O que atravessa a inflação sem precisar de índice é o tempo — quantas horas você trabalha para comer a mesma coisa.",
+    "noteTitle": "Os R$ 100 que você guardou em {year}",
+    "noteThen": "em {year}",
+    "noteNow": "valem isto em {year}",
+    "noteLegend": "De {first} a {last}, os R$ 100 guardados debaixo do colchão viraram R$ {left}. Sumiram R$ {lost} sem que ninguém tirasse nada da sua carteira — é o imposto que não passa por lei nem por voto. Fonte:",
+    "hoursTitle": "Quantas horas de trabalho custa a cesta básica",
+    "hoursIntro": "A cesta de São Paulo em dezembro de cada ano, medida em horas de trabalho no salário mínimo líquido. Mesma capital, mesma pesquisa, mesma régua — a barra é o tempo.",
+    "barLabel": "{year}: {hours} de trabalho, {pct}% do salário mínimo líquido, R$ {brl}",
+    "readout": "{hours} de trabalho · {pct}% do salário mínimo líquido · R$ {brl}",
+    "hint": "Passe o mouse, toque numa barra ou navegue com Tab para ver o ano.",
+    "punch": "O melhor ano foi {bestYear}, com {bestHours} de trabalho para encher a cesta. O pior foi {worstYear}, com {worstHours}. Hoje são {lastHours} — mais do que em {firstYear}, quando eram {firstHours}. A linha desce e sobe atravessando governos de lados opostos: quem quiser usar este gráfico para defender um lado terá de explicar a outra metade dele.",
+    "note": "Boletim de dezembro de cada ano, sempre da mesma capital. A fatia do mínimo é líquida, já descontados os 7,5% da Previdência, como o DIEESE calcula. Fonte:"
+  },
+  "whatItBuys": {
+    "pageTitle": "O que dava para comprar?",
+    "kicker": "O tamanho da conta",
+    "title": "O que dava para comprar?",
+    "tldr": "Um ano de imposto empilhado em moedas de R$ 1 chega à Lua vinte vezes. O site mede o tamanho do que sai do seu bolso.",
+    "intro": "Um ano de imposto no Brasil é um número que ninguém consegue imaginar. Esta página existe para dar tamanho a ele: dezenas de coisas, cada uma com preço, fonte e a procedência do preço declarada. Comprar não é manter — e isso está escrito aqui do mesmo tamanho que o resto.",
+    "purposeTitle": "O que a gente quer com isso",
+    "purpose1": "A denúncia é o começo, não a conclusão. O site coloca o número oficial ao lado da frase de quem o produziu e aponta o dedo. Quem conclui é você.",
+    "purpose2": "O que a gente quer é uma camada de bom senso. Um país onde o eleitor aplaude há três décadas o político que prometeu tirá-lo da miséria, e onde a classe política muda de discurso a cada ano par, precisa de gente que confira antes de bater palma.",
+    "purpose3": "O site não diz em quem votar. Diz quanto custou a promessa anterior, com a fonte ao lado.",
+    "purpose4": "Se você chegou até aqui, faça a única coisa que este site pede: compartilhe o número com a fonte junto.",
+    "purposeLink": "O argumento inteiro está no Manifesto",
+    "stickyLabel": "é o que o Brasil arrecada de imposto em um ano — a projeção de {year} para todas as esferas. É este dinheiro comprando cada item abaixo.",
+    "provenance": {
+      "oficial": "preço oficial",
+      "pago": "alguém pagou",
+      "mercado": "valor de mercado",
+      "estimativa": "estimativa de terceiro"
+    },
+    "physicalTitle": "E se fosse dinheiro de verdade, em metal e papel?",
+    "physicalIntro": "O mesmo imposto de um ano, visto em três escalas. Medidas e fontes ficam ao lado de cada conta; as imagens são ilustrativas.",
+    "moonTrips": "{trips} idas até a Lua, uma atrás da outra.",
+    "earthLine": "Essa mesma pilha daria {laps} voltas na linha do equador.",
+    "caveatKicker": "O que esta página não está dizendo",
+    "homeNumberSocial": "creches padrão FNDE, da fundação ao telhado",
+    "homeNumberDisney": "vezes a Disney inteira, pelo valor de mercado dela em agosto de 2026",
+    "homeNumberMoon": "idas à Lua, se o dinheiro virasse moedas de R$ 1 empilhadas",
+    "homeSubtema": "O mesmo dinheiro, três respostas. Nenhuma delas é a que aconteceu.",
+    "homeConclusao1": "A conta não é uma proposta. É uma régua: serve para você saber o tamanho do que sai do seu bolso todo ano.",
+    "homeConclusao2": "O país arrecada 4,2 Disneys por ano e ainda não terminou Angra 3.",
+    "heroLead": "{total} é o imposto de um ano no Brasil, somando as três esferas. Em moedas de R$ 1, uma empilhada sobre a outra:",
+    "heroMoon": "{trips} idas até a Lua, uma atrás da outra.",
+    "heroPunch": "É o que sai do seu bolso todo ano. Agora pergunte o que voltou.",
+    "moonTitle": "Até a Lua, em moedas e em notas",
+    "moonReference": "Uma ida da Terra à Lua = {distance} km de distância média. Não inclui a volta.",
+    "moonSource": "NASA — distância média da Terra à Lua",
+    "moonCoins": "Moedas de R$ 1 empilhadas pela espessura",
+    "moonNotes": "Notas de R$ 200 enfileiradas pelo comprimento",
+    "moonResult": "{trips} idas à Lua",
+    "coinsSource": "Banco Central — espessura de 1,95 mm por moeda",
+    "notesSource": "Banco Central — comprimento de 14,2 cm por nota",
+    "earthTitle": "E se a pilha desse a volta na Terra?",
+    "earthLaps": "voltas no equador, aproximadamente",
+    "earthCalculation": "{distance} km de moedas empilhadas ÷ {circumference} km de circunferência da Terra.",
+    "weightTitle": "O peso de todo esse dinheiro em moedas",
+    "weightComparison": "Equivale ao peso de cerca de {towers} estruturas metálicas da Torre Eiffel.",
+    "weightCalculation": "{tonnes} toneladas de moedas ÷ {unit} toneladas de ferro por torre. A comparação é com a estrutura metálica, sem fundações ou outras instalações.",
+    "weightSource": "Torre Eiffel — peso da estrutura metálica: 7.300 toneladas"
+  },
+  "empire": {
+    "kicker": "Camada 2 — o Império",
+    "title": "Antes de existir PIB, de onde vinha o dinheiro do governo",
+    "slices": {
+      "imports": "imposto de importação",
+      "exports": "imposto de exportação",
+      "others": "todos os outros tributos"
+    },
+    "sliceLabel": "{year}: {slice}, {pct}% da receita do governo central",
+    "hint": "Passe o mouse ou use o teclado para ler cada fatia.",
+    "punch": "Em {year}, {pct}% de tudo que o governo central arrecadava vinha do que cruzava a fronteira. Taxar o que entra e o que sai é mais velho que a República.",
+    "caveatKicker": "A ressalva que o próprio estudo obriga"
+  },
+  "unemployment": {
+    "kicker": "Falácia 4 — a taxa que mede outra coisa"
+  },
+  "priceLevel": {
+    "kicker": "O que a manchete de inflação não mede",
+    "legend12": "os 12 meses da manchete",
+    "legend36": "os 3 anos do seu bolso",
+    "barLabel": "{item}: {p12}% em doze meses e {p36}% em três anos",
+    "readout": "{p12}% nos últimos doze meses · +{p36}% nos últimos três anos",
+    "hint": "Passe o mouse ou use o teclado para ver as duas réguas de cada item. A linha tracejada é o IPCA cheio no período: +{general}%.",
+    "tableLink": "Ver a tabela no SIDRA"
+  },
+  "closures": {
+    "kicker": "De onde o imposto sai",
+    "vsYear": "a mais que no mesmo trimestre de 2025",
+    "vsQuarter": "a mais que no trimestre anterior",
+    "whoTitle": "Quem fechou",
+    "whereTitle": "Onde fechou",
+    "ofTotal": "do total do trimestre",
+    "fourBanks": "R$ bi — os quatro maiores bancos, 2025",
+    "privateThree": "R$ bi — os três privados, recorde nominal",
+    "itau": "R$ bi — só o Itaú"
+  },
+  "leniency": {
+    "kicker": "O dinheiro que era para voltar",
+    "owed": "devia",
+    "paidIn": "pagou em {years} anos",
+    "became": "virou",
+    "billions": "R$ bilhões",
+    "paidPct": "{pct}% do que devia",
+    "barLegend": "A barra vermelha é o que foi pago: {pct}% da dívida.",
+    "sevenTitle": "As sete empresas da repactuação"
+  },
+  "pandemia": {
+    "label": "PANDEMIA",
+    "burdenNote": "— a carga estava em {before}% do PIB em 2019, caiu para {low}% em 2020 (−{drop} ponto) e em 2021 já estava de volta em {back}%. Foi a única queda recente da série, e durou um ano.",
+    "basketNote": "— a cesta saiu de {before} de trabalho em 2019 para {after} em 2021: são {jump} horas a mais para encher o mesmo carrinho, o maior salto de dois anos do período. E não parou aí: o pior ano da série é {worstYear}, com {worstHours}, já depois da pandemia.",
+    "sphereNote": "— em 2020 a União arrecadou R$ {drop} bilhões A MENOS que em 2019, e os estados arrecadaram R$ {rise} bilhões a mais. A queda foi de um dos três, durou um ano, e em 2021 a União já tinha passado do patamar de antes."
+  },
+  "publicity": {
+    "kicker": "O custo da máquina em si",
+    "buysTitle": "O que R$ 2 bilhões por ano comprariam, aos preços oficiais dos próprios órgãos",
+    "buysNote": "Preço unitário e fonte são os mesmos que a página do fecho usa. A divisão é nossa; os preços, não."
+  },
+  "funds": {
+    "kicker": "O custo da máquina em si",
+    "electoral": "R$ bi — Fundo Eleitoral de 2026, só em ano de eleição",
+    "party": "R$ bi — Fundo Partidário, que corre todo ano",
+    "times": "{n} vezes mais",
+    "buysTitle": "O que R$ {total} bilhões comprariam, aos preços oficiais dos próprios órgãos"
+  },
+  "commissioned": {
+    "kicker": "O custo da máquina em si",
+    "tableTitle": "Os dezoito níveis, como a lei os deixou",
+    "tableLegend": "Valor mensal do cargo (CCE) a partir de {to}. À direita, o reajuste desde {from}.",
+    "tiers": "{high} níveis levaram 17% ou mais. {low} levaram 9% ou menos. E não há nada entre um grupo e o outro: o menor reajuste do topo é {gap} vezes o maior da base.",
+    "gapHeadline": "foi quanto o aumento mensal do topo da tabela superou o da base — na mesma lei, na mesma janela."
+  },
+  "importTariff": {
+    "kicker": "O que você paga para comprar de fora"
+  },
+  "payroll": {
+    "kicker": "O custo da máquina em si",
+    "chartTitle": "As duas curvas, com {year} = 100",
+    "chartAlt": "Gráfico de linhas de {first} a {last}, com os dois valores indexados em 100 no primeiro ano. A despesa com pessoal chega a {payroll} vezes a base; a receita líquida chega a {revenue} vezes.",
+    "shareLabel": "fatia da receita líquida",
+    "shareTitle": "A fatia caiu de {firstPct}% em {first} para {lastPct}% em {last} — e o motivo não é corte",
+    "hint": "Passe o mouse sobre o gráfico para ver o valor de cada ano."
+  },
+  "stateCos": {
+    "kicker": "O custo da máquina em si",
+    "announced": "O que o governo anunciou",
+    "returned": "O que chegou ao Tesouro",
+    "returnedLabel": "Dividendos pagos à União no período. Lucro contábil e distribuição de dividendos são grandezas diferentes; reter lucro para investir não é, por si só, desperdício.",
+    "companies": "{n} empresas",
+    "employees": "{n} empregados",
+    "received": "recebeu do Tesouro",
+    "dividends": "devolveu à União",
+    "profit": "resultado do período",
+    "hiddenLabel": "O que não te contam",
+    "unit": "R$ bilhões, acumulado até o 3º trimestre de 2025"
+  },
+  "card": {
+    "kicker": "O custo da máquina em si",
+    "opaqueHeadline": "do que o governo federal gastou no cartão em {year} não diz onde foi parar. São R$ {total} milhões em {n} transações — e quase metade delas sem estabelecimento identificado.",
+    "barLegend": "A barra cinza é o total gasto pelo órgão; a parte vermelha é o pedaço sigiloso."
+  },
+  "coffee": {
+    "line": "Sustente esta investigação independente.",
+    "cta": "Apoiar o projeto"
+  },
+  "beta": {
+    "label": "Beta",
+    "text": "Site em construção: mais pesquisa e recursos já estão no",
+    "roadmap": "roadmap",
+    "textIssue": "Achou um erro?",
+    "issue": "Abra uma issue no GitHub",
+    "close": "Fechar aviso"
+  },
+  "erro": {
+    "notFoundKicker": "Erro 404",
+    "notFoundTitle": "Esta página não existe.",
+    "notFoundBody": "Confira o endereço ou volte ao início para acessar as páginas do site.",
+    "brokeKicker": "Erro {code}",
+    "brokeTitle": "Não foi possível carregar esta página.",
+    "brokeBody": "Recarregue a página. Se continuar, avise no GitHub.",
+    "cta": "Ir para a home",
+    "report": "Abrir uma issue"
+  },
+  "privacy": {
+    "pageTitle": "Política de privacidade",
+    "kicker": "LGPD",
+    "title": "Sua privacidade, com regras explícitas.",
+    "intro": "Sem cadastro, anúncios, cookies ou venda de dados. Esta política explica o cálculo local, a hospedagem e a contagem de visitas.",
+    "updated": "Versão de 10 de setembro de 2026. O histórico das mudanças fica no repositório.",
+    "collected": {
+      "title": "O que é coletado",
+      "p1": "O salário e os dependentes que você informa são calculados no navegador, sem envio ao projeto ou ao serviço de estatísticas. Não há cadastro, comentários ou newsletter.",
+      "p2": "O site não grava cookies nem carrega scripts de estatísticas de terceiros. O contador da página inicial carrega uma imagem pelo GitHub Camo; os dados técnicos dessa conexão são explicados abaixo."
+    },
+    "local": {
+      "title": "O que fica no seu navegador",
+      "p1": "O navegador guarda o tema, a moeda escolhida e o fechamento do aviso beta, até você limpar os dados do site. Essas preferências não são enviadas a servidor nenhum."
+    },
+    "hosting": {
+      "title": "Hospedagem",
+      "p1": "O GitHub Pages entrega as páginas e registra endereços IP para segurança, conforme sua documentação. Esses registros são tratados pelo GitHub, sob sua política, incluindo as regras de retenção e processamento internacional. O projeto não recebe esses logs de acesso.",
+      "docLink": "Documentação do GitHub Pages",
+      "policyLink": "Política de privacidade do GitHub"
+    },
+    "analytics": {
+      "title": "Contagem de acessos",
+      "on1": "Cada entrada na página inicial, incluindo recarregamentos e retornos pela navegação do site, carrega a imagem do contador Komarev por meio do GitHub Camo. O contador soma requisições da imagem, sem distinguir pessoas únicas. A imagem usa um identificador público exclusivo do site, sem salário, dependentes, parâmetros da página ou endereço de origem. O total exibido vem do serviço ao carregar a imagem; não depende de uma nova publicação do site.",
+      "on2": "O GitHub recebe o IP e dados técnicos da conexão e busca a imagem no Komarev. Segundo a documentação do Camo, essa intermediação esconde os dados do navegador do servidor da imagem. O código público do Komarev registra o identificador do contador e datas de acesso; ele não é um histórico pessoal de navegação. O projeto não controla os logs ou a retenção da infraestrutura desses fornecedores. Cache, bloqueadores e indisponibilidade podem afetar a contagem; abrir a URL da imagem fora do site também pode aumentá-la.",
+      "link": "Documentação do contador Komarev",
+      "camoLink": "Como funciona o GitHub Camo"
+    },
+    "external": {
+      "title": "Links para fora",
+      "p1": "Fontes, GitHub, WhatsApp, X e Buy Me a Coffee abrem serviços externos ao clicar. Suas políticas passam a valer nesses destinos. Fontes tipográficas e ilustrações são locais; a imagem do contador é carregada pelo GitHub Camo, conforme descrito acima."
+    },
+    "rights": {
+      "title": "Seus direitos",
+      "p1": "A LGPD prevê direitos de confirmação, acesso, correção e eliminação, conforme o tratamento realizado. Como o site não guarda dado que identifique você, não há registro seu a consultar ou apagar. Dúvidas gerais podem ser registradas no GitHub; não publique documentos nem dados pessoais em issues. Para orientações e petições sobre proteção de dados, consulte a",
+      "link": "ANPD"
+    },
+    "changes": {
+      "title": "Mudanças nesta página",
+      "p1": "Mudanças ficam datadas no repositório público. Se um dia o site passar a tratar dado que identifique você, esta página muda antes, e o tratamento dependerá do seu consentimento."
+    }
+  },
+  "terms": {
+    "pageTitle": "Termos de uso",
+    "kicker": "As regras de uso",
+    "title": "O que você pode esperar deste site — e o que não pode.",
+    "intro": "Termos curtos, porque o site é simples: informação pública, código aberto, nenhuma cobrança. Ao usar o site, você concorda com o que está aqui.",
+    "updated": "Versão de 8 de setembro de 2026.",
+    "nature": {
+      "title": "O que este site é",
+      "p1": "Um site de denúncia sobre imposto e dinheiro público mal gerido, feito por uma pessoa, sem partido, sem patrocínio e sem anúncio. Os textos são opinião do autor, sustentada nos números e documentos citados ao lado de cada um. Não é jornalismo de dois lados e nunca se apresentou como neutro."
+    },
+    "notAdvice": {
+      "title": "O que este site não é",
+      "p1": "Não é aconselhamento financeiro, jurídico, contábil ou tributário. A calculadora aplica as tabelas oficiais citadas na metodologia para dar uma ordem de grandeza; ela não substitui o seu contador, a Receita Federal nem o seu holerite. O contador do topo é uma estimativa, e a página diz de onde ela vem."
+    },
+    "sources": {
+      "title": "Fontes e erros",
+      "p1": "Todo número tem fonte linkada, e paráfrase é marcada como paráfrase. Ainda assim, um número pode estar errado: fonte revisada, leitura errada, conta refeita. Quando isso acontece, a correção é pública, no repositório. Confira na fonte antes de usar um número daqui contra alguém — o site existe para isso.",
+      "p2": "O conteúdo pode ser corrigido e o serviço pode sofrer interrupções. As limitações descritas aqui não afastam direitos nem responsabilidades previstos em lei."
+    },
+    "content": {
+      "title": "Uso do conteúdo",
+      "p1": "O código é aberto sob a licença MIT. Os textos e gráficos do site podem ser compartilhados, citados e reproduzidos, desde que com o link para a página e as fontes originais junto. Os dados pertencem às fontes públicas citadas em cada número. Citações de políticos são reproduzidas de documentos e veículos públicos, com o crédito."
+    },
+    "links": {
+      "title": "Links e serviços de terceiros",
+      "p1": "Fontes, GitHub, WhatsApp, X e Buy Me a Coffee são de terceiros. O site não controla nem responde pelo conteúdo, pela disponibilidade ou pela política deles. Apoio pelo Buy Me a Coffee é voluntário, processado por eles, e não compra conteúdo, remoção ou alteração de nada."
+    },
+    "law": {
+      "title": "Lei e contato",
+      "p1": "Aplicam-se as leis brasileiras, incluindo o Marco Civil da Internet e a LGPD. Erros de conteúdo e dúvidas gerais podem ser relatados no GitHub. Não publique documentos nem dados pessoais em issues."
+    }
+  },
+  "homeCalculator": {
+    "kicker": "A sua parte da conta",
+    "title": "Quanto do seu salário o governo leva?",
+    "intro": "O desconto no holerite é só o começo. Digite seu salário e veja também a estimativa de imposto embutido no consumo.",
+    "private": "Seu salário fica neste navegador. Nenhum valor é enviado.",
+    "consumption": "Imposto no consumo (estimativa)",
+    "total": "Total estimado por mês",
+    "assumptions": "CLT, tabelas de {year}, sem dependentes. Simulação com 80% do salário líquido gasto e carga média de {pct}% nos preços. Ajuste essas hipóteses na calculadora completa.",
+    "cta": "Ajustar a minha conta",
+    "equivalences": "Ver todas as equivalências e suas fontes"
+  },
+  "accessibility": {
+    "skip": "Pular para o conteúdo",
+    "footerNav": "Páginas do site"
+  },
+  "spending": {
+    "pageTitle": "Eles gastaram — o destino do dinheiro público",
+    "kicker": "Para onde foi o dinheiro",
+    "title": "Cobrar, cobraram. O que entregaram?",
+    "intro": "Obras interrompidas, orçamentos inflados e a população financiando uma ponte por conta própria. Os documentos mostram o destino de parte do dinheiro e o serviço que ficou pelo caminho.",
+    "tldr": "A cobrança é obrigatória. A entrega precisa ser cobrada.",
+    "contents": "Nesta página",
+    "casesTitle": "A conta, nos documentos",
+    "scope": "Seleção conferida em 8 de setembro de 2026. Cada caso informa seu período e o que o número mede. Não há soma: obra paralisada, orçamento corrigido e investimento comunitário são contas diferentes.",
+    "conclusion": "O imposto chega ao caixa. O serviço precisa chegar à população.",
+    "share": "Cobrar, cobraram. O que entregaram? Obras paradas e gastos públicos, com documentos no Impostossauro.",
+    "mapLink": "Ver o fluxo do dinheiro entre os estados",
+    "machineCta": "Obras, publicidade, fundos, cargos, folha, estatais e cartão corporativo: veja os documentos.",
+    "sections": {
+      "casos": "Casos documentados",
+      "publicidade": "Publicidade",
+      "fundos": "Fundos políticos",
+      "cargos": "Cargos",
+      "folha": "Folha federal",
+      "estatais": "Estatais",
+      "cartao": "Cartão corporativo"
+    },
+    "cases": {
+      "stalled": {
+        "category": "Entrega paralisada · abril de 2025",
+        "title": "A obra começou. O serviço não chegou.",
+        "metric": "obras com recursos federais paralisadas",
+        "body": "O TCU mapeou 22.621 obras: 11.469 estavam paradas, 50,7% do total. Saúde e educação concentravam 8.053 delas. É escola, creche e atendimento que permanecem sem entrega.",
+        "ruler": "Universo mapeado pelo TCU em abril de 2025. O indicador conta obras; não informa um total de dinheiro perdido."
+      },
+      "dnit": {
+        "category": "Desperdício evitado · fiscalização 2024–2025",
+        "title": "O orçamento encolheu quando alguém conferiu.",
+        "metric": "em despesas evitadas após correções",
+        "body": "Dez editais do DNIT precisaram de revisão. Segundo o TCU, um bueiro de 60 centímetros constava como 60 metros e inflava um orçamento em R$ 8 milhões.",
+        "ruler": "R$ 264 milhões são economia após correção, não desvio consumado. Os R$ 8 milhões já integram a fiscalização; não se somam novamente."
+      },
+      "fiscobras": {
+        "category": "Indícios de irregularidade · Fiscobras 2025",
+        "title": "Quinze obras com indícios graves em uma fiscalização de vinte e cinco.",
+        "metric": "empreendimentos fiscalizados com indícios graves",
+        "body": "O TCU encontrou projetos deficientes e sobrepreço. O relatório consolidado de outubro de 2025 recomendava paralisar uma obra.",
+        "ruler": "Seleção orientada por risco e materialidade, não amostra de todas as obras brasileiras. São indícios. A auditoria do DNIT acima integra o mesmo programa."
+      },
+      "bridge": {
+        "category": "Financiamento comunitário · Rio Grande do Sul",
+        "title": "A comunidade teve de bancar a própria travessia.",
+        "metric": "de investimento comunitário informado",
+        "body": "Moradores e empresas reconstruíram a ponte de Nova Roma do Sul a Farroupilha. Ela reabriu em 20 de janeiro de 2024, 138 dias após a queda. Em fevereiro, o Daer ainda elaborava o anteprojeto estadual.",
+        "ruler": "Investimento de cerca de R$ 6 milhões reportado pelo Estadão, sem balanço final auditado nesta pesquisa. A passagem comunitária tem 120 m; o projeto estadual previa 180 m, duas vias e acostamentos. Não são orçamentos do mesmo projeto."
+      }
+    }
+  },
+  "moeda": {
+    "rotulo": "Moeda",
+    "cotacao": "Dólar pela PTAX de venda de {data}: US$ 1 = R$ {taxa}",
+    "nota": "Valores em dólar convertidos pela PTAX de venda de {data} (US$ 1 = R$ {taxa}). Os valores históricos usam a mesma cotação de hoje, não a da época. Fonte:"
+  }
+}

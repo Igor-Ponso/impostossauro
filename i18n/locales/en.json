@@ -1,0 +1,1269 @@
+{
+  "nav": {
+    "calculator": "Calculator",
+    "methodology": "Methodology",
+    "timeMachine": "Time Machine",
+    "inflation": "Inflation",
+    "fallacies": "Fallacies",
+    "journey": "The Journey",
+    "manifesto": "Manifesto",
+    "menu": "Menu",
+    "business": "Brazil Cost",
+    "economics": "Economics 101",
+    "publicMachine": "The Public Machine",
+    "promises": "They Promised",
+    "world": "Brazil vs the World",
+    "close": "Close",
+    "groups": {
+      "youPay": "You pay",
+      "whereItGoes": "Where it goes",
+      "whatTheySay": "What they say",
+      "understand": "Understand and check",
+      "closing": "The close"
+    },
+    "hints": {
+      "calculator": "how much leaves your pocket every year",
+      "journey": "the same real, taxed six times",
+      "inflation": "the tax nobody voted for",
+      "publicMachine": "who sends to Brasília and how much comes back",
+      "business": "what it costs to produce anything here",
+      "timeMachine": "every government's speech, and the math",
+      "fallacies": "the excuses that do not survive the numbers",
+      "economics": "the economics class school skipped",
+      "manifesto": "why this site exists",
+      "methodology": "where every number comes from",
+      "promises": "what they swore the tax would fix",
+      "world": "what the others charge, and what they deliver",
+      "whatItBuys": "the size of one year of tax, in things with a price tag",
+      "spending": "What the money funded and what went undelivered"
+    },
+    "whatItBuys": "What could it buy?",
+    "home": "Home",
+    "spending": "They spent it"
+  },
+  "doors": {
+    "kicker": "The whole site, section by section",
+    "title": "Each section below opens a different bill.",
+    "subtitle": "All sourced, all with the yardstick stated.",
+    "numbers": {
+      "calculator": "{days} days a year, national average",
+      "inflation": "R$ {trillions} trillion in federal revenue in {year}",
+      "fallacies": "R$ {trillions} trillion in {years} years",
+      "publicMachine": "{years} years, {states} states",
+      "promises": "{count} cases"
+    }
+  },
+  "calculator": {
+    "pageTitle": "How much of your salary goes to taxes?",
+    "title": "How much of your salary goes to taxes?",
+    "intro": "Payroll deductions are only part of the bill. More tax is included in purchases made with your take-home pay. Enter your salary to estimate the burden.",
+    "grossLabel": "Gross monthly salary (CLT)",
+    "dependentsLabel": "Dependents",
+    "net": "Left for you",
+    "effectiveRate": "Estimated tax burden",
+    "daysLine": "You work {days} days a year — {months} months — to pay taxes.",
+    "yearLine": "Over a year, that’s {value} in taxes — the equivalent of {baskets} basic food baskets.",
+    "scopeNote": "Payslip: INSS and IRRF using the official 2026 tables (including the exemption up to R$ 5,000). Consumption: estimate using the ~{pct}% average of taxes embedded in prices (IBPT) applied to the share of your net income you spend. IBPT examples: game console 72%, smartphone 69%, gasoline 62%, electricity 48%.",
+    "methodNote": "The official tables and formulas used here are documented.",
+    "pizzaAlt": "Paycheck pie chart: the slice eaten by the Impostossauro (INSS and IRRF) and what is left for you.",
+    "kicker": "All taxes, not just the payslip",
+    "spendLabel": "Share of take-home pay you spend",
+    "hidden": "Invisible tax",
+    "ibptLine": "The national average is a different measure: in {year} the average Brazilian worked {days} days to pay taxes. Your own number differs because it starts from your salary and your spending —",
+    "tldr": "Payroll and spending: taxation continues after salary deductions.",
+    "icebergPunch": "The law exempted salaries up to R$ 5,000 from income tax. Nothing on the price tag was exempted.",
+    "consumptionLegend": "Approximate average share of taxes embedded in consumer prices, a figure widely cited from IBPT/ACSP studies. Individual products vary widely (see examples).",
+    "liberation": {
+      "kicker": "Your Tax Freedom Day",
+      "line": "Until {date}, you work only for the Impostossauro.",
+      "note": "The estimated payroll and spending burden is converted into days of salary. Share the result with its assumptions.",
+      "zero": "With these inputs, the estimate is zero days spent paying taxes."
+    },
+    "inputsTitle": "Enter your details",
+    "liveHint": "Results update as you adjust the values.",
+    "grossHint": "Your pay before payroll deductions.",
+    "dependentsHint": "For the income tax deduction.",
+    "spendHint": "That means {value} in purchases and bills each month.",
+    "resultTitle": "The tax in your monthly budget",
+    "monthlyTax": "Estimated total tax per month",
+    "rateOfGross": "{pct}% of your gross salary.",
+    "totalExplanation": "Payroll deductions are only the beginning. Add the tax already included in the price of your purchases.",
+    "seeYear": "See how many working days this costs",
+    "breakdownTitle": "2. Payroll deductions are only the beginning",
+    "grossShort": "Gross salary",
+    "netSalary": "Net pay on your payslip",
+    "consumptionTax": "Tax inside your purchases",
+    "consumptionCalculation": "{spending} spent each month × {pct}% average tax share in prices. This tax is already included in what you pay.",
+    "assumptionsTitle": "Assumptions and sources for this estimate",
+    "shareResult": "Share your result with the source.",
+    "editInputs": "Edit my details",
+    "inputTitle": "1. Work out your own bill",
+    "payrollLabel": "Payroll deductions (INSS + IRRF)",
+    "totalLabel": "The Impostossauro takes about",
+    "rateLine": "{rate}% of your gross salary, including payroll and spending taxes.",
+    "afterAllTaxes": "Income after estimated taxes",
+    "remainingHint": "This deducts only estimated taxes from your income. Part of it pays for purchases and bills; it is not money left over at the end of the month.",
+    "takeHomeLabel": "Take-home pay reaching your account",
+    "takeHomeHint": "Taxes embedded in your purchases still come out of this amount.",
+    "zeroLine": "With these values, estimated days spent paying taxes are zero."
+  },
+  "hero": {
+    "pageTitle": "How much tax have you paid?",
+    "kicker": "Taxes paid by Brazilians in {year}, approximately",
+    "perSecond": "That's {value} per second, on average.",
+    "sinceArrival": "Since you opened this page:",
+    "cta": "Calculate tax on my salary",
+    "scroll": "Calculate your share",
+    "ctaSecondary": "See their raise",
+    "estimateNote": "An estimate. No official body publishes a real-time total across the three levels of government, and the ACSP itself closes 2025 at two figures: R$ 3,980bn in its announcement and R$ 3,985bn on its own panel — we use the panel, which is the yardstick for the whole series.",
+    "estimateLink": "How the number is built",
+    "description": "How much tax Brazilians have paid this year, in real time, and what could have been done with the money. Every number sourced."
+  },
+  "equivalences": {
+    "title": "What could have been done with it?",
+    "subtitle": "Estimated revenue so far in {year} is equivalent, at official unit costs, to:",
+    "sourcePrefix": "Source",
+    "note": "Every unit cost has an official source cited.",
+    "methodologyLink": "See the methodology",
+    "items": {
+      "school": {
+        "label": "public preschools",
+        "description": "Full construction of FNDE-standard (Proinfância) preschools, foundation to roof."
+      },
+      "ambulance": {
+        "label": "SAMU ambulances",
+        "description": "Fully equipped advanced life support units — mobile ICUs."
+      },
+      "ubs": {
+        "label": "primary care clinics",
+        "description": "Basic health units (UBS) built and ready to serve."
+      },
+      "utiBedYear": {
+        "label": "years of an ICU bed",
+        "description": "Full years of funding for an adult ICU bed in the public health system."
+      },
+      "minimumWageYear": {
+        "label": "years of minimum wage",
+        "description": "Full years of Brazil's minimum wage, including the 13th salary and vacation bonus."
+      },
+      "basicBasket": {
+        "label": "basic food baskets",
+        "description": "Complete staple-food baskets at the average cost tracked by DIEESE."
+      },
+      "bolsaFamiliaMonth": {
+        "label": "months of Bolsa Família",
+        "description": "Months of the average family benefit paid by the program."
+      }
+    },
+    "kicker": "The bill for the feast"
+  },
+  "closing": {
+    "title": "The promise is always new. The money is always yours.",
+    "body": "Every government promises to end poverty with money taken from people who work. Poverty is still here. So is inflation. Next promise you hear, the math comes before the applause.",
+    "cta": "See what they did with the money"
+  },
+  "methodology": {
+    "title": "Methodology",
+    "intro": "A site with an explicit thesis needs unassailable numbers. This page documents every source, formula and limitation — and the code is open.",
+    "counter": {
+      "title": "The counter",
+      "body": "The counter estimates Brazil's tax revenue for the current year spread uniformly over time, in the same spirit as ACSP's Impostômetro: the estimated annual total is divided by the seconds in the year, producing a per-second rate applied to the time elapsed so far.",
+      "formula": "value(t) = (estimated annual revenue ÷ seconds in year) × seconds elapsed this year",
+      "currentBasis": "Basis for the current-year estimate"
+    },
+    "costs": {
+      "title": "Reference costs",
+      "body": "Each equivalence uses a unit cost from an official source (or press coverage citing an official body). Values are rounded conservatively.",
+      "item": "Item",
+      "cost": "Unit cost",
+      "source": "Source"
+    },
+    "payroll": {
+      "title": "The salary calculator",
+      "body": "The calculator applies the official 2026 tables: progressive INSS brackets (Interministerial Ordinance MPS/MF No. 13/2026, ceiling of R$ 8,475.55 and maximum deduction of R$ 988.09) and IRRF using the Federal Revenue's progressive table plus the reducer from Law No. 15,270/2025, which zeroes the tax up to R$ 5,000 of monthly income and phases out gradually up to R$ 7,350 (reduction = R$ 978.62 − 0.133145 × income). The IRRF base uses the greater of legal deductions (INSS + R$ 189.59 per dependent) and the simplified deduction of R$ 607.20.",
+      "bracket": "Salary bracket (INSS 2026)",
+      "rate": "Rate",
+      "upTo": "Up to {value}",
+      "irrfNote": "The calculation covers CLT payroll deductions (INSS + IRRF). It does not include taxes embedded in consumption, which hit later, with every purchase. Sources:"
+    },
+    "limits": {
+      "title": "Known limitations",
+      "item1": "Actual revenue collection is not uniform across the year — the counter is an average; period totals converge to official figures.",
+      "item2": "Equivalences are illustrative: they compare total revenue with unit capital or consumption costs, without ongoing operating expenses (teachers, medicine, maintenance).",
+      "item3": "Current-year estimates are revised as official consolidated figures are published."
+    },
+    "open": {
+      "title": "Open code and data",
+      "body": "All of this site's code, data and formulas are public on {link}. Found a mistake? Open an issue — sourced corrections are welcome."
+    },
+    "timeMachine": {
+      "title": "The Time Machine",
+      "body": "Period totals use the Impostômetro/ACSP annual closings as verified milestones (2010, 2015, 2018, 2019, 2021–2025). Years without a public milestone are filled by linear interpolation between neighboring milestones, and the current year enters with its estimate prorated by elapsed time — periods containing any approximation are flagged on the page itself. Presidential terms use calendar years (transitions such as the 2016 impeachment are simplified to whole years). Accumulated inflation compounds IBGE’s annual IPCA for each year in the range (full series through 2025). The historical tax burden (1947–2024) uses confirmed milestones from three series: Ipea/Varsano (1947–1998), FGV/Ibre (1990–2024) and the Treasury (2010–2024); the 2007 GDP revision lowered the post-1995 series by ~2 p.p., and Treasury and FGV differ ~2 p.p. in current methodology — so we publish only textually confirmed points, each with its own source. Social indicators follow the same rule: only confirmed milestones (IBGE censuses, mortality tables, SIM/Datasus, PNAD Contínua), with series breaks flagged on each chart — unemployment, for instance, only has a comparable national series since 2012, and homicide milestones we could not verify at the source were left out."
+    },
+    "archive": {
+      "title": "An archived copy of every source",
+      "body": "Official pages go offline, articles get edited, PDFs change address. So every source cited on the site has a copy in the Wayback Machine, recorded with its date in {link}. If the original link dies, the copy proves what the source said when the number came in.",
+      "link": "arquivos.json, in the repository"
+    }
+  },
+  "footer": {
+    "disclaimer": "Impostossauro is an independent indictment of the entire political class, every party, measured with the same yardstick. Every number is sourced.",
+    "openSource": "Sourced data and open code on",
+    "privacy": "Privacy",
+    "terms": "Terms of use",
+    "visitsAlt": "Total home page views",
+    "visitsUnavailable": "Counter temporarily unavailable.",
+    "visitsLoading": "Loading counter…"
+  },
+  "fiveMonths": {
+    "kicker": "Nearly half your year",
+    "title": "The average Brazilian works 5 months a year just to pay taxes.",
+    "subtitle": "From January to the end of May, every working day of the average Brazilian goes straight to the Impostossauro. That is the national IBPT average — not one person's bill.",
+    "yours": "Your own bill is different: the calculator works it out from your salary.",
+    "daysSuffix": "workdays per year go to taxes",
+    "freedomDay": "Tax Freedom Day: May 29",
+    "forThem": "working for the Impostossauro",
+    "forYou": "working for yourself",
+    "source": "IBPT study ({year}): {pct}% of the average Brazilian’s income goes to taxes — data from",
+    "months": {
+      "jan": "jan",
+      "feb": "feb",
+      "mar": "mar",
+      "apr": "apr",
+      "may": "may",
+      "jun": "jun",
+      "jul": "jul",
+      "aug": "aug",
+      "sep": "sep",
+      "oct": "oct",
+      "nov": "nov",
+      "dec": "dec"
+    }
+  },
+  "hungerFallacy": {
+    "statTwitter": "was the price of all of Twitter, in October 2022 reais.",
+    "statRevenue": "is what the Impostossauro ate from Brazilians in {year} alone, across all three levels of government.",
+    "statTwitters": "entire Twitters, every single year. And no politician is outraged.",
+    "pictoTitle": "The Brazilian state collects one whole Twitter every {days} days.",
+    "punch1": "The UN World Food Programme’s plan to save 42 million people from hunger cost R$ {wfp} billion. The Impostossauro swallows that in {days} days.",
+    "punch2": "Yet {poverty} million Brazilians ({povertyPct}%) were still below the poverty line in {year}, according to IBGE.",
+    "punch3": "Money was never the problem.",
+    "fxNote": "US$ {usd} billion × average PTAX for Oct/2022 (R$ {ptax}) ≈ R$ {nominal} billion.",
+    "ipcaNote": "R$ {nominal} billion in October 2022 reais · R$ {corrected} billion in {year} reais, adjusted for IPCA inflation.",
+    "moreFallacies": "See more fallacies debunked"
+  },
+  "iceberg": {
+    "alt": "Tax iceberg: the visible tip is the payslip deduction; the submerged mass is the tax embedded in consumption.",
+    "visibleLabel": "The tax you SEE (payslip)",
+    "hiddenLabel": "What you DON’T see (embedded in consumption)",
+    "month": "mo"
+  },
+  "timeMachine": {
+    "pageTitle": "Tax Time Machine",
+    "kicker": "Pick the period. See the damage.",
+    "title": "The Time Machine",
+    "intro": "Every government swears that this time the money will be well spent. Pick a term, the year you were born, or any range since 2010. See how much the Impostossauro ate, what it could have built, and what inflation did to the rest.",
+    "presets": {
+      "dilma": "Dilma (2011–2016)",
+      "temer": "Temer (2016–2018)",
+      "bolsonaro": "Bolsonaro (2019–2022)",
+      "lula3": "Lula (2023–2026)",
+      "all": "Everything (2010–2026)"
+    },
+    "rangeStart": "Start year",
+    "rangeEnd": "End year",
+    "rangeHint": "Pick a term above or build your own range — the year you were born, for instance. The series starts in {year}.",
+    "totalLabel": "The Impostossauro ate, from {start} to {end}:",
+    "perDay": "An average of {value} per day, every single day of the period.",
+    "approxNote": "* This period includes years interpolated between verified Impostômetro milestones and/or the current-year estimate — see methodology.",
+    "inflationTitle": "And whatever was left in your pocket, inflation ate.",
+    "inflationLine": "Since {start}, prices rose {pct}% (accumulated IPCA). The same money buys less and less — and the inflation is manufactured by the very State that promises to save you from it.",
+    "inflationThen": "R$ 1,000 in {year} used to buy...",
+    "inflationNow": "...what today you buy with",
+    "inflationSource": "Official inflation (annual IPCA), full series through 2025:",
+    "equivalencesTitle": "What the period total could have paid for",
+    "methodNote": "Series milestones, interpolations and formulas are documented.",
+    "tldr": "Pick a government and see how much it ate — and what could have been built.",
+    "taxBurdenLegend": "Gross tax burden of General Government in 2025: 32.40% of GDP — the highest level in the series that began in 2010.",
+    "workDaysLegend": "IBPT study \"Days Worked to Pay Taxes\": 149 days in 2025 (Tax Freedom Day on 5/29/2025), with 40.82% of average income going to taxes.",
+    "tiradentesConclusion": "The Portuguese Crown charged the quinto: about 20% of all gold mined in Minas Gerais. When the annual quota of 100 arrobas fell short, came the derrama — the forced collection of the difference, at gunpoint. It was the threat of the 1789 derrama that triggered the Minas Conspiracy; Tiradentes was hanged and quartered on April 21, 1792. Today, the Brazilian state keeps 32.40% of everything the country produces and about 41% of the average worker's income — and the derrama is automatic: it's deducted from the paycheck and built into the price tag, no troops required."
+  },
+  "inflationPage": {
+    "pageTitle": "The Inflation Factory",
+    "kicker": "The tax nobody voted for",
+    "title": "The Inflation Factory",
+    "intro": "Inflation is not a natural phenomenon. It's a government spending more than it collects and printing the difference. And the charge is double: after eroding your money, the State taxes the correction.",
+    "calc": {
+      "title": "The tax on nothing",
+      "intro": "You invest, the money grows, and part of that growth merely keeps up with the inflation the government itself manufactured. Yet the 15% income tax hits the entire nominal gain — with no inflation adjustment. Do the math:",
+      "principal": "Amount invested",
+      "years": "Years",
+      "returnPct": "Return % p.a.",
+      "inflationPct": "Inflation % p.a.",
+      "note": "The default inflation of {pct}% p.a. is the geometric average of IPCA 2010–2025 (IBGE). Adjust as you like.",
+      "finalValue": "Final value",
+      "inflationPart": "Part that is just inflation",
+      "tax": "Tax due (15% of gain)",
+      "taxOnInflation": "Tax charged on inflation",
+      "punchLost": "You LOST purchasing power — and still pay {tax} in tax on a \"profit\" that does not exist.",
+      "punchGain": "{share}% of your tax falls on pure inflation. Your real effective rate: {rate}% — not the advertised 15%.",
+      "explain": "The government creates the inflation, inflation inflates your nominal gain, and the tax hits the inflated number. The more inflation the government creates, the more tax it collects from you, on a gain that bought nothing.",
+      "legalNote": "Since Law No. 9,249/1995, Brazil does not allow inflation adjustment when computing capital gains: the 15% tax falls on the nominal gain."
+    },
+    "methodNote": "Formulas and sources are documented.",
+    "currencies": {
+      "title": "The currencies the government has burned",
+      "intro": "A serious country does not replace its currency. Brazil replaced it six times in 52 years — each swap marks a currency that inflation destroyed.",
+      "zerosCut": "{zeros} zeros cut (running total: {total})",
+      "punch": "From 1942 to 1994, the Brazilian government cut {zeros} ZEROS off the currency."
+    },
+    "hyper": {
+      "title": "Hyperinflation, year by year (IPCA)",
+      "perYear": "Official annual inflation in the final pre-Real years",
+      "accumulatedLabel": "Accumulated inflation from 1980 to 1994 — IBGE’s official number:",
+      "realLabel": "And even the Real, the \"stable\" currency:",
+      "realNote": "{pct}% accumulated inflation in the Real Plan’s first 30 years. What R$ 1 bought in 1994 now costs more than R$ 8."
+    },
+    "tldr": "The government creates inflation, it eats your money — then taxes you on the loss.",
+    "decades": {
+      "title": "Inflation before the IPCA: 50 years of monetary hunger",
+      "intro": "The IPCA only starts in 1980. Before that, FGV's IGP, measured since 1944, tells the story. And the story is this: Brazilians never knew a stable currency until 1994.",
+      "wageKicker": "The minimum wage used to buy more",
+      "wageTitle": "Its peak was in 1957 — and it never came back.",
+      "note": "Decade by decade with cited sources; divergences between old indices documented in the methodology. Full series:"
+    },
+    "equivalenceLegend": "R$ 1.00 in 1994 = 2,750,000,000,000,000,000 réis (2.75 quintillion)"
+  },
+  "fallacies": {
+    "pageTitle": "The Debunker",
+    "kicker": "Politicians' favorite fallacies",
+    "title": "The Debunker",
+    "intro": "When the math doesn't add up, a ready-made excuse appears: blame Portugal, the foreigner, the billionaire, the previous government. Here we do what politicians hate: the math, with sources.",
+    "claimLabel": "The excuse",
+    "mathLabel": "The math",
+    "gold": {
+      "claim": "Brazil is poor because Portugal stole our gold.",
+      "statDocumented": "tonnes with documented arrival in Portugal (1720–1807); total production estimated at 800–1,000 t.",
+      "statValue": "the value of ALL that gold at today's price (up to 1,000 t × ~US$ 4,375/oz).",
+      "days": "days",
+      "statDays": "how long the Impostossauro took to swallow the same amount, at {year} pace.",
+      "punch": "An entire century of \"colonial exploitation\" equals one or two months of Brasília. Portugal left in 1822 — whoever has been charging the royal fifth on your life since then lives in Brasília."
+    },
+    "hunger": {
+      "claim": "We took Brazil off the Hunger Map.",
+      "exit": "leaves the Hunger Map",
+      "return": "returns to the Hunger Map",
+      "body": "The detail nobody mentions: the yardstick was not the same in the two \"exits\". In 2014 the published line was 5% undernourishment — Brazil left at ~3%, a number that would fail today's 2.5% cutoff. And FAO recalculates the entire historical series with every report. The announced victory depends on which yardstick is used, and whoever writes the headline never shows the yardstick.",
+      "punch": "Between one UN photo-op and the next, 48.9 million Brazilians remained below the poverty line (IBGE, 2024). Hunger does not read reports."
+    },
+    "hunger44": {
+      "claim": "US$ 44 billion could end world hunger.",
+      "body": "In 2021 the UN World Food Programme put the cost of pulling 42 million people out of hunger at US$ 6.6 billion. When Elon Musk bought Twitter for US$ 44 billion, politicians lined up to be outraged: that money could have ended hunger. If money solves it, the math applies to everyone.",
+      "statPlan": "was the UN's plan to lift 42 million people out of hunger, in October 2022 reais.",
+      "statRevenue": "is what the Brazilian state collected in {year}, across all three levels of government.",
+      "punch": "Brazil collects {times} times the UN's entire plan, every single year — {days} days of revenue. And hunger is still here. Why does nobody ask that?"
+    },
+    "indicators": {
+      "kicker": "The question no government answers",
+      "title": "R$ {trillions} trillion later...",
+      "intro": "That is what the Impostossauro ate in {years} years, according to the Impostômetro. With that mountain of money, any country becomes Switzerland. See what Brazil became:",
+      "items": {
+        "illiteracy": {
+          "label": "Illiteracy (15 and older)",
+          "comment": "It fell — over TWENTY-ONE years. There are still ~11 million Brazilian adults who cannot read this page. At a cost of trillions, the shame gauge only dropped by half."
+        },
+        "homicides": {
+          "label": "Homicides per year",
+          "comment": "Better than the peak — and a packed stadium of Brazilians still dies EVERY YEAR. Security is the most basic duty of any State; that is what taxes were supposedly for."
+        },
+        "sanitation": {
+          "label": "Treated sewage",
+          "comment": "In 12 years, 14 points of progress. At this pace Brazil treats 100% of its sewage around 2060. Half the country's sewage still runs into rivers and beaches — in the 21st century."
+        },
+        "pisa": {
+          "label": "Education (PISA, math)",
+          "comment": "Stagnant since 2009, ~93 points below the OECD average — over 4 school years behind. Trillions in promises of education first bought this."
+        }
+      },
+      "punch": "Money was never missing. The numbers show a State that charges like Scandinavia, delivers little, and still asks for gratitude with the next promise."
+    },
+    "methodNote": "All sources are linked on the cards. Criteria and limitations are documented.",
+    "tldr": "Politicians' favorite excuses, dismantled with arithmetic and sources."
+  },
+  "journey": {
+    "pageTitle": "The Money's Journey",
+    "kicker": "Follow the money",
+    "title": "The Journey of ONE R$ 100 bill",
+    "intro": "Follow your money from work to inheritance. Taxes apply at successive stages: payroll, purchases, savings, property and succession. Each charge reduces what remains yours.",
+    "scrollHint": "Scroll to start the journey",
+    "stepLabel": "Stage {n} of {total}",
+    "steps": {
+      "ghost": {
+        "title": "Before your salary even exists",
+        "body": "Your boss doesn't pay just your salary. On every real of payroll he pays employer social security, FGTS, accident insurance, Sistema S, plus provisions for the 13th salary and vacations, with charges compounding on charges. The documented result: a CLT worker costs 1.7 to 2 times the salary you see. In the FGV/CNI study, with indirect costs, it reaches 3. Nearly a second salary of yours, eaten before the payslip exists.",
+        "question": "If that money exists because you worked... why have you never seen it?"
+      },
+      "payslip": {
+        "title": "The payslip arrives with deductions",
+        "body": "From what's left, INSS and income tax are withheld at source. You don't pay the tax: you receive whatever the government left. It goes first, you go second.",
+        "question": "Did you ever authorize this automatic debit? Did anyone ask you?"
+      },
+      "spend": {
+        "title": "You spend — and pay again",
+        "body": "Groceries, medicines, energy and fuel include taxes such as ICMS, PIS/Cofins, ISS and IPI. Money already taxed through payroll is taxed again when spent.",
+        "question": "When prices go up you blame the store... but who takes a third of your purchase?"
+      },
+      "save": {
+        "title": "You invest — returns are taxed",
+        "body": "Anything left? If you invest, income tax takes 15% to 22.5% of the yield, including the part that merely keeps up with the inflation the government itself created. Funds also have the come-cotas: a tax that serves itself twice a year without you selling anything.",
+        "question": "Does it make sense to pay tax on a \"gain\" that only recovered what inflation ate?"
+      },
+      "house": {
+        "title": "You buy property — the bills continue",
+        "body": "Bought a house? ITBI on the deed, without the government laying a single brick. Paid it off? IPTU comes due every year, forever. Bought a car? IPVA, every year, forever.",
+        "question": "If you must pay every year to keep what's already yours... is it really yours?"
+      },
+      "inherit": {
+        "title": "You die — inheritance is taxed",
+        "body": "Transferring assets to your children is also taxed: ITCMD can reach 8%, depending on the state and applicable rules. Money taxed through work, spending and building wealth faces another bill.",
+        "question": "How many times can the SAME money be taxed before that deserves another name?"
+      }
+    },
+    "reflection": {
+      "opening": "You work. Your employer pays more than the amount shown as your salary. And the revenue that funds that payment is also subject to tax. It comes from customers whose money may already have passed through other charges.",
+      "title": "The charges did not begin with your payslip. And they do not end when your salary arrives.",
+      "circulation": "Money changes hands, becoming wages, purchases, investments or property. Having been taxed before does not prevent a new transaction from generating another charge.",
+      "spending": "You shop with what is left. Tax is part of the price. You try to build a reserve. With taxable investments, part of the return also goes along the way.",
+      "building": "You decide to build a home. There is tax on buying the land and materials, and charges on the construction work. You pay for every stage, take every risk and spend years paying it all off.",
+      "ownership": "At last, the home is yours.",
+      "annual": "But paying off the home does not pay off IPTU, Brazil's urban property tax. The bill returns the next year. And the year after. You have finished paying for what you built; the State keeps taxing it.",
+      "inheritance": "Then you die. The property you spent a lifetime building passes to your loved ones — and that transfer can also generate tax.",
+      "effort": "The work was yours. The sacrifices were yours. The risk was yours. At each stage, the State took a share.",
+      "question": "In the end, how much of what you built is truly yours?"
+    },
+    "verdict": {
+      "kicker": "The verdict",
+      "title": "In the end, {pct}% of everything you generate is his.",
+      "body": "That's IBPT's math for the average income: 149 workdays a year become tax. And the bar above didn't even count property tax, vehicle tax or inheritance. The real journey is worse than the animation.",
+      "note": "The bar illustrates the average burden on income. Property and inheritance taxes have their own bases, beyond it."
+    },
+    "taxCountLine": "Brazil has about {count} taxes, fees and contributions. See the main ones throughout a lifetime.",
+    "tldr": "Money passes through six stages of taxation — from work to inheritance.",
+    "finale": "How many times must the same real be taxed before it is enough?",
+    "custoCltLabel": "total cost of a CLT employee"
+  },
+  "manifesto": {
+    "pageTitle": "Manifesto",
+    "kicker": "Why this site exists",
+    "title": "It is your money. Demand answers.",
+    "tldr": "For 30 years they've promised to end hunger, violence and ignorance. Trillions later — where is it?",
+    "intro": "This site is an indictment. Not of one party: of the entire political class, and of our own habit of applauding old promises as if they were news. Every government swore to lift Brazilians out of misery. The Impostossauro does one thing: it puts the promise next to the number and lets you conclude.",
+    "notTitle": "What this site is NOT",
+    "not1": "There is no pledge of neutrality. The position is explicit: against tax abuse and mismanagement of public money.",
+    "not2": "No party receives editorial protection. Documents and data determine what we publish.",
+    "not3": "A number does not become evidence just because it supports the argument. Its source, period and definition must be identified.",
+    "not4": "No cherry-picking to manufacture outrage. An isolated figure cannot replace a historical series or its context.",
+    "not5": "No campaign platform or request for votes. Accountability continues when the government changes.",
+    "not6": "No argument is beyond revision. If the documents contradict the accusation, the accusation must change.",
+    "yesTitle": "What this site IS",
+    "yes1": "An indictment with data: 30 years of promises next to 30 years of official indicators.",
+    "yes2": "A public demand for accountability: the speech beside the delivery, before the next promise.",
+    "yes3": "Open code and data: found an error? Fix it — credibility is our only asset.",
+    "yes4": "A path to the source: read the document, check the calculation and reach your own conclusion.",
+    "yes5": "Making the bill understandable: charts, examples and explanations so anyone can check it and demand answers.",
+    "yes6": "A work open to correction: errors reported with supporting documents are reviewed, and changes stay on record.",
+    "parable": {
+      "title": "The air-conditioner parable",
+      "intro": "Whenever someone defends a new tax to \"solve\" a problem, remember this room:",
+      "p1": "The country is a cooled room. The equipment works and maintains the temperature.",
+      "p2": "A car crashes through the wall. The cold air escapes through the hole — corruption, waste, mismanagement.",
+      "p3": "The politician's solution? Install a SECOND air conditioner: raise taxes. The hole? Still there.",
+      "punch": "Raising taxes without fixing the wall doesn't cool the room — it just raises the power bill. Yours.",
+      "taxLabel": "+TAX"
+    },
+    "literacy": {
+      "title": "Why this site speaks in pictures",
+      "stat1": "of Brazilians aged 15-64 are functionally illiterate: they can read, but cannot understand what they read (INAF 2024).",
+      "stat2": "only — read with full proficiency. The rate has not moved in 23 years. Among the young it got WORSE: from 14% to 16% functionally illiterate.",
+      "body": "Charts, prominent figures and direct explanations make public documents readable. Understanding the bill is a condition for holding those who spend the money accountable.",
+      "punch": "There's an irony here: that number is also their work. Decades of education first in the speeches, trillions collected, and 9 out of 10 Brazilians can't proficiently read the contract they signed with the State. Who gains from that?"
+    },
+    "rules": {
+      "title": "Publication criteria",
+      "rule1": "Every claim has an identified source. Official documents, research and reporting are distinguished. Without a source, we do not publish.",
+      "rule2": "We point the finger with the document in hand. When speech and data disagree, we show both — and the conclusion is yours.",
+      "rule3": "The yardstick is the same for every government, no exceptions — PT, PSDB, MDB, PL. Swapping yardsticks depending on who is in power is exactly what this site calls out.",
+      "rule4": "Got a number wrong? It gets corrected in public, with the right source. The history stays in the repository.",
+      "outro": "All code, data and formulas are open on"
+    },
+    "cta": "Start with the Money's Journey",
+    "readCta": "Read the manifesto"
+  },
+  "tldr": {
+    "label": "In one sentence"
+  },
+  "share": {
+    "label": "Share it",
+    "native": "More",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "instagramHint": "Copy text and link to share on Instagram",
+    "instagramCopied": "Text and link copied! Paste them into an Instagram message.",
+    "openInstagram": "Open Instagram",
+    "calcText": "I work {days} days a year JUST to pay taxes. My Tax Freedom Day is {date}. Find yours:",
+    "timeMachineText": "From {start} to {end}, the Brazilian government collected {total}. What did you get back? Do the math:",
+    "journeyText": "The same money is taxed 6 times in Brazil — from payslip to inheritance. Follow the journey of one R$ 100 bill:",
+    "businessText": "To pay me R$ 5,000, my boss spends over R$ 8,000. The Impostossauro eats the rest. Do the math:",
+    "whatItBuysText": "One year of tax in Brazil buys 4.2 Disneys, 1.1 million nurseries — or 20.8 trips to the Moon in stacked R$ 1 coins. Every price sourced:",
+    "failed": "Copy failed. Select the text below."
+  },
+  "dossier": {
+    "kicker": "Promise vs. Reality",
+    "promised": "What was promised",
+    "numbers": "What the numbers show",
+    "excuse": "The excuse on record",
+    "question": "The promise is on one side. The number is on the other. What happened in between?",
+    "note": "Every quote and number has a linked source. Paraphrases are flagged as such. The same yardstick applies to every government.",
+    "paraphrase": "paraphrase, not verbatim"
+  },
+  "business": {
+    "pageTitle": "The Brazil Cost",
+    "kicker": "For employers and entrepreneurs",
+    "title": "The Brazil Cost",
+    "tldr": "To pay you R$ 5,000, your boss spends over R$ 8,000. And the company paid taxes before that.",
+    "intro": "The employee sees the payslip. The employer sees the rest: nearly a second salary in charges, tax on revenue before any profit exists, and a tax bureaucracy that eats 1,501 hours a year of a company's time. In the end, all of it lands on the shelf price and on the job that never gets created.",
+    "ghost": {
+      "title": "The Ghost Payslip, itemized",
+      "intro": "Type a salary and see what the company actually spends. The estimate below is the conservative one, mandatory legal charges only. Studies that include indirect costs reach triple.",
+      "salaryLabel": "Registered salary (CLT)",
+      "chargesTitle": "What is levied on payroll",
+      "resultLabel": "To pay {salary} in salary, the company spends:",
+      "multiplier": "{mult}× the salary — in the most conservative estimate.",
+      "segSalary": "Salary",
+      "segProvisions": "13th + vacations",
+      "segCharges": "Charges",
+      "rangeNote": "Fuller methodologies go further: {pastore}; {fgv}. None of them comes close to what workers imagine."
+    },
+    "revenue": {
+      "title": "Before the salary, the company already paid",
+      "intro": "The money that funds payroll comes from customers who paid with already-taxed income. Between the customer and the till, the State taxes the transaction again:",
+      "note": "Rates in force in 2025/2026, varying by tax regime, state and municipality. Each chip links to the law or the official table."
+    },
+    "stats": {
+      "title": "The numbers behind why everything is expensive here",
+      "punch": "Employing costs double, producing costs an extra fifth of GDP, and merely understanding the rules burns over a thousand hours a year. Then they ask why Brazil does not grow."
+    },
+    "methodNote": "The estimate methodology and its sources are documented.",
+    "assaiMarginLegend": "Seventy-four billion passed through the till; one per cent became profit. The rest paid suppliers, staff, power, rent, interest and tax. The company's release headlines GROSS revenue, R$ 80.6bn — what counts here is net revenue (R$ 73.8bn), which is the denominator of the margin and the same yardstick as the other two. Divergence on record: other sources cite R$ 930 million in profit, under a different accounting treatment (IFRS 16); we use the figure from the company's own release.",
+    "assaiRevenueLegend": "came through the till in 2024, with sales taxes already stripped out. Gross turnover, which the company’s own release highlights, was R$ 80.6bn.",
+    "assaiProfitLegend": "was left at the end of the year, after paying suppliers, staff, power, rent, interest and tax."
+  },
+  "historyChart": {
+    "title": "The race since 2010: revenue × prices",
+    "subtitle": "Indexed (2010 = 100): tax revenue grew {revenue}% while prices rose {prices}%. The Impostossauro outran the inflation the government says it fights.",
+    "revenueLabel": "Revenue",
+    "priceLabel": "Prices (IPCA)",
+    "hint": "Hover, tap a point, or Tab through the chart to see each year.",
+    "alt": "Line chart comparing total tax revenue index with the price index (IPCA) from 2010 to 2025.",
+    "note": "Nominal revenue across all levels of government (Impostômetro milestones, gap years interpolated — see methodology). Prices: accumulated IPCA."
+  },
+  "federalRevenueChart": {
+    "title": "Federal tax revenue, year by year",
+    "headline": "From R$ {first} bn in {firstYear} to R$ {last} bn in {lastYear}.",
+    "subtitle": "Federal government only — no states, no municipalities. Nominal values, from the year they were collected, not adjusted for inflation.",
+    "unit": "bn",
+    "hint": "Hover, tap a point, or Tab through the chart to see each year’s value.",
+    "alt": "Line chart of nominal federal tax revenue, year by year, from {firstYear} to {lastYear}, with bands marking each administration.",
+    "rulerTitle": "Why the line starts in {firstYear} and not in 1994",
+    "rulerText": "The tax authority has published this monthly series since 1994, and the file is in the repository. But social security revenue does not appear in it for 1994. In {firstYear}, the first year it does, it alone comes to R$ 35.1bn out of a R$ 119.1bn total — nearly a third. Splicing 1994 onto the rest would draw a step that is a change of definition, not of revenue. We would rather show one year less.",
+    "caveatsNote": "Every term since {firstYear} appears in full. Lula 3 is still in office; the series runs to {lastYear}, the last full year in the tax authority spreadsheet.",
+    "note": "Nominal federal revenue, year by year, from the series the tax authority publishes itself: administered + social security + other agencies. It excludes states and municipalities — for the all-three-levels ruler, see the chart above.",
+    "governments": {
+      "fhc1": "FHC 1",
+      "fhc2": "FHC 2",
+      "lula1": "Lula 1",
+      "lula2": "Lula 2",
+      "dilma": "Dilma",
+      "temer": "Temer",
+      "bolsonaro": "Bolsonaro",
+      "lula3": "Lula 3"
+    }
+  },
+  "embed": {
+    "pageTitle": "Embeddable counter",
+    "credit": "see the full math"
+  },
+  "burden": {
+    "kicker": "Before 2010",
+    "sectionTitle": "The tax burden since 1947: the line that only climbs",
+    "sectionIntro": "Brazil's oldest official series shows the State's share of everything the country produces. Empire, dictatorship, democracy: the regime changes, the currency changes, the century changes. The direction of the line does not.",
+    "title": "Gross tax burden, % of GDP",
+    "subtitle": "From {from}% of GDP in 1947 to {to}% today. The Brazilian state has more than doubled the slice it takes of everything the country produces.",
+    "dictatorship": "MILITARY DICTATORSHIP",
+    "realPlan": "Real Plan",
+    "ofGdp": "of GDP",
+    "hint": "Tap, hover, or Tab through the dots to see each milestone value and source.",
+    "alt": "Line chart of Brazil's tax burden as % of GDP from 1947 to 2025, with the military dictatorship period marked.",
+    "note": "The line uses the most official source available for each year: a historical reconstruction to 1988, FGV/Ibre from 1990 to 2009 and the Treasury from 2010 onwards. The dashed stretch is not an annual series — those are milestones, which is why it does not become a solid line. Sources:",
+    "empireKicker": "And before the Republic?",
+    "tiradentesKicker": "1789: the derrama",
+    "sourceSwitch": "source changes here",
+    "milestoneRuler": "Varsano/Ipea series — a historical reconstruction, the only source that reaches the period",
+    "divergenceTitle": "Two official sources, two numbers — every year",
+    "divergenceText": "The line always shows the most official source for each year, but it is not the only one measuring this. FGV/Ibre calculates above the Treasury in EVERY year where both exist, and always in the same direction: the widest gap was in {year}, {pp} points of GDP. Nobody is wrong — it is methodology. Anyone quoting \"the tax burden\" without saying whose number it is has picked one of the two without telling you.",
+    "tenthPennyKicker": "The limit of 1569"
+  },
+  "indicators": {
+    "kicker": "The little table of indices that matter",
+    "title": "What 80 years of taxes bought",
+    "intro": "From the first census with confirmed data until today: literacy, life expectancy, infant mortality, sewage, violence, unemployment. Brazil improved on almost everything — as did nearly every country over the same period. The real question is a different one: given everything that was collected, where should we be by now?",
+    "hint": "Tap or hover the dots to see the year, value and source.",
+    "items": {
+      "illiteracy": "Illiteracy",
+      "lifeExpectancy": "Life expectancy",
+      "infantMortality": "Infant mortality",
+      "sewage": "Sewage network",
+      "homicides": "Homicides",
+      "unemployment": "Unemployment"
+    },
+    "units": {
+      "illiteracy": "age 15 and older",
+      "lifeExpectancy": "years at birth",
+      "infantMortality": "per 1,000 live births",
+      "sewage": "connected to the grid",
+      "homicides": "per 100k inhabitants",
+      "unemployment": "unemployment rate"
+    },
+    "gdpTitle": "And how much did the economy grow, era by era?",
+    "gdpIntro": "Average real GDP growth per period, from the IBGE series. The tax burden rose in almost every era; growth did not."
+  },
+  "contrast": {
+    "kicker": "They said",
+    "receipts": "The receipts"
+  },
+  "signature": {
+    "home": "The money was never missing. The answer is.",
+    "calculator": "You work until {date} for the government. Until when does it work for you?",
+    "timeMachine": "Tiradentes died over less tax than what we accept today.",
+    "inflation": "Brazil has already cut 18 zeros off its currency. None was the size of the problem.",
+    "fallacies": "The excuse changes with each government. The bill arrives in all of them.",
+    "manifesto": "It's not left versus right. It's those who pay versus those who charge and don't deliver.",
+    "methodology": "Don't take our word for it: check. Every source is one click away.",
+    "economics": "There is no such thing as government money. There's yours, changing address.",
+    "publicMachine": "The money reached every corner of Brazil. The results did not.",
+    "promises": "The law said what it was for, and for how long. The same people who wrote it were the ones who changed both.",
+    "world": "Nineteen of these countries tax more than Brazil. All twenty-nine of them live longer.",
+    "worldDuelLess": "{pais}: takes {pontos} points of GDP less than Brazil — and lives {anos} years longer.",
+    "worldDuelMore": "{pais}: takes {pontos} points of GDP more than Brazil and lives {anos} years longer."
+  },
+  "laffer": {
+    "chartTitle": "Revenue × tax rate",
+    "rateLabel": "Tax rate",
+    "peakLabel": "the peak (illustrative)",
+    "axisZero": "nobody charges anything",
+    "axisHundred": "nobody produces anything",
+    "chartNote": "Illustrative curve, drawn to explain the concept: the real shape varies by tax, country and era, and the peak is not precisely known. Nothing here is a rate recommendation.",
+    "alt": "Hill-shaped curve: revenue rises with the tax rate up to a peak, then falls to zero at 100%.",
+    "zones": {
+      "low": "Down here the bite per real is small — but the country produces a lot, and the base grows. Revenue comes from activity, not from rates.",
+      "top": "The peak zone: each extra point of tax rate yields less and less, because part of the activity gives up, hides, or leaves.",
+      "high": "Past the peak: activity shrinks, smuggling says thanks — and the government collects LESS while charging MORE. Everyone loses, including the treasury."
+    },
+    "low": "At low rates, the tax per real is small. A larger volume of economic activity can broaden the tax base."
+  },
+  "econ101": {
+    "pageTitle": "Economics 101 — Impostossauro",
+    "kicker": "Economics 101",
+    "title": "The economics class school skipped",
+    "intro": "No jargon without translation, no curve without a drawing. The basics of economics that explain why more tax does not become more schools — and that every government, of every color, ignores when voting.",
+    "tldr": "Taxes have a turning point: past it, raising the rate starts shrinking the revenue. This page explains that without jargon.",
+    "cigarrosPunch": "A 71% tax rate didn't turn into revenue: it turned into smuggling. Charging too much is also a way to collect too little.",
+    "cigarrosIlegaisLegend": "of cigarettes consumed in Brazil in 2022 were illegal",
+    "cigarrosSonegadosLegend": "in taxes not collected, by the FNCP estimate",
+    "lafferKicker": "The tax hill",
+    "lafferTitle": "Raising taxes does not always raise revenue",
+    "lafferLead": "At a 0% rate, the government collects zero. At 100%, also zero: nobody works for free. Between the two ends there is a hill — and past the peak, raising taxes means lowering revenue. The official name is the Laffer Curve; the summary is: killing activity is expensive.",
+    "lafferHonestyTitle": "So where is the peak?",
+    "lafferHonesty": "Nobody knows for sure — it depends on the tax, the country and the era, and economists have argued about it for decades. The hill in the drawing is illustrative, not a map of Brazil. What no serious person honestly disputes: both ends exist, and a country can be on the wrong side of the hill for a specific tax. That is why overtaxed cigarettes finance smuggling and import taxes that are too high create gray markets.",
+    "conceptsTitle": "Four ideas that explain almost everything",
+    "conceptsIntro": "None of them is an opinion: they are concepts from any introductory economics textbook. What is astonishing is how many public decisions pretend they do not exist.",
+    "concepts": {
+      "inflationTax": {
+        "title": "Inflation is a tax nobody voted on",
+        "body": "When the government spends more than it collects and the difference comes from the printer, prices rise — and your money buys less without any new tax passing through Congress. Those with bank investments protected themselves; those living on cash wages paid the whole bill. Brazil has lived the extreme version of this."
+      },
+      "incidence": {
+        "title": "Whoever hands over the tax is not whoever pays it",
+        "body": "The \"company tax\" does not come out of the owner's pocket: it enters the cost, becomes price, and comes out of yours. Every link in the chain passes on what it can. A politician promising to \"tax only companies\" is promising to tax your grocery cart through a middleman."
+      },
+      "deadweight": {
+        "title": "Deadweight loss: what dies never shows up in statistics",
+        "body": "When the cost of existing formally becomes unbearable, the business does not open, the job is not created, the receipt is not issued. That activity that stopped happening enters no government spreadsheet — but it is missing from your neighborhood. Economists call it deadweight loss; in practice it is the bakery that never existed."
+      },
+      "opportunity": {
+        "title": "Opportunity cost: every real has an alternative address",
+        "body": "There is no \"government money\": there is working people's money, having its destination chosen by whoever governs. Every wasted real was a real that could have been a hospital bed, a teacher, sanitation. The right question is never just \"how much does it cost?\" — it is \"what stopped existing to pay for this?\"."
+      }
+    },
+    "methodNote": "Figures, sources and limitations are documented.",
+    "casesTitle": "Brazil on the hill: three receipts",
+    "casesIntro": "Documented cases of taxes moving reality — on both sides of the hill.",
+    "casesCaveat": "Sales reacting to a tax cut do not prove total revenue went up: the Reagan case shows cuts rarely pay for themselves. The hill is not an excuse for any cut; it is the reason to do the math before touching any rate.",
+    "worldTitle": "The data Brazilians don't get",
+    "worldIntro": "International comparisons with the ruler declared: the ones that hold, we publish; the ones that do not — like \"we pay more than Sweden\" — we explain why not."
+  },
+  "profit": {
+    "kicker": "The profit that seems, and the profit that is",
+    "title": "The company earned billions. Almost nothing was left.",
+    "intro": "When a politician says \"abusive profit\", they are quoting revenue — the money that comes in before paying suppliers, wages, electricity, rent, banks and taxes. What is left at the end, the real profit, fits in a sliver. Here are companies you know, with the numbers they publish themselves.",
+    "revenue": "Revenue",
+    "profit": "Left as profit",
+    "costs": "Suppliers, wages, electricity, rent, interest and taxes",
+    "perHundred": "For every R$ 100 sold, R$ {value} was left as profit. The rest was gone before that.",
+    "dvaTitle": "Where the value the company created went",
+    "dvaIntro": "The DVA is a table every listed company publishes, showing how the value it created was split. It is the most honest X-ray of the division: government, workers, banks, and last of all, the owners.",
+    "dvaGov": "Government (taxes)",
+    "dvaLabor": "Wages",
+    "dvaOther": "Banks and rent",
+    "dvaProfit": "Owners and reinvestment",
+    "smallTitle": "And those with no billions at all",
+    "smallIntro": "The shop owner down the street never makes a record-profit headline. They show up in the statistic of who shut down."
+  },
+  "federative": {
+    "pageTitle": "The Public Machine — Impostossauro",
+    "kicker": "Where your money goes",
+    "title": "The money arrived. So what?",
+    "intro": "Taxes leave your pocket, go up to Brasília and come back down split between states and municipalities. Everyone knows that part. The question almost nobody asks: after decades of money arriving, did the indicators of those who received it move? The answer here isn't ours — it comes from Ipea and the World Bank.",
+    "tldr": "Decades of transfers later, Ipea and the World Bank say they did not reduce the inequality they were meant to reduce. The problem was never the money arriving.",
+    "howTitle": "How the money moves",
+    "dependencyTitle": "Who lives on the transfer",
+    "dependencyIntro": "Before asking whether it worked, look at the size of the dependency the system created.",
+    "verdictTitle": "So, did it work?",
+    "verdictIntro": "The Constitution created these transfers to reduce inequality between regions (arts. 3 and 161). The question is whether the mechanism delivered what it promised. The answer does not come from this site: it comes from Ipea and the World Bank.",
+    "honestyTitle": "The map is right. Reading it wrong is easy.",
+    "honestyIntro": "Two things change how any \"who pays whom\" map should be read, and both come from official sources. Without them the figure above misleads — not because it is wrong, but because it measures less than it appears to.",
+    "mapPending": "The interactive per-state map — how much each received and how its indicators look — is under construction: the official per-state tables have not been verified at the primary source, and nothing goes in here without that.",
+    "methodNote": "Sources, divergences and limitations are documented.",
+    "indicatorsTitle": "What the indicators say",
+    "indicatorsIntro": "We do not yet have all 27 states verified at the source — only the extremes, which IBGE published. They already say a lot.",
+    "best": "Where the sewage system arrived",
+    "worst": "Where it did not",
+    "ratioTitle": "How much comes back for every R$ 100 a state sends",
+    "ratioIntro": "Here is the calculation everyone wants to see — and the reason it starts fights. There are two honest rulers for measuring \"return\", and they give nearly opposite answers. We publish both.",
+    "officialGapTitle": "Nobody in government does this math",
+    "mapTitle": "The money map",
+    "mapIntro": "Click a state: how much it sent to Brasília, how much came back, and how school, health and safety are doing for the people who live there. Every figure is sourced, and anything unverified shows up in grey.",
+    "piauiTitle": "The state that climbed most in HDI still has no sewage",
+    "sanitationMetricLegend": "% of urban households connected to the sewage network",
+    "ipeaConclusion": "The revenue-sharing system cannot equalise the states' fiscal capacity, nor reduce the inequality between them — which is the job the Constitution gives it.",
+    "paraphrase": "Our paraphrase of the study, not a literal quotation.",
+    "paraphraseUnverified": "Our paraphrase. The original document has not been opened yet — the server refuses automated access, and the check is queued.",
+    "rowsUnverified": "These three figures were not found in the text of the cited page — they are probably in a chart. The check is queued."
+  },
+  "map": {
+    "yearLabel": "Year",
+    "svgLabel": "Map of Brazil by state",
+    "legendTitle": "How much comes back for every R$ 100 sent",
+    "noData": "no verified data",
+    "hint": "Hover or tap a state to see how much it sent to Brasília, how much came back, and how the people who live there are doing.",
+    "sent": "Sent to Brasília",
+    "received": "Received back",
+    "per100": "For every R$ 100 sent",
+    "stateNoData": "We do not yet have both halves of this calculation verified at the source for this state. Without that, we do not publish.",
+    "timeline": "Historical series",
+    "indicators": "How the people there are doing",
+    "geometryCredit": "Map geometry",
+    "indicator": {
+      "education": "Illiteracy (15+)",
+      "health": "Infant mortality",
+      "security": "Homicides per 100k",
+      "sanitation": "Adequate sewage",
+      "idh": "HDI"
+    },
+    "hiddenSentTitle": "Whoever “collected” it is not whoever paid it",
+    "hiddenSentText": "The federal tax office assigns the tax to the company's head-office address, not to where the thing was produced or consumed. The ore leaves Pará, the soy leaves Mato Grosso, the tax lands in São Paulo. That is why the Federal District collects more than Minas Gerais with a fraction of the population: it is where the state banks and state-owned companies are headquartered. Reading this map as “who supports whom” is reading it wrong.",
+    "hiddenReceivedTitle": "“Received back” here is only the state government's cash",
+    "hiddenReceivedText": "This figure counts what the federal government transferred to the state government. It does not count what goes straight to city halls, nor pensions, nor federal civil-servant salaries, nor federal universities or hospitals. São Paulo receives 9% of direct transfers and 28% of everything the federal government pays in pensions — none of which appears here. That is why São Paulo's R$ 1.7 on this map and the R$ 7–10 from Gazeta do Povo's analysis do not contradict each other: they measure different things.",
+    "hiddenNominalTitle": "The figures are nominal",
+    "hiddenNominalText": "Nothing here is inflation-adjusted. Comparing 2018 with 2025 in current reais overstates the growth — exactly the trap this site calls out on the Inflation page, and it would be ugly to fall into it here.",
+    "hiddenDependenceTitle": "“How much comes back” is not the most useful question",
+    "hiddenDependenceText": "A state can receive little relative to what it collects and still depend on nobody. The question that changes the picture is another one: how much of the state's budget comes from Brasília. In 2024, Amapá depended on the federal government for 57.4% of its revenue and Acre for 57.2%, while São Paulo depended for 4.9% and Rio for 5.9%. That figure is in each state's panel, calculated from the same official report.",
+    "dependence": "Of the budget comes from Brasília"
+  },
+  "theme": {
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode"
+  },
+  "hidden": {
+    "heading": "What they don't tell you",
+    "intro": "The figure above is correct and officially sourced. That does not mean it tells the whole story — and the missing part usually changes the conclusion."
+  },
+  "revenueAudit": {
+    "rulerTitle": "This line is not a year-by-year measurement",
+    "rulerText": "The Impostômetro publishes milestones — the day the country passed R$ 2 trillion, R$ 3 trillion. It is not a measured annual series. The years between milestones were filled in with a straight line, and now show as hollow circles only where a published milestone exists. Where there is no circle, the point was calculated by us, not measured by anyone.",
+    "sourceTitle": "And the milestone itself is a private body's estimate",
+    "sourceText": "The Impostômetro belongs to the São Paulo Commercial Association, using IBPT methodology. It is a respected counter and it covers all three levels — federal, state and municipal — which is the most complete figure publicly available. But it is not audited official data, and the association has a public stance on the tax burden. We use it because no official consolidated three-level figure exists in time, and we say where it comes from.",
+    "measuredTitle": "Where official data exists, it is now in the repository",
+    "measuredText": "Only the federal share has official month-by-month measurement, and the tax authority publishes the whole series back to 1994. Checking ours against it corrected two things and confirmed one. It corrected 2013, published on a narrower ruler than every other year (R$ 1,100bn counts only what the tax office administers; the total was R$ 1,138.8bn), turning a definition change into a revenue jump. It corrected the reach: the series ran from 2013 to 2025 because the by-state file lacks the three components before that; it now runs from 1995 to 2025 on the same ruler. And it confirmed the rest: where the two sources overlap, they agree to within 0.05%."
+  },
+  "promises": {
+    "pageTitle": "They Promised: the law that created the tax and the law that changed the promise",
+    "kicker": "The official text against the official text",
+    "title": "They Promised",
+    "intro": "Every new tax is born with a promise written into law: what it's for, and for how long. Here are both official texts, side by side — what the law said when it asked for the money, and what another law changed afterward. No opinion: just the articles, sourced.",
+    "tldr": "The law said what it was for and for how long. Then both changed — by another law, from the same Congress.",
+    "methodNote": "Legal texts, sources, and what's still being verified are documented.",
+    "collectedPeriodLabel": "1997 to 2007",
+    "collectedNoteLegend": "Figure from an institutional page that cites the Federal Revenue Service, not the Revenue Service's original document.",
+    "cpmfConclusion": "A contribution called provisional, with a thirteen-month deadline written into its own law, lasted eleven years — and when it ended, the government that defended its extension in 2007 governed three more years without it. What else is still provisional?"
+  },
+  "promiseContrast": {
+    "promiseLabel": "The promise",
+    "deadlinePromised": "The deadline set by law",
+    "collectedLabel": "What was collected",
+    "months": "months",
+    "outcomeLabel": "What happened to the promise",
+    "rate": "rate",
+    "loopholeLabel": "The loophole"
+  },
+  "world": {
+    "pageTitle": "In global comparison",
+    "kicker": "Brazil among the 30 that charge the most",
+    "title": "Similar taxes. Different outcomes.",
+    "intro": "Brazil belongs to the group of the 30 countries with the highest tax burden in the world. Inside that group it is not the one that charges the most — and it is not the one that spends the least on education and health either. Even so, it comes last in life expectancy, last in homicides and last in sanitation. Every number here carries its year and its source.",
+    "tldr": "Brazil charges and spends in line with rich countries. What it delivers is the last place in the group.",
+    "hiddenNotTopTitle": "Brazil is not the one that charges the most in this group",
+    "hiddenNotTopText": "It ranks {pos} of {total} by size of the burden, from the largest to the smallest: {acima} of these countries keep a larger share of GDP than Brazil does. The simple average of the 30 is {media}% of GDP; Brazil's is {brasil}%. Anyone who came here to debunk the legend that Brazil taxes more than anyone in the world finds the debunking at the door — and the page does not depend on it.",
+    "hiddenGroupTitle": "Sitting mid-table in this group is not charging little",
+    "hiddenGroupText": "These 30 are precisely the ones that tax the most on the planet, and sitting mid-table is still a heavy burden. Brazil takes a bigger slice than {abaixo} of them — among these {exemplos}. The lightest in the group, {paisMenor}, takes {menor}% of GDP, nearly eleven points below Brazil's.",
+    "hiddenTwoNumbersTitle": "There are two figures for Brazil's tax burden on this site",
+    "hiddenTwoNumbersText": "On this page, inside the IBPT study, Brazil's burden is {ibpt}% of GDP with 2023 data — it is IBPT's own calculation. Elsewhere on the site it appears as {oecd}, which is Brazil against the OECD average, as measured by {fonte}. Different years and methods give different numbers, and neither of them is wrong. We would rather show both than pick the one that sounds better.",
+    "payTitle": "What Brazil charges",
+    "payIntro": "The list below is the whole group, from the one that charges the most to the one that charges the least, with 2023 data. Brazil is not at the top of it.",
+    "payBrazil": "of GDP is Brazil's tax burden in the study's table, with 2023 data.",
+    "payAverage": "is the simple average burden of the 30 countries in the table. The arithmetic is ours, over the published figures.",
+    "payAbove": "countries in this group keep a larger share of GDP than Brazil does.",
+    "payMethod": "About Brazil's figure:",
+    "payPick": "Click any country on the list to put it in a duel against Brazil, right below.",
+    "inDuel": "in the duel",
+    "receiveTitle": "What Brazil delivers",
+    "receiveIntro": "Here the ruler turns around. The question stops being how much the State takes and becomes what shows up in the life of whoever paid. In each row: Brazil's value, the year, the range of the others and the source.",
+    "outcomesTitle": "What people live",
+    "outcomesIntro": "These three do not measure budgets, they measure people. In all of them Brazil comes last in the group.",
+    "inputsTitle": "And it is not for lack of spending",
+    "inputsIntro": "These two measure how much goes in, not what comes out. Brazil spends in line with the group.",
+    "inputsCaveat": "Spending is not results: the two numbers above say how much the country puts in, not what it got for it. That is why they are kept apart from the ones above.",
+    "worstTitle": "Where Brazil really is the worst",
+    "worstIntro": "Not everything is mid-table. In these three Brazil sits at the very edge, the bad edge — and none of them is about how much is charged, but about how it is charged.",
+    "irbesTitle": "The summary from the people who run this calculation",
+    "irbesIntro": "IRBES is an index by IBPT that combines tax burden and HDI to answer how much well-being each country returns for the tax it charges. Among the 30, Brazil came last.",
+    "irbesCard": "Burden {carga}% of GDP · HDI {idh}",
+    "irbesMethodTitle": "Whose ruler this is",
+    "irbesAuthors": "{edicao} edition, published on {publicado}, with data from {ano}. The study is signed by: {autores}.",
+    "irbesIdh": "Brazil's HDI in that table is {brasil} — below the lowest of the other 29 ({pais}, {idh}).",
+    "methodNote": "Sources, years and limits of every number are documented.",
+    "rank": "{pos} of {total}",
+    "brazilIn": "Brazil, {ano}",
+    "stripAlt": "{indicador}: Brazil scores {valor} and ranks {pos} of {total} countries.",
+    "bestOf": "best in the group",
+    "worstOf": "worst in the group",
+    "yearSpread": "Not every country measures in the same year: the data ranges from {de} to {ate}.",
+    "missing": "{n} of the {total} countries have this figure. No data at the source: {lista}.",
+    "lifeDuelLegend": "Brazil, {anosA} years × {pais}, {anosB} years",
+    "countryTitle": "Brazil vs {country}: taxes and outcomes",
+    "countryDescription": "Compare tax burdens and health, education and safety indicators for Brazil and {country}, with sources and the limits of the comparison."
+  },
+  "duel": {
+    "pageTitle": "Brazil vs {pais}",
+    "backToList": "Back to the list of 30",
+    "charges": "Charges",
+    "gdpPerCapita": "GDP per capita US$ {valor}",
+    "skip": "Skip",
+    "noData": "no data for {pais}",
+    "started": "The duel has begun!",
+    "menuCompare": "Compare",
+    "menuSwap": "Swap country",
+    "menuSources": "See sources",
+    "menuHidden": "What they leave out",
+    "usedMove": "{pais} used [b]{movimento}[/b]!",
+    "superEffective": "Super effective!",
+    "effective": "It was effective.",
+    "brazilResisted": "Brazil held its ground in {movimentos}.",
+    "verdictLess": "It takes [b]{pontos} points[/b] of GDP less than Brazil and still lives [b]{anos} years[/b] longer.",
+    "verdictMore": "It takes [b]{pontos} points[/b] of GDP more than Brazil and lives [b]{anos} years[/b] longer.",
+    "and": " and ",
+    "sourceNote": "The six duel indicators come from the ",
+    "sourceYears": ", with the year of each value shown beside it — countries do not all measure in the same year."
+  },
+  "wageGap": {
+    "kicker": "What they cost and what you earn",
+    "pressNote": "verified in the press, not in the official act",
+    "perksPocket": "is the part that lands straight in his own pocket — {n} minimum wages a month, in salary and housing allowance alone",
+    "levelHeadline": "is what one seat in Congress costs a month, measured in minimum wages. It is not a change picked from a window: it is today’s figure, on both sides."
+  },
+  "units": {
+    "trillions": "trillion",
+    "billions": "billion",
+    "millions": "million"
+  },
+  "sphereBurden": {
+    "title": "It is not just Brasília: three machines collect",
+    "subtitle": "Gross tax burden by level of government, in current R$ billions. This is the national-accounts ruler, from the Treasury — it does not compare with the counter at the top of the site, which measures cash, nor with the federal series, which is the union alone.",
+    "selectorLabel": "Choose a level of government",
+    "all": "All three",
+    "central": "Union",
+    "states": "States",
+    "municipal": "Municipalities",
+    "multipleLegend": "is how much {sphere} revenue multiplied between {first} and {last}. Today it is {share}% of everything collected in the country.",
+    "totalLegend": "was the gross tax burden of all three levels in {year} — {pct}% of GDP.",
+    "hint": "Hover, tap a year, or Tab through the chart to see all three levels for that year.",
+    "alt": "Stacked area chart of the gross tax burden by level of government, from {firstYear} to {lastYear}: union, states and municipalities.",
+    "punch": "Between {first} and {last}, the union multiplied by {central}. {winner}, by {winnerMultiple} — and nobody talks about that one.",
+    "note": "Gross tax burden is a national-accounts concept: it measures everything the three levels take in taxes and contributions, including what does not pass through cash in the same year. That is why the total here differs from the counter. Nominal values, not adjusted for inflation. Source:"
+  },
+  "justifications": {
+    "sectionKicker": "The other contrast",
+    "sectionTitle": "That was the reason given. And then?",
+    "sectionIntro": "The section above sets two official texts against each other: what the law promised and what the law became. Here the clash is different — the reason the government gave for charging, against the indicator for the SAME period. The reason is theirs, the indicator is official, and the conclusion is yours.",
+    "caseKicker": "The reason given × what happened",
+    "actJustification": "The reason given",
+    "actMeasure": "The measure",
+    "actOutcome": "What happened",
+    "expectedLabel": "The government expected to collect",
+    "pendingNote": "There are cases already researched that have not gone in: they are waiting on the indicator document, and a case without an opened document does not appear here."
+  },
+  "purchasingPower": {
+    "kicker": "Purchasing power, made concrete",
+    "title": "The same basket, and how much of your time it costs",
+    "intro": "Reais in 2010 and reais in 2025 are different currencies: comparing the two figures says nothing. What crosses inflation without needing an index is time — how many hours you work to eat the same thing.",
+    "noteTitle": "The R$ 100 you put away in {year}",
+    "noteThen": "in {year}",
+    "noteNow": "is worth this in {year}",
+    "noteLegend": "From {first} to {last}, R$ 100 kept under the mattress became R$ {left}. R$ {lost} vanished without anyone taking anything out of your wallet — it is the tax that passes through neither law nor vote. Source:",
+    "hoursTitle": "How many hours of work the food basket costs",
+    "hoursIntro": "São Paulo's basket in December of each year, measured in hours worked on the net minimum wage. Same capital, same survey, same yardstick — the bar is the time.",
+    "barLabel": "{year}: {hours} of work, {pct}% of the net minimum wage, R$ {brl}",
+    "readout": "{hours} of work · {pct}% of the net minimum wage · R$ {brl}",
+    "hint": "Hover, tap a bar or Tab through them to see the year.",
+    "punch": "The best year was {bestYear}, at {bestHours} of work to fill the basket. The worst was {worstYear}, at {worstHours}. Today it is {lastHours} — more than in {firstYear}, when it was {firstHours}. The line falls and rises across governments from opposite sides: anyone who wants to use this chart to defend one side will have to explain the other half of it.",
+    "note": "December bulletin of each year, always the same capital. The minimum-wage share is net, after the 7.5% pension deduction, as DIEESE calculates it. Source:"
+  },
+  "whatItBuys": {
+    "pageTitle": "What could it buy?",
+    "kicker": "The size of the bill",
+    "title": "What could it buy?",
+    "tldr": "One year of tax, stacked in R$ 1 coins, reaches the Moon twenty times over. This page measures the size of what leaves your pocket.",
+    "intro": "One year of tax in Brazil is a number nobody can picture. This page exists to give it size: dozens of things, each with a price, a source, and the provenance of that price declared. Buying is not running — and that is written here at the same size as the rest.",
+    "purposeTitle": "What we want out of this",
+    "purpose1": "The indictment is the start, not the conclusion. The site puts the official number next to the words of whoever produced it and points the finger. You draw the conclusion.",
+    "purpose2": "What we want is a layer of common sense. A country where voters have spent three decades applauding the politician who promised to lift them out of poverty, and where the political class changes its speech every even-numbered year, needs people who check before they clap.",
+    "purpose3": "This site does not say who to vote for. It says what the previous promise cost, with the source beside it.",
+    "purpose4": "If you got this far, do the one thing this site asks: share the number with the source attached.",
+    "purposeLink": "The full argument is in the Manifesto",
+    "stickyLabel": "is what Brazil collects in tax in one year — the {year} projection across all levels of government. This is the money buying every item below.",
+    "provenance": {
+      "oficial": "official price",
+      "pago": "somebody paid it",
+      "mercado": "market value",
+      "estimativa": "third-party estimate"
+    },
+    "physicalTitle": "And if it were real money, in metal and paper?",
+    "physicalIntro": "The same year of taxes, at three different scales. Measurements and sources sit beside each calculation; the images are illustrative.",
+    "moonTrips": "{trips} trips to the Moon, back to back.",
+    "earthLine": "That same stack would go {laps} times around the equator.",
+    "caveatKicker": "What this page is not saying",
+    "homeNumberSocial": "standard FNDE nurseries, from foundation to roof",
+    "homeNumberDisney": "times the whole of Disney, at its August 2026 market value",
+    "homeNumberMoon": "trips to the Moon, if the money became stacked R$ 1 coins",
+    "homeSubtema": "The same money, three answers. None of them is what happened.",
+    "homeConclusao1": "The sum is not a proposal. It is a ruler: it tells you the size of what leaves your pocket every year.",
+    "homeConclusao2": "The country collects 4.2 Disneys a year and still has not finished Angra 3.",
+    "heroLead": "{total} is one year of tax in Brazil, all three levels of government combined. In R$ 1 coins, stacked one on top of the other:",
+    "heroMoon": "{trips} trips to the Moon, back to back.",
+    "heroPunch": "That is what leaves your pocket every year. Now ask what came back.",
+    "moonTitle": "To the Moon, in coins and banknotes",
+    "moonReference": "One trip from Earth to the Moon = {distance} km on average. This does not include a return trip.",
+    "moonSource": "NASA — average Earth–Moon distance",
+    "moonCoins": "R$ 1 coins stacked by their thickness",
+    "moonNotes": "R$ 200 banknotes laid end to end",
+    "moonResult": "{trips} trips to the Moon",
+    "coinsSource": "Brazilian Central Bank — each coin is 1.95 mm thick",
+    "notesSource": "Brazilian Central Bank — each note is 14.2 cm long",
+    "earthTitle": "What if the stack wrapped around Earth?",
+    "earthLaps": "laps around the equator, approximately",
+    "earthCalculation": "{distance} km of stacked coins ÷ {circumference} km of Earth’s circumference.",
+    "weightTitle": "The weight of all that money in coins",
+    "weightComparison": "About the same weight as {towers} Eiffel Tower metal structures.",
+    "weightCalculation": "{tonnes} tonnes of coins ÷ {unit} tonnes of iron per tower. The comparison uses the metal structure, excluding foundations and other installations.",
+    "weightSource": "Eiffel Tower — metal structure weight: 7,300 tonnes"
+  },
+  "empire": {
+    "kicker": "Layer 2 — the Empire",
+    "title": "Before GDP existed, where the government’s money came from",
+    "slices": {
+      "imports": "import tax",
+      "exports": "export tax",
+      "others": "all other taxes"
+    },
+    "sliceLabel": "{year}: {slice}, {pct}% of central-government revenue",
+    "hint": "Hover or use the keyboard to read each slice.",
+    "punch": "In {year}, {pct}% of everything the central government collected came from what crossed the border. Taxing what comes in and what goes out is older than the Republic.",
+    "caveatKicker": "The caveat the study itself demands"
+  },
+  "unemployment": {
+    "kicker": "Fallacy 4 — the rate that measures something else"
+  },
+  "priceLevel": {
+    "kicker": "What the inflation headline does not measure",
+    "legend12": "the 12 months of the headline",
+    "legend36": "the 3 years of your wallet",
+    "barLabel": "{item}: {p12}% over twelve months and {p36}% over three years",
+    "readout": "{p12}% over the last twelve months · +{p36}% over the last three years",
+    "hint": "Hover or use the keyboard to see both rulers for each item. The dashed line is the full IPCA for the period: +{general}%.",
+    "tableLink": "See the table on SIDRA"
+  },
+  "closures": {
+    "kicker": "Where the tax comes from",
+    "vsYear": "more than the same quarter of 2025",
+    "vsQuarter": "more than the previous quarter",
+    "whoTitle": "Who closed",
+    "whereTitle": "Where they closed",
+    "ofTotal": "of the quarter total",
+    "fourBanks": "R$ bn — the four largest banks, 2025",
+    "privateThree": "R$ bn — the three private ones, a nominal record",
+    "itau": "R$ bn — Itaú alone"
+  },
+  "leniency": {
+    "kicker": "The money that was meant to come back",
+    "owed": "owed",
+    "paidIn": "paid over {years} years",
+    "became": "became",
+    "billions": "R$ billions",
+    "paidPct": "{pct}% of what it owed",
+    "barLegend": "The red bar is what was paid: {pct}% of the debt.",
+    "sevenTitle": "The seven companies in the renegotiation"
+  },
+  "pandemia": {
+    "label": "PANDEMIC",
+    "burdenNote": "— the burden stood at {before}% of GDP in 2019, fell to {low}% in 2020 (−{drop} points) and by 2021 was back at {back}%. It was the only recent fall in the series, and it lasted one year.",
+    "basketNote": "— the basket went from {before} of work in 2019 to {after} in 2021: {jump} more hours to fill the same trolley, the biggest two-year jump of the period. And it did not stop there: the worst year in the series is {worstYear}, at {worstHours}, already after the pandemic.",
+    "sphereNote": "— in 2020 the federal government collected R$ {drop} billion LESS than in 2019, while the states collected R$ {rise} billion more. The fall hit one of the three, lasted a year, and by 2021 the federal take was already above its pre-pandemic level."
+  },
+  "publicity": {
+    "kicker": "The cost of the machine itself",
+    "buysTitle": "What R$ 2 billion a year would buy, at the agencies’ own official prices",
+    "buysNote": "Unit prices and sources are the same ones the closing page uses. The division is ours; the prices are not."
+  },
+  "funds": {
+    "kicker": "The cost of the machine itself",
+    "electoral": "R$ bn — the 2026 Electoral Fund, election years only",
+    "party": "R$ bn — the Party Fund, every year",
+    "times": "{n} times more",
+    "buysTitle": "What R$ {total} billion would buy, at the agencies’ own official prices"
+  },
+  "commissioned": {
+    "kicker": "The cost of the machine itself",
+    "tableTitle": "The eighteen levels, as the law left them",
+    "tableLegend": "Monthly value of the post (CCE) from {to}. On the right, the raise since {from}.",
+    "tiers": "{high} levels got 17% or more. {low} got 9% or less. And there is nothing in between: the smallest raise at the top is {gap} times the largest at the bottom.",
+    "gapHeadline": "is how much the monthly raise at the top of the table beat the one at the bottom — same law, same window."
+  },
+  "importTariff": {
+    "kicker": "What you pay to buy from abroad"
+  },
+  "payroll": {
+    "kicker": "The cost of the machine itself",
+    "chartTitle": "The two curves, with {year} = 100",
+    "chartAlt": "Line chart from {first} to {last}, both values indexed to 100 in the first year. Personnel spending reaches {payroll} times the base; net revenue reaches {revenue} times.",
+    "shareLabel": "share of net revenue",
+    "shareTitle": "The share fell from {firstPct}% in {first} to {lastPct}% in {last} — and the reason is not a cut",
+    "hint": "Hover over the chart to see each year’s value."
+  },
+  "stateCos": {
+    "kicker": "The cost of the machine itself",
+    "announced": "What the government announced",
+    "returned": "What reached the Treasury",
+    "returnedLabel": "Dividends paid to the Union in the period. Accounting profit and dividend distributions measure different things; retaining earnings for investment is not, by itself, waste.",
+    "companies": "{n} companies",
+    "employees": "{n} employees",
+    "received": "received from the Treasury",
+    "dividends": "returned to the Union",
+    "profit": "result for the period",
+    "hiddenLabel": "What they don’t tell you",
+    "unit": "R$ billion, accumulated to the third quarter of 2025"
+  },
+  "card": {
+    "kicker": "The cost of the machine itself",
+    "opaqueHeadline": "of what the federal government spent on the card in {year} does not say where it went. That is R$ {total} million across {n} transactions — and almost half with no identified merchant.",
+    "barLegend": "The grey bar is the agency’s total spending; the red part is the secret share."
+  },
+  "coffee": {
+    "line": "Fund this independent investigation.",
+    "cta": "Support the project"
+  },
+  "beta": {
+    "label": "Beta",
+    "text": "Site under construction: more research and features are already on the",
+    "roadmap": "roadmap",
+    "textIssue": "Found an error?",
+    "issue": "Open an issue on GitHub",
+    "close": "Dismiss notice"
+  },
+  "erro": {
+    "notFoundKicker": "Error 404",
+    "notFoundTitle": "This page does not exist.",
+    "notFoundBody": "Check the address or return to the home page to browse the site.",
+    "brokeKicker": "Error {code}",
+    "brokeTitle": "This page could not be loaded.",
+    "brokeBody": "Reload the page. If it persists, let us know on GitHub.",
+    "cta": "Go to the home page",
+    "report": "Open an issue"
+  },
+  "privacy": {
+    "pageTitle": "Privacy policy",
+    "kicker": "LGPD",
+    "title": "Your privacy, with explicit rules.",
+    "intro": "No accounts, advertising, cookies or sale of data. This policy explains local processing, hosting and visit counting.",
+    "updated": "Version of 10 September 2026. The change history lives in the repository.",
+    "collected": {
+      "title": "What is collected",
+      "p1": "Salary and dependents are processed in your browser, without being sent to the project or analytics service. There are no accounts, comments or newsletters.",
+      "p2": "The site sets no cookies and loads no third-party analytics scripts. The home page counter loads an image through GitHub Camo; technical data from that connection is explained below."
+    },
+    "local": {
+      "title": "What stays in your browser",
+      "p1": "The browser stores your theme, the chosen currency and the beta notice dismissal, until you clear site data. These preferences are not sent to any server."
+    },
+    "hosting": {
+      "title": "Hosting",
+      "p1": "GitHub Pages serves pages and logs IP addresses for security, as its documentation states. GitHub processes these logs under its own policy, including retention and international processing. The project does not receive these access logs.",
+      "docLink": "GitHub Pages documentation",
+      "policyLink": "GitHub privacy statement"
+    },
+    "analytics": {
+      "title": "Page view counting",
+      "on1": "Each entry to the home page, including reloads and returns through site navigation, loads the Komarev counter image through GitHub Camo. The counter adds image requests without distinguishing unique people. The image uses a public identifier exclusive to this site, without salary, dependents, page query parameters or the referring address. The displayed total comes from the service when the image loads; it does not depend on publishing the site again.",
+      "on2": "GitHub receives the IP address and technical connection data and retrieves the image from Komarev. According to the Camo documentation, this intermediary hides browser details from the image server. Komarev’s public code records the counter identifier and access times; it is not a personal browsing history. The project does not control these providers’ infrastructure logs or retention. Caching, blockers and outages can affect counting; opening the image URL outside the site can also increase it.",
+      "link": "Komarev counter documentation",
+      "camoLink": "How GitHub Camo works"
+    },
+    "external": {
+      "title": "Links out",
+      "p1": "Sources, GitHub, WhatsApp, X and Buy Me a Coffee open external services when clicked. Their policies apply there. Site fonts and illustrations are local; the counter image is loaded through GitHub Camo as described above."
+    },
+    "rights": {
+      "title": "Your rights",
+      "p1": "The LGPD provides rights of confirmation, access, correction and deletion, according to the processing performed. Since the site keeps no data that identifies you, there is no record of yours to consult or delete. General questions may be raised on GitHub; do not post documents or personal data in issues. For data protection guidance and petitions, consult",
+      "link": "ANPD"
+    },
+    "changes": {
+      "title": "Changes to this page",
+      "p1": "Changes are dated in the public repository. If the site ever starts processing data that identifies you, this page changes first, and that processing will depend on your consent."
+    }
+  },
+  "terms": {
+    "pageTitle": "Terms of use",
+    "kicker": "The rules of use",
+    "title": "What you can expect from this site — and what you cannot.",
+    "intro": "Short terms, because the site is simple: public information, open code, no charge. By using the site you agree to what is written here.",
+    "updated": "Version of 8 September 2026.",
+    "nature": {
+      "title": "What this site is",
+      "p1": "An indictment site about taxes and mismanaged public money, made by one person, with no party, no sponsor and no ads. The texts are the author's opinion, backed by the numbers and documents cited beside each one. It is not both-sides journalism and never claimed to be neutral."
+    },
+    "notAdvice": {
+      "title": "What this site is not",
+      "p1": "It is not financial, legal, accounting or tax advice. The calculator applies the official tables cited in the methodology to give an order of magnitude; it does not replace your accountant, the tax authority or your payslip. The counter at the top is an estimate, and the page says where it comes from."
+    },
+    "sources": {
+      "title": "Sources and errors",
+      "p1": "Every number has a linked source, and paraphrase is flagged as paraphrase. Even so, a number can be wrong: a revised source, a misreading, a redone sum. When that happens, the correction is public, in the repository. Check the source before using a number from here against someone — that is what the site is for.",
+      "p2": "Content may be corrected and the service may be interrupted. These limitations do not remove rights or responsibilities established by law."
+    },
+    "content": {
+      "title": "Use of the content",
+      "p1": "The code is open under the MIT license. The site's texts and charts may be shared, quoted and reproduced, as long as the link to the page and the original sources come along. The data belongs to the public sources cited on each number. Quotes from politicians are reproduced from public documents and outlets, with credit."
+    },
+    "links": {
+      "title": "Third-party links and services",
+      "p1": "Sources, GitHub, WhatsApp, X and Buy Me a Coffee belong to third parties. The site neither controls nor answers for their content, availability or policies. Support through Buy Me a Coffee is voluntary, processed by them, and buys no content, removal or change of anything."
+    },
+    "law": {
+      "title": "Law and contact",
+      "p1": "Brazilian law applies, including the Internet Civil Framework and the LGPD. Content errors and general questions can be reported on GitHub. Do not post documents or personal data in issues."
+    }
+  },
+  "homeCalculator": {
+    "kicker": "Your part of the bill",
+    "title": "How much of your salary does the government take?",
+    "intro": "Payroll deductions are only the start. Enter your gross salary to see estimated taxes hidden in spending too.",
+    "private": "Your salary stays in this browser. No amount is sent.",
+    "consumption": "Taxes on spending (estimate)",
+    "total": "Estimated monthly total",
+    "assumptions": "Brazilian CLT employment, {year} tables, no dependents. Assumes spending 80% of take-home pay and an average tax share of {pct}% in prices. Adjust these assumptions in the full calculator.",
+    "cta": "Adjust my calculation",
+    "equivalences": "See all comparisons and their sources"
+  },
+  "accessibility": {
+    "skip": "Skip to content",
+    "footerNav": "Site pages"
+  },
+  "spending": {
+    "pageTitle": "They spent it — where public money went",
+    "kicker": "Where the money went",
+    "title": "They collected the taxes. What did they deliver?",
+    "intro": "Stalled works, inflated budgets and a community funding its own bridge. Documents show where some of the money went and where services failed to arrive.",
+    "tldr": "Paying tax is mandatory. Delivery must be demanded.",
+    "contents": "On this page",
+    "casesTitle": "The bill, in the documents",
+    "scope": "Selection checked on September 8, 2026. Each case states its period and what its figure measures. There is no grand total: stalled works, corrected budgets and community investment measure different things.",
+    "conclusion": "Taxes reach the treasury. Services must reach the public.",
+    "share": "They collected the taxes. What did they deliver? Stalled works and public spending, with documents on Impostossauro.",
+    "mapLink": "See money flows between states",
+    "machineCta": "Works, advertising, political funds, appointed posts, payroll, state companies and government cards: see the documents.",
+    "sections": {
+      "casos": "Documented cases",
+      "publicidade": "Advertising",
+      "fundos": "Political funds",
+      "cargos": "Appointed posts",
+      "folha": "Federal payroll",
+      "estatais": "State companies",
+      "cartao": "Government card"
+    },
+    "cases": {
+      "stalled": {
+        "category": "Stalled delivery · April 2025",
+        "title": "Work started. The service never arrived.",
+        "metric": "federally funded works at a standstill",
+        "body": "TCU mapped 22,621 works: 11,469 were stalled, or 50.7%. Health and education accounted for 8,053. Schools, nurseries and care remained undelivered.",
+        "ruler": "TCU’s mapped universe in April 2025. This counts works, not a total amount of money lost."
+      },
+      "dnit": {
+        "category": "Waste prevented · 2024–2025 audit",
+        "title": "The budget shrank when someone checked it.",
+        "metric": "in expenditure avoided after corrections",
+        "body": "Ten DNIT tenders needed revision. TCU reported that a 60-centimetre culvert was entered as 60 metres, inflating one budget by R$8 million.",
+        "ruler": "R$264 million is savings after correction, not money already diverted. The R$8 million is part of the audit, not an additional total."
+      },
+      "fiscobras": {
+        "category": "Indications of irregularity · Fiscobras 2025",
+        "title": "Fifteen works with serious indications in an audit of twenty-five.",
+        "metric": "audited projects with serious indications",
+        "body": "TCU found deficient projects and overpricing. The consolidated October 2025 report recommended halting one work.",
+        "ruler": "Selection was based on risk and materiality, not a sample of all Brazilian works. These are indications. The DNIT audit above belongs to the same programme."
+      },
+      "bridge": {
+        "category": "Community funding · Rio Grande do Sul",
+        "title": "The community had to fund its own crossing.",
+        "metric": "in reported community investment",
+        "body": "Residents and businesses rebuilt the bridge from Nova Roma do Sul to Farroupilha. It reopened on January 20, 2024, 138 days after its collapse. Daer was still preparing the state’s preliminary design in February.",
+        "ruler": "About R$6 million reported by Estadão; no audited final accounts were available in this research. The community crossing is 120 m; the state project specified 180 m, two lanes and shoulders. They are different projects."
+      }
+    }
+  },
+  "moeda": {
+    "rotulo": "Currency",
+    "cotacao": "Dollar at the PTAX selling rate of {data}: US$ 1 = R$ {taxa}",
+    "nota": "Dollar figures use the PTAX selling rate of {data} (US$ 1 = R$ {taxa}). Historical figures use today's rate, not the rate of their time. Source:"
+  }
+}
