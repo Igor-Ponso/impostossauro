@@ -36,8 +36,7 @@ describe('parafrase nunca sai entre aspas', () => {
     expect(marcadas).toEqual([
       'governments[0].promises[1]',
       'governments[1].promises[0]',
-      'governments[1].promises[1]',
-      'governments[2].promises[0]',
+          'governments[2].promises[0]',
       'governments[2].promises[1]',
       'governments[2].promises[2]',
       'governments[3].promises[1]',

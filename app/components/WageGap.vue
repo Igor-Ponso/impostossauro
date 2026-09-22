@@ -25,13 +25,18 @@ const nivel = wages.level;
 <template>
   <section id="o-aumento" ref="target" class="border-line bg-surface border-y">
     <div class="mx-auto max-w-6xl px-4 py-20 sm:py-28">
-      <p class="text-alert text-sm font-semibold tracking-[0.2em] uppercase sm:text-base">
-        {{ t('wageGap.kicker') }}
-      </p>
-      <h2 class="font-display text-ink mt-3 text-3xl font-bold tracking-tight  sm:text-5xl">
-        {{ wages.title }}
-      </h2>
-      <p class="text-ink-dim mt-4 text-lg leading-relaxed">{{ wages.intro }}</p>
+      <div class="grid items-center gap-8 lg:grid-cols-2">
+        <div class="min-w-0">
+          <p class="text-alert text-sm font-semibold tracking-[0.2em] uppercase sm:text-base">
+            {{ t('wageGap.kicker') }}
+          </p>
+          <h2 class="font-display text-ink mt-3 text-3xl font-bold tracking-tight sm:text-5xl">
+            {{ wages.title }}
+          </h2>
+          <p class="text-ink-dim mt-4 text-lg leading-relaxed">{{ wages.intro }}</p>
+        </div>
+        <Art id="custo-mandato" sizes="(min-width: 1152px) 544px, (min-width: 1024px) calc((100vw - 64px) / 2), calc(100vw - 32px)" class="w-full rounded-3xl" />
+      </div>
 
       <div class="glass reveal mt-10 rounded-3xl p-6 sm:p-9" :class="{ in: inView }">
         <p class="tabular font-display text-alert text-6xl leading-none font-bold sm:text-8xl">

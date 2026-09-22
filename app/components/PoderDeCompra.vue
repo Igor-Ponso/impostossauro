@@ -62,23 +62,26 @@ const emFoco = ref<(typeof anos)[number] | null>(null);
         {{ t('purchasingPower.noteTitle', { year: ANO_BASE }) }}
       </h3>
 
-      <div class="mt-6 flex flex-wrap items-end gap-6 sm:gap-10">
-        <div class="w-40 sm:w-56">
-          <p class="text-ink-dim text-xs font-semibold tracking-wider uppercase">
-            {{ t('purchasingPower.noteThen', { year: ANO_BASE }) }}
-          </p>
-          <NotaIlustrada class="mt-3" />
-          <p class="tabular font-display text-money mt-3 text-2xl font-bold sm:text-3xl">R$ 100,00</p>
-        </div>
+      <div class="mt-6 grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+        <Art id="inflacao-poupanca" sizes="(min-width: 1152px) 516px, (min-width: 1024px) calc((100vw - 120px) / 2), calc(100vw - 90px)" class="w-full rounded-2xl" />
+        <div class="flex flex-wrap items-end gap-6 sm:gap-10 lg:gap-6">
+          <div class="w-40 sm:w-56">
+            <p class="text-ink-dim text-xs font-semibold tracking-wider uppercase">
+              {{ t('purchasingPower.noteThen', { year: ANO_BASE }) }}
+            </p>
+            <NotaIlustrada class="mt-3" />
+            <p class="tabular font-display text-money mt-3 text-2xl font-bold sm:text-3xl">R$ 100,00</p>
+          </div>
 
-        <div class="w-40 sm:w-56">
-          <p class="text-ink-dim text-xs font-semibold tracking-wider uppercase">
-            {{ t('purchasingPower.noteNow', { year: ANO_FIM }) }}
-          </p>
-          <NotaIlustrada :remaining="sobraDaNota" :animate="inView" class="mt-3" />
-          <p class="tabular font-display text-alert mt-3 text-2xl font-bold sm:text-3xl">
-            R$ {{ num(sobraDaNota, 2) }}
-          </p>
+          <div class="w-40 sm:w-56">
+            <p class="text-ink-dim text-xs font-semibold tracking-wider uppercase">
+              {{ t('purchasingPower.noteNow', { year: ANO_FIM }) }}
+            </p>
+            <NotaIlustrada :remaining="sobraDaNota" :animate="inView" class="mt-3" />
+            <p class="tabular font-display text-alert mt-3 text-2xl font-bold sm:text-3xl">
+              R$ {{ num(sobraDaNota, 2) }}
+            </p>
+          </div>
         </div>
       </div>
 

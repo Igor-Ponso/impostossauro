@@ -39,8 +39,8 @@ const literacyReveal = useInView(0.25);
           </ul>
         </div>
       </div>
-      <div class="glass grid items-center gap-8 rounded-3xl p-6 sm:p-8 md:grid-cols-[16rem_minmax(0,1fr)] lg:grid-cols-[24rem_minmax(0,1fr)] lg:gap-10 lg:p-10">
-        <Art id="sistema-sim" sizes="(min-width: 1024px) 384px, (min-width: 768px) 256px, (min-width: 466px) 384px, calc(100vw - 82px)" class="mx-auto w-96 rounded-2xl md:w-full" />
+      <div class="glass grid items-center gap-8 rounded-3xl p-6 sm:p-8 md:grid-cols-[minmax(0,1fr)_16rem] lg:grid-cols-[minmax(0,1fr)_24rem] lg:gap-10 lg:p-10">
+        <Art id="sistema-sim" sizes="(min-width: 1024px) 384px, (min-width: 768px) 256px, (min-width: 466px) 384px, calc(100vw - 82px)" class="mx-auto w-96 rounded-2xl md:order-last md:w-full" />
         <div class="min-w-0">
           <h2 class="font-display text-dino text-xl font-bold sm:text-2xl lg:text-3xl">{{ t('manifesto.yesTitle') }}</h2>
           <ul class="text-ink-dim mt-5 space-y-3 leading-relaxed">

@@ -32,15 +32,20 @@ const num = (v: number, casas = 2) => v.toLocaleString(locale.value, {
 
 <template>
   <section :ref="reveal.target" class="mt-16">
-    <p class="text-dino text-xs font-semibold tracking-[0.2em] uppercase">
-      {{ t('econ101.carKicker') }}
-    </p>
-    <h2 class="font-display text-ink mt-3 text-2xl font-bold tracking-tight sm:text-4xl">
-      {{ t('econ101.carTitle') }}
-    </h2>
-    <p class="text-ink mt-4 text-lg leading-relaxed sm:text-xl">
-      {{ t('econ101.carLead', { modelo: dado.modelo }) }}
-    </p>
+    <div class="grid items-center gap-8 lg:grid-cols-2">
+      <div class="min-w-0">
+        <p class="text-dino text-xs font-semibold tracking-[0.2em] uppercase">
+          {{ t('econ101.carKicker') }}
+        </p>
+        <h2 class="font-display text-ink mt-3 text-2xl font-bold tracking-tight sm:text-4xl">
+          {{ t('econ101.carTitle') }}
+        </h2>
+        <p class="text-ink mt-4 text-lg leading-relaxed sm:text-xl">
+          {{ t('econ101.carLead', { modelo: dado.modelo }) }}
+        </p>
+      </div>
+      <Art id="carro-dois-precos" sizes="(min-width: 1152px) 544px, (min-width: 1024px) calc((100vw - 64px) / 2), calc(100vw - 32px)" class="w-full rounded-3xl" />
+    </div>
 
     <div class="mt-8 grid gap-4 sm:grid-cols-2">
       <article class="glass reveal rounded-3xl p-6 sm:p-7" :class="{ in: reveal.inView.value }">

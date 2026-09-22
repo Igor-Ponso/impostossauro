@@ -219,8 +219,7 @@ const visibleStats = computed(() =>
       <p class="text-ink mt-4 text-lg leading-relaxed">
         {{ t('profit.intro') }}
       </p>
-      <!-- ART: custo-margem · metáfora ilustrativa; as barras abaixo mantêm os dados -->
-      <Art id="custo-margem" class="mx-auto mt-6 w-full max-w-xl" />
+      <Art id="custo-margem" sizes="(min-width: 800px) 768px, calc(100vw - 32px)" class="mx-auto mt-6 w-full max-w-3xl rounded-3xl" />
       <div class="mt-8">
         <ProfitReality />
       </div>

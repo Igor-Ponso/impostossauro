@@ -31,11 +31,16 @@ const compraria = ['school', 'ubs', 'ambulance'].map((chave) => {
 
 <template>
   <section ref="target" class="reveal" :class="{ in: inView }">
-    <p class="text-dino text-xs font-semibold tracking-[0.2em] uppercase">{{ t('publicity.kicker') }}</p>
-    <h2 class="font-display text-ink mt-3 text-2xl font-bold tracking-tight  sm:text-4xl">
-      {{ dados.title }}
-    </h2>
-    <p class="text-ink-dim mt-4 text-base leading-relaxed">{{ dados.intro }}</p>
+    <div class="grid items-center gap-8 lg:grid-cols-2">
+      <Art id="gastos-publicidade" sizes="(min-width: 1152px) 544px, (min-width: 1024px) calc((100vw - 64px) / 2), calc(100vw - 32px)" class="w-full rounded-3xl" />
+      <div class="min-w-0">
+        <p class="text-dino text-xs font-semibold tracking-[0.2em] uppercase">{{ t('publicity.kicker') }}</p>
+        <h2 class="font-display text-ink mt-3 text-2xl font-bold tracking-tight sm:text-4xl">
+          {{ dados.title }}
+        </h2>
+        <p class="text-ink-dim mt-4 text-base leading-relaxed">{{ dados.intro }}</p>
+      </div>
+    </div>
 
     <div class="mt-8 grid gap-4 lg:grid-cols-2">
       <SpotlightCard

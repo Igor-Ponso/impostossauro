@@ -5,6 +5,12 @@ const { t, locale } = useI18n();
 const { formatDinheiroCompacto } = useMoeda();
 usePaginaSeo({ titulo: t('spending.pageTitle'), descricao: t('spending.tldr') });
 const casos = ['stalled', 'dnit', 'fiscobras', 'bridge'] as const;
+const artesCasos: Record<(typeof casos)[number], string> = {
+  stalled: 'gastos-obras-paradas',
+  dnit: 'gastos-orcamento',
+  fiscobras: 'gastos-fiscalizacao',
+  bridge: 'gastos-ponte-comunidade',
+};
 const valores = computed(() => ({
   stalled: dados.stalled.stopped.toLocaleString(locale.value),
   dnit: formatDinheiroCompacto(dados.dnit.savedBrl),
@@ -28,18 +34,21 @@ const secoes = ['casos', 'publicidade', 'fundos', 'cargos', 'folha', 'estatais',
     <section id="casos" class="scroll-mt-24">
       <h2 class="font-display text-ink text-2xl sm:text-3xl">{{ t('spending.casesTitle') }}</h2>
       <p class="text-ink-dim mt-3 text-sm leading-relaxed">{{ t('spending.scope') }}</p>
-      <div class="mt-8 grid items-start gap-6 lg:grid-cols-2">
-        <article v-for="caso in casos" :id="caso" :key="caso" class="border-line bg-card min-w-0 scroll-mt-24 rounded-3xl border p-6 sm:p-8">
-          <p class="text-dino text-xs font-bold tracking-wider uppercase">{{ t(`spending.cases.${caso}.category`) }}</p>
-          <h3 class="font-display text-ink mt-3 text-xl leading-snug sm:text-2xl">{{ t(`spending.cases.${caso}.title`) }}</h3>
-          <p class="font-display tabular text-money mt-6 text-4xl sm:text-5xl">{{ valores[caso] }}</p>
-          <p class="text-ink mt-2 font-bold">{{ t(`spending.cases.${caso}.metric`) }}</p>
-          <p class="text-ink-dim mt-5 leading-relaxed">{{ t(`spending.cases.${caso}.body`) }}</p>
-          <p class="border-line text-ink mt-5 border-t pt-4 text-sm leading-relaxed">{{ t(`spending.cases.${caso}.ruler`) }}</p>
-          <ul class="text-ink-dim mt-4 space-y-3 text-xs">
-            <li><a :href="dados[caso].url" target="_blank" rel="noopener" class="hover:text-dino underline underline-offset-4">{{ dados[caso].source }}</a></li>
-            <li v-if="caso === 'bridge'"><a :href="dados.bridge.technical.url" target="_blank" rel="noopener" class="hover:text-dino underline underline-offset-4">{{ dados.bridge.technical.source }}</a></li>
-          </ul>
+      <div class="mt-8 grid gap-8">
+        <article v-for="(caso, index) in casos" :id="caso" :key="caso" class="border-line bg-card grid min-w-0 scroll-mt-24 items-center gap-6 rounded-3xl border p-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
+          <Art :id="artesCasos[caso]" sizes="(min-width: 1152px) 511px, (min-width: 1024px) calc((100vw - 130px) / 2), calc(100vw - 98px)" class="w-full rounded-2xl" :class="{ 'lg:order-last': index % 2 === 1 }" />
+          <div class="min-w-0">
+            <p class="text-dino text-xs font-bold tracking-wider uppercase">{{ t(`spending.cases.${caso}.category`) }}</p>
+            <h3 class="font-display text-ink mt-3 text-xl leading-snug sm:text-2xl">{{ t(`spending.cases.${caso}.title`) }}</h3>
+            <p class="font-display tabular text-money mt-6 text-4xl sm:text-5xl">{{ valores[caso] }}</p>
+            <p class="text-ink mt-2 font-bold">{{ t(`spending.cases.${caso}.metric`) }}</p>
+            <p class="text-ink-dim mt-5 leading-relaxed">{{ t(`spending.cases.${caso}.body`) }}</p>
+            <p class="border-line text-ink mt-5 border-t pt-4 text-sm leading-relaxed">{{ t(`spending.cases.${caso}.ruler`) }}</p>
+            <ul class="text-ink-dim mt-4 space-y-3 text-xs">
+              <li><a :href="dados[caso].url" target="_blank" rel="noopener" class="hover:text-dino underline underline-offset-4">{{ dados[caso].source }}</a></li>
+              <li v-if="caso === 'bridge'"><a :href="dados.bridge.technical.url" target="_blank" rel="noopener" class="hover:text-dino underline underline-offset-4">{{ dados.bridge.technical.source }}</a></li>
+            </ul>
+          </div>
         </article>
       </div>
     </section>

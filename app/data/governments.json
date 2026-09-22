@@ -15,10 +15,10 @@
           "url": "https://www12.senado.leg.br/noticias/materias/2011/01/01/integra-do-discurso-da-presidente-dilma-rousseff-na-cerimonia-de-posse"
         },
         {
-          "quote": "Não vou reduzir direitos trabalhistas nem que a vaca tussa — nem férias, nem 13º, nem FGTS, nem hora extra.",
-          "context": "Campanha à reeleição, setembro de 2014",
-          "source": "Agência Brasil (EBC)",
-          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-09/dilma-diz-que-nao-reduz-direitos-trabalhistas-nem-que-vaca-tussa",
+          "quote": "A CPMF é a melhor solução disponível no curto prazo para ampliar a receita fiscal.",
+          "context": "Abertura dos trabalhos do Congresso Nacional, 2/2/2016 — defesa da recriação do tributo que a própria lei chamou de provisório",
+          "source": "Senado Notícias",
+          "url": "https://www12.senado.leg.br/noticias/materias/2016/02/02/dilma-defende-recriacao-de-cpmf-na-abertura-dos-trabalhos-do-congresso",
           "paraphrase": true
         }
       ],
@@ -69,11 +69,10 @@
           "paraphrase": true
         },
         {
-          "quote": "Os setores produtivos estimam que a modernização na lei trabalhista criará, em curto prazo, mais de 2 milhões de empregos.",
-          "context": "Após sancionar a reforma trabalhista (Lei 13.467), julho de 2017, segundo a CartaCapital",
-          "source": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/economia/a-reforma-trabalhista-completa-4-anos-sem-cumprir-suas-promessas/",
-          "paraphrase": true
+          "quote": "Não é verdade, não haverá aumento. Absolutamente, não haverá.",
+          "context": "Sobre a alíquota do Imposto de Renda da pessoa física, na abertura do Enaex, no Rio, em 9/8/2017",
+          "source": "Agência Brasil (EBC)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2017-08/nao-havera-aumento-diz-temer-sobre-aliquota-do-ir"
         }
       ],
       "outcomes": [
@@ -85,7 +84,7 @@
         },
         {
           "label": "Desemprego",
-          "value": "média de 12,6% em 2017 — a maior até então; o recorde da série só viria em 2021, com 14,0%. Os 2 milhões de empregos estimados não vieram",
+          "value": "média de 12,6% em 2017 — a maior até então; o recorde da série só viria em 2021, com 14,0%",
           "source": "IBGE, PNAD Contínua — média anual (SIDRA, tabela 4562)",
           "url": "https://sidra.ibge.gov.br/tabela/4562"
         },
@@ -94,6 +93,12 @@
           "value": "3% de ótimo/bom (CNI/Ibope, set/2017) — a pior desde Sarney",
           "source": "Agência Brasil (EBC)",
           "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2017-09/popularidade-de-temer-tem-3-de-aprovacao-diz-pesquisa-cniibope"
+        },
+        {
+          "label": "PIS/Cofins sobre combustíveis",
+          "value": "vinte dias antes daquela fala, um decreto em edição extraordinária do Diário Oficial mais que dobrou a alíquota da gasolina, de R$ 0,3816 para R$ 0,7925 por litro, e quase dobrou a do diesel, de R$ 0,2480 para R$ 0,4615 — para arrecadar R$ 10,4 bilhões",
+          "source": "Agência Brasil (EBC), 20/7/2017",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2017-07/governo-divulga-aumento-de-aliquota-do-piscofins-sobre-combustiveis"
         }
       ],
       "excuse": {

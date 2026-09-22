@@ -72,8 +72,7 @@ const mapCaveats = computed(() => [
       </p>
       <TldrBadge :text="t('federative.tldr')" />
     </header>
-    <!-- ART: maquina-fluxo · representação conceitual; valores permanecem no mapa -->
-    <Art id="maquina-fluxo" class="mx-auto mt-8 w-full max-w-2xl" />
+    <Art id="maquina-fluxo" sizes="(min-width: 800px) 768px, calc(100vw - 32px)" class="mx-auto mt-8 w-full max-w-3xl rounded-3xl" />
 
     <section class="mt-14">
       <h2 class="font-display text-ink text-2xl font-bold tracking-tight sm:text-4xl">

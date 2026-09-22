@@ -361,23 +361,51 @@ export const arteCatalogo: Record<string, ArteDoSite> = {
   },
   "sistema-nao": {
     "file": "sistema-nao.webp",
-    "width": 640,
-    "height": 640,
+    "width": 1254,
+    "height": 1254,
     "status": "ready",
     "alt": {
-      "pt-BR": "Ilustração: uma editora recusa a pressão de um político para substituir um relatório de gastos públicos por um gráfico manipulado.",
-      "en": "Illustration: an editor refuses a politician’s pressure to replace a public-spending report with a manipulated chart."
-    }
+      "pt-BR": "Uma editora recusa a propaganda do Impostossauro e mantém os documentos públicos sob análise.",
+      "en": "An editor rejects Impostossauro’s propaganda and keeps examining public documents."
+    },
+    "sources": [
+      {
+        "file": "sistema-nao-640.webp",
+        "width": 640
+      },
+      {
+        "file": "sistema-nao-960.webp",
+        "width": 960
+      },
+      {
+        "file": "sistema-nao.webp",
+        "width": 1254
+      }
+    ]
   },
   "sistema-sim": {
     "file": "sistema-sim.webp",
-    "width": 640,
-    "height": 640,
+    "width": 1254,
+    "height": 1254,
     "status": "ready",
     "alt": {
-      "pt-BR": "Ilustração: cidadãos conferem documentos e dados abertos, comparando a promessa de uma escola pronta com uma obra inacabada.",
-      "en": "Illustration: citizens check documents and open data, comparing the promise of a completed school with an unfinished construction site."
-    }
+      "pt-BR": "Cidadãos comparam documentos públicos e a promessa de uma escola pronta com uma obra inacabada, sob o olhar apreensivo do Impostossauro.",
+      "en": "Citizens compare public records and the promise of a finished school with an unfinished building while Impostossauro watches uneasily."
+    },
+    "sources": [
+      {
+        "file": "sistema-sim-640.webp",
+        "width": 640
+      },
+      {
+        "file": "sistema-sim-960.webp",
+        "width": 960
+      },
+      {
+        "file": "sistema-sim.webp",
+        "width": 1254
+      }
+    ]
   },
   "sistema-compartilhar": {
     "file": "sistema-compartilhar.webp",
@@ -425,9 +453,27 @@ export const arteCatalogo: Record<string, ArteDoSite> = {
     "height": 1024,
     "status": "ready",
     "alt": {
-      "pt-BR": "Uma lupa amplia a fatia fina no fim de um bloco; metáfora da margem de lucro, sem escala quantitativa.",
-      "en": "A magnifying glass enlarges the thin slice at the end of a block; a profit-margin metaphor without a quantitative scale."
-    }
+      "pt-BR": "Uma empresária preocupada confere as contas da padaria; despesas se acumulam, o Impostossauro recolhe o imposto e uma lupa destaca a pequena margem restante.",
+      "en": "A worried bakery owner reviews the accounts; expenses accumulate, Impostossauro collects the tax payment, and a magnifier highlights the small remaining margin."
+    },
+    "sources": [
+      {
+        "file": "custo-margem-640.webp",
+        "width": 640
+      },
+      {
+        "file": "custo-margem-960.webp",
+        "width": 960
+      },
+      {
+        "file": "custo-margem-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "custo-margem.webp",
+        "width": 1536
+      }
+    ]
   },
   "maquina-fluxo": {
     "file": "maquina-fluxo.webp",
@@ -435,9 +481,27 @@ export const arteCatalogo: Record<string, ArteDoSite> = {
     "height": 1024,
     "status": "ready",
     "alt": {
-      "pt-BR": "Escola, Congresso e unidade de saúde ligados por setas de ida e volta; representação conceitual do fluxo federativo.",
-      "en": "A school, Congress and clinic connected by arrows in both directions; a conceptual illustration of fiscal flows."
-    }
+      "pt-BR": "O dinheiro chega ao escritório do Impostossauro, enquanto cidadãos aguardam diante de uma escola inacabada e de um atendimento fechado.",
+      "en": "Money reaches Impostossauro’s office while citizens wait outside an unfinished school and a closed service counter."
+    },
+    "sources": [
+      {
+        "file": "maquina-fluxo-640.webp",
+        "width": 640
+      },
+      {
+        "file": "maquina-fluxo-960.webp",
+        "width": 960
+      },
+      {
+        "file": "maquina-fluxo-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "maquina-fluxo.webp",
+        "width": 1536
+      }
+    ]
   },
   "falacia-ouro": {
     "file": "falacia-ouro.webp",
@@ -508,6 +572,258 @@ export const arteCatalogo: Record<string, ArteDoSite> = {
       "pt-BR": "O Impostossauro pega dinheiro sob a mesa da oficina antes de o salário chegar ao trabalhador.",
       "en": "Impostossauro takes money under a workshop desk before the wages reach the worker."
     }
+  },
+  "carro-dois-precos": {
+    "file": "carro-dois-precos.webp",
+    "width": 1536,
+    "height": 1024,
+    "status": "ready",
+    "alt": {
+      "pt-BR": "Dois carros iguais saem da mesma fábrica; o Impostossauro alonga a etiqueta brasileira e recolhe moedas, enquanto o carro para exportação leva uma etiqueta menor.",
+      "en": "Two identical cars leave the same factory; Impostossauro lengthens the Brazilian price tag and collects coins while the export car carries a smaller tag."
+    },
+    "sources": [
+      {
+        "file": "carro-dois-precos-640.webp",
+        "width": 640
+      },
+      {
+        "file": "carro-dois-precos-960.webp",
+        "width": 960
+      },
+      {
+        "file": "carro-dois-precos-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "carro-dois-precos.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "inflacao-poupanca": {
+    "file": "inflacao-poupanca.webp",
+    "width": 1536,
+    "height": 1024,
+    "status": "ready",
+    "alt": {
+      "pt-BR": "Uma mulher compara sua nota de R$ 100 com uma cesta quase vazia; o Impostossauro recolhe moedas da silhueta esmaecida dos produtos que ela deixou de comprar.",
+      "en": "A woman compares her 100-real note with an almost empty basket; Impostossauro gathers coins from the fading outline of groceries she can no longer buy."
+    },
+    "sources": [
+      {
+        "file": "inflacao-poupanca-640.webp",
+        "width": 640
+      },
+      {
+        "file": "inflacao-poupanca-960.webp",
+        "width": 960
+      },
+      {
+        "file": "inflacao-poupanca-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "inflacao-poupanca.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "gastos-obras-paradas": {
+    "file": "gastos-obras-paradas.webp",
+    "width": 1536,
+    "height": 1024,
+    "status": "ready",
+    "alt": {
+      "pt-BR": "Pai e filha aguardam diante de uma escola inacabada e fechada, enquanto o Impostossauro examina plantas entre documentos e moedas.",
+      "en": "A father and daughter wait outside an unfinished, locked school while Impostossauro examines plans among documents and coins."
+    },
+    "sources": [
+      {
+        "file": "gastos-obras-paradas-640.webp",
+        "width": 640
+      },
+      {
+        "file": "gastos-obras-paradas-960.webp",
+        "width": 960
+      },
+      {
+        "file": "gastos-obras-paradas-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "gastos-obras-paradas.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "gastos-orcamento": {
+    "file": "gastos-orcamento.webp",
+    "width": 1536,
+    "height": 1024,
+    "status": "ready",
+    "alt": {
+      "pt-BR": "Uma auditora mede um tubo de concreto com trena enquanto um colega mostra dois desenhos técnicos do mesmo tubo, um largo e outro estreito. O Impostossauro segura a mesma comparação e arranca dela uma tira vermelha; há moedas numa bandeja sobre a mesa.",
+      "en": "An auditor measures a concrete pipe with a tape while a colleague holds two technical drawings of the same pipe, one wide and one narrow. Impostossauro holds the same comparison and tears a red strip from it; coins sit in a tray on the table."
+    },
+    "sources": [
+      {
+        "file": "gastos-orcamento-640.webp",
+        "width": 640
+      },
+      {
+        "file": "gastos-orcamento-960.webp",
+        "width": 960
+      },
+      {
+        "file": "gastos-orcamento-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "gastos-orcamento.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "gastos-fiscalizacao": {
+    "file": "gastos-fiscalizacao.webp",
+    "width": 1536,
+    "height": 1024,
+    "status": "ready",
+    "alt": {
+      "pt-BR": "Dois auditores examinam plantas: ela com uma lupa sobre o desenho de um pilar, ele com documentos marcados por etiquetas vermelhas e uma calculadora. No painel atrás, quatro fotos de obras públicas, três delas com um triângulo vermelho de alerta. O Impostossauro espia por trás do painel com plantas enroladas no braço.",
+      "en": "Two auditors examine plans: she with a magnifier over the drawing of a pillar, he with documents flagged by red tabs and a calculator. On the board behind, four photographs of public works, three of them marked with a red warning triangle. Impostossauro peeks from behind the board with rolled plans under his arm."
+    },
+    "sources": [
+      {
+        "file": "gastos-fiscalizacao-640.webp",
+        "width": 640
+      },
+      {
+        "file": "gastos-fiscalizacao-960.webp",
+        "width": 960
+      },
+      {
+        "file": "gastos-fiscalizacao-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "gastos-fiscalizacao.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "gastos-ponte-comunidade": {
+    "file": "gastos-ponte-comunidade.webp",
+    "width": 1536,
+    "height": 1024,
+    "status": "ready",
+    "alt": {
+      "pt-BR": "Moradores tiram dinheiro das próprias carteiras para reconstruir a ponte, enquanto o Impostossauro permanece entre projetos e pilhas de documentos.",
+      "en": "Residents use money from their own wallets to rebuild a bridge while Impostossauro remains surrounded by plans and piles of paperwork."
+    },
+    "sources": [
+      {
+        "file": "gastos-ponte-comunidade-640.webp",
+        "width": 640
+      },
+      {
+        "file": "gastos-ponte-comunidade-960.webp",
+        "width": 960
+      },
+      {
+        "file": "gastos-ponte-comunidade-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "gastos-ponte-comunidade.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "custo-mandato": {
+    "file": "custo-mandato.webp",
+    "width": 1536,
+    "height": 1024,
+    "status": "ready",
+    "alt": {
+      "pt-BR": "À esquerda, uma trabalhadora apoia a cabeça na mão diante de uma carteira aberta e vazia, com poucas moedas, contas e uma sacola de compras. Do outro lado da parede, o Impostossauro está sentado num gabinete com vista para Brasília, a mão sobre o próprio envelope de pagamento, ao lado de quatro bandejas de documentos e moedas marcadas com ícones de pessoal, passagens, moradia e gabinete.",
+      "en": "On the left, a worker rests her head on her hand before an open, empty wallet, with a few coins, bills and a grocery bag. On the other side of the wall, Impostossauro sits in an office overlooking Brasília, one hand on his own pay envelope, beside four trays of documents and coins marked with icons for staff, flights, housing and office."
+    },
+    "sources": [
+      {
+        "file": "custo-mandato-640.webp",
+        "width": 640
+      },
+      {
+        "file": "custo-mandato-960.webp",
+        "width": 960
+      },
+      {
+        "file": "custo-mandato-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "custo-mandato.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "gastos-publicidade": {
+    "file": "gastos-publicidade.webp",
+    "width": 1536,
+    "height": 1024,
+    "status": "ready",
+    "alt": {
+      "pt-BR": "O Impostossauro paga por um anúncio que exalta a saúde pública, enquanto cidadãos aguardam diante de um atendimento fechado.",
+      "en": "Impostossauro pays for an advertisement praising public healthcare while citizens wait outside a closed service."
+    },
+    "sources": [
+      {
+        "file": "gastos-publicidade-640.webp",
+        "width": 640
+      },
+      {
+        "file": "gastos-publicidade-960.webp",
+        "width": 960
+      },
+      {
+        "file": "gastos-publicidade-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "gastos-publicidade.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "inflacao-fabrica": {
+    "file": "inflacao-fabrica.webp",
+    "width": 1536,
+    "height": 1024,
+    "status": "ready",
+    "alt": {
+      "pt-BR": "O Impostossauro opera uma impressora de dinheiro enquanto os preços aumentam e uma consumidora leva poucos produtos para casa.",
+      "en": "Impostossauro operates a money-printing press while prices rise and a shopper takes only a few groceries home."
+    },
+    "sources": [
+      {
+        "file": "inflacao-fabrica-640.webp",
+        "width": 640
+      },
+      {
+        "file": "inflacao-fabrica-960.webp",
+        "width": 960
+      },
+      {
+        "file": "inflacao-fabrica-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "inflacao-fabrica.webp",
+        "width": 1536
+      }
+    ]
   },
   "jornada-ciclo": {
     "file": "jornada-ciclo.webp",

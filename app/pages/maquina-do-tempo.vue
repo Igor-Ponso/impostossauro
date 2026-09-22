@@ -243,8 +243,8 @@ const equivalences = computed(() =>
       <h2 class="font-display text-ink text-2xl font-bold tracking-tight sm:text-4xl">
         {{ t('timeMachine.equivalencesTitle') }}
       </h2>
-      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <EquivalenceCard v-for="item in equivalences" :key="item.key" v-bind="item.dados" />
+      <div class="mt-8 grid gap-8">
+        <EquivalenceCard v-for="(item, index) in equivalences" :key="item.key" v-bind="item.dados" horizontal :reverse="index % 2 === 1" />
       </div>
     </section>
 
@@ -254,6 +254,12 @@ const equivalences = computed(() =>
       :government-key="chave"
       :class="indice ? 'mt-10' : ''"
     />
+
+    <!-- A ponte para a /prometeram: lá a promessa está na lei, aqui no discurso. -->
+    <p class="text-ink-dim mt-8 text-sm leading-relaxed">
+      {{ t('timeMachine.bridgeToPromises') }}
+      <NuxtLink :to="$localePath('/prometeram')" class="text-dino underline underline-offset-4">{{ t('timeMachine.bridgeToPromisesLink') }}</NuxtLink>.
+    </p>
 
     <section v-if="showHistorical" class="mt-16">
       <p class="text-dino text-xs font-semibold tracking-[0.2em] uppercase">

@@ -63,16 +63,16 @@ for (const entry of catalog) {
   const input = resolve(source, original);
   const isSocial = id.startsWith('social-');
   const isJourney = id.startsWith('jornada-');
+  const isEditorial = ['carro-dois-precos', 'inflacao-poupanca', 'inflacao-fabrica', 'custo-mandato', 'custo-margem', 'maquina-fluxo', 'sistema-nao', 'sistema-sim'].includes(id) || id.startsWith('gastos-');
+  const isDetailed = isJourney || isEditorial;
   let pipeline = sharp(input);
   if (isSocial) pipeline = pipeline.resize(1200, 630, { fit: 'cover', position: sharp.strategy.attention });
   else {
-    const width = id === 'sistema-nao' || id === 'sistema-sim'
-      ? 640
-      : id.startsWith('sistema-') || id === 'dino-cabecalho' ? 320 : isJourney ? 3072 : 1600;
+    const width = isDetailed ? 3072 : id.startsWith('sistema-') || id === 'dino-cabecalho' ? 320 : 1600;
     pipeline = pipeline.resize({ width, withoutEnlargement: true });
   }
   const path = resolve(output, `${id}.webp`);
-  const info = await pipeline.webp({ quality: isJourney ? 92 : 88, effort: 6 }).toFile(path);
+  const info = await pipeline.webp({ quality: isDetailed ? 92 : 88, effort: 6 }).toFile(path);
   const alt = { ...entry.alt };
   if (id.startsWith('dino-')) {
     alt['pt-BR'] = id === 'dino-cabecalho' ? 'Rosto do Impostossauro, dinossauro verde fofinho de gravata azul.' : `Impostossauro, dinossauro verde fofinho de gravata azul${id.endsWith('greedy') ? ', abraçando moedas' : id.endsWith('hungry') ? ', com fome e a mão na barriga' : ', sorrindo e dando boas-vindas'}.`;
@@ -111,7 +111,7 @@ for (const entry of catalog) {
     [alt['pt-BR'], alt.en] = descriptions[id];
   }
   const item = { id, file: `${id}.webp`, width: info.width, height: info.height, bytes: (await stat(path)).size, kind: entry.kind === 'icon' ? 'vignette' : entry.kind, original, status: 'ready', alt };
-  if (isJourney) {
+  if (isDetailed) {
     // Exporta do PNG para evitar uma segunda compressão. Nunca amplia um original.
     const sources = [];
     for (const width of [640, 960, 1280, 2048].filter(width => width < info.width)) {

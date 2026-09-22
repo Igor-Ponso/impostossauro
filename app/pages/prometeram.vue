@@ -59,6 +59,12 @@ const justificados = computed(() =>
       </p>
     </section>
 
+    <!-- A ponte para a /maquina-do-tempo: aqui a lei, lá o discurso. -->
+    <p class="text-ink-dim mt-12 text-sm leading-relaxed">
+      {{ t('promises.bridgeToTimeMachine') }}
+      <NuxtLink :to="$localePath('/maquina-do-tempo')" class="text-dino underline underline-offset-4">{{ t('promises.bridgeToTimeMachineLink') }}</NuxtLink>.
+    </p>
+
     <SignaturePhrase :phrase="t('signature.promises')" />
 
     <NotaMetodologia :nota="t('promises.methodNote')" />

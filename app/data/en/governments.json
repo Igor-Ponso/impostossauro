@@ -4,7 +4,7 @@
   "governments[0].outcomes[2].value": "jumped to 12.0% at the end of 2016 (PNAD Contínua)",
   "governments[0].outcomes[3].value": "removed by the Senate (61 to 20) for a crime of responsibility — the 'fiscal pedalling' and decrees issued without authorisation, after the audit court rejected her accounts",
   "governments[1].outcomes[0].value": "+1.3% in 2017 and +1.1% in 2018 (later revised to 1.8%) — an anaemic recovery",
-  "governments[1].outcomes[1].value": "averaged 12.6% in 2017 — the highest until then; the series record only came in 2021, at 14.0%. The 2 million estimated jobs never came",
+  "governments[1].outcomes[1].value": "averaged 12.6% in 2017 — the highest until then; the series record only came in 2021, at 14.0%",
   "governments[2].outcomes[0].value": "records in the Treasury series: 33.90% of GDP in 2021 and 33.71% in 2022 (methodology of the time) — the government that promised lower taxes set the record for collecting them",
   "governments[2].outcomes[2].value": "loosened by the court-order constitutional amendment (Dec 2021): ~R$ 106 billion moved outside the original rule",
   "governments[2].outcomes[3].value": "of the 'sweeping privatisations', only one large sale: Eletrobras, in June 2022, the final year of the term",
@@ -29,5 +29,7 @@
   "governments[0].outcomes[3].label": "End of the term",
   "governments[2].outcomes[1].value": "10.06% — the highest since 2015, twice the target ceiling",
   "governments[2].outcomes[2].label": "The spending ceiling",
-  "governments[1].outcomes[2].value": "3% rated it good or excellent (CNI/Ibope, Sept 2017) — the worst since Sarney"
+  "governments[1].outcomes[2].value": "3% rated it good or excellent (CNI/Ibope, Sept 2017) — the worst since Sarney",
+  "governments[1].outcomes[3].label": "PIS/Cofins on fuel",
+  "governments[1].outcomes[3].value": "twenty days before that statement, a decree published in an extraordinary edition of the Official Gazette more than doubled the rate on petrol, from R$ 0.3816 to R$ 0.7925 per litre, and nearly doubled the one on diesel, from R$ 0.2480 to R$ 0.4615 — to raise R$ 10.4 billion"
 }

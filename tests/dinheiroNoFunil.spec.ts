@@ -111,8 +111,17 @@ describe('nenhum módulo monta R$ sem passar pelo conversor', () => {
     .filter((nome) => nome.endsWith('.ts'))
     .map((nome) => join(pasta, nome)));
 
-  /** Estes dois SÃO o conversor: falam de "R$" porque é o que eles reconhecem. */
-  const DONOS_DO_ASSUNTO = new Set(['app/utils/moedaNoTexto.ts', 'app/utils/estadoDaMoeda.ts']);
+  /**
+   * Os dois primeiros SÃO o conversor: falam de "R$" porque é o que eles
+   * reconhecem. O terceiro é o catálogo de arte, e o "R$" ali vive no texto
+   * alternativo de uma ilustração que DESENHA uma cédula de cem reais —
+   * converter a descrição a tornaria falsa em relação ao que está na imagem.
+   */
+  const DONOS_DO_ASSUNTO = new Set([
+    'app/utils/moedaNoTexto.ts',
+    'app/utils/estadoDaMoeda.ts',
+    'app/utils/arteCatalogo.ts',
+  ]);
 
   it.each(modulos.map((c) => [c, c]))('%s', (_nome, caminho) => {
     if (DONOS_DO_ASSUNTO.has(caminho)) return;

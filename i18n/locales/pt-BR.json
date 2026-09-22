@@ -275,6 +275,8 @@
     "rangeHint": "Escolha um mandato acima ou monte o seu intervalo — o ano em que você nasceu, por exemplo. A série começa em {year}.",
     "totalLabel": "O governo arrecadou, de {start} a {end}:",
     "perDay": "Uma média de {value} por dia, todos os dias do período.",
+    "bridgeToPromises": "Aqui é a fala de quem governou. Quando a promessa está escrita na própria lei — com artigo e prazo —, ela fica em",
+    "bridgeToPromisesLink": "Prometeram",
     "approxNote": "* O período inclui anos interpolados entre marcos verificados do Impostômetro e/ou a estimativa do ano corrente — ver metodologia.",
     "inflationTitle": "E o que sobrou no seu bolso, a inflação comeu.",
     "inflationLine": "De {start} para cá, os preços subiram {pct}% (IPCA acumulado). O mesmo dinheiro compra cada vez menos — e quem fabrica essa inflação é o mesmo Estado que promete te salvar dela.",
@@ -868,6 +870,8 @@
     "measuredText": "Só da parte federal existe medição oficial mês a mês, e a Receita publica a série inteira desde 1994. Conferir a nossa contra ela corrigiu duas coisas e confirmou uma. Corrigiu 2013, que estava publicado numa régua mais estreita que os outros anos (R$ 1.100 bi conta só o que a Receita administra; o total foi R$ 1.138,8 bi), o que transformava mudança de definição em salto de arrecadação. Corrigiu o alcance: a série ia de 2013 a 2025 porque o arquivo por estado não traz as três parcelas antes disso; agora vai de 1995 a 2025 na mesma régua. E confirmou o resto: onde as duas fontes se sobrepõem, elas fecham com diferença de até 0,05%."
   },
   "promises": {
+      "bridgeToTimeMachine": "Aqui a promessa está no texto da lei. Para o que foi dito em discurso, com os números do próprio período ao lado, veja a",
+      "bridgeToTimeMachineLink": "Máquina do Tempo",
     "pageTitle": "Prometeram: a lei que criou o imposto e a lei que mudou a promessa",
     "kicker": "O texto oficial contra o texto oficial",
     "title": "Prometeram",
@@ -1031,7 +1035,7 @@
     "intro": "Um ano de imposto no Brasil é um número que ninguém consegue imaginar. Esta página existe para dar tamanho a ele: dezenas de coisas, cada uma com preço, fonte e a procedência do preço declarada. Comprar não é manter — e isso está escrito aqui do mesmo tamanho que o resto.",
     "purposeTitle": "O que a gente quer com isso",
     "purpose1": "A denúncia é o começo, não a conclusão. O site coloca o número oficial ao lado da frase de quem o produziu e aponta o dedo. Quem conclui é você.",
-    "purpose2": "O que a gente quer é uma camada de bom senso. Um país onde o eleitor aplaude há três décadas o político que prometeu tirá-lo da miséria, e onde a classe política muda de discurso a cada ano par, precisa de gente que confira antes de bater palma.",
+    "purpose2": "O que a gente quer é uma camada de bom senso. Um país onde o eleitor aplaude há três décadas o político que prometeu tirá-lo da miséria, e onde a classe política muda de discurso a cada ano de eleição, precisa de gente que confira antes de bater palma.",
     "purpose3": "O site não diz em quem votar. Diz quanto custou a promessa anterior, com a fonte ao lado.",
     "purpose4": "Se você chegou até aqui, faça a única coisa que este site pede: compartilhe o número com a fonte junto.",
     "purposeLink": "O argumento inteiro está no Manifesto",

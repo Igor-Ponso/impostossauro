@@ -71,17 +71,20 @@ const taxOnInflationShare = computed(() =>
 
 <template>
   <div class="mx-auto max-w-6xl px-4 py-12 sm:py-16">
-    <header class="max-w-3xl space-y-4">
-      <p class="text-alert text-xs font-semibold tracking-[0.2em] uppercase">
-        {{ t('inflationPage.kicker') }}
-      </p>
-      <h1 class="font-display text-ink text-4xl font-bold tracking-tight  md:text-6xl">
-        {{ t('inflationPage.title') }}
-      </h1>
-      <p class="text-ink-dim text-lg leading-relaxed">
-        {{ t('inflationPage.intro') }}
-      </p>
-      <TldrBadge :text="t('inflationPage.tldr')" />
+    <header class="grid items-center gap-8 lg:grid-cols-2">
+      <div class="min-w-0 space-y-4">
+        <p class="text-alert text-xs font-semibold tracking-[0.2em] uppercase">
+          {{ t('inflationPage.kicker') }}
+        </p>
+        <h1 class="font-display text-ink text-4xl font-bold tracking-tight md:text-6xl">
+          {{ t('inflationPage.title') }}
+        </h1>
+        <p class="text-ink-dim text-lg leading-relaxed">
+          {{ t('inflationPage.intro') }}
+        </p>
+        <TldrBadge :text="t('inflationPage.tldr')" />
+      </div>
+      <Art id="inflacao-fabrica" loading="eager" sizes="(min-width: 1152px) 544px, (min-width: 1024px) calc((100vw - 64px) / 2), calc(100vw - 32px)" class="w-full rounded-3xl" />
     </header>
 
     <section :ref="timelineReveal.target" class="mt-14">

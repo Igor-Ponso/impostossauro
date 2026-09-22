@@ -275,6 +275,8 @@
     "rangeHint": "Pick a term above or build your own range — the year you were born, for instance. The series starts in {year}.",
     "totalLabel": "The Impostossauro ate, from {start} to {end}:",
     "perDay": "An average of {value} per day, every single day of the period.",
+    "bridgeToPromises": "This is what those who governed said. When the promise is written into the law itself — with an article and a deadline — it goes in",
+    "bridgeToPromisesLink": "They Promised",
     "approxNote": "* This period includes years interpolated between verified Impostômetro milestones and/or the current-year estimate — see methodology.",
     "inflationTitle": "And whatever was left in your pocket, inflation ate.",
     "inflationLine": "Since {start}, prices rose {pct}% (accumulated IPCA). The same money buys less and less — and the inflation is manufactured by the very State that promises to save you from it.",
@@ -869,6 +871,8 @@
     "measuredText": "Only the federal share has official month-by-month measurement, and the tax authority publishes the whole series back to 1994. Checking ours against it corrected two things and confirmed one. It corrected 2013, published on a narrower ruler than every other year (R$ 1,100bn counts only what the tax office administers; the total was R$ 1,138.8bn), turning a definition change into a revenue jump. It corrected the reach: the series ran from 2013 to 2025 because the by-state file lacks the three components before that; it now runs from 1995 to 2025 on the same ruler. And it confirmed the rest: where the two sources overlap, they agree to within 0.05%."
   },
   "promises": {
+      "bridgeToTimeMachine": "Here the promise sits in the text of the law. For what was said in speeches, with the numbers of that same period beside it, see the",
+      "bridgeToTimeMachineLink": "Time Machine",
     "pageTitle": "They Promised: the law that created the tax and the law that changed the promise",
     "kicker": "The official text against the official text",
     "title": "They Promised",
@@ -1032,7 +1036,7 @@
     "intro": "One year of tax in Brazil is a number nobody can picture. This page exists to give it size: dozens of things, each with a price, a source, and the provenance of that price declared. Buying is not running — and that is written here at the same size as the rest.",
     "purposeTitle": "What we want out of this",
     "purpose1": "The indictment is the start, not the conclusion. The site puts the official number next to the words of whoever produced it and points the finger. You draw the conclusion.",
-    "purpose2": "What we want is a layer of common sense. A country where voters have spent three decades applauding the politician who promised to lift them out of poverty, and where the political class changes its speech every even-numbered year, needs people who check before they clap.",
+    "purpose2": "What we want is a layer of common sense. A country where voters have spent three decades applauding the politician who promised to lift them out of poverty, and where the political class changes its speech every election year, needs people who check before they clap.",
     "purpose3": "This site does not say who to vote for. It says what the previous promise cost, with the source beside it.",
     "purpose4": "If you got this far, do the one thing this site asks: share the number with the source attached.",
     "purposeLink": "The full argument is in the Manifesto",
